@@ -1,22 +1,31 @@
 # Worker Demand apps
 
-Windows DEO app **1.4.2** and Android Secretary app **1.4.2**.
+Windows DEO app **1.4.2** and Android Secretary app **1.4.3**.
 
 This is a test release. Windows publisher signing and the remaining office checks are described below.
 
 | App | Download |
 | --- | --- |
 | Windows, 64-bit | [Install the DEO desktop app](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.2/VBGRAMG-DEO-Assistant-1.4.2-Setup.exe) |
-| Android 8 or newer | [Install Worker Demand](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.2/Worker-Demand-1.4.2.apk) |
+| Android 8 or newer | [Install Worker Demand](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.3/Worker-Demand-1.4.3.apk) |
 
 There is one Android APK. Keep the existing app installed when updating so its saved records and drafts are kept. Windows 11 was checked; Windows 10 still needs a separate device check.
 
-## What changed
+## Android 1.4.3
+
+- A small Days box sits on the right of each selected worker. Name, Job Card, eKYC and active-member answers stay on the left.
+- Individual days, Apply Days to All, review and submission are retained.
+- Narrow screens and larger text are supported. All 66 Android tests passed.
+- One universal APK uses the existing release signing certificate.
+
+Read the [Android installation guide](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.3/START-HERE.md).
+
+## Existing features
 
 - The primary developer can grant free tokens to one or several registered users from the desktop Developer dashboard, after reviewing and confirming the grant.
 - Grant receipts show balances before and after, the recipient, reason, time and administrator. Repeated clicks and lost replies do not issue a second grant.
 - Wallet screens refresh while online. Purchased tokens and developer grants have separate history entries.
-- The saved price is ₹50 for 50 tokens and 1 token for a new successful Work Demand task. Failed creation does not deduct tokens. Charging stays off during payment setup; customer recharges are not open yet.
+- The saved price is ₹50 for 50 tokens and 1 token for a new successful Work Demand task. Failed creation does not deduct tokens. Live Razorpay recharges are connected and a real recharge was checked. Work Demand token charging remains off. Secretary requests are free.
 - Matching V icons and a clearer Windows installer are included. Android keeps the existing release signing certificate.
 - Compact request review, shared days and dates, worker removal, directly visible Secretary codes, and Android's simple worker selection are retained.
 - Sent requests can be viewed, edited, updated, cancelled or deleted when permitted. Updates keep the same Request ID and use the existing connection to the DEO.
