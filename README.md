@@ -1,59 +1,16 @@
 # Worker Demand apps
 
-Windows DEO app **1.4.4** and Android Secretary app **1.4.3**.
+Desktop **1.4.5** for Windows and Linux. Android Secretary app **1.4.3**.
 
-This is a test release. Windows publisher signing and the remaining office checks are described below.
+- [Windows 64-bit installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.5/VBGRAMG-DEO-Assistant-1.4.5-Setup.exe)
+- [Linux Debian installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.5/VBGRAMG-DEO-Assistant-1.4.5-Linux-x64.deb) — checked on Ubuntu 24.04.
+- [Linux AppImage](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.5/VBGRAMG-DEO-Assistant-1.4.5-Linux-x64.AppImage) — 64-bit; needs compatible desktop libraries and FUSE.
+- [Android Secretary app](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.3/Worker-Demand-1.4.3.apk)
 
-| App | Download |
-| --- | --- |
-| Windows, 64-bit | [Install the DEO desktop app](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.4/VBGRAMG-DEO-Assistant-1.4.4-Setup.exe) |
-| Android 8 or newer | [Install Worker Demand](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.3/Worker-Demand-1.4.3.apk) |
+This is an optional test release. Windows publisher signing is still pending.
 
-There is one Android APK. Keep the existing app installed when updating so its saved records and drafts are kept. Windows 11 was checked; Windows 10 still needs a separate device check.
+Work Demands use Manual Data Entry or requests received from the Android app. Each worker keeps their own days and dates. The old printed-sheet, upload and OCR features have been removed. Android request PDF and Excel reports remain available.
 
-## Windows 1.4.4
+Keep the existing app and saved records when updating. On Linux, the Debian installer is recommended for Ubuntu 24.04. Linux updates are installed manually from these downloads. Google sign-in, portal Login, the Security Code and final official Submit stay under your control.
 
-- Saved portal login details are protected across failed attempts. Save/Update refuses password values changed by the portal.
-- Each signed-in Google account keeps its own protected portal connection. Security Codes and Login remain under the user's control.
-- Work Demand entry checks each full name, Job Card number, area, dates and days before Proceed. A clean page prevents values carrying over between households.
-- New application dates start with today's Indian date. Deliberate dates and each worker's own work dates and days are kept.
-- Completed or stopped requests can be removed from lists after confirmation while saved results and repeat-entry protection are kept. Reasons for saving or approving changes are optional.
-
-Read the [Windows installation guide](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.4/START-HERE.md) and [remaining checks](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.4/KNOWN-LIMITS.md).
-
-## Android 1.4.3
-
-- A small Days box sits on the right of each selected worker. Name, Job Card, eKYC and active-member answers stay on the left.
-- Individual days, Apply Days to All, review and submission are retained.
-- Narrow screens and larger text are supported. All 66 Android tests passed.
-- One universal APK uses the existing release signing certificate.
-
-Read the [Android installation guide](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.3/START-HERE.md).
-
-## Existing features
-
-- The primary developer can grant free tokens to one or several registered users from the desktop Developer dashboard, after reviewing and confirming the grant.
-- Grant receipts show balances before and after, the recipient, reason, time and administrator. Repeated clicks and lost replies do not issue a second grant.
-- Wallet screens refresh while online. Purchased tokens and developer grants have separate history entries.
-- The saved price is ₹50 for 50 tokens and 1 token for a new successful Work Demand task. Failed creation does not deduct tokens. Live Razorpay recharges are connected and a real recharge was checked. Work Demand token charging remains off. Secretary requests are free.
-- Matching V icons and a clearer Windows installer are included. Android keeps the existing release signing certificate.
-- Compact request review, shared days and dates, worker removal, directly visible Secretary codes, and Android's simple worker selection are retained.
-- Sent requests can be viewed, edited, updated, cancelled or deleted when permitted. Updates keep the same Request ID and use the existing connection to the DEO.
-
-## Install or update
-
-1. Download the file for your device and open it.
-2. Follow the device's installation steps. Keep saved app data when updating.
-3. Existing supported app versions also check a signed update notice. Update later keeps the current app open. Installation remains your choice.
-
-The Windows installer offers an optional desktop shortcut and Start menu access. Saved records and protected login details are stored separately from installed files.
-
-Windows publisher signing is still pending. The Windows download may show an unknown-publisher or unfamiliar-app warning. Direct Android installation may show a source warning or a Play Protect check. Keep the device's security protections enabled.
-
-Read [START-HERE.md](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.4/START-HERE.md) for setup and [KNOWN-LIMITS.md](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.4/KNOWN-LIMITS.md) for remaining checks.
-
-Physical-phone sign-in and an agreed phone-to-desktop request still need an office check. Final government submission stays under the DEO's control.
-
-The public repository contains installation files, instructions and update information. Private worker records, account credentials, Secretary codes and signing keys are not published. This is an independent tool, not an official government app.
-
-Copyright 2026 Changtey W Momin. Included third-party components keep their own licences.
+[Release notes](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.5) explain the checks and remaining limits. Checksums are attached to each release. App building files stay on the owner's PC; no office records, passwords or signing keys are published here.
