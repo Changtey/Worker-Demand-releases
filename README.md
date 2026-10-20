@@ -11,6 +11,8 @@ This is an optional test release. Windows publisher signing is still pending.
 
 Work Demands use Manual Data Entry or requests received from the Android app. Work Code, Work Name and Work Order are optional. Manual entry and Android request review share a compact worker list. Each worker keeps their own days and dates. The old printed-sheet, upload and OCR features have been removed. Android request PDF and Excel reports remain available.
 
+Muster Roll Reports is part of the same desktop app, with the same sidebar, settings, sign-in, version and installer. Show or hide its menu in Settings, under Sidebar menus. Google sign-in opens the computer's usual browser.
+
 Keep the existing app and saved records when updating. On Linux, the Debian installer is recommended for Ubuntu 24.04. Linux updates are installed manually from these downloads. Google sign-in, portal Login, the Security Code and final official Submit stay under your control.
 
 [Release notes](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.7) explain the checks and remaining limits. Checksums are attached to each release. App building files stay on the owner's PC; no office records, passwords or signing keys are published here.
