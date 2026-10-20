@@ -1,0 +1,33 @@
+name: Build Windows and Linux on the owner's PC
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version already saved in the app, for example 1.4.5
+        required: true
+        type: string
+  push:
+    tags: ['v*']
+  release:
+    types: [published]
+permissions:
+  contents: write
+concurrency:
+  group: worker-demand-local-release
+  cancel-in-progress: false
+jobs:
+  release:
+    if: github.repository == 'Changtey/Worker-Demand-releases' && github.actor == 'Changtey'
+    runs-on: [self-hosted, Windows, X64, worker-demand-local]
+    timeout-minutes: 150
+    steps:
+      # Deliberately no checkout: the app source stays on the owner's PC.
+      - name: Build, check, and publish both desktop packages together
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ inputs.version || github.event.release.tag_name || github.ref_name }}
+        run: |
+          Set-Location -LiteralPath 'D:\Projects\Work Demand and Muster Roll'
+          python tools/release_all_platforms.py --version $env:RELEASE_VERSION
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
