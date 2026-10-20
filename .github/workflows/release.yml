@@ -1,9 +1,9 @@
-name: Build Windows and Linux on the owner's PC
+name: Build Windows, Linux and Android on the owner's PC
 on:
   workflow_dispatch:
     inputs:
       version:
-        description: Version already saved in the app, for example 1.4.5
+        description: Version already saved in the app, for example 1.4.6
         required: true
         type: string
   push:
@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 150
     steps:
       # Deliberately no checkout: the app source stays on the owner's PC.
-      - name: Build, check, and publish both desktop packages together
+      - name: Build, check, and publish the matching app packages
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
