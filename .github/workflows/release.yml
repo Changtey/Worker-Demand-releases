@@ -23,7 +23,7 @@ jobs:
     steps:
       # Deliberately no checkout: the app source stays on the owner's PC.
       - name: Build, check, and publish the matching app packages
-        shell: pwsh
+        shell: powershell
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_VERSION: ${{ inputs.version || github.event.release.tag_name || github.ref_name }}
