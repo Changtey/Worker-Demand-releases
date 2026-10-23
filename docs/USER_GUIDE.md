@@ -2,26 +2,28 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Current source preview · 2026-10-23.** Desktop source 1.4.12; Android source 1.4.11. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
+**Screens captured for desktop 1.4.13 and Android 1.4.13 · 2026-10-23.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
 ## 1. Install and sign in
 
-1. Open the [download page](https://changtey.github.io/Worker-Demand-releases/). Choose Windows, Linux or Android for your device.
+1. Open the [app downloads](https://github.com/Changtey/Worker-Demand-releases#download). Choose Windows, Linux or Android for your device.
 2. Keep your existing app and saved records when updating. See the release notes for installation checks and known limits.
 3. On desktop, use **Sign in with Google** and finish in your computer's usual browser. This is separate from your official portal login.
 4. In **Settings → Login area**, choose your State, Financial Year, District and Block from the current lists. Save the area.
 5. Use **Show menu** on a narrow screen to open the app's menus. If an optional menu is hidden, show it in **Settings → Sidebar menus**.
 
-Published downloads: desktop **1.4.11**, Android **1.4.11**.
+Published downloads: desktop **1.4.13**, Android **1.4.13**.
 
-- [Windows 64-bit](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Setup.exe)
-- [Linux Debian / Ubuntu](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Linux-x64.deb)
-- [Linux AppImage](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Linux-x64.AppImage)
-- [Android APK](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/Worker-Demand-1.4.11.apk)
+| Device | Download |
+| --- | --- |
+| Windows 64-bit | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/Worker-Demand-1.4.13.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.11).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.13).
 
 ## 2. Create your personal Android access
 
@@ -72,7 +74,7 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 1. On **Home**, check your account and assigned Panchayat or Village. A DEO can choose among their assigned areas.
 2. Choose **Create work request**. Search by worker or Job Card and choose the workers.
-3. Review saved checks. Set each selected worker's requested days, or apply days to the selected workers together.
+3. Review saved checks. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
 4. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
 5. Review the workers, days and dates, then choose **Submit request** to send it to the DEO.
 6. Open **History** for the received status. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
@@ -80,6 +82,10 @@ Job Card members share the household's days left. A missing total means **Not kn
 If access has ended, sign in again with a current code from the DEO. Some actions require a connection or a recent access check. A phone request is not an official portal Work Demand.
 
 <img src="screenshots/05-android-work-demand.png" width="300" alt="Android: review of a fictional request before Submit request">
+
+**Use the same days for several workers:** Select the workers, enter a number in **Days for all selected workers**, then press **Apply Days to All**. Check the Days box beside each name. You can still change one worker's days separately.
+
+<img src="screenshots/08-worker-list.png" width="300" alt="Android: selected fictional workers and the teal Apply Days to All button">
 
 ## 7. Prepare and check a demand on desktop
 
@@ -92,7 +98,7 @@ For a new list, open **Work Demand Data Entry**. For a received list, open **Wor
 5. Use the available add or remove controls to change this demand's worker list. Removing someone from a demand does not delete their Job Card record.
 6. Choose **Check demand**. Read the named worker and reason for every issue. Correct dates or selections, or update the saved checks, then check again.
 
-In the pictured desktop workflow, a received request has two actions: **Check demand → Submit to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check. The published 1.4.11 desktop release may still show **Approve request** between checking and portal entry; that button is not an official portal submission.
+In the pictured desktop workflow, a received request has two actions: **Check demand → Submit to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check. 
 
 Choose **Save Changes** if you only want to keep a request draft. Reports use the saved request; save corrections before downloading the request's Excel or PDF.
 

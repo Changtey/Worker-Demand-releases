@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-23T05:09:39.043825+00:00",
-  "mode": "source-preview",
+  "captured_at": "2026-10-23T06:22:14.267194+00:00",
+  "mode": "release",
   "source_versions": {
-    "desktop": "1.4.12",
-    "android": "1.4.11"
+    "desktop": "1.4.13",
+    "android": "1.4.13"
   },
   "published_versions": {
-    "desktop": "1.4.11",
-    "android": "1.4.11"
+    "desktop": "1.4.13",
+    "android": "1.4.13"
   },
-  "published_notes_sha256": "f8e4622ee12ee758af09ea12fd84bac6f4d8b8fc5e84740af96c51fac9397138",
-  "source_fingerprint": "83a1e3b8697fe573cc4a03b99dc0df7cef0d708038a6b63cda09877ae58a50cc",
+  "published_notes_sha256": "0fc9782e47451aa1bfab35f0913bca8f8e7d3b8a4c088bcea8d1a492569e42cf",
+  "source_fingerprint": "d113d01918571cb627198d54839315d700d630448364ffd504764b2d3131800b",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -82,17 +82,17 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "e7ace08c7a4394461c60b34cdfcaeb8d755746aa139a48f507d384286e3bc14b",
+      "sha256": "b547b5f0d3df2013957edb9b839d178b759d49b337ba77562384465c99348458",
       "width": 960,
       "height": 1920
     },
     {
       "file": "08-worker-list.png",
-      "title": "Choose workers",
+      "title": "Choose workers and days",
       "app": "Android",
-      "caption": "Search the assigned worker list and review saved checks.",
+      "caption": "Choose workers, enter days, then use the wide teal Apply Days to All button when their days are the same.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "a8d92dd3af2f3b5494549d4f94d2fa386c43b99e4f53fcc22f618bdeb6cc4654",
+      "sha256": "3c57ec6d78c69bc341d86dc2d7080cf380c8b4a57c324117ce010167df84a80d",
       "width": 1236,
       "height": 2745
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "67cdd7c3c1610528876df4c17fc074560bfe4f3106a97724eb35466aff347d76",
+      "sha256": "35d0bd928bb2a1b2ddd5688a35905b76185cfaeda6289ad1ea95e14eb3d8b219",
       "width": 960,
       "height": 1920
     },
@@ -132,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Check the received list, then choose Submit to VBGRAMG. No separate Approve button.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "c304cd0ee93041390f1b455d2b06a86e305d1641ba97864f5ad8cc67cd6a23f0",
+      "sha256": "474536f2d08b3fbd0bb747f86af026e71262347bf8c43bc6618d8466bb2bcd71",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out of the phone.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "81fea82f643058eb7fbdc31b86911cd56b83492822c8d59eb597d533f5d08618",
+      "sha256": "66112350ac6024f4b69bb1b54dcd45d1af684411f9c26c677d522ff7a827e2f1",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "36aebc7024a38844e489684d0fba725616f870a0086ed436566e2d7fd8d4b169",
-    "docs/USER_GUIDE.md": "cebc60fe5203c670f552f49e6b7f5ed7f7563f9ef34f92dc59e6f1a6b8bc0e61",
-    "docs/FEATURES.md": "aa9a3eb9d5139b72873208057f806622e13e1594f5b07aa9320053520589d796",
-    "docs/LATEST_CHANGES.md": "a342e8dee141eb1373500558ea7532fd54b123df9df9f1afe987a208adc83c88"
+    "README.md": "fc23ceb335a549a7ee3a8748456b14e8ef397d0dd4ef40adbfd55b3e97ead033",
+    "docs/USER_GUIDE.md": "f47743f9fefd09252bd65bead1dfe1727efd1e9b7715d25bff49c4ed81a1bc06",
+    "docs/FEATURES.md": "5d443026a0c2fdca77cb21f52f8e8c59cd1007fbde8b2fb9716bc63f9f2f335e",
+    "docs/LATEST_CHANGES.md": "a541c1ff145dfccfe9dc2c4c60678a84dd41b35f39990445debeda71b49ccc29"
   }
 }
