@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.13**, Android **1.4.13**.
+Published downloads: desktop **1.4.14**, Android **1.4.14**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/Worker-Demand-1.4.13.apk) |
+| Windows 64-bit | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/Worker-Demand-1.4.14.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.13).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.14).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -32,7 +32,8 @@ Check the linked release notes for tested systems and remaining limits. Windows 
 - Find Job Cards, household members, saved worker checks and days left.
 - Search by name or Job Card; filter by active status, Aadhaar availability, identity checks and Aadhaar payment checks.
 - Prepare each worker's requested days and dates, then use **Check demand** to find issues.
-- Receive Android requests, review changes and start entry in the desktop Browser.
+- See confirmed submission counts and named worker issues after desktop entry. Retry failed entries safely and reopen the saved completion summary later.
+- Receive Android requests, prepare their area records automatically in the background, review changes and start entry in the desktop Browser.
 - Give a DEO personal Android access or assign separate Secretary access.
 - Prepare Muster Roll reports, save area choices and arrange your menus.
 
@@ -40,7 +41,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.13 and Android 1.4.13 · 2026-10-23.**
+**Screens captured for desktop 1.4.14 and Android 1.4.14 · 2026-10-23.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -61,9 +62,9 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>09. Worker filters</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/09-worker-search.png"><img src="docs/screenshots/09-worker-search.png" width="260" alt="Desktop preview: 09. Worker filters"></a><br>Keep the list compact with saved status and identity check choices.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>10. Days and dates</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Days and dates"></a><br>Set an Application Date, requested days and work dates.</td>
+<td width="33%" valign="top"><b>10. Manual work demand</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Manual work demand"></a><br>In Work Demand Management, choose Manual entry. Set the Village, Application Date, days and work dates.</td>
 <td width="33%" valign="top"><b>11. Check demand issues</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/11-check-demand.png"><img src="docs/screenshots/11-check-demand.png" width="260" alt="Desktop preview: 11. Check demand issues"></a><br>See the worker and the reason when a demand needs attention.</td>
-<td width="33%" valign="top"><b>12. Review and send</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/12-worker-management.png"><img src="docs/screenshots/12-worker-management.png" width="260" alt="Desktop preview: 12. Review and send"></a><br>Check the received list, then choose Submit to VBGRAMG. No separate Approve button.</td>
+<td width="33%" valign="top"><b>12. Android request review</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/12-worker-management.png"><img src="docs/screenshots/12-worker-management.png" width="260" alt="Desktop preview: 12. Android request review"></a><br>Android requests prepare their area records automatically. Review the records status, then use Check demand before Submit to VBGRAMG.</td>
 </tr>
 <tr>
 <td width="33%" valign="top"><b>13. Muster Roll Reports</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/13-muster-reports.png"><img src="docs/screenshots/13-muster-reports.png" width="260" alt="Desktop preview: 13. Muster Roll Reports"></a><br>Choose Panchayats and Villages for the official attendance reports.</td>
@@ -76,9 +77,9 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 
 1. Install the matching desktop or Android download above.
 2. On desktop, sign in with your Google account and choose your current area and Financial Year.
-3. Use **Create Android Login Code** for your personal Android access or a Secretary's assigned access. Share the code privately.
+3. Use **Android Login Codes** for your personal Android access or a Secretary's assigned access. Share the code privately.
 4. In Android, enter the assigned code, choose workers, enter days and dates, review, then choose **Submit request**. The request goes to the office.
-5. In desktop, open **Work Demand Request from Android/ Secretary** or **Work Demand Data Entry**. Check the workers and resolve the reported issues before the next portal action.
+5. In desktop, open **Work Demand Management**. Choose **Android requests** or **Manual entry**. Check the workers and resolve the reported issues before the next portal action.
 
 ### Try one request
 
@@ -92,19 +93,19 @@ The [step-by-step guide](docs/USER_GUIDE.md) has short tutorials for the Browser
 
 ## Know what has been saved
 
-A phone draft stays on the phone. A submitted phone request goes to the DEO for review. **Check demand** checks details; it does not submit an official Work Demand. Starting portal entry is a separate action. The portal's **Proceed** can save an official demand. Read the result and check the saved list before treating it as completed; a separate final **Submit**, where offered, stays under your control.
+A phone draft stays on the phone. A submitted phone request goes to the DEO for review. **Check demand** checks details; it does not submit an official Work Demand. Starting portal entry is a separate action. The portal's **Proceed** can save an official demand. After entry, the app checks every selected worker's full Job Card, name, requested days and work dates in the saved portal list. **Work Demand completed and verified** appears only when every worker matches. An unfinished final check offers **Check saved list again**, which sends no new demand. A separate final **Submit**, where offered, stays under your control.
 
 Use only areas and records you are authorised to access. Enter the portal Security Code yourself. Never share login codes, passwords or office records in public issues or screenshots.
 
 ## Current changes
 
-**Published 1.4.13**
+**Published 1.4.14**
 
-- Made Android&#x27;s **Apply Days to All** button easier to find on both screens. It has a wide teal background, bold white words, a group picture and a larger touch area.
-- Made large desktop worker lists quicker to sort and search. Names, Job Cards and entered days keep their existing values.
-- Made Android read assigned worker lists more quickly, with the selected area first. Recent complete lists are reused, and changing accounts stops further reading for the old account.
-- Simplified received-request actions to **Check demand → Submit to VBGRAMG**. Worker filters and nearby search and send controls take less space.
-- Improved matching between Android requests and their full State, District, Block, Panchayat and Village details.
-- Added a refreshed illustrated guide with 15 numbered Android and desktop pictures, download links and short tutorials in plain English.
+- The desktop completion summary separates **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. An unfinished saved-list check no longer appears as a green “Successfully submitted: 0” result.
+- New saved summaries keep each member&#x27;s entry-step result when reopened. Older summaries keep their recorded results without invented confirmation.
+- **Work Demand Management** brings Android requests and manual entry together. Both use the same worker checks and entry progress.
+- Received Android requests prepare the selected area&#x27;s worker records, reuse recent complete records and show missing access or reading progress.
+- Work Allocation verification waits until entry finishes. It checks the selected workers&#x27; Job Cards, names, days and dates. **Check saved results** reads earlier demands without sending them again or allocating work.
+- The plain-English guide and 15 numbered Android and narrow desktop pictures are refreshed from isolated fictional records.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

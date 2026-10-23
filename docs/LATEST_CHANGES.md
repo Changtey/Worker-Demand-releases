@@ -2,33 +2,33 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.13 and Android 1.4.13 · 2026-10-23.**
+**Screens captured for desktop 1.4.14 and Android 1.4.14 · 2026-10-23.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.13**, Android **1.4.13**.
+Published downloads: desktop **1.4.14**, Android **1.4.14**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/VBGRAMG-DEO-Assistant-1.4.13-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.13](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.13/Worker-Demand-1.4.13.apk) |
+| Windows 64-bit | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/Worker-Demand-1.4.14.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.13).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.14).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
 ## Changes in this release
 
-**Published 1.4.13**
+**Published 1.4.14**
 
-- Made Android&#x27;s **Apply Days to All** button easier to find on both screens. It has a wide teal background, bold white words, a group picture and a larger touch area.
-- Made large desktop worker lists quicker to sort and search. Names, Job Cards and entered days keep their existing values.
-- Made Android read assigned worker lists more quickly, with the selected area first. Recent complete lists are reused, and changing accounts stops further reading for the old account.
-- Simplified received-request actions to **Check demand → Submit to VBGRAMG**. Worker filters and nearby search and send controls take less space.
-- Improved matching between Android requests and their full State, District, Block, Panchayat and Village details.
-- Added a refreshed illustrated guide with 15 numbered Android and desktop pictures, download links and short tutorials in plain English.
+- The desktop completion summary separates **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. An unfinished saved-list check no longer appears as a green “Successfully submitted: 0” result.
+- New saved summaries keep each member&#x27;s entry-step result when reopened. Older summaries keep their recorded results without invented confirmation.
+- **Work Demand Management** brings Android requests and manual entry together. Both use the same worker checks and entry progress.
+- Received Android requests prepare the selected area&#x27;s worker records, reuse recent complete records and show missing access or reading progress.
+- Work Allocation verification waits until entry finishes. It checks the selected workers&#x27; Job Cards, names, days and dates. **Check saved results** reads earlier demands without sending them again or allocating work.
+- The plain-English guide and 15 numbered Android and narrow desktop pictures are refreshed from isolated fictional records.
 
 These pictures were refreshed from the source used for this publication.
 

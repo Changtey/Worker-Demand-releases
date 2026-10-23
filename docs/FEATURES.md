@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.13 and Android 1.4.13 · 2026-10-23.**
+**Screens captured for desktop 1.4.14 and Android 1.4.14 · 2026-10-23.**
 
 | Feature | Desktop | Android |
 | --- | --- | --- |
@@ -12,12 +12,19 @@
 | Job Cards and members | Village records, household groups, search, saved checks and days left | Assigned worker list with Job Card numbers |
 | Worker filters | Status, work history, identity and payment checks | Available worker check choices in the phone list |
 | Days and dates | Individual worker values and bulk editing | Individual worker days, request dates and a large Apply Days to All button |
-| Work requests | Read received requests, correct, return or reject with a reason, and follow entry | Prepare, review, send and follow requests; available changes depend on status |
+| Work Demand Management | One menu for Android requests and manual entry. Shared checks and portal entry; received requests keep their phone updates, corrections, reports and decisions | Prepare, review, send and follow requests; available changes depend on status |
 | Check demand | Check workers, dates, days, selected work and reported issues | Review the assigned workers and request before sending to the office |
+| Automatic request records | An incoming Android request queues its exact Panchayat or Village and Financial Year. Recent records are reused; missing records and checks download in the background | Send the request using its assigned area; no extra desktop area selection is needed |
+| Received worker checks | The open Android request's Village gets first priority for Aadhaar availability, ABPS and other worker checks, including during a visit to Browser for sign-in. Manual entry choices are kept | Keep the original request and its worker details |
+| Entry progress | Current running, paused, stopping or checking message; Open entry progress returns to Browser controls | Follow the received request in History |
+| Earlier entry records | A repeated Send keeps the current portal page; choose Check saved list again to read earlier results | Earlier requests remain visible in History |
+| Final demand check | Check every selected worker's Job Card, name, days and work dates in the saved portal list; show success only when all match | Portal verification is handled on desktop |
+| Submission summaries | Completion pop-up with separate counts for members processed, entry steps finished, saved demands confirmed and failed entries; named issues, safe retry and 20 saved run summaries per app account on this PC | An unreadable final list does not turn finished entry steps into failures. Older summaries show an entry-step count only when it was recorded. Confirmed results stay successful after browser cleanup |
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
 | Muster Roll Reports | Area choices and the available attendance report tools | Desktop feature |
 | Saved choices | Areas, Financial Year, filters, list size and menus | Assigned area and worker choices |
+| Sidebar menus | Short tool descriptions, clear selected menu, Arrange menus shortcut and an icon-only view | Uses its own phone navigation |
 | Saved records while offline | Reuse available saved records; current checks may need a connection | Keep phone drafts and waiting requests; access and sending checks still apply |
 
 ## Worker checks
@@ -26,9 +33,17 @@ The app shows saved answers and whether they are current. Electronic identity ve
 
 Filters help organise the list. They do not waive the checks needed for portal entry. Members of a Job Card share its annual days left; this is not a separate allowance for each worker.
 
+Received requests show **Queued**, **Downloading**, **Ready**, **Partial data**, **Failed**, or **Attention required** for their records. Ready means the required saved records are current; the demand still needs its own check. Inactive workers and workers with missing identity or payment answers stay saved and searchable. Missing answers stay unknown. Private reports need a permitted VBGRAMG sign-in in the desktop app. Downloads respect a deliberate pause, keep completed records, and retry temporary failures without submitting demands.
+
 ## Locations across India
 
 The app uses the portal's current State, District, Block, Panchayat and Village lists. It uses the Financial Years and areas offered to the current account. Examples in pictures are fictional and are not built-in location restrictions. Live coverage of every State has not been established by these screen checks.
+
+Work Demand Management, Secretary login codes and Job Card Records share stable area choices. Worker updates and Android request checks reuse the unchanged area lists. Update lists keeps the earlier choices visible while reading. A late reply for an earlier selection cannot replace the area you just chose.
+
+Work Demand member lists and Work Order choices finish their current read before checking newer saved records. Background progress does not repeatedly restart the same read. Returning to Work Demand checks the latest lists; a Village still downloading is checked again automatically. Entered days and dates are kept.
+
+During desktop Work Demand entry, matching Panchayat and Village choices stay selected as Job Cards and members change. The app clears the previous Registration ID using the portal's own choice when available. It restores an area only if the portal clears it, and keeps the checks that prevent old worker values carrying into another household. Android requests and manual entries use the same steps.
 
 ## What these previews prove
 

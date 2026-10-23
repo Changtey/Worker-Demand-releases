@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-23T06:22:14.267194+00:00",
+  "captured_at": "2026-10-23T14:20:32.766619+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.13",
-    "android": "1.4.13"
+    "desktop": "1.4.14",
+    "android": "1.4.14"
   },
   "published_versions": {
-    "desktop": "1.4.13",
-    "android": "1.4.13"
+    "desktop": "1.4.14",
+    "android": "1.4.14"
   },
-  "published_notes_sha256": "0fc9782e47451aa1bfab35f0913bca8f8e7d3b8a4c088bcea8d1a492569e42cf",
-  "source_fingerprint": "d113d01918571cb627198d54839315d700d630448364ffd504764b2d3131800b",
+  "published_notes_sha256": "3b32676fbbe4013759addba30674f66a29ea88de2c9beff85af23c23d4963184",
+  "source_fingerprint": "2bec391e9d6e923cc6f501e46a9164a558c120398e6401a4b97834e5ed19c0c2",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Choose the areas available to your DEO account. No login code is shown.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "f93c6294ef54e35ee6f669e27dc1872294f7b5aabc3924b40cf7d7bc326855d6",
+      "sha256": "324e652cf8d0c66a55ca2c99f7b2ee3aca76c60490e2dd2e68da14abbdd7ec84",
       "width": 960,
       "height": 2300
     },
@@ -42,7 +42,7 @@
       "app": "Desktop preview",
       "caption": "Assign a Panchayat or Village and create a Secretary login code.",
       "path": "docs/screenshots/03-secretary-access.png",
-      "sha256": "fcb5496d3f004891afce10abd6ec48e859b993731bdc5a9f6b30993efc7b4417",
+      "sha256": "f98c217dcaa7492ab059815aad4a1119882e48422f06af688b2a84f6a078b9e8",
       "width": 960,
       "height": 2300
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "b547b5f0d3df2013957edb9b839d178b759d49b337ba77562384465c99348458",
+      "sha256": "bd7341b89ff9c0e3a5afa50def8debbcb7ad2b22fd48354b65973388ba8850f2",
       "width": 960,
       "height": 1920
     },
@@ -102,17 +102,17 @@
       "app": "Desktop preview",
       "caption": "Keep the list compact with saved status and identity check choices.",
       "path": "docs/screenshots/09-worker-search.png",
-      "sha256": "aebbff546f4c03c086ae622cb3462d5ef6804010f93f62cc69a61368cfc2ef69",
+      "sha256": "3321de561a987fd333d76a240004b359e5fe5812ea06463abcd7ac68413b742d",
       "width": 960,
       "height": 1920
     },
     {
       "file": "10-work-demand-entry.png",
-      "title": "Days and dates",
+      "title": "Manual work demand",
       "app": "Desktop preview",
-      "caption": "Set an Application Date, requested days and work dates.",
+      "caption": "In Work Demand Management, choose Manual entry. Set the Village, Application Date, days and work dates.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "093425c3be162ae7b0f0ba0c9fee4232521ebb01384892ae5c3a93c46373c963",
+      "sha256": "9922af9f715b97b207c77421d1b357fa9ce1e0be6bddadc8299b848f3e51d476",
       "width": 960,
       "height": 1920
     },
@@ -122,17 +122,17 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "35d0bd928bb2a1b2ddd5688a35905b76185cfaeda6289ad1ea95e14eb3d8b219",
+      "sha256": "9423d2b9466acb1bffde6d346f8e1929ba7f4f2d1e3301fb0770315e574d358f",
       "width": 960,
       "height": 1920
     },
     {
       "file": "12-worker-management.png",
-      "title": "Review and send",
+      "title": "Android request review",
       "app": "Desktop preview",
-      "caption": "Check the received list, then choose Submit to VBGRAMG. No separate Approve button.",
+      "caption": "Android requests prepare their area records automatically. Review the records status, then use Check demand before Submit to VBGRAMG.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "474536f2d08b3fbd0bb747f86af026e71262347bf8c43bc6618d8466bb2bcd71",
+      "sha256": "c4d48e32c73ec29c1bc24c246666abb3ae38daf4dbeea11257cee7020a215e37",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Choose which menus appear and arrange the app for daily work.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "7da5346bad14be9cbf2909f3d33352314d007f92b26a7320b67aee422938b4a4",
+      "sha256": "b08947a11b51b9b02eb1880b6fec2bfdecb45a669501cc26e428cae52572c1f6",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out of the phone.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "66112350ac6024f4b69bb1b54dcd45d1af684411f9c26c677d522ff7a827e2f1",
+      "sha256": "e4accfdfd9707c4157a1ce6599061d8bc14518f3e5b7baba25848d1b55055bbe",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "fc23ceb335a549a7ee3a8748456b14e8ef397d0dd4ef40adbfd55b3e97ead033",
-    "docs/USER_GUIDE.md": "f47743f9fefd09252bd65bead1dfe1727efd1e9b7715d25bff49c4ed81a1bc06",
-    "docs/FEATURES.md": "5d443026a0c2fdca77cb21f52f8e8c59cd1007fbde8b2fb9716bc63f9f2f335e",
-    "docs/LATEST_CHANGES.md": "a541c1ff145dfccfe9dc2c4c60678a84dd41b35f39990445debeda71b49ccc29"
+    "README.md": "1313a3150b352759db46dbb640d59bc64fcdbbd933a95e46d6564851f0a2848f",
+    "docs/USER_GUIDE.md": "86c31dcebd9daaa4f1c2fda3bdbe02a4a4175343c7b23bf2d39c603eb7d20523",
+    "docs/FEATURES.md": "12c2a75a216d358e87165141ad2f9c148b870ff6f27508f497afd38e277abcec",
+    "docs/LATEST_CHANGES.md": "f8ce9a68fdac5283f79ea22adb3094dcac7277b687d5db3fd97700e30efbdf23"
   }
 }
