@@ -1,13 +1,13 @@
 # Worker Demand apps
 
-Desktop **1.4.10** for Windows and Linux. Android Secretary app **1.4.10**.
+Desktop **1.4.11** for Windows and Linux. Android Secretary app **1.4.11**.
 
 [Download page and referral invitations](https://changtey.github.io/Worker-Demand-releases/)
 
-- [Windows 64-bit installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.10/VBGRAMG-DEO-Assistant-1.4.10-Setup.exe)
-- [Linux Debian installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.10/VBGRAMG-DEO-Assistant-1.4.10-Linux-x64.deb) — checked on Ubuntu 24.04.
-- [Linux AppImage](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.10/VBGRAMG-DEO-Assistant-1.4.10-Linux-x64.AppImage) — 64-bit; needs compatible desktop libraries and FUSE.
-- [Android Secretary app](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.10/Worker-Demand-1.4.10.apk)
+- [Windows 64-bit installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Setup.exe)
+- [Linux Debian installer](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Linux-x64.deb) — checked on Ubuntu 24.04.
+- [Linux AppImage](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/VBGRAMG-DEO-Assistant-1.4.11-Linux-x64.AppImage) — 64-bit; needs compatible desktop libraries and FUSE.
+- [Android Secretary app](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.11/Worker-Demand-1.4.11.apk)
 
 This is an optional test release. Windows publisher signing is still pending.
 
@@ -25,4 +25,4 @@ Google sign-in is required before opening the app and saved records. If the comp
 
 Keep the existing app and saved records when updating. On Linux, the Debian installer is recommended for Ubuntu 24.04. Linux updates are installed manually from these downloads. Google sign-in, portal Login, the Security Code and final official Submit stay under your control.
 
-[Release notes](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.10) explain the checks and remaining limits. Checksums are attached to each release. App building files stay on the owner's PC; no office records, passwords or signing keys are published here.
+[Release notes](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.11) explain the checks and remaining limits. Checksums are attached to each release. App building files stay on the owner's PC; no office records, passwords or signing keys are published here.
