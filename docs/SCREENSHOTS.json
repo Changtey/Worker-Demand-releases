@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "captured_at": "2026-10-23T05:05:32.519626+00:00",
+  "mode": "source-preview",
+  "source_versions": {
+    "desktop": "1.4.12",
+    "android": "1.4.11"
+  },
+  "published_versions": {
+    "desktop": "1.4.11",
+    "android": "1.4.11"
+  },
+  "source_fingerprint": "ef696cf2b5df86d89b18b6ea203dfa3798f0a5435758a760de271271cd24558e",
+  "data": "Fictional, memory-only records. External traffic blocked.",
+  "official_actions": false,
+  "physical_android_device_tested": false,
+  "screenshots": [
+    {
+      "file": "01-dashboard.png",
+      "title": "Your Android home",
+      "app": "Android",
+      "caption": "See assigned areas and start a work request.",
+      "path": "docs/screenshots/01-dashboard.png",
+      "sha256": "81e2d0b35b2f057263f635cfd70edfbcd636db70e268927c5f5e2164855804c4",
+      "width": 1236,
+      "height": 2745
+    },
+    {
+      "file": "02-android-login.png",
+      "title": "Personal Android access",
+      "app": "Desktop preview",
+      "caption": "Choose the areas available to your DEO account. No login code is shown.",
+      "path": "docs/screenshots/02-android-login.png",
+      "sha256": "f93c6294ef54e35ee6f669e27dc1872294f7b5aabc3924b40cf7d7bc326855d6",
+      "width": 960,
+      "height": 2300
+    },
+    {
+      "file": "03-secretary-access.png",
+      "title": "Secretary access",
+      "app": "Desktop preview",
+      "caption": "Assign a Panchayat or Village and create a Secretary login code.",
+      "path": "docs/screenshots/03-secretary-access.png",
+      "sha256": "fcb5496d3f004891afce10abd6ec48e859b993731bdc5a9f6b30993efc7b4417",
+      "width": 960,
+      "height": 2300
+    },
+    {
+      "file": "04-integrated-browser.png",
+      "title": "Browser controls",
+      "app": "Desktop preview",
+      "caption": "Open VBGRAMG from the desktop app. The official website is not pictured.",
+      "path": "docs/screenshots/04-integrated-browser.png",
+      "sha256": "ca76b14402939907ece9b391172d3a71830224f75b75b2409afa5620cd7bb26f",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "05-android-work-demand.png",
+      "title": "Review a phone request",
+      "app": "Android",
+      "caption": "Review workers and their own requested days before sending to the DEO.",
+      "path": "docs/screenshots/05-android-work-demand.png",
+      "sha256": "63d6f70310e282d6f5fc915d1dce9cd09bb77a16f2cc277c95457f4996c5e124",
+      "width": 1236,
+      "height": 2745
+    },
+    {
+      "file": "06-secretary-work-demand.png",
+      "title": "Secretary request history",
+      "app": "Android",
+      "caption": "Find requests and follow the status returned by the office.",
+      "path": "docs/screenshots/06-secretary-work-demand.png",
+      "sha256": "541f384de4a10dc2c571e352e84fe354348f2f05d097a243324c7b8cf1f199a1",
+      "width": 1236,
+      "height": 2745
+    },
+    {
+      "file": "07-job-card-holders.png",
+      "title": "Job Card households",
+      "app": "Desktop preview",
+      "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
+      "path": "docs/screenshots/07-job-card-holders.png",
+      "sha256": "3d6fe79749974d1549efa749842f50751f598bcd8f9a8a771347923b9457aa7c",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "08-worker-list.png",
+      "title": "Choose workers",
+      "app": "Android",
+      "caption": "Search the assigned worker list and review saved checks.",
+      "path": "docs/screenshots/08-worker-list.png",
+      "sha256": "a8d92dd3af2f3b5494549d4f94d2fa386c43b99e4f53fcc22f618bdeb6cc4654",
+      "width": 1236,
+      "height": 2745
+    },
+    {
+      "file": "09-worker-search.png",
+      "title": "Worker filters",
+      "app": "Desktop preview",
+      "caption": "Keep the list compact with saved status and identity check choices.",
+      "path": "docs/screenshots/09-worker-search.png",
+      "sha256": "aebbff546f4c03c086ae622cb3462d5ef6804010f93f62cc69a61368cfc2ef69",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "10-work-demand-entry.png",
+      "title": "Days and dates",
+      "app": "Desktop preview",
+      "caption": "Set an Application Date, requested days and work dates.",
+      "path": "docs/screenshots/10-work-demand-entry.png",
+      "sha256": "093425c3be162ae7b0f0ba0c9fee4232521ebb01384892ae5c3a93c46373c963",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "11-check-demand.png",
+      "title": "Check demand issues",
+      "app": "Desktop preview",
+      "caption": "See the worker and the reason when a demand needs attention.",
+      "path": "docs/screenshots/11-check-demand.png",
+      "sha256": "8c7156728f55864c348ca9ede2b8baba6b20ce1290d402e540cc6fca8f1d36ec",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "12-worker-management.png",
+      "title": "Review and send",
+      "app": "Desktop preview",
+      "caption": "Check the received list, then choose Submit to VBGRAMG. No separate Approve button.",
+      "path": "docs/screenshots/12-worker-management.png",
+      "sha256": "595ec926a9474c9d1c21470b9e11536e4b12de006fa64c7c46fb91cddf92da30",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "13-muster-reports.png",
+      "title": "Muster Roll Reports",
+      "app": "Desktop preview",
+      "caption": "Choose Panchayats and Villages for the official attendance reports.",
+      "path": "docs/screenshots/13-muster-reports.png",
+      "sha256": "505d395ff94a94c2cab5431b28347583fb64d0ee928ce9aae684d9ae43659799",
+      "width": 960,
+      "height": 2300
+    },
+    {
+      "file": "14-settings.png",
+      "title": "Your menus",
+      "app": "Desktop preview",
+      "caption": "Choose which menus appear and arrange the app for daily work.",
+      "path": "docs/screenshots/14-settings.png",
+      "sha256": "7da5346bad14be9cbf2909f3d33352314d007f92b26a7320b67aee422938b4a4",
+      "width": 960,
+      "height": 1920
+    },
+    {
+      "file": "15-my-account.png",
+      "title": "Your Android account",
+      "app": "Android",
+      "caption": "Check your role and assigned area, or sign out of the phone.",
+      "path": "docs/screenshots/15-my-account.png",
+      "sha256": "81fea82f643058eb7fbdc31b86911cd56b83492822c8d59eb597d533f5d08618",
+      "width": 1236,
+      "height": 2745
+    }
+  ],
+  "documents": {
+    "README.md": "4d99ff8d2cb0b81adf3626a387d3437fe46a5d285ee6c6d2eeb8fa802ac9b60a",
+    "docs/USER_GUIDE.md": "cebc60fe5203c670f552f49e6b7f5ed7f7563f9ef34f92dc59e6f1a6b8bc0e61",
+    "docs/FEATURES.md": "aa9a3eb9d5139b72873208057f806622e13e1594f5b07aa9320053520589d796",
+    "docs/LATEST_CHANGES.md": "3873d5b402ba3a71e615cdce6d0e36711d710a254ba8fec140758912e0e9598f"
+  }
+}
