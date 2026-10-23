@@ -15,21 +15,24 @@ async function readDownloads(){
     const key=await crypto.subtle.importKey('raw',bytes(NOTICE_KEY),{name:'Ed25519'},false,['verify'])
     const payload=bytes(envelope.payload)
     if(!await crypto.subtle.verify('Ed25519',key,bytes(envelope.signature),payload))throw Error('Download list could not be checked')
-    const notice=JSON.parse(new TextDecoder().decode(payload)),desktop=notice.apps?.desktop
-    if(notice.repository!==REPOSITORY || desktop?.application_id!=='in.changtey.vbgramg.deo')throw Error('Wrong download list')
+    const notice=JSON.parse(new TextDecoder().decode(payload)),desktop=notice.apps?.desktop,android=notice.apps?.android
+    if(notice.repository!==REPOSITORY || desktop?.application_id!=='in.changtey.vbgramg.deo' || android?.application_id!=='in.changtey.worker_demand')throw Error('Wrong download list')
     let count=0
-    for(const [id,platform,suffix] of [['windows','windows_x64','.exe'],['linux-deb','linux_deb_x64','.deb'],['linux-appimage','linux_appimage_x64','.AppImage']]){
-      const item=desktop.packages?.[platform]
+    for(const [id,app,platform,suffix] of [['windows',desktop,'windows_x64','.exe'],['linux-deb',desktop,'linux_deb_x64','.deb'],['linux-appimage',desktop,'linux_appimage_x64','.AppImage'],['android',android,'universal','.apk']]){
+      const item=app.packages?.[platform]
       if(!item)continue
       const url=new URL(item.url)
       if(url.protocol!=='https:' || url.hostname!=='github.com' || url.username || url.password || url.port || url.search || url.hash || !url.pathname.startsWith(`/${REPOSITORY}/releases/download/`) || !url.pathname.endsWith(suffix))throw Error('Unknown download address')
       element(id).href=url.href;element(id).hidden=false;count++
     }
-    if(!count)throw Error('No desktop download')
+    if(!count)throw Error('No app download')
     element('version').textContent=`Version ${desktop.version}`
+    element('android-version').textContent=`Version ${android.version}`
+    element('android-status').textContent=element('android').hidden?'The Android file is not available. Open All downloads & release notes below.':'Choose Download for Android to get the phone app.'
     element('download-status').textContent='Choose the installer for your computer.'
   }catch{
-    for(const id of ['windows','linux-deb','linux-appimage'])element(id).hidden=true
+    for(const id of ['windows','linux-deb','linux-appimage','android'])element(id).hidden=true
+    element('android-status').textContent='The Android download could not be checked. Open All downloads & release notes below.'
     element('download-status').textContent='The download list could not be checked. Open All downloads & release notes below to choose your installer.'
   }
 }
