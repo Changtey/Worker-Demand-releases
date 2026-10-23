@@ -82,6 +82,15 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 
 ## Current changes
 
+**Published 1.4.11**
+
+- Fixed an Electron startup error caused by a repeated CASTES line in an older packaged file. Rebuilt the app and its supporting program from one saved copy. Release builds now check that every desktop script opens correctly and matches that copy.
+- Made Work Demand worker matching and approval checks clearer. If a worker cannot be selected, the screen explains what to check. Approval remains visible when the worker review cannot be opened.
+- Made unknown worker days and unconfirmed shared Job Card days say “Not known” instead of showing only a dash.
+- Improved Muster Roll Reports. Category filters, page groups, search, sorting and saved choices are easier to review before making a PDF. Excel, PDF and print copies remain available.
+- Added searchable multi-select Panchayat and Village lists for Android access. Assigned areas can be selected and removed together, after one confirmation. Existing records are kept.
+- Updated Secretary login-code checks. Codes can use letters, numbers and symbols, with spaces inside the code. Codes must be 4 to 32 characters, and the same code cannot belong to two DEOs.
+
 **23 October 2026 source improvements**
 
 - Two actions for received requests: **Check demand → Submit to VBGRAMG**.

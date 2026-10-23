@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "captured_at": "2026-10-23T05:05:32.519626+00:00",
+  "captured_at": "2026-10-23T05:09:39.043825+00:00",
   "mode": "source-preview",
   "source_versions": {
     "desktop": "1.4.12",
@@ -10,7 +10,8 @@
     "desktop": "1.4.11",
     "android": "1.4.11"
   },
-  "source_fingerprint": "ef696cf2b5df86d89b18b6ea203dfa3798f0a5435758a760de271271cd24558e",
+  "published_notes_sha256": "f8e4622ee12ee758af09ea12fd84bac6f4d8b8fc5e84740af96c51fac9397138",
+  "source_fingerprint": "83a1e3b8697fe573cc4a03b99dc0df7cef0d708038a6b63cda09877ae58a50cc",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -81,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "3d6fe79749974d1549efa749842f50751f598bcd8f9a8a771347923b9457aa7c",
+      "sha256": "e7ace08c7a4394461c60b34cdfcaeb8d755746aa139a48f507d384286e3bc14b",
       "width": 960,
       "height": 1920
     },
@@ -121,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "8c7156728f55864c348ca9ede2b8baba6b20ce1290d402e540cc6fca8f1d36ec",
+      "sha256": "67cdd7c3c1610528876df4c17fc074560bfe4f3106a97724eb35466aff347d76",
       "width": 960,
       "height": 1920
     },
@@ -131,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Check the received list, then choose Submit to VBGRAMG. No separate Approve button.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "595ec926a9474c9d1c21470b9e11536e4b12de006fa64c7c46fb91cddf92da30",
+      "sha256": "c304cd0ee93041390f1b455d2b06a86e305d1641ba97864f5ad8cc67cd6a23f0",
       "width": 960,
       "height": 1920
     },
@@ -167,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "4d99ff8d2cb0b81adf3626a387d3437fe46a5d285ee6c6d2eeb8fa802ac9b60a",
+    "README.md": "36aebc7024a38844e489684d0fba725616f870a0086ed436566e2d7fd8d4b169",
     "docs/USER_GUIDE.md": "cebc60fe5203c670f552f49e6b7f5ed7f7563f9ef34f92dc59e6f1a6b8bc0e61",
     "docs/FEATURES.md": "aa9a3eb9d5139b72873208057f806622e13e1594f5b07aa9320053520589d796",
-    "docs/LATEST_CHANGES.md": "3873d5b402ba3a71e615cdce6d0e36711d710a254ba8fec140758912e0e9598f"
+    "docs/LATEST_CHANGES.md": "a342e8dee141eb1373500558ea7532fd54b123df9df9f1afe987a208adc83c88"
   }
 }
