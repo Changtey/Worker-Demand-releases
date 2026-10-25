@@ -27,6 +27,19 @@ Published downloads: desktop **1.4.15**, Android **1.4.15**.
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
+## Watch the videos
+
+Videos for **version 1.4.15**, using fictional app examples.
+
+| Video | Length | Watch or download |
+| --- | --- | --- |
+| Promo | 60 seconds | [Play the promo](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Promo-60s.mp4) |
+| Step-by-step tutorial | 3 minutes 36 seconds | [Play the tutorial](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Step-by-Step-Tutorial.mp4) |
+
+The tutorial covers Android requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
+
+[Promo captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Promo.srt) · [Tutorial captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Tutorial.srt) · [Tutorial chapters](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/Tutorial-chapters.txt)
+
 ## What you can do
 
 - Find Job Cards, household members, saved worker checks and days left.

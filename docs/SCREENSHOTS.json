@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "captured_at": "2026-10-25T16:04:29.797801+00:00",
+  "captured_at": "2026-10-25T16:59:36.091150+00:00",
   "mode": "release",
   "source_versions": {
     "desktop": "1.4.15",
@@ -11,7 +11,7 @@
     "android": "1.4.15"
   },
   "published_notes_sha256": "846153f9ca5fe06437c6d53a16b9d36678dbb4f4d0252bdb40dc8a4faaf57422",
-  "source_fingerprint": "1c5437b3209d017a7ee46007e42ae76d2a1e2636c246d30eb0b35b3c38605e5a",
+  "source_fingerprint": "c9a6677943ab71f9d863bed62a611c2ca17400b87eb60161df0e41dc782d68fd",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "ccf353fc5b26309c0cdf121de45e08ae6b63246dc578defd1099b82255b7e51b",
+      "sha256": "e0644b4fd58b3a12cc0219c081110b716f757a8a69a2ec79c99d3306266568cb",
       "width": 960,
       "height": 2400
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "fbd5c19a47c78e3e9ec87b40773ab553926cf01c79dd00f1b2d4138906b0d578",
+      "sha256": "f3aefdb8729f161ba1030068cb3b6c1fc0481e9140b0f545c212012c7be6e8ae",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "b69ad94cc5e27b133ac5002a3c2b61b2f3abdecd2690725cbcc610ad2c921154",
+      "sha256": "8040faf9548b5c067960957a39a99b5d27fb808d735531176154c470d50f12b6",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Choose which menus appear and arrange the app for daily work.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "0035af96c5da81d4170b28674ae07f839476ce770d4cea99545ea344daf17c4c",
+      "sha256": "cd3c43abcab8761399a72a579879089b58e5fd0c84c27b33a3b91dc2f3d69267",
       "width": 960,
       "height": 1920
     },
@@ -168,8 +168,8 @@
     }
   ],
   "documents": {
-    "README.md": "86a6016b63dc23392abc4f951bc7d1544211dadf1ddba5fa83aaac33018c9dcc",
-    "docs/USER_GUIDE.md": "324c0d731b5f049122062800409bebec20ce3ec57e3cae48ada893741d98804d",
+    "README.md": "89f6b134f37dba022cb6c64f3e342535fc1082d86938508a80c476ca54dedbba",
+    "docs/USER_GUIDE.md": "27d2a232a8fefc900a1cb823ff9a9a12809402b9f63797a38c7f71b52a24ce3a",
     "docs/FEATURES.md": "130c3d94166fcb032f784e64ae648cade03c27877bbf19374a34629432b78865",
     "docs/LATEST_CHANGES.md": "6cba81a4d5706a6e72d00a55ab3dc2900dddd5bad66d17977de401ac3a21c732"
   }
