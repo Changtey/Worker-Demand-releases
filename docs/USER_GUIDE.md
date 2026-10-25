@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.14 and Android 1.4.14 · 2026-10-23.**
+**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-25.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -18,30 +18,53 @@ The sidebar shows a short explanation under each tool. **Work Demand Management*
 
 Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.14**, Android **1.4.14**.
+Published downloads: desktop **1.4.15**, Android **1.4.15**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/VBGRAMG-DEO-Assistant-1.4.14-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.14](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.14/Worker-Demand-1.4.14.apk) |
+| Windows 64-bit | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/Worker-Demand-1.4.15.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.14).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.15).
+
+### Find the next task
+
+Open **Work Demand Management**. **Your work** shows unfinished Android requests from all days, including requests that need checking. It stays compact while you edit a request; choose **Show work overview** to open the list. The currently selected Village comes first, followed by its Panchayat. Choose **Open request** to review one. A finished request stays separate from an unfinished saved-result check.
+
+Choose **Check problems** to open the app, saved-record, selected-area, portal sign-in and request-list checks. Follow **Open Browser** if sign-in is needed. These checks send no demand. **Review last entry** opens the last saved summary when members still need attention.
+
+### Protect saved records
+
+Open **Settings → Records → Record backups**. The desktop app tries to make one checked copy each day while open. **Back up records** makes a copy now. **Check latest backup** recovers it into a separate test copy and checks it without replacing current records.
+
+These copies contain this PC's saved Job Cards, workers, works and activity history. Phone requests, submission summaries, login details and government records are separate. Keep both backup files privately on another drive to protect against a lost PC. The app retains seven daily copies and five manual copies. Restoring the app's current records requires closing it and help from the person who manages it.
 
 ## 2. Create your personal Android access
 
 On desktop, open **Android Login Codes**, then **My Android access**.
 
+The panel has two sections: **My login code** and **My areas**. Choose **View my areas** to read the saved list. Area choices and extra help stay closed until needed.
+
+To replace an existing personal code, choose **Choose my own login code** near your current code. Enter **My new login code**, then choose **Save my login code**. Your selected areas stay the same. **Show code** lets you check what you typed. Cancel keeps your current code. The new box never creates a random code when left empty.
+
+You can use a **4 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 4 characters. English letters A and a work the same. A code already used by another account cannot be used.
+
+For first-time setup or changing areas:
+
 1. Add your working Panchayats or Villages if they are not listed.
 2. Choose **Set up my Android access**, or **Change my Android access** if already set up.
 3. Search the assigned areas. Tick the areas you need. You can select several areas together; filtering keeps your choices.
-4. Choose **Generate my login code**. Keep the code private.
-5. Enter it in the Worker Demand Android app. Choose from the areas assigned to your account.
+4. Enter your preferred code in **My login code (optional)** in the code section, then choose **Save my login code**.
+5. You can leave the box empty and choose **Generate my login code** instead. Saving a code ends earlier phone sign-ins and keeps desktop sign-in and Secretary codes.
+6. Keep the code private. Enter it in the Worker Demand Android app. Choose from the areas assigned to your account.
 
-Use **Disable my Android code** when access should end. Read the confirmation before removing area assignments; removing access does not erase official portal records.
+Open **More code options**, then use **Disable my Android code** when access should end. Read the confirmation before removing area assignments; removing access does not erase official portal records.
 
-<img src="screenshots/02-android-login.png" width="300" alt="Desktop preview: choosing personal Android areas without a visible login code">
+To remove assignments, select the areas and choose **Remove selected areas**. Check the listed names before choosing **Remove areas**. The window stays open while waiting and shows any problem there. A confirmed removal stays removed even if the next list read fails. If the message says the online removal step has not been enabled, the person who manages the app must enable that step first; repeating the button will not fix it. A lost connection can leave the result uncertain, so read the message before trying again.
+
+<img src="screenshots/02-android-login.png" width="300" alt="Desktop preview: a compact personal login code section and a separate area section, with a fictional code">
 
 ## 3. Create Secretary access
 
@@ -129,7 +152,11 @@ For an Android request, choose **Save Changes** to keep corrections without star
 
 If every selected worker already has an entry record on this PC for the requested dates, Send keeps the current portal page open and shows **Earlier entry records found**. It does not enter those demands again or immediately open Work Allocation. Choose **Check saved list again** to read their saved portal results. Work Allocation is used only to check saved demands; it is not the data entry page. A saved entry record on the PC is not final portal verification.
 
-Entry continues when you return to the request screen. Its message shows whether entry is running, paused, stopping or checking saved demands. Choose **Open entry progress** to return to Browser and use its entry controls. The request stays locked while entry is active. After entry stops, **Continue remaining entries** is shown when workers remain eligible for entry. Uncertain entries stay held for checking.
+Entry continues when you return to the request screen. Its message shows whether entry is running, paused, stopping or checking saved demands. Choose **Open entry progress** to return to Browser and use its entry controls. The request stays locked while entry is active.
+
+After an error or stop, open the request and choose **Send to Browser again**. The panel shows how many checked workers will reopen. It starts a new Browser run with the complete checked list for that Village and keeps the original workers, days and dates. Saved demands are skipped. Uncertain entries stay held for checking; use **Check saved list again** in Browser for those results. No saved result is erased. If the request or its workers changed, read the latest changes and check the demand again first. For several Villages, choose the Village to reopen; each keeps its own checked list. The button stays unavailable while another entry is active or Browser is opening. If opening fails, its reason appears beside the button.
+
+**Edit and resend** is prepared for stopped requests and needs its online update before use. Once enabled, choose it to change workers, days and dates. Choose **Save Changes**, then **Check demand**, then **Submit to VBGRAMG**. A new worker must belong to the same assigned Village. Earlier saved workers are shown separately and kept out of the next attempt. If an earlier result is unclear, use **Open entry progress** and **Check saved list again** first. Changes cannot be saved while entry is running. Cancel editing keeps the earlier request. A failed save keeps your edits on screen. Original received details and earlier results are kept.
 
 ## 9. Prepare Muster Roll reports
 

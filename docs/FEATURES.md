@@ -2,12 +2,12 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.14 and Android 1.4.14 · 2026-10-23.**
+**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-25.**
 
 | Feature | Desktop | Android |
 | --- | --- | --- |
 | Google office sign-in | Yes | Uses an assigned login code instead |
-| Personal DEO Android access | Create a code and assign several authorised areas | Choose from the assigned areas |
+| Personal DEO Android access | Login code and My areas are grouped separately. Choose your own code, copy it or read the saved areas. A 4 to 16 digit number, letters or symbols can be used. Extra help and code disabling stay under More code options | Sign in with the code and choose from the assigned areas |
 | Secretary access | Create and manage assigned area codes | Sign in with the code and view assigned records |
 | Job Cards and members | Village records, household groups, search, saved checks and days left | Assigned worker list with Job Card numbers |
 | Worker filters | Status, work history, identity and payment checks | Available worker check choices in the phone list |
@@ -17,6 +17,11 @@
 | Automatic request records | An incoming Android request queues its exact Panchayat or Village and Financial Year. Recent records are reused; missing records and checks download in the background | Send the request using its assigned area; no extra desktop area selection is needed |
 | Received worker checks | The open Android request's Village gets first priority for Aadhaar availability, ABPS and other worker checks, including during a visit to Browser for sign-in. Manual entry choices are kept | Keep the original request and its worker details |
 | Entry progress | Current running, paused, stopping or checking message; Open entry progress returns to Browser controls | Follow the received request in History |
+| Send to Browser again | Reopen the complete checked list after an error or stop. Original days and dates stay; saved demands are skipped and uncertain results stay held for checking | The received request keeps its saved status |
+| Edit a stopped request | Prepared and tested with fictional records; needs its online update before use. Change unsent workers, days and dates, save, check and send again. Saved demands stay unchanged; uncertain results must be checked first | Updated worker choices can be shared after the online update is enabled |
+| Your work | Unfinished requests, selected-area priority, clear counts and the last entry needing attention | Uses its own phone home and History |
+| Check problems | Read-only checks for app tools, saved records, selected area, portal sign-in and Android requests | Follow the phone's connection messages |
+| Record backups | Checked daily copies while the desktop app is open; manual copies and a separate recovery check in Settings | Phone records and login details are separate |
 | Earlier entry records | A repeated Send keeps the current portal page; choose Check saved list again to read earlier results | Earlier requests remain visible in History |
 | Final demand check | Check every selected worker's Job Card, name, days and work dates in the saved portal list; show success only when all match | Portal verification is handled on desktop |
 | Submission summaries | Completion pop-up with separate counts for members processed, entry steps finished, saved demands confirmed and failed entries; named issues, safe retry and 20 saved run summaries per app account on this PC | An unreadable final list does not turn finished entry steps into failures. Older summaries show an entry-step count only when it was recorded. Confirmed results stay successful after browser cleanup |
