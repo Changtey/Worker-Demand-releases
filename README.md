@@ -33,14 +33,16 @@ Videos for **version 1.4.15**, using fictional app examples.
 
 | Video | Length | Watch or download |
 | --- | --- | --- |
-| Promo | 60 seconds | [Play the promo](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Promo-60s.mp4) |
-| Simple English tutorial | 7 minutes 30 seconds | [Play the tutorial](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Tutorial-Simple-English.mp4) |
+| Promo | 60 seconds | [Play the promo](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Promo-60s.mp4) |
+| Simple English tutorial | 7 minutes 30 seconds | [Play the tutorial](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Tutorial-Simple-English.mp4) |
 
 [Watch both videos on the download page](https://changtey.github.io/Worker-Demand-releases/#watch). The tutorial has 15 numbered steps, separate phone and computer sections, captions and buttons to repeat a lesson. It was refreshed on 26 October 2026.
 
 The tutorial covers Android requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
 
-[Promo captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Promo.srt) · [Tutorial captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/Tutorial-Simple-English-chapters.txt)
+[Promo captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Promo.srt) · [Tutorial captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Tutorial-Simple-English-chapters.txt)
+
+Both videos use CC0 public-domain music. [Read the music-use details](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Music-use.txt). The apps are free to download. Some computer tasks use Balance; read the current costs in the user guide.
 
 ## What you can do
 
