@@ -21,6 +21,12 @@ The linked release notes describe what was built, checked and published. A curre
 
 ## Changes in this release
 
+**26 October 2026 — Balance charging enabled online**
+
+Work Demand charging was turned on after the app publication. Browser automation now needs 1 available Balance before entry starts. It reserves that amount and deducts it after the saved Work Demand is confirmed. Zero available Balance blocks new runs and unfunded retries, including older unfinished free requests. Recharge opens with the current work kept. Failed runs release their reservation. Repeated starts and completion replies do not charge twice. Completed free work keeps its original price.
+
+This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
+
 **Published 1.4.16**
 
 - **Tokens** is now called **Balance** in the desktop menus, account screens, gifts, referral rewards, reports and balance history. The amounts, prices and saved payment records keep their existing meaning. Balance is app credit; recharge prices are shown in rupees.

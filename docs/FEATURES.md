@@ -28,7 +28,7 @@
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
 | Muster Roll Reports | Area choices and the available attendance report tools | Desktop feature |
-| Balance and Recharge | Paid and free balance, recharge and charge history. A blocked task opens Recharge and keeps the current work. Low-balance report choices have a Recharge shortcut | Secretary request preparation stays free; office charges are handled on desktop |
+| Balance and Recharge | Work Demand automation reserves 1 before entry and deducts it after saved work is confirmed. Zero available Balance blocks new runs and unfunded retries, then opens Recharge and keeps the current work. Failed runs release their reservation. Low-balance report choices have a Recharge shortcut | Secretary request preparation stays free; office charges are handled on desktop |
 | Saved choices | Areas, Financial Year, filters, list size and menus | Assigned area and worker choices |
 | Sidebar menus | Short tool descriptions, clear selected menu, Arrange menus shortcut and an icon-only view | Uses its own phone navigation |
 | Saved records while offline | Reuse available saved records; current checks may need a connection | Keep phone drafts and waiting requests; access and sending checks still apply |

@@ -212,7 +212,11 @@ If a Work Demand task cannot start because the balance is too low, the app opens
 3. Complete the payment yourself. Use **Check payment** when needed. The app adds balance only after the payment has been checked.
 4. Choose **Return to your work**. Review the kept details, check the balance and choose the next task action yourself.
 
-A Work Demand task uses 1 from the balance when Work Demand charges are enabled. A successfully saved Village report uses 2, including each Village in a whole Panchayat. Failed reports and cancelled saves cost nothing. Viewing a cost or opening Recharge does not start a payment. If a balance is held for unfinished work, check its saved result before repeating that task.
+Work Demand automation needs at least 1 available Balance before it can start. The app reserves 1 for the run, then deducts it after the saved Work Demand is confirmed. A failed run releases its reservation. A run with an unclear result keeps its reservation until its saved result is checked. A funded run can continue using that reservation; it does not pay twice.
+
+With zero available Balance, a new run or an unfunded retry stops and opens Recharge. Older unfinished free requests also need enough Balance before entry can restart. Completed free work keeps its original price. If the balance cannot be checked, entry waits until it can be checked.
+
+A successfully saved Village report uses 2, including each Village in a whole Panchayat. Failed reports and cancelled saves cost nothing. Viewing a cost or opening Recharge does not start a payment.
 
 ## When something needs attention
 
