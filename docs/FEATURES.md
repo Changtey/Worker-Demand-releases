@@ -2,7 +2,18 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
+**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
+
+## First setup and daily records
+
+- **Browser opens first:** an old starting-screen choice cannot send the app to another tool.
+- **Personal default login page:** save your own State, Financial Year, District and Block in Settings. Enter the official User ID, Password and Security Code yourself.
+- **One-time work-area selection:** save the Panchayats or Villages assigned to your data entry work under your own app account. Add or remove places later in Settings.
+- **Required first download:** the other tools open after the selected areas' required worker, workday and Muster Roll source records are checked. A percentage bar shows completion. Failed or unfinished reports never count as complete.
+- **Daily background updates:** saved working areas keep updating while the app is open and connected. A completed first setup is kept during later background updates.
+- **Reuse completed worker checks:** eKYC, ABPS and Aadhaar Availability can reuse matching saved positive proof for the same worker and Job Card. Missing or unverified answers are retried. A changed identity or an explicit new-check request still needs a new read.
+
+Saved selections do not change official permissions. Source downloads do not submit demands or create paid PDF copies.
 
 | Feature | Desktop | Android |
 | --- | --- | --- |
@@ -35,7 +46,7 @@
 
 ## Worker checks
 
-Android can read public portal reports directly for selected assigned workers. Use **Check portal**, then the worker's information button for **Worker details**, including each answer's source and check time. It reads explicit eKYC, active or inactive status, offered identity and payment checks, complete worked days and confirmed family days left. Missing, incomplete or access-protected reports keep the saved copy with a clear message. Phone checks do not use Balance or submit official records.
+Android shows **Status: Active**, **Status: Inactive** or **Status: Unknown** beside eKYC when choosing workers, entering days and reviewing a request. Set **Worker filters → Active member → All** to include inactive workers. Android can read public portal reports directly for selected assigned workers. Use **Check portal**, then the worker's information button for **Worker details**, including each answer's source and check time. It reads explicit eKYC, active or inactive status, offered identity and payment checks, complete worked days and confirmed family days left. Missing, incomplete or access-protected reports keep the saved copy with a clear message. Phone checks do not use Balance or submit official records.
 
 The app shows saved answers and whether they are current. Electronic identity verification (**eKYC**) and the Aadhaar Based Payment System (**ABPS**) are shown separately from Aadhaar availability. Statuses such as inactive, deleted, missing or old remain meaningful. Missing information is never counted as a confirmed answer.
 

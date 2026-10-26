@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
+**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -25,6 +25,23 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 ## 1. Install and sign in
 
+### First setup for your app account
+
+1. Sign in to the app with your own Google account. **Browser** always opens first.
+2. Choose your own State, Financial Year, District and Block under **Set my default login page**. Choose **Save and open login area**. These choices are kept in **Settings → Portal login**, separately for each app account on this computer.
+3. On the official VBGRAMG page, enter your User ID, Password and Security Code, then choose Login yourself. Use the Browser's Save or Update control if you want to save the User ID and Password securely. The Security Code is never saved.
+4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and download**. These are your work choices; saving them does not grant government portal access.
+5. Wait for **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and the required Muster Roll source reports. Missing reports, a lost sign-in or an unfinished Security Code keep setup open. Follow the message and choose **Retry missing data** when needed.
+6. Choose **Continue to Browser** after every required download finishes. This first setup is saved. You do not select the same areas again each time you open the app.
+
+Change your selections later through **Settings → Portal login → Change my work areas**. You can add or remove areas while keeping at least one working area. The new selections download in the background, and existing saved records are kept.
+
+While the desktop app is open and connected, your saved working areas update daily in the background. Worker days and Muster Roll source reports keep updating after first setup. Completed eKYC, ABPS and Aadhaar Availability answers can be reused when their saved proof matches the same worker and Job Card. Old answers without a matching worker record, changed identities, missing answers and unverified workers still need checks. A deliberate **Update worker checks** can request a new read. Reusing an answer keeps its original check date; it is not a new live check.
+
+Source-report downloads do not submit a Work Demand or generate a paid PDF copy. PDF saving and printing keep their existing separate confirmation and Balance rules.
+
+### Daily use
+
 1. Open the [app downloads](https://github.com/Changtey/Worker-Demand-releases#download). Choose Windows, Linux or Android for your device.
 2. Keep your existing app and saved records when updating. See the release notes for installation checks and known limits.
 3. On desktop, use **Sign in with Google** and finish in your computer's usual browser. This is separate from your official portal login.
@@ -35,16 +52,16 @@ The sidebar shows a short explanation under each tool. **Work Demand Management*
 
 Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.16**, Android **1.4.16**.
+Published downloads: desktop **1.4.17**, Android **1.4.17**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Worker-Demand-1.4.16.apk) |
+| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.16).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
 
 ### Find the next task
 
@@ -117,7 +134,7 @@ Job Card members share the household's days left. A missing total means **Not kn
 ## 6. Make a work request on Android
 
 1. On **Home**, check your account and assigned Panchayat or Village. A DEO can choose among their assigned areas.
-2. Choose **Create work request**. Search by worker or Job Card and choose the workers.
+2. Choose **Create work request**. Search by worker or Job Card and choose the workers. Each row shows **Status: Active**, **Status: Inactive** or **Status: Unknown**, followed by eKYC. The same labels appear when entering days and reviewing the request. Open **Worker filters** and set **Active member** to **All** to include inactive workers. Missing or old answers show **Unknown** until checked again.
 3. Choose **Check portal** to read the selected workers' public reports directly on the phone. Review eKYC and active status. Tap the information button beside a worker to open **Worker details** for days worked, family days left, Aadhaar availability, Aadhaar Based Payment System (ABPS), other offered checks, sources and check times. Choose **Stop portal check** if needed; your choices are kept.
 4. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.

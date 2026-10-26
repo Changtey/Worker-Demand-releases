@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.16**, Android **1.4.16**.
+Published downloads: desktop **1.4.17**, Android **1.4.17**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Worker-Demand-1.4.16.apk) |
+| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.16).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -46,6 +46,8 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 ## What you can do
 
+On first use, sign in to VBGRAMG in **Browser**, save your assigned Panchayats or Villages, and wait for the required downloads to reach **100%**. Your default login page and work areas are kept for your account. Change areas later in Settings. Daily background updates continue, while matching completed eKYC, ABPS and Aadhaar Availability checks are reused with their original check dates.
+
 - Find Job Cards, household members, saved worker checks and days left.
 - Search by name or Job Card; filter by active status, Aadhaar availability, identity checks and Aadhaar payment checks.
 - Prepare each worker's requested days and dates, then use **Check demand** to find issues.
@@ -60,7 +62,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
+**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -71,7 +73,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>03. Secretary access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/03-secretary-access.png"><img src="docs/screenshots/03-secretary-access.png" width="260" alt="Desktop preview: 03. Secretary access"></a><br>Assign a Panchayat or Village and create a Secretary login code.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>04. Browser controls</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. Browser controls"></a><br>Open VBGRAMG from the desktop app. The official website is not pictured.</td>
+<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>Browser opens first. Save your own State, Financial Year, District and Block, then sign in yourself. Next, save assigned areas and finish the required download. This is a narrow desktop preview with fictional choices; the official website is not pictured.</td>
 <td width="33%" valign="top"><b>05. Review a phone request</b><br><sub>Android</sub><br><a href="docs/screenshots/05-android-work-demand.png"><img src="docs/screenshots/05-android-work-demand.png" width="260" alt="Android: 05. Review a phone request"></a><br>Review workers and their own requested days before sending to the DEO.</td>
 <td width="33%" valign="top"><b>06. Secretary request history</b><br><sub>Android</sub><br><a href="docs/screenshots/06-secretary-work-demand.png"><img src="docs/screenshots/06-secretary-work-demand.png" width="260" alt="Android: 06. Secretary request history"></a><br>Find requests and follow the status returned by the office.</td>
 </tr>
@@ -126,13 +128,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.16**
+**Published 1.4.17**
 
-- **Tokens** is now called **Balance** in the desktop menus, account screens, gifts, referral rewards, reports and balance history. The amounts, prices and saved payment records keep their existing meaning. Balance is app credit; recharge prices are shown in rupees.
-- When a Work Demand task cannot start because its balance is too low, the app opens **Recharge** with a clear explanation. **Return to your work** brings the user back. The current request, workers, days and dates are kept.
-- Village report choices show a **Recharge** button when more balance is needed. A low-balance answer while starting or saving a report also opens Recharge and keeps the checked Villages and report choices.
-- A zero available balance shows a recharge suggestion. Balance held for unfinished tasks has separate help. An unread or unknown balance is not treated as zero.
-- Opening Recharge does not start a payment. The user still chooses the shown amount, confirms before opening Razorpay and completes the payment. Payment checks keep the same recharge number after a lost reply. Returning to work does not automatically submit a demand or repeat a report.
-- The public guide and 15 numbered fictional app pictures are refreshed. The Android download has the matching version; official entry and office balance controls remain desktop features.
+- Desktop always opens **Browser** first, including when an older saved choice named another starting screen.
+- On first setup, the user selects their own State, Financial Year, District and Block, saves their default login page, and signs in to VBGRAMG personally. The login area is kept under that app account and is available in **Settings → Portal login**. Password storage still requires the existing Browser Save or Update…
+- The user chooses the Panchayats or Villages assigned to their data entry work and selects **Save areas and download**. Choices are kept separately for each app account on the computer. Saving a choice does not grant government portal permissions.
+- Other tools stay unavailable until the first required download reaches **100%** and the user chooses **Continue to Browser**. Checks cover the selected areas&#x27; Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and Muster Roll source reports. Partial…
+- First setup is kept after reopening. **Settings → Portal login → Change my work areas** allows later additions and removals while keeping at least one assigned work area. Existing saved records are retained.
+- While the desktop app is open and connected, the user&#x27;s saved areas continue updating daily in the background. Workdays and Muster Roll source reports keep updating after first setup. Finished first setup is not repeated merely because a later daily update is due.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-26T18:12:35.844470+00:00",
+  "captured_at": "2026-10-26T23:34:05.671181+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.16",
-    "android": "1.4.16"
+    "desktop": "1.4.17",
+    "android": "1.4.17"
   },
   "published_versions": {
-    "desktop": "1.4.16",
-    "android": "1.4.16"
+    "desktop": "1.4.17",
+    "android": "1.4.17"
   },
-  "published_notes_sha256": "2dfaa6e25948d1f1d0b4f90d4d76418ce7122c27827c734010557a75a1402126",
-  "source_fingerprint": "6f8dc54f223ebe49cb6935207916a99bfb157a0b3f65bb06a5ef640a1b4c2465",
+  "published_notes_sha256": "2abedf03d99df538dcb8b2cc0d4067aa5f77ff7591962afff63c616132c075b0",
+  "source_fingerprint": "2b186df4d86cd2799d1e5e10724a4cbf20bc06b72cbb20e657bd1f01081dd8a6",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "9b9806eeda7d78221fc1fdfd9ccfc9ee01f653d7b178599a5068bb368d011466",
+      "sha256": "661b66ca1c775595ecacf7ce9c8680290a2478c55e1643f2a682d790db2f00a1",
       "width": 1236,
       "height": 2745
     },
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "46d12b361281f702a015fb6d41000cfda78c86c6c4041329aebdac286fcf84bd",
+      "sha256": "f40680e8fbab4d3ec8e9764f1be0246b602541f537ff7e90b9fd30602b733a8b",
       "width": 960,
       "height": 2400
     },
@@ -48,11 +48,11 @@
     },
     {
       "file": "04-integrated-browser.png",
-      "title": "Browser controls",
+      "title": "First setup and your login page",
       "app": "Desktop preview",
-      "caption": "Open VBGRAMG from the desktop app. The official website is not pictured.",
+      "caption": "Browser opens first. Save your own State, Financial Year, District and Block, then sign in yourself. Next, save assigned areas and finish the required download. This is a narrow desktop preview with fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "ca76b14402939907ece9b391172d3a71830224f75b75b2409afa5620cd7bb26f",
+      "sha256": "683b74e556dd90a9bf9ab9260f12fce33e8503548b2d471bd4c89caa5cdf4db6",
       "width": 960,
       "height": 1920
     },
@@ -62,7 +62,7 @@
       "app": "Android",
       "caption": "Review workers and their own requested days before sending to the DEO.",
       "path": "docs/screenshots/05-android-work-demand.png",
-      "sha256": "63d6f70310e282d6f5fc915d1dce9cd09bb77a16f2cc277c95457f4996c5e124",
+      "sha256": "153f82718a76b976db41c1535f1f6a5f4f2f3e06ad8266580ac076314f01bf6f",
       "width": 1236,
       "height": 2745
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "09d481b7be8506deeaafada55e4c5ae67324b47318f8fbe7cee81e5004be56ca",
+      "sha256": "1ad4d4698a91b3b4cb252dd816a26832b18d73db4ea87a39d3cea12841233912",
       "width": 960,
       "height": 1920
     },
@@ -92,7 +92,7 @@
       "app": "Android",
       "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "07abd3b07deaf1cbd478ec589c092ead83edadc7384b19a5370b46b1e827e024",
+      "sha256": "dfe83c55932c67c2d312d0247756713c23e43c205baea60d21f31f3a62128fe0",
       "width": 1236,
       "height": 2745
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "c9328dcb81d168860617202cc8daaf94dca1dfa8cefe43a9722ed6cc5289810e",
+      "sha256": "2171b0703a421500f9debe5b18ede4c1e11d712df16e9f5319cdf9a9dd7de632",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Choose which menus appear and arrange the app for daily work.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "1bb14a582c1ebad616269a5b4a9ec2c173cd174cc214e0a17645baf7b9c84710",
+      "sha256": "ad15513cc8cc14b58607e10f4427b5360c057d7dd0fa048d59b575c98893d829",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out of the phone.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "3edc231b17adde998cdf58579c1cdf44a1cac7c73aef5679a43272c5b061ac13",
+      "sha256": "5dafc339d532b6fe77af264b448294ed893e5f9896fff373f0c7a13fe7a3d492",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "9d4d535afd45b6dee7bf896f67791eb7734be0001ca7323d8566a92af06db092",
-    "docs/USER_GUIDE.md": "eabf54a858fd0b22554977905e79523d94f12ae70fddeb4f9f587bb49742735a",
-    "docs/FEATURES.md": "ed9e3a8c98c365665b6e92283928d745d93b8137c6a80790602054f6aaffc818",
-    "docs/LATEST_CHANGES.md": "79acb266fd9ff4a3be07c9913660a765db12fdae2ee5d71b05a9159c319c4f84"
+    "README.md": "fe0a141f1159fc09f3b1ce72f154fa8f97232680c4c9831b00ef3a3dced04cd8",
+    "docs/USER_GUIDE.md": "302bac7bb49ef5dd9da9b1eb4d7402cc75e91cc40e87f14c4bf4cde1f09fc7f7",
+    "docs/FEATURES.md": "0520e456e398c941db768d8a46d40a82324edfbe493611b2ca25f2b487dd381f",
+    "docs/LATEST_CHANGES.md": "cdbe8f0c5aab89f8d3711c35afcaad756827dd34ecae216c69a752696129aca5"
   }
 }

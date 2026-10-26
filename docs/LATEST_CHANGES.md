@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
+**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.16**, Android **1.4.16**.
+Published downloads: desktop **1.4.17**, Android **1.4.17**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Worker-Demand-1.4.16.apk) |
+| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.16).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -27,14 +27,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.16**
+**Published 1.4.17**
 
-- **Tokens** is now called **Balance** in the desktop menus, account screens, gifts, referral rewards, reports and balance history. The amounts, prices and saved payment records keep their existing meaning. Balance is app credit; recharge prices are shown in rupees.
-- When a Work Demand task cannot start because its balance is too low, the app opens **Recharge** with a clear explanation. **Return to your work** brings the user back. The current request, workers, days and dates are kept.
-- Village report choices show a **Recharge** button when more balance is needed. A low-balance answer while starting or saving a report also opens Recharge and keeps the checked Villages and report choices.
-- A zero available balance shows a recharge suggestion. Balance held for unfinished tasks has separate help. An unread or unknown balance is not treated as zero.
-- Opening Recharge does not start a payment. The user still chooses the shown amount, confirms before opening Razorpay and completes the payment. Payment checks keep the same recharge number after a lost reply. Returning to work does not automatically submit a demand or repeat a report.
-- The public guide and 15 numbered fictional app pictures are refreshed. The Android download has the matching version; official entry and office balance controls remain desktop features.
+- Desktop always opens **Browser** first, including when an older saved choice named another starting screen.
+- On first setup, the user selects their own State, Financial Year, District and Block, saves their default login page, and signs in to VBGRAMG personally. The login area is kept under that app account and is available in **Settings → Portal login**. Password storage still requires the existing Browser Save or Update…
+- The user chooses the Panchayats or Villages assigned to their data entry work and selects **Save areas and download**. Choices are kept separately for each app account on the computer. Saving a choice does not grant government portal permissions.
+- Other tools stay unavailable until the first required download reaches **100%** and the user chooses **Continue to Browser**. Checks cover the selected areas&#x27; Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and Muster Roll source reports. Partial…
+- First setup is kept after reopening. **Settings → Portal login → Change my work areas** allows later additions and removals while keeping at least one assigned work area. Existing saved records are retained.
+- While the desktop app is open and connected, the user&#x27;s saved areas continue updating daily in the background. Workdays and Muster Roll source reports keep updating after first setup. Finished first setup is not repeated merely because a later daily update is due.
 
 These pictures were refreshed from the source used for this publication.
 
