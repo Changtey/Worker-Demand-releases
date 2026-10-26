@@ -63,3 +63,42 @@ async function readInvitation(){
 }
 readDownloads()
 readInvitation()
+
+function prepareVideos(){
+  const tutorial=element('tutorial-video'),promo=element('promo-video'),status=element('lesson-status')
+  if(!tutorial || !promo || !status)return
+  const buttons=Array.from(document.querySelectorAll('[data-lesson-time]'))
+  let selected=null
+  function markLesson(){
+    let current=null
+    for(const button of buttons){
+      if(Number(button.dataset.lessonTime)<=tutorial.currentTime+.2)current=button
+      button.removeAttribute('aria-current')
+    }
+    if(current)current.setAttribute('aria-current','step')
+  }
+  async function startLesson(){
+    if(!selected)return
+    const lesson=selected;selected=null
+    tutorial.currentTime=Number(lesson.dataset.lessonTime)
+    status.textContent=`Lesson selected: ${lesson.dataset.lessonTitle}.`
+    markLesson()
+    try{await tutorial.play()}
+    catch{status.textContent=`Lesson selected: ${lesson.dataset.lessonTitle}. Press Play to begin.`}
+  }
+  for(const button of buttons)button.addEventListener('click',()=>{
+    selected=button
+    status.textContent=`Opening lesson: ${button.dataset.lessonTitle}…`
+    tutorial.scrollIntoView({block:'center',behavior:'auto'})
+    if(tutorial.readyState>=1)startLesson()
+    else tutorial.load()
+  })
+  tutorial.addEventListener('loadedmetadata',()=>{if(selected)startLesson()})
+  tutorial.addEventListener('timeupdate',markLesson)
+  tutorial.addEventListener('play',()=>promo.pause())
+  promo.addEventListener('play',()=>tutorial.pause())
+  for(const video of [tutorial,promo])video.addEventListener('error',()=>{
+    if(video===tutorial){selected=null;status.textContent='The tutorial could not play here. Use Open or download the tutorial above.'}
+  })
+}
+prepareVideos()

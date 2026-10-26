@@ -1,0 +1,59 @@
+Start here · Work Demand, one step at a time
+This guide shows how to prepare a work request on Android, review it on your computer, and check the saved result. We will go one step at a time. The people and records shown are fictional examples. Pause whenever you need more time.
+
+Before you start · Open the right app
+First, install the app for your device from this page. On Android, open Worker Demand and use the private login code given by your Data Entry Operator, or D E O. On Windows or Linux, open Vee Bee Gram Gee D E O Assistant and sign in with your own Google account. Keep login codes private.
+
+On Android · Step 1
+Step one. On your phone, open Home. Check the Panchayat or Village and the Financial Year. Use the area assigned to you. Then choose Create work request. If the area is wrong, ask your D E O to check your access before you continue.
+
+On Android · Step 2
+Step two. Find a worker by name or Job Card. Tick the workers who belong in this request. Check their names and Job Cards. Look at the selected count before moving on. Only the workers you select belong in this request.
+
+On Android · Step 3
+Step three. Enter the requested days beside each worker. If everyone needs the same number, enter that number above Apply Days to All. Press Apply Days to All. Then check the number beside every selected name. Different workers can have different requested days.
+
+On Android · Step 4
+Step four. Choose Continue to open Work request details. Choose the Start Date and check the requested days. Read the other fields on this screen. Add a Work Code or Work Order when needed. Some requests allow these fields to stay empty. Follow the message shown in the app.
+
+On Android · Step 5
+Step five. Choose Review request. Read the area, worker names, days, and dates. Go back if anything needs changing. When the details are correct, choose Submit request. This sends the request to the office for review. It does not create an official demand on the government website.
+
+On Android · Step 6
+Step six. Open History to follow the request. Read the status returned by the office. A draft saved on your phone stays on your phone. If a request is waiting for connection, reconnect and let the same request continue. Avoid creating another copy of the same request.
+
+On your computer · Now the office takes over
+The phone steps are complete. Now move to the D E O's Windows or Linux computer. The next lessons show how to review the request, check the workers, and choose whether to start official entry.
+
+On your computer · Step 7
+Step seven. On your computer, open Notifications and choose Open request. You can also open Work Demand Management and choose Android requests. Open the request you want to review. Check who sent it and which area it belongs to.
+
+On your computer · Step 8
+Step eight. Check the Panchayat or Village, Financial Year, Application Date, workers, and work dates. The received request keeps its own area. A different area selected for manual entry does not change this request. Correct any wrong details before going further.
+
+On your computer · Step 9
+Step nine. Read Worked and Days left. Worked shows this worker's recorded days for the selected Financial Year. Days left is shared by everyone on the same Job Card. If two workers on one Job Card each show forty days left, that is one shared balance of forty, not eighty.
+
+On your computer · Step 10
+Step ten. Read the saved checks beside each worker. Aadhaar shows whether the record says Aadhaar is available. E K Y C is the electronic identity check. A B P S means Aadhaar Based Payment System. Check each answer. These saved answers may need updating before you continue.
+
+On your computer · Step 11
+Step eleven. If an answer is old or missing, sign in to the official website in the desktop Browser. Then choose Update worker checks. Read any warning beside the worker. A red mark needs attention. An unknown answer means the app does not have a usable saved answer. Saving an answer is separate from checking the website again.
+
+On your computer · Step 12
+Step twelve. If needed, change the workers, requested days, or dates. Choose Save Changes. Review the saved details again. The original received list is kept. Saving changes does not start official entry. You will check the corrected request in the next step.
+
+On your computer · Step 13
+Step thirteen. Choose Check demand. Read each message and the worker's name. Correct the details and check again. If you change a worker, a day, or a date after a check, run Check demand again. This check does not submit an official demand.
+
+On your computer · Step 14
+Step fourteen. Wait for the check to pass. Review the workers, dates, and totals one last time. When you decide to continue, choose Submit to Vee Bee Gram Gee. This starts entry on the official website through the desktop app. Read the next lesson before using the official website's buttons.
+
+On the official website · Read before you proceed
+Complete the official sign-in and enter the Security Code yourself. Keep your login details private. The official Proceed button can save a demand. If the website asks for a separate final Submit, review it and complete that action yourself. Do not assume that an unfinished final check means nothing was saved.
+
+On your computer · Step 15
+Step fifteen. Read the result window. Look at Saved demands confirmed. Entry steps finished is a different count. If the final check is incomplete, choose Check saved results. This checks the saved result without sending the same demand again. Follow the message for any worker who still needs attention.
+
+Keep this in mind · Two apps. One clear routine.
+That is the routine. On the phone, prepare, review, and send. On the computer, review the details, check the workers, and choose official entry. Finish by reading the saved result. Use Android History for the office's latest status. Repeat any lesson using the chapter buttons below this video.
