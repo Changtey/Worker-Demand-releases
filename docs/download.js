@@ -80,15 +80,16 @@ function prepareVideos(){
   async function startLesson(){
     if(!selected)return
     const lesson=selected;selected=null
+    const title=lesson.dataset.lessonTitle.replace(/[.!?]+$/,'')
     tutorial.currentTime=Number(lesson.dataset.lessonTime)
-    status.textContent=`Lesson selected: ${lesson.dataset.lessonTitle}.`
+    status.textContent=`Lesson selected: ${title}.`
     markLesson()
     try{await tutorial.play()}
-    catch{status.textContent=`Lesson selected: ${lesson.dataset.lessonTitle}. Press Play to begin.`}
+    catch{status.textContent=`Lesson selected: ${title}. Press Play to begin.`}
   }
   for(const button of buttons)button.addEventListener('click',()=>{
     selected=button
-    status.textContent=`Opening lesson: ${button.dataset.lessonTitle}…`
+    status.textContent=`Opening lesson: ${button.dataset.lessonTitle.replace(/[.!?]+$/,'')}…`
     tutorial.scrollIntoView({block:'center',behavior:'auto'})
     if(tutorial.readyState>=1)startLesson()
     else tutorial.load()
