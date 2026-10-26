@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-26.**
+**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
 
 | Feature | Desktop | Android |
 | --- | --- | --- |
@@ -28,11 +28,14 @@
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
 | Muster Roll Reports | Area choices and the available attendance report tools | Desktop feature |
+| Balance and Recharge | Paid and free balance, recharge and charge history. A blocked task opens Recharge and keeps the current work. Low-balance report choices have a Recharge shortcut | Secretary request preparation stays free; office charges are handled on desktop |
 | Saved choices | Areas, Financial Year, filters, list size and menus | Assigned area and worker choices |
 | Sidebar menus | Short tool descriptions, clear selected menu, Arrange menus shortcut and an icon-only view | Uses its own phone navigation |
 | Saved records while offline | Reuse available saved records; current checks may need a connection | Keep phone drafts and waiting requests; access and sending checks still apply |
 
 ## Worker checks
+
+Android can read public portal reports directly for selected assigned workers. Use **Check portal**, then the worker's information button for **Worker details**, including each answer's source and check time. It reads explicit eKYC, active or inactive status, offered identity and payment checks, complete worked days and confirmed family days left. Missing, incomplete or access-protected reports keep the saved copy with a clear message. Phone checks do not use Balance or submit official records.
 
 The app shows saved answers and whether they are current. Electronic identity verification (**eKYC**) and the Aadhaar Based Payment System (**ABPS**) are shown separately from Aadhaar availability. Statuses such as inactive, deleted, missing or old remain meaningful. Missing information is never counted as a confirmed answer.
 

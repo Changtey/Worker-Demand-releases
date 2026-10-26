@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.15**, Android **1.4.15**.
+Published downloads: desktop **1.4.16**, Android **1.4.16**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/Worker-Demand-1.4.15.apk) |
+| Windows 64-bit | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Worker-Demand-1.4.16.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.15).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.16).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -50,13 +50,15 @@ The tutorial covers Android requests, desktop review, days worked, shared Job Ca
 - See confirmed submission counts and named worker issues after desktop entry. Retry failed entries safely and reopen the saved completion summary later.
 - Receive Android requests, prepare their area records automatically in the background, review changes and start entry in the desktop Browser.
 - Give a DEO personal Android access or assign separate Secretary access.
+- On Android, check selected workers directly against public portal reports. See eKYC, active status, days worked and confirmed family days left, with each answer's source and check time.
 - Prepare Muster Roll reports, save area choices and arrange your menus.
+- Check your **Balance** and open **Recharge** when a task needs more. Your current work and report choices are kept.
 
 The app follows the portal's offered **State → District → Block → Panchayat → Village** lists and Financial Years. It is designed for use across India. The example areas below do not limit where it can be used; checking these examples is not proof that every State has been tested.
 
 ## See the app
 
-**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-26.**
+**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -73,7 +75,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 </tr>
 <tr>
 <td width="33%" valign="top"><b>07. Job Card households</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/07-job-card-holders.png"><img src="docs/screenshots/07-job-card-holders.png" width="260" alt="Desktop preview: 07. Job Card households"></a><br>Find household heads and open the members of a Job Card. Swipe the table for more columns.</td>
-<td width="33%" valign="top"><b>08. Choose workers and days</b><br><sub>Android</sub><br><a href="docs/screenshots/08-worker-list.png"><img src="docs/screenshots/08-worker-list.png" width="260" alt="Android: 08. Choose workers and days"></a><br>Choose workers, enter days, then use the wide teal Apply Days to All button when their days are the same.</td>
+<td width="33%" valign="top"><b>08. Choose workers and days</b><br><sub>Android</sub><br><a href="docs/screenshots/08-worker-list.png"><img src="docs/screenshots/08-worker-list.png" width="260" alt="Android: 08. Choose workers and days"></a><br>Choose workers and days. Check portal reads their public reports on the phone. Open a worker&#x27;s information button for answers, sources and check times.</td>
 <td width="33%" valign="top"><b>09. Worker filters</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/09-worker-search.png"><img src="docs/screenshots/09-worker-search.png" width="260" alt="Desktop preview: 09. Worker filters"></a><br>Keep the list compact with saved status and identity check choices.</td>
 </tr>
 <tr>
@@ -116,13 +118,13 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 
 ## Current changes
 
-**Published 1.4.15**
+**Published 1.4.16**
 
-- **Your work** shows unfinished requests, puts the selected Village first and helps reopen the last entry needing attention. **Check problems** explains connection, saved-record, sign-in and request-list problems without sending a demand.
-- **My Android access** now has separate sections for **My login code** and **My areas**. **Choose my own login code** opens a short form near the current code and keeps the selected areas. Starting zeros are kept; existing account and duplicate-code checks still apply.
-- **Send to Browser again** reopens a stopped request&#x27;s complete checked worker list with its original days and dates. Saved demands are skipped. Unclear earlier results stay on hold until **Check saved list again** settles them.
-- **Record backups** keeps checked daily and manual copies on the desktop. A separate recovery check tests a backup without replacing the working records. Larger worker lists and remembered area choices also have improvements.
-- Area-removal errors now stay beside the confirmation. **Edit and resend** is prepared for unsent workers, days and dates, with a fresh demand check required. Both features still need their online updates before use; the app explains when they are unavailable.
-- The plain-English guide, feature list and 15 numbered Android and narrow desktop pictures are refreshed from separate fictional records for this release.
+- **Tokens** is now called **Balance** in the desktop menus, account screens, gifts, referral rewards, reports and balance history. The amounts, prices and saved payment records keep their existing meaning. Balance is app credit; recharge prices are shown in rupees.
+- When a Work Demand task cannot start because its balance is too low, the app opens **Recharge** with a clear explanation. **Return to your work** brings the user back. The current request, workers, days and dates are kept.
+- Village report choices show a **Recharge** button when more balance is needed. A low-balance answer while starting or saving a report also opens Recharge and keeps the checked Villages and report choices.
+- A zero available balance shows a recharge suggestion. Balance held for unfinished tasks has separate help. An unread or unknown balance is not treated as zero.
+- Opening Recharge does not start a payment. The user still chooses the shown amount, confirms before opening Razorpay and completes the payment. Payment checks keep the same recharge number after a lost reply. Returning to work does not automatically submit a demand or repeat a report.
+- The public guide and 15 numbered fictional app pictures are refreshed. The Android download has the matching version; official entry and office balance controls remain desktop features.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

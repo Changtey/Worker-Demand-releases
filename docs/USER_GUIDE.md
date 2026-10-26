@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-26.**
+**Screens captured for desktop 1.4.16 and Android 1.4.16 · 2026-10-26.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -33,16 +33,16 @@ The sidebar shows a short explanation under each tool. **Work Demand Management*
 
 Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.15**, Android **1.4.15**.
+Published downloads: desktop **1.4.16**, Android **1.4.16**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/VBGRAMG-DEO-Assistant-1.4.15-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.15](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.15/Worker-Demand-1.4.15.apk) |
+| Windows 64-bit | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-DEO-Assistant-1.4.16-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.16](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Worker-Demand-1.4.16.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.15).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.16).
 
 ### Find the next task
 
@@ -116,10 +116,15 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 1. On **Home**, check your account and assigned Panchayat or Village. A DEO can choose among their assigned areas.
 2. Choose **Create work request**. Search by worker or Job Card and choose the workers.
-3. Review saved checks. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
-4. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
-5. Review the workers, days and dates, then choose **Submit request** to send it to the DEO.
-6. Open **History** for the received status. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
+3. Choose **Check portal** to read the selected workers' public reports directly on the phone. Review eKYC and active status. Tap the information button beside a worker to open **Worker details** for days worked, family days left, Aadhaar availability, Aadhaar Based Payment System (ABPS), other offered checks, sources and check times. Choose **Stop portal check** if needed; your choices are kept.
+4. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
+5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
+6. Review the workers, days and dates, then choose **Submit request** to send it to the DEO.
+7. Open **History** for the received status. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
+
+**About direct phone checks:** The phone uses only public reports for the assigned area and selected Financial Year. It does not sign into an office portal or submit official records. A missing field keeps its earlier saved answer and check time. A failed, incomplete, very large or extra-page report keeps the saved office copy with a clear message. Sign-in or Security Code checks must be handled by a person; the phone reader cannot bypass them.
+
+**Days worked and days left:** Days worked belong to that worker. Days left belong to the whole Job Card family. The phone uses complete employment records and confirmed totals. It shows days left only when the public report supplies enough figures. It never gives every worker a separate family allowance or treats missing days as zero. The office still checks the records before official entry.
 
 If access has ended, sign in again with a current code from the DEO. Some actions require a connection or a recent access check. A phone request is not an official portal Work Demand.
 
@@ -179,7 +184,7 @@ A **Muster Roll** is the official worker attendance list. Open **Muster Roll Rep
 
 1. Choose the State, Financial Year, District and Block from the offered lists.
 2. Search and tick the Panchayats you need. Then tick the Villages in those Panchayats.
-3. Review the selected areas, report settings and any shown token cost.
+3. Review the selected areas, report settings and the balance needed.
 4. Choose the report action when ready. Use the available PDF or Excel save control for the finished report.
 
 Private reports require your authorised portal account. An unavailable report or incomplete reading needs attention; selecting areas or viewing the cost does not mean a report was generated.
@@ -196,6 +201,19 @@ Private reports require your authorised portal account. An unavailable report or
 
 Area choices, worker filters and list size are remembered. A new choice takes priority. If an old choice is no longer offered, review it instead of silently switching places.
 
+## 11. Balance and Recharge
+
+Open **Balance & recharges** from the side menu. **Balance** is the app credit used for charged tasks. Recharge prices are shown in rupees. You can see your available balance, paid balance, free balance and any balance held for unfinished tasks.
+
+If a Work Demand task cannot start because the balance is too low, the app opens **Recharge**. Village reports show a **Recharge** button when the selected reports need more balance. A low-balance answer while starting or saving a report also opens Recharge. Your current request and report choices are kept.
+
+1. Read the balance and recharge price.
+2. Choose **Recharge** with the shown amount if you want to add balance. Confirm before opening Razorpay.
+3. Complete the payment yourself. Use **Check payment** when needed. The app adds balance only after the payment has been checked.
+4. Choose **Return to your work**. Review the kept details, check the balance and choose the next task action yourself.
+
+A Work Demand task uses 1 from the balance when Work Demand charges are enabled. A successfully saved Village report uses 2, including each Village in a whole Panchayat. Failed reports and cancelled saves cost nothing. Viewing a cost or opening Recharge does not start a payment. If a balance is held for unfinished work, check its saved result before repeating that task.
+
 ## When something needs attention
 
 | Message or result | What to do |
@@ -206,6 +224,7 @@ Area choices, worker filters and list size are remembered. A new choice takes pr
 | Aadhaar available not confirmed Yes | Review that worker's portal answer before portal entry. Do not use a filter to bypass the check. |
 | Request changed elsewhere | Read the latest changes, review the workers and check again. |
 | Portal reply uncertain | Check the saved list before retrying. |
+| Balance too low | Open Recharge, check the amount and decide whether to add balance. Your current work is kept. |
 | Phone offline | Keep the same saved request and reconnect. Check History for its received status. |
 
 Never include real Aadhaar numbers, passwords, Security Codes or login codes in a screenshot or public issue. Explain what happened using fictional examples.
