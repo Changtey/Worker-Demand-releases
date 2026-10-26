@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "captured_at": "2026-10-25T16:59:36.091150+00:00",
+  "captured_at": "2026-10-26T02:28:34.715931+00:00",
   "mode": "release",
   "source_versions": {
     "desktop": "1.4.15",
@@ -10,8 +10,8 @@
     "desktop": "1.4.15",
     "android": "1.4.15"
   },
-  "published_notes_sha256": "846153f9ca5fe06437c6d53a16b9d36678dbb4f4d0252bdb40dc8a4faaf57422",
-  "source_fingerprint": "c9a6677943ab71f9d863bed62a611c2ca17400b87eb60161df0e41dc782d68fd",
+  "published_notes_sha256": "23117ecc015f307728a71279cad7fad027a738f470434c7fdf41eca55e120d38",
+  "source_fingerprint": "c8fc03823b356afdfc078cc0bfa8fb1747e932d652141eda199bd39f712002bf",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "fb54460639a3da7ec186079fa200ff0b60ed93ac13d8da258761966d6e9bb1a3",
+      "sha256": "9b9806eeda7d78221fc1fdfd9ccfc9ee01f653d7b178599a5068bb368d011466",
       "width": 1236,
       "height": 2745
     },
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "e0644b4fd58b3a12cc0219c081110b716f757a8a69a2ec79c99d3306266568cb",
+      "sha256": "08796f5a5cc5839c9631ba2abc3246560279cd6fa67ece0a08d3818897796b1d",
       "width": 960,
       "height": 2400
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "f3aefdb8729f161ba1030068cb3b6c1fc0481e9140b0f545c212012c7be6e8ae",
+      "sha256": "dc181c6c15b23a1d78a3d3f62de67c5d53ec0f53659dc049901a830e755db326",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "8040faf9548b5c067960957a39a99b5d27fb808d735531176154c470d50f12b6",
+      "sha256": "5d1931941b4a0ec02e1ae197bbacc2f162a17669ed5011503b9b56b84acb40c5",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Choose which menus appear and arrange the app for daily work.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "cd3c43abcab8761399a72a579879089b58e5fd0c84c27b33a3b91dc2f3d69267",
+      "sha256": "4f7778640531d783e85022338fbbcd46f5a61820b6dec6f39ce5ae0b05fdc1eb",
       "width": 960,
       "height": 1920
     },
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "89f6b134f37dba022cb6c64f3e342535fc1082d86938508a80c476ca54dedbba",
-    "docs/USER_GUIDE.md": "27d2a232a8fefc900a1cb823ff9a9a12809402b9f63797a38c7f71b52a24ce3a",
-    "docs/FEATURES.md": "130c3d94166fcb032f784e64ae648cade03c27877bbf19374a34629432b78865",
-    "docs/LATEST_CHANGES.md": "6cba81a4d5706a6e72d00a55ab3dc2900dddd5bad66d17977de401ac3a21c732"
+    "README.md": "1c4a9639771cb7d218184cfbbe037b23597644a13b11a2be0b8a4341336cf846",
+    "docs/USER_GUIDE.md": "3f333c5debc8b80f90fb86e06beff8ca443dbd8d4c6790316910d7222657c27b",
+    "docs/FEATURES.md": "beaa8516d3fcbc8cb83e2a02de32fd9c199f36ef4cd2ee03676c45b0bb467995",
+    "docs/LATEST_CHANGES.md": "cfcaf7b16acbcd77d7ee06c02369d0a8e4ad797b40f5ac61966d43332faaed9f"
   }
 }

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-25.**
+**Screens captured for desktop 1.4.15 and Android 1.4.15 · 2026-10-26.**
 
 | Feature | Desktop | Android |
 | --- | --- | --- |
