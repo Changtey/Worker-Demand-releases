@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Current source preview · 2026-10-27.** Desktop source 1.4.18; Android source 1.4.18. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
+**Screens captured for desktop 1.4.19 and Android 1.4.19 · 2026-10-27.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -29,14 +29,17 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 **The app may be slow at first. Saved records make later work faster.** The first download reads and checks the records for your chosen areas. As you use the same areas, the app reuses saved records, so later work is usually faster. New areas and slow portal pages can still take time. Keep the app open while the progress bar moves.
 
+During active signed-in worker downloads, the app occasionally reads the portal menu to help keep the connection active. It does not reload your working form. Slow report pages get more time to finish. If the portal asks you to sign in again, complete that check yourself. Earlier downloaded records are kept, and unfinished reads can continue after sign-in. A separate Muster Roll Security Code still needs your own answer.
+
 1. Sign in to the app with your own Google account. **Browser** always opens first.
 2. On the **Login area** page, choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. Setup shows one page at a time. The official portal gets the full workspace during sign-in. The app keeps these choices in **Settings → Portal login**, separately for each app account on this computer. Use **Change login area** when needed.
 3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Login area form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
 4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and download**. These are your work choices; saving them does not grant government portal access.
-5. On **Download records**, wait for **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and the required Muster Roll source reports. The screen shows checked counts and whether the download is working, waiting, paused or needs attention. Open **Reports that need attention** for the reason. A portal total that does not match its list stays unfinished. Missing reports, a lost sign-in or an unfinished Security Code keep setup open. Choose **Retry missing data** to retry missing checks now, including days-worked checks. Completed records are reused.
-6. Choose **Continue to Browser** after every required download finishes. This first setup is saved. You do not select the same areas again each time you open the app.
+5. On **Download records**, wait for the required worker records to reach **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS and Aadhaar availability. Muster Roll source reports download separately in the background. They do not hold up your Work Demand work. The screen shows checked counts and whether the worker reader is working, waiting, paused or needs attention. Open **Reports that need attention** for the reason. Choose **Retry missing data** to retry missing checks now, including days-worked checks. Completed records are reused.
+6. Open **Worker download details** to see the report area and new pages read. An older browsing choice outside your saved work areas cannot hold up their worker downloads. Use **Open report window** when a Muster Roll page needs a check. If the portal is waiting for an Aadhaar answer, the app saves **Needs an Aadhaar answer on portal**. The record counts as checked. That worker still needs a confirmed answer before Work Demand approval. Unread or unclear pages remain unfinished.
+7. Choose **Continue to Browser** after the required worker records are checked. Scheduled repeat checks for already read workers and Muster Roll downloads continue while you work. A separate report Security Code or different report totals do not block this step. Missing, changed or outdated records still need a read. The **Notifications** bell links to **Muster Roll Reports** when those reports are unfinished. This first setup is saved. You do not select the same areas again each time you open the app.
 
-If the percentage stops changing, open **Reports that need attention**. The list names the Villages and checks that are still missing. After a worker read, it explains whether a Yes or No answer could not be read, worker details did not match, a Job Card was missing from the portal list, or a member list did not load. Keep the app open and signed in while retrying. An unavailable answer stays unknown; a retry cannot invent it. If a Muster Roll summary total disagrees with its list, the app still saves reports that pass their own checks. Both totals remain visible and setup stays unfinished until the disagreement is resolved.
+If the percentage stops changing, open **Reports that need attention**. The list names the Villages and checks that are still missing. After a worker read, it explains whether a Yes or No answer could not be read, worker details did not match, a Job Card was missing from the portal list, or a member list did not load. Keep the app open and signed in while retrying. An unavailable answer stays unknown; a retry cannot invent it. If a Muster Roll summary total disagrees with its list, the app still saves reports that pass their own checks. Both totals remain visible. The affected report stays unfinished until it is checked; other work can continue.
 
 Change your selections later through **Settings → Portal login → Change my work areas**. You can add or remove areas while keeping at least one working area. The new selections download in the background, and existing saved records are kept.
 
@@ -64,16 +67,16 @@ The sidebar shows a short explanation under each tool. **Work Demand Management*
 
 Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.18**, Android **1.4.18**.
+Published downloads: desktop **1.4.19**, Android **1.4.19**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/Worker-Demand-1.4.18.apk) |
+| Windows 64-bit | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/Worker-Demand-1.4.19.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.18).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.19).
 
 ### Find the next task
 

@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.18**, Android **1.4.18**.
+Published downloads: desktop **1.4.19**, Android **1.4.19**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/Worker-Demand-1.4.18.apk) |
+| Windows 64-bit | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/Worker-Demand-1.4.19.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.18).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.19).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -62,7 +62,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Current source preview · 2026-10-27.** Desktop source 1.4.18; Android source 1.4.18. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
+**Screens captured for desktop 1.4.19 and Android 1.4.19 · 2026-10-27.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -106,6 +106,10 @@ In **Work Demand Management**, use **Your work** to find unfinished requests and
 
 From Windows version 1.4.18, choose **Update now** once to download, check, install and reopen the updated app. Saved records and login details are kept. Install this version once to receive the improved updater; older installed versions still use their earlier update steps. Linux and Android keep their normal installation steps.
 
+Active worker downloads use occasional portal-menu reads to help keep the connection active. Slow report pages get more time. If the portal requires sign-in again, your completed records are kept while you sign in personally.
+
+You can start work after your selected areas' worker and workday records are checked. Muster Roll source reports continue in the background. The Notifications bell links to unfinished reports. Pending Aadhaar questions stay clearly marked and do not become approved answers.
+
 ### Try one request
 
 **On Android:** Choose workers → enter the days → press **Apply Days to All** if everyone needs the same number → **Continue** → review → **Submit request**.
@@ -124,52 +128,19 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 
 ## Current changes
 
-**27 October 2026 source improvements**
-
-- Setup uses one guided workspace: **Login area → Sign in → Work areas → Download records**. The official portal gets the full workspace during sign-in.
-- Downloads show checked counts and distinguish working, waiting, paused and stopped readers. Report problems show their reason. **Retry missing data** includes unfinished days-worked checks and keeps completed records.
-- A clear first-use message explains that later work is usually faster through saved records. Settings, selected areas and downloaded records stay through normal app updates.
-
 **26 October 2026 — Balance charging enabled online**
 
 Work Demand charging was turned on after the app publication. Browser automation now needs 1 available Balance before entry starts. It reserves that amount and deducts it after the saved Work Demand is confirmed. Zero available Balance blocks new runs and unfunded retries, including older unfinished free requests. Recharge opens with the current work kept. Failed runs release their reservation. Repeated starts and completion replies do not charge twice. Completed free work keeps its original price.
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.18**
+**Published 1.4.19**
 
-- On Windows, choose **Update now** once. The update downloads and is checked, installation starts automatically, and the updated app opens when installation finishes. Saved records, drafts and login details are kept. The installer uses the existing Windows account and installation folder.
-- A fresh download finishes writing and closes its file before the installer starts. Incomplete, changed and oversized files cannot be installed. The signed update notice and file checks are kept.
-- Closing an update progress window during startup no longer quits the app before its recovery choice can finish. A failed download or installer start offers **Try again** in the same visit. A checked download can be reused. Optional updates still allow **Open current app**; required updates keep their existing rule.
-- The update screen explains that installation and reopening happen automatically. It does not claim installation is complete merely because the installer has started.
-- **Existing older versions need this update installed once.** The earlier updater controls that first transition. Automatic installation and reopening apply to updates started from version 1.4.18 or later. Windows security checks remain in place.
-- The combined desktop update also includes the latest login setup screens: choose a default login area, open its official page, sign in personally and then choose work areas. The first-use message explains why the first download can be slow and why reusing saved records makes later work faster. Each new setup step…
-
-**25 October 2026 source improvements**
-
-- **My Android access** groups the login code and working areas separately, with extra options and help folded away until needed.
-- **Edit and resend** is prepared for stopped requests and requires the online request update before use. Saved demands stay protected and unclear results must be checked first.
-- **Choose my own login code** opens a short form near the current code, keeps selected areas and accepts a 4 to 16 digit number, letters or symbols.
-- **Send to Browser again** reopens the complete checked worker list after an error or stop, while keeping saved results and the original days and dates.
-- **My Android access** lets you choose your own login code or generate one. Existing account, assigned-area and duplicate-code checks remain in place.
-
-**24 October 2026 source improvements**
-
-- **Your work** shows unfinished requests, selected-area priority and the last entry needing attention.
-- **Check problems** explains app, saved-record, area, portal sign-in and request-list issues without sending a demand.
-- **Record backups** keeps checked daily and manual local copies and tests recovery separately.
-- Release checks now include the complete saved-record and workflow checks, desktop checks and Android checks.
-
-**23 October 2026 source improvements**
-
-- One **Work Demand Management** menu for **Android requests** and **Manual entry**, sharing worker checks and portal entry.
-- Incoming Android requests prepare their own area records automatically. Recent records are reused; progress and missing portal access are shown on the request.
-- Switching source keeps the current drafts. The last source and received-request filters are remembered.
-- Both sources use **Check demand → Submit to VBGRAMG → Allocation verification**. Allocation waits until entry finishes; pending final Submit and uncertain entries stay held.
-- Request screens show the current entry state and **Open entry progress** returns to Browser controls.
-- Repeated Send keeps the current portal page when every worker has an earlier entry record; the saved-list check is a separate choice.
-- Compact worker filters and nearby search, list and send controls.
-- Safer area matching for received Android requests, using the full area path.
-- A new illustrated guide and 15 current app previews.
+- During active signed-in worker downloads, the desktop app occasionally reads the same portal&#x27;s normal menu using its existing browser connection. The operator&#x27;s working form stays in place. Pauses, personal form entry, closing the app, account changes and sign-out stop these reads.
+- Report pages get more time to finish. An expired report login is shown as a sign-in requirement. Completed records remain saved, and unfinished reads can resume after personal sign-in.
+- Normal menu addresses under the portal&#x27;s Programme Officer folder can be remembered for reopening. Entry, submission, logout and temporary action addresses remain excluded.
+- The latest setup screen shows progress counts, missing answers and report problems. Retry keeps completed records. Missing Aadhaar answers and different report totals cannot be marked complete merely to open the app.
+- An older browsing choice outside the user&#x27;s saved work areas no longer blocks unfinished worker downloads for those areas. The browsing choice is kept. Worker download details show the report area and page count, and the separate report window remains available when a report needs attention.
+- Some workers&#x27; Work Demand pages offer empty, editable Aadhaar Yes/No choices. These are saved as **Needs an Aadhaar answer on portal**, separately from Yes, No and an unread page. Their matching records count as checked, with a clear warning. Work Demand approval stays blocked for these workers, and their answers…
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

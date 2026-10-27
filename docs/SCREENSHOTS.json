@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-27T08:15:29.801417+00:00",
-  "mode": "source-preview",
+  "captured_at": "2026-10-27T13:26:44.744350+00:00",
+  "mode": "release",
   "source_versions": {
-    "desktop": "1.4.18",
-    "android": "1.4.18"
+    "desktop": "1.4.19",
+    "android": "1.4.19"
   },
   "published_versions": {
-    "desktop": "1.4.18",
-    "android": "1.4.18"
+    "desktop": "1.4.19",
+    "android": "1.4.19"
   },
-  "published_notes_sha256": "2c2107e30db9a360605178228c916ffb0d1a851ab7915b75c7f7cd0581ed472e",
-  "source_fingerprint": "3e0f16955bf26eec92b36723226eedcb7135d3c897e0f97cbe3875c06d4fe54c",
+  "published_notes_sha256": "97b847b693d50ee9ecdcb3f2bb5d51edd017e1ea82c1f1deb722e6034e99122e",
+  "source_fingerprint": "ae350655b6c6320a5615ee0a010929b961142067600830162c70fd58164f8549",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "3177cceb4d45c71ebf2a297d6dcc7fbf8705f4f39c1fdd6fcb76bf7fffab913b",
+      "sha256": "d16ee692fe84c5907b11235e7e00f6f6125ee1aa4f0bdc7839e40ed7b344f892",
       "width": 960,
       "height": 2400
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "581c6f7b2cc275e3373ed764b1fd7758b02a1d57f09978cb8fef79408e1a5b6e",
+      "sha256": "3ece8d4489d77fefa56bb858bce646c1680ea3c4737a91468f15d50c398f6adb",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "5f7ae1b3c576cb148bcb74feeb80d1babf1607ca51223fabeed7d3a73f28c6a2",
+      "sha256": "61a177e1870ece8c0cd99c59ec6500ec7c2ffeadaf50f39d7c83c826353a2bc2",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Windows version 1.4.18 adds one-click download, file checking, installation and reopening. Install this version once to receive the improved updater. This narrow desktop preview uses example versions and display-only progress; it does not show an update on a real office account.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "b1d7717ccbf362206728528bd28e041119418c934cfbf815cd5d7cf3f999bf9e",
+      "sha256": "3b97fcabe502d1186f9ba68ac2f208a16786b113ebf1fb18a1b22b65a81f9abd",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out of the phone.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "227b5d63512559e422615207f537eefae3859b8b2b942874a701fc2117020bb8",
+      "sha256": "a4e89dd9f0c51aa44a71209c09f533160c97c138d0023d895eeb0806745e904a",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "3a391f43f054af8bcfc2ca65f6c6f2532607168c822c8173122505b43cc09567",
-    "docs/USER_GUIDE.md": "c5b9786d43bf25c704fb3fbfc295183a860163858e70b9656d266340ab16bc19",
-    "docs/FEATURES.md": "e8f1760173dc8d95bb76a221b99e2b9de38adfbb0c88b7fd06f073d20bb2e5a5",
-    "docs/LATEST_CHANGES.md": "4b4ffea80c9cb77a995f2a7383e73326197e6c7391112deb180a18e38f01a4ff"
+    "README.md": "b31870d601791282037bf79336508d29eaff3e87ace1f877712ff1d238065904",
+    "docs/USER_GUIDE.md": "0f230e8765fc7529543768c805fafc923d5d3c4323e2c1056bfc3a030b6ef8c8",
+    "docs/FEATURES.md": "b6a6afb410615cc1b7e017a46fd40f0513129820e31c9d142f879a993f7d4eee",
+    "docs/LATEST_CHANGES.md": "5e393d368638d9777c43fac85b7336039b66453fd2a02d8e5f1d499df67dead0"
   }
 }
