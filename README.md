@@ -62,7 +62,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
+**Current source preview · 2026-10-27.** Desktop source 1.4.18; Android source 1.4.18. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -73,7 +73,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>03. Secretary access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/03-secretary-access.png"><img src="docs/screenshots/03-secretary-access.png" width="260" alt="Desktop preview: 03. Secretary access"></a><br>Assign a Panchayat or Village and create a Secretary login code.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>Browser opens first. Save your own State, Financial Year, District and Block, then sign in yourself. Next, save assigned areas and finish the required download. This is a narrow desktop preview with fictional choices; the official website is not pictured.</td>
+<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>One guided page at a time: Login area, Sign in, Work areas and Download records. The official portal gets the full workspace during sign-in. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.</td>
 <td width="33%" valign="top"><b>05. Review a phone request</b><br><sub>Android</sub><br><a href="docs/screenshots/05-android-work-demand.png"><img src="docs/screenshots/05-android-work-demand.png" width="260" alt="Android: 05. Review a phone request"></a><br>Review workers and their own requested days before sending to the DEO.</td>
 <td width="33%" valign="top"><b>06. Secretary request history</b><br><sub>Android</sub><br><a href="docs/screenshots/06-secretary-work-demand.png"><img src="docs/screenshots/06-secretary-work-demand.png" width="260" alt="Android: 06. Secretary request history"></a><br>Find requests and follow the status returned by the office.</td>
 </tr>
@@ -124,6 +124,12 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 
 ## Current changes
 
+**27 October 2026 source improvements**
+
+- Setup uses one guided workspace: **Login area → Sign in → Work areas → Download records**. The official portal gets the full workspace during sign-in.
+- Downloads show checked counts and distinguish working, waiting, paused and stopped readers. Report problems show their reason. **Retry missing data** includes unfinished days-worked checks and keeps completed records.
+- A clear first-use message explains that later work is usually faster through saved records. Settings, selected areas and downloaded records stay through normal app updates.
+
 **26 October 2026 — Balance charging enabled online**
 
 Work Demand charging was turned on after the app publication. Browser automation now needs 1 available Balance before entry starts. It reserves that amount and deducts it after the saved Work Demand is confirmed. Zero available Balance blocks new runs and unfunded retries, including older unfinished free requests. Recharge opens with the current work kept. Failed runs release their reservation. Repeated starts and completion replies do not charge twice. Completed free work keeps its original price.
@@ -138,5 +144,32 @@ This online service update applies to the existing app downloads. The recharge p
 - The update screen explains that installation and reopening happen automatically. It does not claim installation is complete merely because the installer has started.
 - **Existing older versions need this update installed once.** The earlier updater controls that first transition. Automatic installation and reopening apply to updates started from version 1.4.18 or later. Windows security checks remain in place.
 - The combined desktop update also includes the latest login setup screens: choose a default login area, open its official page, sign in personally and then choose work areas. The first-use message explains why the first download can be slow and why reusing saved records makes later work faster. Each new setup step…
+
+**25 October 2026 source improvements**
+
+- **My Android access** groups the login code and working areas separately, with extra options and help folded away until needed.
+- **Edit and resend** is prepared for stopped requests and requires the online request update before use. Saved demands stay protected and unclear results must be checked first.
+- **Choose my own login code** opens a short form near the current code, keeps selected areas and accepts a 4 to 16 digit number, letters or symbols.
+- **Send to Browser again** reopens the complete checked worker list after an error or stop, while keeping saved results and the original days and dates.
+- **My Android access** lets you choose your own login code or generate one. Existing account, assigned-area and duplicate-code checks remain in place.
+
+**24 October 2026 source improvements**
+
+- **Your work** shows unfinished requests, selected-area priority and the last entry needing attention.
+- **Check problems** explains app, saved-record, area, portal sign-in and request-list issues without sending a demand.
+- **Record backups** keeps checked daily and manual local copies and tests recovery separately.
+- Release checks now include the complete saved-record and workflow checks, desktop checks and Android checks.
+
+**23 October 2026 source improvements**
+
+- One **Work Demand Management** menu for **Android requests** and **Manual entry**, sharing worker checks and portal entry.
+- Incoming Android requests prepare their own area records automatically. Recent records are reused; progress and missing portal access are shown on the request.
+- Switching source keeps the current drafts. The last source and received-request filters are remembered.
+- Both sources use **Check demand → Submit to VBGRAMG → Allocation verification**. Allocation waits until entry finishes; pending final Submit and uncertain entries stay held.
+- Request screens show the current entry state and **Open entry progress** returns to Browser controls.
+- Repeated Send keeps the current portal page when every worker has an earlier entry record; the saved-list check is a separate choice.
+- Compact worker filters and nearby search, list and send controls.
+- Safer area matching for received Android requests, using the full area path.
+- A new illustrated guide and 15 current app previews.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

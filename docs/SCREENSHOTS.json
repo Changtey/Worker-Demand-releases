@@ -1,7 +1,7 @@
 {
   "format": 1,
-  "captured_at": "2026-10-27T08:03:22.485158+00:00",
-  "mode": "release",
+  "captured_at": "2026-10-27T08:15:29.801417+00:00",
+  "mode": "source-preview",
   "source_versions": {
     "desktop": "1.4.18",
     "android": "1.4.18"
@@ -11,7 +11,7 @@
     "android": "1.4.18"
   },
   "published_notes_sha256": "2c2107e30db9a360605178228c916ffb0d1a851ab7915b75c7f7cd0581ed472e",
-  "source_fingerprint": "5221aaa18452885cde3a9123bec40dcc01c985f3d9bae9fe4069ad56531a0996",
+  "source_fingerprint": "3e0f16955bf26eec92b36723226eedcb7135d3c897e0f97cbe3875c06d4fe54c",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "5bd9149edd4f561f761240d37ebcfa94c928bca3b56d8ee71d7c0c97aa4b9c5e",
+      "sha256": "3177cceb4d45c71ebf2a297d6dcc7fbf8705f4f39c1fdd6fcb76bf7fffab913b",
       "width": 960,
       "height": 2400
     },
@@ -50,9 +50,9 @@
       "file": "04-integrated-browser.png",
       "title": "First setup and your login page",
       "app": "Desktop preview",
-      "caption": "Browser opens first. Save your own State, Financial Year, District and Block, then sign in yourself. Next, save assigned areas and finish the required download. This is a narrow desktop preview with fictional choices; the official website is not pictured.",
+      "caption": "One guided page at a time: Login area, Sign in, Work areas and Download records. The official portal gets the full workspace during sign-in. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "20bf32744806e08630e5eaab30e0d9b437ef669e291fb914cd90f496bb44e8ea",
+      "sha256": "e0b688e8a6020f70e9b85954082d83a9ee4e867d6af5b5fb7ca620611968561e",
       "width": 960,
       "height": 1920
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "34e45d98c9fbb92bb6f2d30bb6ec96706168cdcc0851eb2ec8eae180c3cd6ecb",
+      "sha256": "581c6f7b2cc275e3373ed764b1fd7758b02a1d57f09978cb8fef79408e1a5b6e",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "caf7c834e0b4fc19707a8041b0938e1ba588b4e191d4c40977e7fe6fa1789faf",
+      "sha256": "5f7ae1b3c576cb148bcb74feeb80d1babf1607ca51223fabeed7d3a73f28c6a2",
       "width": 960,
       "height": 1920
     },
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "459b21bf087e4e05dbc88fba737c17ebc42b74b65b078c7f33a86a634b108279",
-    "docs/USER_GUIDE.md": "2e5f2e1c8bc82e9ab05e23c638dfdbafbadec5a0bb983e841ca8289e316be61b",
-    "docs/FEATURES.md": "34ae0dca4b0b205cf914932cd575754f7f2a048ed4ff46403f51d5b85d83f4d3",
-    "docs/LATEST_CHANGES.md": "64364ea704b967004e23bc91b7dfa18005dfdaa2e68caaffdb43a68ad472ed21"
+    "README.md": "3a391f43f054af8bcfc2ca65f6c6f2532607168c822c8173122505b43cc09567",
+    "docs/USER_GUIDE.md": "c5b9786d43bf25c704fb3fbfc295183a860163858e70b9656d266340ab16bc19",
+    "docs/FEATURES.md": "e8f1760173dc8d95bb76a221b99e2b9de38adfbb0c88b7fd06f073d20bb2e5a5",
+    "docs/LATEST_CHANGES.md": "4b4ffea80c9cb77a995f2a7383e73326197e6c7391112deb180a18e38f01a4ff"
   }
 }

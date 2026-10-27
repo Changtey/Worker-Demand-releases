@@ -2,17 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
+**Current source preview · 2026-10-27.** Desktop source 1.4.18; Android source 1.4.18. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 ## First setup and daily records
 
 - **Browser opens first:** an old starting-screen choice cannot send the app to another tool.
-- **Personal default login page:** choose your State, Financial Year, District and Block in the compact **Default login** tab. **Save and open login page** applies those choices in Browser and moves to **Sign in**. Enter the official User ID, password and CAPTCHA yourself.
-- **Secure saving after sign-in:** choose to save the login pair on the Default login form. The original User ID and password are saved securely only after a confirmed sign-in. Failed logins keep the earlier saved pair. CAPTCHA is never saved. Save, Update and Login details remain available in Browser.
+- **One guided workspace:** Login area → Sign in → Work areas → Download records. Each step uses one page. During sign-in, the official portal gets the full workspace with a small step heading.
+- **Personal default login page:** choose your State, Financial Year, District and Block on **Login area**. **Save and open login page** applies those choices in Browser and moves to **Sign in**. Enter the official User ID, password and CAPTCHA yourself.
+- **Secure saving after sign-in:** choose to save the login pair on the Login area form. The original User ID and password are saved securely only after a confirmed sign-in. Failed logins keep the earlier saved pair. CAPTCHA is never saved. Save, Update and Login details remain available in Browser.
 - **One-time work-area selection:** save the Panchayats or Villages assigned to your data entry work under your own app account. Add or remove places later in Settings.
-- **Required first download:** the other tools open after the selected areas' required worker, workday and Muster Roll source records are checked. A percentage bar shows completion. Failed or unfinished reports never count as complete.
+- **Required first download:** the other tools open after the selected areas' required worker, workday and Muster Roll source records are checked. A percentage bar and checked counts show progress. Waiting, paused and stopped readers show their state and reason. Retry includes unfinished days-worked checks and keeps completed records. Failed or unfinished reports never count as complete.
 - **Clear first-use message:** setup explains that the app may be slow at first while it reads and checks records. Later work is usually faster because the same area's saved records are reused. New areas and slow portal pages can still take time.
+- **Reasons for stopped progress:** missing worker checks name their Village. Worker reads explain unreadable Yes or No answers, unmatched worker details, missing Job Cards and member lists that did not load. A disagreeing Muster Roll summary keeps its warning while checked source reports are saved and reused on retry.
 - **Daily background updates:** saved working areas keep updating while the app is open and connected. A completed first setup is kept during later background updates.
+- **Keep saved work during updates:** settings, selected areas, downloaded records, drafts and securely saved login details stay outside installation files. Normal app updates retain them and do not repeat completed first setup.
 - **Windows app updates:** from version 1.4.18, one **Update now** choice downloads and checks the file, starts installation and opens the updated app after installation. A failed download or start can be tried again without reopening the app. Earlier versions need version 1.4.18 installed once to receive this updater.
 - **Reuse completed worker checks:** eKYC, ABPS and Aadhaar Availability can reuse matching saved positive proof for the same worker and Job Card. Missing or unverified answers are retried. A changed identity or an explicit new-check request still needs a new read.
 

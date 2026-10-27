@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
+**Current source preview · 2026-10-27.** Desktop source 1.4.18; Android source 1.4.18. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -30,11 +30,13 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 **The app may be slow at first. Saved records make later work faster.** The first download reads and checks the records for your chosen areas. As you use the same areas, the app reuses saved records, so later work is usually faster. New areas and slow portal pages can still take time. Keep the app open while the progress bar moves.
 
 1. Sign in to the app with your own Google account. **Browser** always opens first.
-2. In **Default login**, choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. The form closes to give the portal more room. The app keeps these choices in **Settings → Portal login**, separately for each app account on this computer. Use **Change login area** when needed.
-3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Default login form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
+2. On the **Login area** page, choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. Setup shows one page at a time. The official portal gets the full workspace during sign-in. The app keeps these choices in **Settings → Portal login**, separately for each app account on this computer. Use **Change login area** when needed.
+3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Login area form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
 4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and download**. These are your work choices; saving them does not grant government portal access.
-5. Wait for **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and the required Muster Roll source reports. Missing reports, a lost sign-in or an unfinished Security Code keep setup open. Follow the message and choose **Retry missing data** when needed.
+5. On **Download records**, wait for **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and the required Muster Roll source reports. The screen shows checked counts and whether the download is working, waiting, paused or needs attention. Open **Reports that need attention** for the reason. A portal total that does not match its list stays unfinished. Missing reports, a lost sign-in or an unfinished Security Code keep setup open. Choose **Retry missing data** to retry missing checks now, including days-worked checks. Completed records are reused.
 6. Choose **Continue to Browser** after every required download finishes. This first setup is saved. You do not select the same areas again each time you open the app.
+
+If the percentage stops changing, open **Reports that need attention**. The list names the Villages and checks that are still missing. After a worker read, it explains whether a Yes or No answer could not be read, worker details did not match, a Job Card was missing from the portal list, or a member list did not load. Keep the app open and signed in while retrying. An unavailable answer stays unknown; a retry cannot invent it. If a Muster Roll summary total disagrees with its list, the app still saves reports that pass their own checks. Both totals remain visible and setup stays unfinished until the disagreement is resolved.
 
 Change your selections later through **Settings → Portal login → Change my work areas**. You can add or remove areas while keeping at least one working area. The new selections download in the background, and existing saved records are kept.
 
@@ -44,7 +46,7 @@ Source-report downloads do not submit a Work Demand or generate a paid PDF copy.
 
 ### Update the Windows app
 
-Choose **Update now** once. The app downloads and checks the file, closes for installation, and opens the updated app when installation finishes. Your saved records, drafts and login details are kept. If Windows asks for permission, read the request and allow your app's installer to continue. Do not turn off Windows protection.
+Choose **Update now** once. The app downloads and checks the file, closes for installation, and opens the updated app when installation finishes. Your settings, selected areas, downloaded records, drafts and securely saved login details are kept. A normal update does not repeat completed first setup or download everything again. Reports that need a daily update are checked as usual. If Windows asks for permission, read the request and allow your app's installer to continue. Do not turn off Windows protection.
 
 If the download or installer cannot start, choose **Try again** in the same visit. The app reuses a downloaded file only after checking it again. **Open current app** remains available for an optional update. A required update must finish before the old app can be used.
 
