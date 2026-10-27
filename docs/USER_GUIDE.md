@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
+**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -27,9 +27,11 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 ### First setup for your app account
 
+**The app may be slow at first. Saved records make later work faster.** The first download reads and checks the records for your chosen areas. As you use the same areas, the app reuses saved records, so later work is usually faster. New areas and slow portal pages can still take time. Keep the app open while the progress bar moves.
+
 1. Sign in to the app with your own Google account. **Browser** always opens first.
-2. Choose your own State, Financial Year, District and Block under **Set my default login page**. Choose **Save and open login area**. These choices are kept in **Settings → Portal login**, separately for each app account on this computer.
-3. On the official VBGRAMG page, enter your User ID, Password and Security Code, then choose Login yourself. Use the Browser's Save or Update control if you want to save the User ID and Password securely. The Security Code is never saved.
+2. In **Default login**, choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. The form closes to give the portal more room. The app keeps these choices in **Settings → Portal login**, separately for each app account on this computer. Use **Change login area** when needed.
+3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Default login form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
 4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and download**. These are your work choices; saving them does not grant government portal access.
 5. Wait for **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and the required Muster Roll source reports. Missing reports, a lost sign-in or an unfinished Security Code keep setup open. Follow the message and choose **Retry missing data** when needed.
 6. Choose **Continue to Browser** after every required download finishes. This first setup is saved. You do not select the same areas again each time you open the app.
@@ -39,6 +41,14 @@ Change your selections later through **Settings → Portal login → Change my w
 While the desktop app is open and connected, your saved working areas update daily in the background. Worker days and Muster Roll source reports keep updating after first setup. Completed eKYC, ABPS and Aadhaar Availability answers can be reused when their saved proof matches the same worker and Job Card. Old answers without a matching worker record, changed identities, missing answers and unverified workers still need checks. A deliberate **Update worker checks** can request a new read. Reusing an answer keeps its original check date; it is not a new live check.
 
 Source-report downloads do not submit a Work Demand or generate a paid PDF copy. PDF saving and printing keep their existing separate confirmation and Balance rules.
+
+### Update the Windows app
+
+Choose **Update now** once. The app downloads and checks the file, closes for installation, and opens the updated app when installation finishes. Your saved records, drafts and login details are kept. If Windows asks for permission, read the request and allow your app's installer to continue. Do not turn off Windows protection.
+
+If the download or installer cannot start, choose **Try again** in the same visit. The app reuses a downloaded file only after checking it again. **Open current app** remains available for an optional update. A required update must finish before the old app can be used.
+
+**For older installed versions:** Install version 1.4.18 once to receive this improved updater. An older app still controls its own update steps until it is replaced. Linux and Android keep their normal device installation steps.
 
 ### Daily use
 
@@ -52,16 +62,16 @@ The sidebar shows a short explanation under each tool. **Work Demand Management*
 
 Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.17**, Android **1.4.17**.
+Published downloads: desktop **1.4.18**, Android **1.4.18**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
+| Windows 64-bit | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/Worker-Demand-1.4.18.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.18).
 
 ### Find the next task
 

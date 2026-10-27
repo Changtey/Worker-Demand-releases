@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
+**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.17**, Android **1.4.17**.
+Published downloads: desktop **1.4.18**, Android **1.4.18**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
+| Windows 64-bit | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/Worker-Demand-1.4.18.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.18).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -27,14 +27,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.17**
+**Published 1.4.18**
 
-- Desktop always opens **Browser** first, including when an older saved choice named another starting screen.
-- On first setup, the user selects their own State, Financial Year, District and Block, saves their default login page, and signs in to VBGRAMG personally. The login area is kept under that app account and is available in **Settings → Portal login**. Password storage still requires the existing Browser Save or Update…
-- The user chooses the Panchayats or Villages assigned to their data entry work and selects **Save areas and download**. Choices are kept separately for each app account on the computer. Saving a choice does not grant government portal permissions.
-- Other tools stay unavailable until the first required download reaches **100%** and the user chooses **Continue to Browser**. Checks cover the selected areas&#x27; Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and Muster Roll source reports. Partial…
-- First setup is kept after reopening. **Settings → Portal login → Change my work areas** allows later additions and removals while keeping at least one assigned work area. Existing saved records are retained.
-- While the desktop app is open and connected, the user&#x27;s saved areas continue updating daily in the background. Workdays and Muster Roll source reports keep updating after first setup. Finished first setup is not repeated merely because a later daily update is due.
+- On Windows, choose **Update now** once. The update downloads and is checked, installation starts automatically, and the updated app opens when installation finishes. Saved records, drafts and login details are kept. The installer uses the existing Windows account and installation folder.
+- A fresh download finishes writing and closes its file before the installer starts. Incomplete, changed and oversized files cannot be installed. The signed update notice and file checks are kept.
+- Closing an update progress window during startup no longer quits the app before its recovery choice can finish. A failed download or installer start offers **Try again** in the same visit. A checked download can be reused. Optional updates still allow **Open current app**; required updates keep their existing rule.
+- The update screen explains that installation and reopening happen automatically. It does not claim installation is complete merely because the installer has started.
+- **Existing older versions need this update installed once.** The earlier updater controls that first transition. Automatic installation and reopening apply to updates started from version 1.4.18 or later. Windows security checks remain in place.
+- The combined desktop update also includes the latest login setup screens: choose a default login area, open its official page, sign in personally and then choose work areas. The first-use message explains why the first download can be slow and why reusing saved records makes later work faster. Each new setup step…
 
 These pictures were refreshed from the source used for this publication.
 

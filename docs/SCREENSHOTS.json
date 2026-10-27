@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-26T23:34:05.671181+00:00",
+  "captured_at": "2026-10-27T08:03:22.485158+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.17",
-    "android": "1.4.17"
+    "desktop": "1.4.18",
+    "android": "1.4.18"
   },
   "published_versions": {
-    "desktop": "1.4.17",
-    "android": "1.4.17"
+    "desktop": "1.4.18",
+    "android": "1.4.18"
   },
-  "published_notes_sha256": "2abedf03d99df538dcb8b2cc0d4067aa5f77ff7591962afff63c616132c075b0",
-  "source_fingerprint": "2b186df4d86cd2799d1e5e10724a4cbf20bc06b72cbb20e657bd1f01081dd8a6",
+  "published_notes_sha256": "2c2107e30db9a360605178228c916ffb0d1a851ab7915b75c7f7cd0581ed472e",
+  "source_fingerprint": "5221aaa18452885cde3a9123bec40dcc01c985f3d9bae9fe4069ad56531a0996",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "f40680e8fbab4d3ec8e9764f1be0246b602541f537ff7e90b9fd30602b733a8b",
+      "sha256": "5bd9149edd4f561f761240d37ebcfa94c928bca3b56d8ee71d7c0c97aa4b9c5e",
       "width": 960,
       "height": 2400
     },
@@ -52,7 +52,7 @@
       "app": "Desktop preview",
       "caption": "Browser opens first. Save your own State, Financial Year, District and Block, then sign in yourself. Next, save assigned areas and finish the required download. This is a narrow desktop preview with fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "683b74e556dd90a9bf9ab9260f12fce33e8503548b2d471bd4c89caa5cdf4db6",
+      "sha256": "20bf32744806e08630e5eaab30e0d9b437ef669e291fb914cd90f496bb44e8ea",
       "width": 960,
       "height": 1920
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "1ad4d4698a91b3b4cb252dd816a26832b18d73db4ea87a39d3cea12841233912",
+      "sha256": "34e45d98c9fbb92bb6f2d30bb6ec96706168cdcc0851eb2ec8eae180c3cd6ecb",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "2171b0703a421500f9debe5b18ede4c1e11d712df16e9f5319cdf9a9dd7de632",
+      "sha256": "caf7c834e0b4fc19707a8041b0938e1ba588b4e191d4c40977e7fe6fa1789faf",
       "width": 960,
       "height": 1920
     },
@@ -148,11 +148,11 @@
     },
     {
       "file": "14-settings.png",
-      "title": "Your menus",
+      "title": "Update and reopen automatically",
       "app": "Desktop preview",
-      "caption": "Choose which menus appear and arrange the app for daily work.",
+      "caption": "Windows version 1.4.18 adds one-click download, file checking, installation and reopening. Install this version once to receive the improved updater. This narrow desktop preview uses example versions and display-only progress; it does not show an update on a real office account.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "ad15513cc8cc14b58607e10f4427b5360c057d7dd0fa048d59b575c98893d829",
+      "sha256": "b1d7717ccbf362206728528bd28e041119418c934cfbf815cd5d7cf3f999bf9e",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out of the phone.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "5dafc339d532b6fe77af264b448294ed893e5f9896fff373f0c7a13fe7a3d492",
+      "sha256": "227b5d63512559e422615207f537eefae3859b8b2b942874a701fc2117020bb8",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "fe0a141f1159fc09f3b1ce72f154fa8f97232680c4c9831b00ef3a3dced04cd8",
-    "docs/USER_GUIDE.md": "302bac7bb49ef5dd9da9b1eb4d7402cc75e91cc40e87f14c4bf4cde1f09fc7f7",
-    "docs/FEATURES.md": "0520e456e398c941db768d8a46d40a82324edfbe493611b2ca25f2b487dd381f",
-    "docs/LATEST_CHANGES.md": "cdbe8f0c5aab89f8d3711c35afcaad756827dd34ecae216c69a752696129aca5"
+    "README.md": "459b21bf087e4e05dbc88fba737c17ebc42b74b65b078c7f33a86a634b108279",
+    "docs/USER_GUIDE.md": "2e5f2e1c8bc82e9ab05e23c638dfdbafbadec5a0bb983e841ca8289e316be61b",
+    "docs/FEATURES.md": "34ae0dca4b0b205cf914932cd575754f7f2a048ed4ff46403f51d5b85d83f4d3",
+    "docs/LATEST_CHANGES.md": "64364ea704b967004e23bc91b7dfa18005dfdaa2e68caaffdb43a68ad472ed21"
   }
 }

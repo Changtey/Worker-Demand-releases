@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.17**, Android **1.4.17**.
+Published downloads: desktop **1.4.18**, Android **1.4.18**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/VBGRAMG-DEO-Assistant-1.4.17-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.17](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.17/Worker-Demand-1.4.17.apk) |
+| Windows 64-bit | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/VBGRAMG-DEO-Assistant-1.4.18-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.18](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.18/Worker-Demand-1.4.18.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.17).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.18).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -62,7 +62,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
+**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -89,7 +89,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 </tr>
 <tr>
 <td width="33%" valign="top"><b>13. Muster Roll Reports</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/13-muster-reports.png"><img src="docs/screenshots/13-muster-reports.png" width="260" alt="Desktop preview: 13. Muster Roll Reports"></a><br>Choose Panchayats and Villages for the official attendance reports.</td>
-<td width="33%" valign="top"><b>14. Your menus</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Your menus"></a><br>Choose which menus appear and arrange the app for daily work.</td>
+<td width="33%" valign="top"><b>14. Update and reopen automatically</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Update and reopen automatically"></a><br>Windows version 1.4.18 adds one-click download, file checking, installation and reopening. Install this version once to receive the improved updater. This narrow desktop preview uses example versions and display-only progress; it does not show an update on a real office account.</td>
 <td width="33%" valign="top"><b>15. Your Android account</b><br><sub>Android</sub><br><a href="docs/screenshots/15-my-account.png"><img src="docs/screenshots/15-my-account.png" width="260" alt="Android: 15. Your Android account"></a><br>Check your role and assigned area, or sign out of the phone.</td>
 </tr>
 </table>
@@ -103,6 +103,8 @@ In **Work Demand Management**, use **Your work** to find unfinished requests and
 3. Use **Android Login Codes** for your personal Android access or a Secretary's assigned access. Share the code privately.
 4. In Android, enter the assigned code, choose workers, enter days and dates, review, then choose **Submit request**. The request goes to the office.
 5. In desktop, open **Work Demand Management**. Choose **Android requests** or **Manual entry**. Check the workers and resolve the reported issues before the next portal action.
+
+From Windows version 1.4.18, choose **Update now** once to download, check, install and reopen the updated app. Saved records and login details are kept. Install this version once to receive the improved updater; older installed versions still use their earlier update steps. Linux and Android keep their normal installation steps.
 
 ### Try one request
 
@@ -128,13 +130,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.17**
+**Published 1.4.18**
 
-- Desktop always opens **Browser** first, including when an older saved choice named another starting screen.
-- On first setup, the user selects their own State, Financial Year, District and Block, saves their default login page, and signs in to VBGRAMG personally. The login area is kept under that app account and is available in **Settings → Portal login**. Password storage still requires the existing Browser Save or Update…
-- The user chooses the Panchayats or Villages assigned to their data entry work and selects **Save areas and download**. Choices are kept separately for each app account on the computer. Saving a choice does not grant government portal permissions.
-- Other tools stay unavailable until the first required download reaches **100%** and the user chooses **Continue to Browser**. Checks cover the selected areas&#x27; Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS, Aadhaar availability and Muster Roll source reports. Partial…
-- First setup is kept after reopening. **Settings → Portal login → Change my work areas** allows later additions and removals while keeping at least one assigned work area. Existing saved records are retained.
-- While the desktop app is open and connected, the user&#x27;s saved areas continue updating daily in the background. Workdays and Muster Roll source reports keep updating after first setup. Finished first setup is not repeated merely because a later daily update is due.
+- On Windows, choose **Update now** once. The update downloads and is checked, installation starts automatically, and the updated app opens when installation finishes. Saved records, drafts and login details are kept. The installer uses the existing Windows account and installation folder.
+- A fresh download finishes writing and closes its file before the installer starts. Incomplete, changed and oversized files cannot be installed. The signed update notice and file checks are kept.
+- Closing an update progress window during startup no longer quits the app before its recovery choice can finish. A failed download or installer start offers **Try again** in the same visit. A checked download can be reused. Optional updates still allow **Open current app**; required updates keep their existing rule.
+- The update screen explains that installation and reopening happen automatically. It does not claim installation is complete merely because the installer has started.
+- **Existing older versions need this update installed once.** The earlier updater controls that first transition. Automatic installation and reopening apply to updates started from version 1.4.18 or later. Windows security checks remain in place.
+- The combined desktop update also includes the latest login setup screens: choose a default login area, open its official page, sign in personally and then choose work areas. The first-use message explains why the first download can be slow and why reusing saved records makes later work faster. Each new setup step…
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

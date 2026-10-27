@@ -2,15 +2,18 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.17 and Android 1.4.17 · 2026-10-27.**
+**Screens captured for desktop 1.4.18 and Android 1.4.18 · 2026-10-27.**
 
 ## First setup and daily records
 
 - **Browser opens first:** an old starting-screen choice cannot send the app to another tool.
-- **Personal default login page:** save your own State, Financial Year, District and Block in Settings. Enter the official User ID, Password and Security Code yourself.
+- **Personal default login page:** choose your State, Financial Year, District and Block in the compact **Default login** tab. **Save and open login page** applies those choices in Browser and moves to **Sign in**. Enter the official User ID, password and CAPTCHA yourself.
+- **Secure saving after sign-in:** choose to save the login pair on the Default login form. The original User ID and password are saved securely only after a confirmed sign-in. Failed logins keep the earlier saved pair. CAPTCHA is never saved. Save, Update and Login details remain available in Browser.
 - **One-time work-area selection:** save the Panchayats or Villages assigned to your data entry work under your own app account. Add or remove places later in Settings.
 - **Required first download:** the other tools open after the selected areas' required worker, workday and Muster Roll source records are checked. A percentage bar shows completion. Failed or unfinished reports never count as complete.
+- **Clear first-use message:** setup explains that the app may be slow at first while it reads and checks records. Later work is usually faster because the same area's saved records are reused. New areas and slow portal pages can still take time.
 - **Daily background updates:** saved working areas keep updating while the app is open and connected. A completed first setup is kept during later background updates.
+- **Windows app updates:** from version 1.4.18, one **Update now** choice downloads and checks the file, starts installation and opens the updated app after installation. A failed download or start can be tried again without reopening the app. Earlier versions need version 1.4.18 installed once to receive this updater.
 - **Reuse completed worker checks:** eKYC, ABPS and Aadhaar Availability can reuse matching saved positive proof for the same worker and Job Card. Missing or unverified answers are retried. A changed identity or an explicit new-check request still needs a new read.
 
 Saved selections do not change official permissions. Source downloads do not submit demands or create paid PDF copies.
