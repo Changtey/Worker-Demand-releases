@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.19 and Android 1.4.19 · 2026-10-27.**
+**Screens captured for desktop 1.4.20 and Android 1.4.20 · 2026-10-28.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -17,7 +17,7 @@ Videos for **version 1.4.15**, using fictional app examples.
 
 [Watch both videos on the download page](https://changtey.github.io/Worker-Demand-releases/#watch). The tutorial has 15 numbered steps, separate phone and computer sections, captions and buttons to repeat a lesson. It was refreshed on 26 October 2026.
 
-The tutorial covers Android requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
+The tutorial covers Received requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
 
 [Promo captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Promo.srt) · [Tutorial captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Tutorial-Simple-English-chapters.txt)
 
@@ -29,21 +29,23 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 **The app may be slow at first. Saved records make later work faster.** The first download reads and checks the records for your chosen areas. As you use the same areas, the app reuses saved records, so later work is usually faster. New areas and slow portal pages can still take time. Keep the app open while the progress bar moves.
 
+Days worked and Aadhaar Availability can come from the same Job Card page. Their checked counts may move at different times. The progress message names the check being read and shows the Job Card count for that area. Missing Aadhaar answers go before daily days-worked reads within the same area. A complete first member page is read once; any further pages must still finish. Use **Retry missing data** for unfinished records. In Settings, **Download Data** reuses current saved records; **Update Data** asks for new checks. An empty payment or attendance report does not prove zero days worked.
+
 During active signed-in worker downloads, the app occasionally reads the portal menu to help keep the connection active. It does not reload your working form. Slow report pages get more time to finish. If the portal asks you to sign in again, complete that check yourself. Earlier downloaded records are kept, and unfinished reads can continue after sign-in. A separate Muster Roll Security Code still needs your own answer.
 
-1. Sign in to the app with your own Google account. **Browser** always opens first.
+1. Sign in to the app with your own Google account. **First setup** opens on the first visit. After setup, **Work Demand** opens first.
 2. On the **Login area** page, choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. Setup shows one page at a time. The official portal gets the full workspace during sign-in. The app keeps these choices in **Settings → Portal login**, separately for each app account on this computer. Use **Change login area** when needed.
 3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Login area form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
-4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and download**. These are your work choices; saving them does not grant government portal access.
-5. On **Download records**, wait for the required worker records to reach **100% complete**. The app checks Job Cards, workers, work records, days worked, shared Job Card family days left, eKYC, ABPS and Aadhaar availability. Muster Roll source reports download separately in the background. They do not hold up your Work Demand work. The screen shows checked counts and whether the worker reader is working, waiting, paused or needs attention. Open **Reports that need attention** for the reason. Choose **Retry missing data** to retry missing checks now, including days-worked checks. Completed records are reused.
-6. Open **Worker download details** to see the report area and new pages read. An older browsing choice outside your saved work areas cannot hold up their worker downloads. Use **Open report window** when a Muster Roll page needs a check. If the portal is waiting for an Aadhaar answer, the app saves **Needs an Aadhaar answer on portal**. The record counts as checked. That worker still needs a confirmed answer before Work Demand approval. Unread or unclear pages remain unfinished.
-7. Choose **Continue to Browser** after the required worker records are checked. Scheduled repeat checks for already read workers and Muster Roll downloads continue while you work. A separate report Security Code or different report totals do not block this step. Missing, changed or outdated records still need a read. The **Notifications** bell links to **Muster Roll Reports** when those reports are unfinished. This first setup is saved. You do not select the same areas again each time you open the app.
+4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and continue**. These are your work choices; saving them does not grant government portal access.
+5. On **Download records**, tick the record types you want now, then choose **Download selected records**. You can choose Job Cards, workers and work records; days worked and shared Job Card family days left; eKYC; Aadhaar seeding; Aadhaar authentication; ABPS; Aadhaar Availability; and Muster Roll source reports. Use **Download later** or clear a tick to skip an item. Job Cards and workers must be saved before their other checks can finish. Some answers share one portal page and may be saved together.
+6. Open **Worker download details** to see the report area and new pages read. The Panchayat or Village you are currently working on gets the first turn, even outside your setup areas. Use **Open report window** when a Muster Roll page needs a check. If the portal is waiting for an Aadhaar answer, the app saves **Needs an Aadhaar answer on portal**. The record counts as checked. That worker still needs a confirmed answer before Work Demand approval. Unread or unclear pages remain unfinished.
+7. Choose **Continue to Work Demand** after your selected worker downloads finish. To start using the app sooner, choose **Skip remaining and continue**. Completed downloads stay saved. Deferred items say **Waiting for idle** after you continue, with saved checked counts kept visible. Remaining records, including Muster Roll source reports, download in the background when the app is idle. Missing records remain unchecked, and Work Demand approval still needs its required checks. Setup and your download choices are saved for your app account.
 
 If the percentage stops changing, open **Reports that need attention**. The list names the Villages and checks that are still missing. After a worker read, it explains whether a Yes or No answer could not be read, worker details did not match, a Job Card was missing from the portal list, or a member list did not load. Keep the app open and signed in while retrying. An unavailable answer stays unknown; a retry cannot invent it. If a Muster Roll summary total disagrees with its list, the app still saves reports that pass their own checks. Both totals remain visible. The affected report stays unfinished until it is checked; other work can continue.
 
-Change your selections later through **Settings → Portal login → Change my work areas**. You can add or remove areas while keeping at least one working area. The new selections download in the background, and existing saved records are kept.
+Return to **Settings → Portal login → Manage record downloads** to see downloaded and skipped items. Choose **Download now** beside a skipped item. Other skipped items stay skipped, including after reopening the app or using **Retry missing data**. Use **Change my work areas** to add or remove areas while keeping at least one working area. Choose the downloads for a changed area before starting them. Existing saved records are kept.
 
-While the desktop app is open and connected, your saved working areas update daily in the background. Worker days and Muster Roll source reports keep updating after first setup. Completed eKYC, ABPS and Aadhaar Availability answers can be reused when their saved proof matches the same worker and Job Card. Old answers without a matching worker record, changed identities, missing answers and unverified workers still need checks. A deliberate **Update worker checks** can request a new read. Reusing an answer keeps its original check date; it is not a new live check.
+Keep the desktop app open and connected. After you continue, records set to **Download later** are picked up automatically when the app and computer have been idle for at least 15 seconds. The app checks idle time regularly, so the start may take a little longer. Your current area keeps priority. Worker reads wait while you enter portal records, and a deliberate pause is kept. Personal sign-in and report Security Codes still need your answer. A page already being read may finish when you resume work. Complete saved records are reused; missing and changed records are checked again. Completed eKYC, ABPS and Aadhaar Availability answers must match the same worker and Job Card. A deliberate **Update worker checks** can request a new read. Reusing an answer keeps its original check date; it is not a new live check.
 
 Source-report downloads do not submit a Work Demand or generate a paid PDF copy. PDF saving and printing keep their existing separate confirmation and Balance rules.
 
@@ -60,29 +62,31 @@ If the download or installer cannot start, choose **Try again** in the same visi
 1. Open the [app downloads](https://github.com/Changtey/Worker-Demand-releases#download). Choose Windows, Linux or Android for your device.
 2. Keep your existing app and saved records when updating. See the release notes for installation checks and known limits.
 3. On desktop, use **Sign in with Google** and finish in your computer's usual browser. This is separate from your official portal login.
-4. In **Settings → Login area**, choose your State, Financial Year, District and Block from the current lists. Save the area.
+4. In **Settings → Portal login**, choose your State, Financial Year, District and Block from the current lists. Save the area.
 5. Use **Show menu** on a narrow screen to open the app's menus. If an optional menu is hidden, show it in **Settings → Sidebar menus**.
 
-The sidebar shows a short explanation under each tool. **Work Demand Management** brings Android requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android Login Codes** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. **Collapse menu** keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom.
+The sidebar shows a short explanation under each tool. **Work Demand** brings Received requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android access** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. **Collapse menu** keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom.
 
-Your selected Panchayat and Village stay in place while Android requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
+Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.19**, Android **1.4.19**.
+Published downloads: desktop **1.4.20**, Android **1.4.20**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/Worker-Demand-1.4.19.apk) |
+| Windows 64-bit | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/Worker-Demand-1.4.20.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.19).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.20).
 
 ### Find the next task
 
-Open **Work Demand Management**. **Your work** shows unfinished Android requests from all days, including requests that need checking. It stays compact while you edit a request; choose **Show work overview** to open the list. The currently selected Village comes first, followed by its Panchayat. Choose **Open request** to review one. A finished request stays separate from an unfinished saved-result check.
+Open **Work Demand**. **Your work** shows unfinished Received requests from all days, including requests that need checking. It stays compact while you edit a request; choose **Show work overview** to open the list. The currently selected Village comes first, followed by its Panchayat. Choose **Open request** to review one. A finished request stays separate from an unfinished saved-result check.
 
 Choose **Check problems** to open the app, saved-record, selected-area, portal sign-in and request-list checks. Follow **Open Browser** if sign-in is needed. These checks send no demand. **Review last entry** opens the last saved summary when members still need attention.
+
+During a record download, the request list and open request show a bar and percentage. The percentage uses saved record checks. **Finding download totals** means the complete worker list is still being read. Paused downloads keep their saved progress. Sign-in problems and missing records remain visible. **100%** means the record checks finished; still choose **Check demand** before portal entry.
 
 ### Protect saved records
 
@@ -92,7 +96,7 @@ These copies contain this PC's saved Job Cards, workers, works and activity hist
 
 ## 2. Create your personal Android access
 
-On desktop, open **Android Login Codes**, then **My Android access**.
+On desktop, open **Android access**, then **My phone**.
 
 The panel has two sections: **My login code** and **My areas**. Choose **View my areas** to read the saved list. Area choices and extra help stay closed until needed.
 
@@ -111,13 +115,13 @@ For first-time setup or changing areas:
 
 Open **More code options**, then use **Disable my Android code** when access should end. Read the confirmation before removing area assignments; removing access does not erase official portal records.
 
-To remove assignments, select the areas and choose **Remove selected areas**. Check the listed names before choosing **Remove areas**. The window stays open while waiting and shows any problem there. A confirmed removal stays removed even if the next list read fails. If the message says the online removal step has not been enabled, the person who manages the app must enable that step first; repeating the button will not fix it. A lost connection can leave the result uncertain, so read the message before trying again.
+To remove your own assignments, choose **Set up my Android access** or **Change my Android access**, select the areas and choose **Remove selected areas**. Check the listed names before choosing **Remove areas**. You can remove only areas assigned to your signed-in account. Other users' areas are protected. Saved worker records, requests, completed Work Demands, Muster Rolls, Secretary accounts, login codes and history are kept. The window stays open while waiting and shows any problem there. A confirmed removal stays removed even if the next list read fails. A lost connection can leave the result uncertain, so read the message before trying again.
 
 <img src="screenshots/02-android-login.png" width="300" alt="Desktop preview: a compact personal login code section and a separate area section, with a fictional code">
 
 ## 3. Create Secretary access
 
-1. In **Android Login Codes**, choose **Create login code**.
+1. In **Android access**, choose **Create login code**.
 2. Choose the State, Financial Year, District, Block and Panchayat. Choose a Village for Village-only access, or keep the whole Panchayat choice when that is intended.
 3. Enter a private **Login code** and choose **Save code**. Current code rules are shown beside the field.
 4. Share the code privately with the intended Panchayat Secretary.
@@ -139,7 +143,7 @@ The Browser is a desktop feature. The narrow preview shows its controls; it does
 
 ## 5. Find Job Cards and workers
 
-1. Open **Job Card Records**. Choose the Village and Financial Year.
+1. Open **Job Cards**. Choose the Village and Financial Year.
 2. Search by Job Card, member, household head or Village. Choose the Job Card status and saved check filters, then **Apply**.
 3. Use **Show household members** beside a Job Card to see its workers and saved checks. Scroll the table sideways on a narrow screen for the other columns.
 4. Use **Update from VBGRAMG** when records need updating. Keep an incomplete or unknown result open for review.
@@ -153,7 +157,7 @@ Job Card members share the household's days left. A missing total means **Not kn
 3. Choose **Check portal** to read the selected workers' public reports directly on the phone. Review eKYC and active status. Tap the information button beside a worker to open **Worker details** for days worked, family days left, Aadhaar availability, Aadhaar Based Payment System (ABPS), other offered checks, sources and check times. Choose **Stop portal check** if needed; your choices are kept.
 4. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
-6. Review the workers, days and dates, then choose **Submit request** to send it to the DEO.
+6. Review the workers, days and dates, then choose **Send to office** to send it to the DEO.
 7. Open **History** for the received status. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
 
 **About direct phone checks:** The phone uses only public reports for the assigned area and selected Financial Year. It does not sign into an office portal or submit official records. A missing field keeps its earlier saved answer and check time. A failed, incomplete, very large or extra-page report keeps the saved office copy with a clear message. Sign-in or Security Code checks must be handled by a person; the phone reader cannot bypass them.
@@ -162,7 +166,7 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 If access has ended, sign in again with a current code from the DEO. Some actions require a connection or a recent access check. A phone request is not an official portal Work Demand.
 
-<img src="screenshots/05-android-work-demand.png" width="300" alt="Android: review of a fictional request before Submit request">
+<img src="screenshots/05-android-work-demand.png" width="300" alt="Android: review of a fictional request before Send to office">
 
 **Use the same days for several workers:** Select the workers, enter a number in **Days for all selected workers**, then press **Apply Days to All**. Check the Days box beside each name. You can still change one worker's days separately.
 
@@ -170,13 +174,21 @@ If access has ended, sign in again with a current code from the DEO. Some action
 
 ## 7. Prepare and check a demand on desktop
 
-Open **Work Demand Management**. Choose **Manual entry** for a new demand, or **Android requests** to read and open a received request. Both use the same worker checks and portal entry steps. Switching source keeps your current edits during this visit. Android corrections and status updates stay linked to the phone request.
+Open **Work Demand**. Choose **Create demand** for a new demand, or **Received requests** to read and open a received request. Both use the same worker checks and portal entry steps. Switching source keeps your current edits during this visit. Android corrections and status updates stay linked to the phone request.
+
+Follow **Area → Workers → Work → Days and dates → Review and send → Result**. Choose a step to return to it. This only opens that section; it does not save, send or repeat a demand. Your entered workers, dates and days stay on the page.
+
+**Work** is optional where the app already allows it. The bulk days box also selects eligible workers allowed by the current filters. Individual workers keep their own day and date controls in the worker list. Use **Edit individual days and dates** to return there.
+
+Use **Check demand** to find problems. Read the checked summary before **Send to VBGRAMG**. **Result** opens the active entry or your saved result list when one is available. A checked draft is separate from a confirmed saved portal demand.
 
 Members and Work Order choices finish loading even while background updates continue. Earlier saved lists stay visible during a new read. Returning to this screen checks the latest saved lists. If the selected Village is still downloading, the app tries reading it again automatically. Your entered days and dates are kept. A download message is separate from the result of an official Work Demand submission.
 
 For an Android request, its Panchayat or Village and Financial Year are prepared automatically as soon as the office receives it. You do not need to select its location or start a download. Recent complete records are reused, and requests for the same area share one download. Watch **Records** on the request for progress. You can keep working while it downloads.
 
-Opening a received request gives its selected Village and Financial Year first priority for Aadhaar availability, ABPS and the other worker checks. You do not need to choose the same place in **Manual entry**. This priority stays while you open **Browser** to sign in. Your separate Manual entry area, days and dates are kept. For a request with several Villages, choose the Village you want to review.
+Opening a received request gives its selected Village and Financial Year first priority for Aadhaar availability, ABPS and the other worker checks. You do not need to choose the same place in **Create demand**. This priority stays while you open **Browser** to sign in. Your separate Create demand area, days and dates are kept. For a request with several Villages, choose the Village you want to review.
+
+Whatever Panchayat or Village you are currently working on gets download priority, including worker checks, even outside the areas saved during setup. A selected Village goes first. With only a Panchayat selected, its Villages go first. Changing your current area changes the order for the next read and keeps completed records. This applies across the app, including Create demand, Received requests, Job Cards, Reports and area choices. Your saved setup areas stay the same. The signed-in portal account must still offer the selected area and Financial Year. Each open app copy shows the progress of its own portal connection.
 
 If **Attention required** asks for a portal sign-in, open **Browser** in the desktop app and sign in personally with an account allowed to read that area and Financial Year. The remaining checks continue automatically when the portal is free. If you paused downloads, resume them in Settings. Wrong or unclear location details stay held for checking. **Ready** does not mean the workers are eligible or the demand has been submitted: use **Check demand** before the next portal action.
 
@@ -187,7 +199,7 @@ If **Attention required** asks for a portal sign-in, open **Browser** in the des
 5. Use the available add or remove controls to change this demand's worker list. Removing someone from a demand does not delete their Job Card record.
 6. Choose **Check demand**. Read the named worker and reason for every issue. Correct dates or selections, or update the saved checks, then check again.
 
-In the pictured desktop workflow, a received request has two actions: **Check demand → Submit to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check. 
+In the pictured desktop workflow, a received request has two actions: **Check demand → Send to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check. 
 
 For an Android request, choose **Save Changes** to keep corrections without starting portal entry. Its reports use the saved request; save corrections before downloading the request's Excel or PDF.
 
@@ -196,25 +208,29 @@ For an Android request, choose **Save Changes** to keep corrections without star
 ## 8. Start portal entry and check the result
 
 1. After a successful check, review the selected workers and totals.
-2. Choose **Submit to VBGRAMG** for either source. This starts desktop portal entry for the checked area.
+2. Choose **Send to VBGRAMG** for either source. This starts desktop portal entry for the checked area.
 3. New entries open **D.3 Work Demand → Demand**, then choose the requested Panchayat, Village and Job Card. The app keeps matching area choices while moving through Job Cards and members. It changes only the choices needed for another area, or restores choices cleared by the portal. Members of the same Job Card are processed together. Review every offered official action. The portal's **Proceed** can save an official demand; a separate final **Submit**, if offered, stays under your control.
 4. Only after all new entries finish and the portal replies are confirmed, the app opens **D.4 Work Allocation → Allocation**. It chooses the requested Panchayat and, when offered, the Village. It then compares the full **Registration No.** (Job Card), **Job seeker name**, and the **Work Demand date → From / No of days / To** values. It reads every offered result page. The separate editable **Work Allocation Date** fields do not prove the saved demand.
 5. Read the completion pop-up. It shows **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. Finished entry steps and confirmed saved demands are different counts. An unreadable final list can show 61 entry steps finished, 0 confirmed saved demands and 0 failures. The app keeps these entries and offers **Check saved results**, which sends no demand. Older saved summaries show the entry-step count only if it was recorded. Earlier saved demands, unverified results and unstarted members are counted separately. **Automation Completed Successfully** appears when every selected worker passes the final saved-list check, including if the browser stops after returning the complete matching results. A timing-report problem does not turn confirmed submissions into failures. If entry finishes but the saved list cannot be read, the app retries that read once and shows **Data entry finished. Final check incomplete** if needed. This is not a failed-entry count. Expand the member lists for each name, Registration ID and reason. Actual failed entries alongside confirmed demands show **Work Demand partly completed**. A filled form or a portal reply alone does not count as a saved demand.
 6. Choose **Retry Failed Entries** to try only failed or unstarted entries. The app keeps earlier processed demands and holds uncertain entries. Choose **Check saved results** to read uncertain results without sending another demand. If the portal offers a separate final **Submit**, complete it yourself before checking again.
-7. Close the pop-up with **Done**. Open **Work Demand Management → Submission summaries** or **Notifications → View submission summary** to review it later. The last 20 run summaries are kept on this PC for your signed-in app account, including after reopening the app. An older summary records the result at that time; it does not start a new submission. If saving a summary fails, the app tells you.
+7. Close the pop-up with **Done**. Open **Work Demand → Submission summaries** or **Notifications → View submission summary** to review it later. The last 20 run summaries are kept on this PC for your signed-in app account, including after reopening the app. An older summary records the result at that time; it does not start a new submission. If saving a summary fails, the app tells you.
 8. If the portal leaves entries pending for a separate final **Submit**, the app keeps that page open and waits for you to finish it. It does not open Allocation automatically while those entries are still pending. Then choose **Check saved list again**. For any other unfinished final check, use the same button. This reads the saved list without pressing Proceed again or changing Work Code, allocation dates or worker checkboxes. Application dates are compared only when the saved list shows them. When Allocation has no Village list, the app checks the requested workers by their full Job Cards under the selected Panchayat and explains this on screen.
 
 If every selected worker already has an entry record on this PC for the requested dates, Send keeps the current portal page open and shows **Earlier entry records found**. It does not enter those demands again or immediately open Work Allocation. Choose **Check saved list again** to read their saved portal results. Work Allocation is used only to check saved demands; it is not the data entry page. A saved entry record on the PC is not final portal verification.
 
 Entry continues when you return to the request screen. Its message shows whether entry is running, paused, stopping or checking saved demands. Choose **Open entry progress** to return to Browser and use its entry controls. The request stays locked while entry is active.
 
+The Browser progress panel shows one entry count, followed by **Remaining**, **Need your check** and **Failed entries**. The current member and Job Card appear below. **Saving not checked yet** means Proceed was used but the saved result still needs checking. **Pause entry**, **Resume entry** when paused, and **Stop after this worker** stay at the bottom while you scroll.
+
+Open **Entry details** for the other counts, entry checks and time spent. Open **Worker results** for each worker's result, **Demand details** for the area, application date and requested dates, or **How entry works** for help. Problems and recovery actions appear without opening these sections. Confirmed saved demands and finished entry steps remain separate.
+
 After an error or stop, open the request and choose **Send to Browser again**. The panel shows how many checked workers will reopen. It starts a new Browser run with the complete checked list for that Village and keeps the original workers, days and dates. Saved demands are skipped. Uncertain entries stay held for checking; use **Check saved list again** in Browser for those results. No saved result is erased. If the request or its workers changed, read the latest changes and check the demand again first. For several Villages, choose the Village to reopen; each keeps its own checked list. The button stays unavailable while another entry is active or Browser is opening. If opening fails, its reason appears beside the button.
 
-**Edit and resend** is prepared for stopped requests and needs its online update before use. Once enabled, choose it to change workers, days and dates. Choose **Save Changes**, then **Check demand**, then **Submit to VBGRAMG**. A new worker must belong to the same assigned Village. Earlier saved workers are shown separately and kept out of the next attempt. If an earlier result is unclear, use **Open entry progress** and **Check saved list again** first. Changes cannot be saved while entry is running. Cancel editing keeps the earlier request. A failed save keeps your edits on screen. Original received details and earlier results are kept.
+**Edit and resend** is prepared for stopped requests and needs its online update before use. Once enabled, choose it to change workers, days and dates. Choose **Save Changes**, then **Check demand**, then **Send to VBGRAMG**. A new worker must belong to the same assigned Village. Earlier saved workers are shown separately and kept out of the next attempt. If an earlier result is unclear, use **Open entry progress** and **Check saved list again** first. Changes cannot be saved while entry is running. Cancel editing keeps the earlier request. A failed save keeps your edits on screen. Original received details and earlier results are kept.
 
 ## 9. Prepare Muster Roll reports
 
-A **Muster Roll** is the official worker attendance list. Open **Muster Roll Reports** on desktop.
+A **Muster Roll** is the official worker attendance list. Open **Reports** on desktop.
 
 1. Choose the State, Financial Year, District and Block from the offered lists.
 2. Search and tick the Panchayats you need. Then tick the Villages in those Panchayats.
@@ -229,11 +245,13 @@ Private reports require your authorised portal account. An unavailable report or
 
 - **Sidebar menus:** show, hide, group and arrange menus.
 - **Appearance:** choose the available light, dark or system appearance.
-- **Login area:** save the portal area used to start work.
-- **Saved records:** manage downloads and updates. The current Village or Panchayat gets priority, followed by other authorised areas.
+- **Portal login:** save the portal area used to start work.
+- **Records:** manage downloads and updates. The current Village or Panchayat gets priority, followed by other authorised areas.
 - **My Areas:** keep commonly used places together.
 
 Area choices, worker filters and list size are remembered. A new choice takes priority. If an old choice is no longer offered, review it instead of silently switching places.
+
+Downloads give first priority to the Panchayat or Village selected in the tab you are using, with its selected Financial Year. Switching tabs changes the priority to that tab's choice. A selected Village comes before other Villages. If you select a whole Panchayat, its Villages come before other Panchayats. Hidden screens cannot take over the priority. Opening **Browser** to sign in keeps the area from the screen you just used. In a list with several ticked Villages, the last ticked Village in the current area gets the first turn. Completed records are kept, and a deliberate download pause stays paused.
 
 ## 11. Balance and Recharge
 
@@ -266,3 +284,13 @@ A successfully saved Village report uses 2, including each Village in a whole Pa
 | Phone offline | Keep the same saved request and reconnect. Check History for its received status. |
 
 Never include real Aadhaar numbers, passwords, Security Codes or login codes in a screenshot or public issue. Explain what happened using fictional examples.
+
+## Simple navigation and settings
+
+The desktop menu uses **Work Demand**, **Job Cards**, **Reports**, **Browser**, **My Areas**, **Android access** and **Settings**. Your saved menu order and hidden choices are kept. **Reports** opens Muster Roll Reports, the official worker attendance lists.
+
+**Settings** groups choices under **Work**, **App** and **Account**. On a narrow screen, use **Settings section** to choose a page. Unsaved changes stay while you switch sections. Read any unsaved-change warning before closing the app.
+
+In **Android access**, use **My phone** or **Secretary codes** to go to the matching section. Existing codes and area safeguards still apply. **Job Cards** puts search before totals; open **More totals** or **About this list** for the other information.
+
+The Android request pages show their current step: **Area → Workers → Work and dates → Review**. **Send to office** sends a request to your Data Entry Operator (DEO). The office still checks it before official portal entry. The send button stays below the review list while you scroll. Phone drafts and waiting offline requests are kept.

@@ -2,24 +2,30 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.19 and Android 1.4.19 · 2026-10-27.**
+**Screens captured for desktop 1.4.20 and Android 1.4.20 · 2026-10-28.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.19**, Android **1.4.19**.
+Published downloads: desktop **1.4.20**, Android **1.4.20**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/VBGRAMG-DEO-Assistant-1.4.19-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.19](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.19/Worker-Demand-1.4.19.apk) |
+| Windows 64-bit | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/Worker-Demand-1.4.20.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.19).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.20).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
 ## Changes in this release
+
+**27 October 2026 — Remove your own assigned areas enabled online**
+
+On desktop, open **Android access → My areas → Change my Android access**. Select your assigned Panchayats or Villages, choose **Remove selected areas**, check the names and choose **Remove areas**. You can remove only your own assignments. Other users' areas are protected. Saved worker records, requests, completed Work Demands, Muster Rolls, Secretary accounts, login codes and history are kept.
+
+The missing online step is now enabled. Checks used temporary fictional areas in the online database and undid every test change. The current signed-in connection was also checked with an empty selection. No real areas were removed during these checks. This service update works with the existing removal screen; no new installation is needed.
 
 **26 October 2026 — Balance charging enabled online**
 
@@ -27,14 +33,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.19**
+**Published 1.4.20**
 
-- During active signed-in worker downloads, the desktop app occasionally reads the same portal&#x27;s normal menu using its existing browser connection. The operator&#x27;s working form stays in place. Pauses, personal form entry, closing the app, account changes and sign-out stop these reads.
-- Report pages get more time to finish. An expired report login is shown as a sign-in requirement. Completed records remain saved, and unfinished reads can resume after personal sign-in.
-- Normal menu addresses under the portal&#x27;s Programme Officer folder can be remembered for reopening. Entry, submission, logout and temporary action addresses remain excluded.
-- The latest setup screen shows progress counts, missing answers and report problems. Retry keeps completed records. Missing Aadhaar answers and different report totals cannot be marked complete merely to open the app.
-- An older browsing choice outside the user&#x27;s saved work areas no longer blocks unfinished worker downloads for those areas. The browsing choice is kept. Worker download details show the report area and page count, and the separate report window remains available when a report needs attention.
-- Some workers&#x27; Work Demand pages offer empty, editable Aadhaar Yes/No choices. These are saved as **Needs an Aadhaar answer on portal**, separately from Yes, No and an unread page. Their matching records count as checked, with a clear warning. Work Demand approval stays blocked for these workers, and their answers…
+- Whatever Panchayat or Village you are currently working on gets first priority for downloads and worker checks, even outside the areas saved during setup. A selected Village comes first. A whole Panchayat puts its Villages before other Panchayats.
+- Changing area changes the next read while keeping completed records. The reader can pick up the newly selected area&#x27;s saved workers during an existing download. Setup areas stay saved for routine background work.
+- When saved choices finish loading, worker checks wait for the review screen to show the restored area. An older Village cannot take the first download turn during that change.
+- This priority follows the screen being used: Create demand, Received requests, Job Cards, Reports and area choices. Hidden screens cannot replace it. Opening Browser keeps the area from the screen just used.
+- Permitted received requests can prepare their exact Village outside the routine setup areas. The portal account&#x27;s offered locations and Financial Year still control private access. Removed request permissions stop request-specific background priorities.
+- Each running app copy keeps its own current request progress message. A side-browser copy without a portal connection cannot replace the desktop reader&#x27;s message with an incorrect sign-in request.
 
 These pictures were refreshed from the source used for this publication.
 

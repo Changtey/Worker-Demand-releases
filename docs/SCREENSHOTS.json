@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-27T13:26:44.744350+00:00",
+  "captured_at": "2026-10-28T05:40:14.325059+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.19",
-    "android": "1.4.19"
+    "desktop": "1.4.20",
+    "android": "1.4.20"
   },
   "published_versions": {
-    "desktop": "1.4.19",
-    "android": "1.4.19"
+    "desktop": "1.4.20",
+    "android": "1.4.20"
   },
-  "published_notes_sha256": "97b847b693d50ee9ecdcb3f2bb5d51edd017e1ea82c1f1deb722e6034e99122e",
-  "source_fingerprint": "ae350655b6c6320a5615ee0a010929b961142067600830162c70fd58164f8549",
+  "published_notes_sha256": "743c092c18faa21031a6285c307e6f42a8585745f8fa1ea92c7bb0c12b3fb605",
+  "source_fingerprint": "ff2b2eb4e0ccb5cd1b9ce5017fd660983c28fac4b84fe7ca91eeda2f4bcd4581",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "661b66ca1c775595ecacf7ce9c8680290a2478c55e1643f2a682d790db2f00a1",
+      "sha256": "909f1a4990ee1bd7fa570af9f9336babbafe1d8c2996b3e54021f978eeca20eb",
       "width": 1236,
       "height": 2745
     },
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "d16ee692fe84c5907b11235e7e00f6f6125ee1aa4f0bdc7839e40ed7b344f892",
+      "sha256": "3688eb2e41a17fb4137dd433873e6d97564d6fbd205a443dc933d5aebae68f6f",
       "width": 960,
       "height": 2400
     },
@@ -42,7 +42,7 @@
       "app": "Desktop preview",
       "caption": "Assign a Panchayat or Village and create a Secretary login code.",
       "path": "docs/screenshots/03-secretary-access.png",
-      "sha256": "f469ff0d7899dac1f88451164b3bbd242cbe88259207450737ef1b5212f72261",
+      "sha256": "9434103ab9f68efe1a6d329aafb4125dcdebd9cc1af5a472230757d09936e53d",
       "width": 960,
       "height": 2300
     },
@@ -52,7 +52,7 @@
       "app": "Desktop preview",
       "caption": "One guided page at a time: Login area, Sign in, Work areas and Download records. The official portal gets the full workspace during sign-in. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "e0b688e8a6020f70e9b85954082d83a9ee4e867d6af5b5fb7ca620611968561e",
+      "sha256": "04d87a4c73990581201ba6c7c5dea62f8dd8a64b75e9ce6f837c4c759b577096",
       "width": 960,
       "height": 1920
     },
@@ -60,9 +60,9 @@
       "file": "05-android-work-demand.png",
       "title": "Review a phone request",
       "app": "Android",
-      "caption": "Review workers and their own requested days before sending to the DEO.",
+      "caption": "Review workers and their requested days, then use Send to office. This sends a phone request for DEO review; it does not create an official portal demand.",
       "path": "docs/screenshots/05-android-work-demand.png",
-      "sha256": "153f82718a76b976db41c1535f1f6a5f4f2f3e06ad8266580ac076314f01bf6f",
+      "sha256": "08fafbf1789842cc4d4fe607b3068562cda48580d20a19c36c5d1b9ac0b72f37",
       "width": 1236,
       "height": 2745
     },
@@ -72,7 +72,7 @@
       "app": "Android",
       "caption": "Find requests and follow the status returned by the office.",
       "path": "docs/screenshots/06-secretary-work-demand.png",
-      "sha256": "541f384de4a10dc2c571e352e84fe354348f2f05d097a243324c7b8cf1f199a1",
+      "sha256": "0075391c4fb48074bb0f100e2f6b8ff6812d4129536f6013bf0ff9d06c68fbd2",
       "width": 1236,
       "height": 2745
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "3ece8d4489d77fefa56bb858bce646c1680ea3c4737a91468f15d50c398f6adb",
+      "sha256": "36f861d2cc5ccd813794ecd7d60997ec5defe49b070d61277c916fbd73bf670b",
       "width": 960,
       "height": 1920
     },
@@ -92,7 +92,7 @@
       "app": "Android",
       "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "dfe83c55932c67c2d312d0247756713c23e43c205baea60d21f31f3a62128fe0",
+      "sha256": "d28cbf0544aaeed00343e5494ee99ac4488d371adef49b95ea0145316e00ecb6",
       "width": 1236,
       "height": 2745
     },
@@ -102,17 +102,17 @@
       "app": "Desktop preview",
       "caption": "Keep the list compact with saved status and identity check choices.",
       "path": "docs/screenshots/09-worker-search.png",
-      "sha256": "47a2424bc7d5a166d8439560cdf6a2962eed2a91859b3438409beaafee36e5bd",
+      "sha256": "9d781e72ffc2ed7e7abda1c7061dcc6612f78486b9bd723a80b6778f0a5125f2",
       "width": 960,
       "height": 1920
     },
     {
       "file": "10-work-demand-entry.png",
-      "title": "Manual work demand",
+      "title": "Guided Work Demand",
       "app": "Desktop preview",
-      "caption": "In Work Demand Management, choose Manual entry. Set the Village, Application Date, days and work dates.",
+      "caption": "Create demand follows Area, Workers, Work, Days and dates, Review and send, and Result. Step buttons keep your entries and send nothing.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "7cc46c549d8e40fde2c23550b35effc91cdf3397a7e818e5eb1923a7d36165ca",
+      "sha256": "39d600b9e24d5a75f77ae92ad6b3879ac512f8df13d675220323ad9f591f3017",
       "width": 960,
       "height": 1920
     },
@@ -122,19 +122,19 @@
       "app": "Desktop preview",
       "caption": "See the worker and the reason when a demand needs attention.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "61a177e1870ece8c0cd99c59ec6500ec7c2ffeadaf50f39d7c83c826353a2bc2",
+      "sha256": "b49bbc07f513724506ea6c0e13ffc5df88f6febd91ed415e4835f4d88c49dad7",
       "width": 960,
       "height": 1920
     },
     {
       "file": "12-worker-management.png",
-      "title": "Your daily office work",
+      "title": "Record download progress",
       "app": "Desktop preview",
-      "caption": "Find unfinished requests and reopen a stopped request with Send to Browser again. Opening the overview sends no demand.",
+      "caption": "Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "c051daa281c77e789589b1a898d72a1be162ceba0654452b0593b50e34faa0a3",
+      "sha256": "98306fa7ef247d9553a5a1d4a67d35ec4abac45a89676545fe5985691b15b685",
       "width": 960,
-      "height": 2700
+      "height": 1920
     },
     {
       "file": "13-muster-reports.png",
@@ -142,17 +142,17 @@
       "app": "Desktop preview",
       "caption": "Choose Panchayats and Villages for the official attendance reports.",
       "path": "docs/screenshots/13-muster-reports.png",
-      "sha256": "505d395ff94a94c2cab5431b28347583fb64d0ee928ce9aae684d9ae43659799",
+      "sha256": "8459041fe4168b47b6b41566cc9fbed4060c6acc9b81061cf68751c7c0be1fd0",
       "width": 960,
       "height": 2300
     },
     {
       "file": "14-settings.png",
-      "title": "Update and reopen automatically",
+      "title": "Simple app settings",
       "app": "Desktop preview",
-      "caption": "Windows version 1.4.18 adds one-click download, file checking, installation and reopening. Install this version once to receive the improved updater. This narrow desktop preview uses example versions and display-only progress; it does not show an update on a real office account.",
+      "caption": "Choose a Settings section, then change the options you need. Work, App and Account choices stay together. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "3b97fcabe502d1186f9ba68ac2f208a16786b113ebf1fb18a1b22b65a81f9abd",
+      "sha256": "17f08598e2f0d092e0a5f92abc49d77eab9349c53fbd821c157b9db82777b9ad",
       "width": 960,
       "height": 1920
     },
@@ -160,17 +160,17 @@
       "file": "15-my-account.png",
       "title": "Your Android account",
       "app": "Android",
-      "caption": "Check your role and assigned area, or sign out of the phone.",
+      "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "a4e89dd9f0c51aa44a71209c09f533160c97c138d0023d895eeb0806745e904a",
+      "sha256": "b46e14ec418ba788d4e9151ac8e578c23370f4ee30b74282180c77ff99e6e037",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "b31870d601791282037bf79336508d29eaff3e87ace1f877712ff1d238065904",
-    "docs/USER_GUIDE.md": "0f230e8765fc7529543768c805fafc923d5d3c4323e2c1056bfc3a030b6ef8c8",
-    "docs/FEATURES.md": "b6a6afb410615cc1b7e017a46fd40f0513129820e31c9d142f879a993f7d4eee",
-    "docs/LATEST_CHANGES.md": "5e393d368638d9777c43fac85b7336039b66453fd2a02d8e5f1d499df67dead0"
+    "README.md": "2ce42b4551ce7f967075ae1bf423b442a12f6ad2acdb472b3c55bc8b73ed5a0a",
+    "docs/USER_GUIDE.md": "e333be696bcae859c2f0f2db6cee9355d6c126d3acf67d076c1794479a2e9e05",
+    "docs/FEATURES.md": "c5aaf24d8c246b647b9ffa9e8ba83cb184d1edb8451b4a1eebb7862d0c1a0fe3",
+    "docs/LATEST_CHANGES.md": "809dabb035a11fcc17ba965d0989a8dd24125b1d83f1b65ed6d829cfa9299dd9"
   }
 }
