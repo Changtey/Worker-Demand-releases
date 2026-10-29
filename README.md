@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.20**, Android **1.4.20**.
+Published downloads: desktop **1.4.21**, Android **1.4.21**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/Worker-Demand-1.4.20.apk) |
+| Windows 64-bit | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/Worker-Demand-1.4.21.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.20).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.21).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -46,7 +46,7 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 ## Follow your daily work
 
-Open **Work Demand** after setup. Follow **Area → Workers → Work → Days and dates → Review and send → Result**. The last Create demand or Received requests choice is kept. Extra information opens when needed, and problems stay clear. Android uses **Send to office** for phone requests.
+Open **Work Demand** at any time, including before portal sign-in. All app menus stay available during setup and downloads. Follow **Area → Workers → Work → Days and dates → Review and send → Result**. The last Create demand or Received requests choice is kept. Extra information opens when needed, and problems stay clear. Portal checks and entry still need the right signed-in account. Android uses **Send to office** for phone requests.
 
 ## What you can do
 
@@ -58,6 +58,7 @@ On first use, sign in to VBGRAMG in **Browser**, save your assigned Panchayats o
 - See confirmed submission counts and named worker issues after desktop entry. Retry failed entries safely and reopen the saved completion summary later.
 - Receive Received requests, prepare their area records automatically in the background, review changes and start entry in the desktop Browser.
 - Give a DEO personal Android access or assign separate Secretary access.
+- Reuse saved Panchayats and Villages from My Areas when creating your personal Android login code.
 - On Android, check selected workers directly against public portal reports. See eKYC, active status, days worked and confirmed family days left, with each answer's source and check time.
 - Prepare Muster Roll reports, save area choices and arrange your menus.
 - Check your **Balance** and open **Recharge** when a task needs more. Your current work and report choices are kept.
@@ -66,18 +67,18 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.20 and Android 1.4.20 · 2026-10-28.**
+**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
 <table>
 <tr>
 <td width="33%" valign="top"><b>01. Your Android home</b><br><sub>Android</sub><br><a href="docs/screenshots/01-dashboard.png"><img src="docs/screenshots/01-dashboard.png" width="260" alt="Android: 01. Your Android home"></a><br>See assigned areas and start a work request.</td>
-<td width="33%" valign="top"><b>02. Personal Android access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/02-android-login.png"><img src="docs/screenshots/02-android-login.png" width="260" alt="Desktop preview: 02. Personal Android access"></a><br>Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.</td>
+<td width="33%" valign="top"><b>02. Personal Android access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/02-android-login.png"><img src="docs/screenshots/02-android-login.png" width="260" alt="Desktop preview: 02. Personal Android access"></a><br>Review Panchayats and Villages already saved in My Areas, then continue to your personal Android login code. This narrow desktop preview uses fictional records.</td>
 <td width="33%" valign="top"><b>03. Secretary access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/03-secretary-access.png"><img src="docs/screenshots/03-secretary-access.png" width="260" alt="Desktop preview: 03. Secretary access"></a><br>Assign a Panchayat or Village and create a Secretary login code.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>One guided page at a time: Login area, Sign in, Work areas and Download records. The official portal gets the full workspace during sign-in. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.</td>
+<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>One guided page at a time: Login area, Sign in, Work areas and Download records. All app menus remain available before portal sign-in and during setup. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.</td>
 <td width="33%" valign="top"><b>05. Review a phone request</b><br><sub>Android</sub><br><a href="docs/screenshots/05-android-work-demand.png"><img src="docs/screenshots/05-android-work-demand.png" width="260" alt="Android: 05. Review a phone request"></a><br>Review workers and their requested days, then use Send to office. This sends a phone request for DEO review; it does not create an official portal demand.</td>
 <td width="33%" valign="top"><b>06. Secretary request history</b><br><sub>Android</sub><br><a href="docs/screenshots/06-secretary-work-demand.png"><img src="docs/screenshots/06-secretary-work-demand.png" width="260" alt="Android: 06. Secretary request history"></a><br>Find requests and follow the status returned by the office.</td>
 </tr>
@@ -87,8 +88,8 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>09. Worker filters</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/09-worker-search.png"><img src="docs/screenshots/09-worker-search.png" width="260" alt="Desktop preview: 09. Worker filters"></a><br>Keep the list compact with saved status and identity check choices.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>10. Guided Work Demand</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Guided Work Demand"></a><br>Create demand follows Area, Workers, Work, Days and dates, Review and send, and Result. Step buttons keep your entries and send nothing.</td>
-<td width="33%" valign="top"><b>11. Check demand issues</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/11-check-demand.png"><img src="docs/screenshots/11-check-demand.png" width="260" alt="Desktop preview: 11. Check demand issues"></a><br>See the worker and the reason when a demand needs attention.</td>
+<td width="33%" valign="top"><b>10. Guided Work Demand</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Guided Work Demand"></a><br>Follow the Work Demand steps. Show or hide Worked and Days left separately with saved switches. These figures are information only; your entered days stay unchanged.</td>
+<td width="33%" valign="top"><b>11. Check demand issues</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/11-check-demand.png"><img src="docs/screenshots/11-check-demand.png" width="260" alt="Desktop preview: 11. Check demand issues"></a><br>See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.</td>
 <td width="33%" valign="top"><b>12. Record download progress</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/12-worker-management.png"><img src="docs/screenshots/12-worker-management.png" width="260" alt="Desktop preview: 12. Record download progress"></a><br>Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.</td>
 </tr>
 <tr>
@@ -111,6 +112,8 @@ In **Work Demand**, use **Your work** to find unfinished requests and **Check pr
 From Windows version 1.4.18, choose **Update now** once to download, check, install and reopen the updated app. Saved records and login details are kept. Install this version once to receive the improved updater; older installed versions still use their earlier update steps. Linux and Android keep their normal installation steps.
 
 Active worker downloads use occasional portal-menu reads to help keep the connection active. Slow report pages get more time. If the portal requires sign-in again, your completed records are kept while you sign in personally.
+
+Checked households appear as they are saved, while unfinished downloads stay clearly marked. Repeated area requests share work. Extra reports start after 15 seconds without activity and yield when you return. The Job Cards screen searches all saved households and keeps its current page during background updates. Missing worker checks never show **Eligible**.
 
 You can start work after your selected areas' worker and workday records are checked. Muster Roll source reports continue in the background. The Notifications bell links to unfinished reports. Pending Aadhaar questions stay clearly marked and do not become approved answers.
 
@@ -144,13 +147,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.20**
+**Published 1.4.21**
 
-- Whatever Panchayat or Village you are currently working on gets first priority for downloads and worker checks, even outside the areas saved during setup. A selected Village comes first. A whole Panchayat puts its Villages before other Panchayats.
-- Changing area changes the next read while keeping completed records. The reader can pick up the newly selected area&#x27;s saved workers during an existing download. Setup areas stay saved for routine background work.
-- When saved choices finish loading, worker checks wait for the review screen to show the restored area. An older Village cannot take the first download turn during that change.
-- This priority follows the screen being used: Create demand, Received requests, Job Cards, Reports and area choices. Hidden screens cannot replace it. Opening Browser keeps the area from the screen just used.
-- Permitted received requests can prepare their exact Village outside the routine setup areas. The portal account&#x27;s offered locations and Financial Year still control private access. Removed request permissions stop request-specific background priorities.
-- Each running app copy keeps its own current request progress message. A side-browser copy without a portal connection cannot replace the desktop reader&#x27;s message with an incorrect sign-in request.
+- Required worker records come first. The app reads worker identities, eKYC, ABPS and Aadhaar Availability before extra reports. A work report needed for the current demand keeps its required checks.
+- Download requests for the same account, selected area, Financial Year and records share work. The selected Village goes first, followed by its siblings; the selected Panchayat stays ahead of other Panchayats.
+- Checked households are saved in small batches and can appear before the whole Village finishes. Pauses, failures and restarts keep completed records. An unfinished download stays incomplete.
+- Public readers reuse already checked Job Card details and area choices. Extra reports wait until the app has been idle for at least 15 seconds and yield when activity resumes. Deliberate pauses and portal entry protection remain in place.
+- Job Card lists and totals load together. Search covers the full saved list before choosing the display page. Background updates keep search, open households, selected workers, entered days and dates.
+- Required worker checks remain mandatory. Missing answers never mean eligible. Days worked and days left remain information and do not change entered days. Work selection stays optional; a chosen work keeps its checks.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

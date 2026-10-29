@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.20 and Android 1.4.20 · 2026-10-28.**
+**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -27,6 +27,8 @@ Both videos use CC0 public-domain music. [Read the music-use details](https://gi
 
 ### First setup for your app account
 
+All app menus stay available before portal sign-in and while setup or downloads are unfinished. You can open Work Demand, Reports, Job Cards, My Areas, Android access and Settings at any time. Return to **Browser** to finish setup or sign in. Opening a menu does not sign you in or submit records. Portal checks and entry still need the right signed-in account and the required worker checks.
+
 **The app may be slow at first. Saved records make later work faster.** The first download reads and checks the records for your chosen areas. As you use the same areas, the app reuses saved records, so later work is usually faster. New areas and slow portal pages can still take time. Keep the app open while the progress bar moves.
 
 Days worked and Aadhaar Availability can come from the same Job Card page. Their checked counts may move at different times. The progress message names the check being read and shows the Job Card count for that area. Missing Aadhaar answers go before daily days-worked reads within the same area. A complete first member page is read once; any further pages must still finish. Use **Retry missing data** for unfinished records. In Settings, **Download Data** reuses current saved records; **Update Data** asks for new checks. An empty payment or attendance report does not prove zero days worked.
@@ -38,8 +40,8 @@ During active signed-in worker downloads, the app occasionally reads the portal 
 3. In **Sign in**, enter your User ID, password and CAPTCHA (Security Code) on the official VBGRAMG page, then choose Login yourself. **Save my User ID and password securely after a successful sign-in** is selected on the Login area form. Clear that choice if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The CAPTCHA is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
 4. Select only the Panchayats or Villages assigned to you for data entry. A whole Panchayat includes its Villages. Choose **Save areas and continue**. These are your work choices; saving them does not grant government portal access.
 5. On **Download records**, tick the record types you want now, then choose **Download selected records**. You can choose Job Cards, workers and work records; days worked and shared Job Card family days left; eKYC; Aadhaar seeding; Aadhaar authentication; ABPS; Aadhaar Availability; and Muster Roll source reports. Use **Download later** or clear a tick to skip an item. Job Cards and workers must be saved before their other checks can finish. Some answers share one portal page and may be saved together.
-6. Open **Worker download details** to see the report area and new pages read. The Panchayat or Village you are currently working on gets the first turn, even outside your setup areas. Use **Open report window** when a Muster Roll page needs a check. If the portal is waiting for an Aadhaar answer, the app saves **Needs an Aadhaar answer on portal**. The record counts as checked. That worker still needs a confirmed answer before Work Demand approval. Unread or unclear pages remain unfinished.
-7. Choose **Continue to Work Demand** after your selected worker downloads finish. To start using the app sooner, choose **Skip remaining and continue**. Completed downloads stay saved. Deferred items say **Waiting for idle** after you continue, with saved checked counts kept visible. Remaining records, including Muster Roll source reports, download in the background when the app is idle. Missing records remain unchecked, and Work Demand approval still needs its required checks. Setup and your download choices are saved for your app account.
+6. Open **Worker download details** to see the report area and new pages read. The Panchayat or Village you are currently working on gets the first turn, even outside your setup areas. Use **Open report window** when a Muster Roll page needs a check. After every member is read, setup, Settings and the selected area show **Aadhaar Availability download completed**. The message gives separate counts for **Yes**, **No**, and **No answer selected on the portal**. No and unselected answers count as downloaded. Those members need a confirmed **Yes** on the portal before Work Demand; other eligible members can continue. Routine background rechecks do not undo a successful download. Unread, old or unclear records still need checking.
+7. Choose **Continue to Work Demand** when the required worker records are saved, even if optional reports are unfinished. Each selected worker must still pass the required checks before a demand can be checked. You can also choose **Skip remaining and continue** to open the app sooner. Completed downloads stay saved. Deferred items say **Waiting for idle** after you continue, with saved checked counts kept visible. Remaining records, including Muster Roll source reports, download in the background when the app is idle. Missing records remain unchecked. Setup and your download choices are saved for your app account.
 
 If the percentage stops changing, open **Reports that need attention**. The list names the Villages and checks that are still missing. After a worker read, it explains whether a Yes or No answer could not be read, worker details did not match, a Job Card was missing from the portal list, or a member list did not load. Keep the app open and signed in while retrying. An unavailable answer stays unknown; a retry cannot invent it. If a Muster Roll summary total disagrees with its list, the app still saves reports that pass their own checks. Both totals remain visible. The affected report stays unfinished until it is checked; other work can continue.
 
@@ -69,16 +71,16 @@ The sidebar shows a short explanation under each tool. **Work Demand** brings Re
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.20**, Android **1.4.20**.
+Published downloads: desktop **1.4.21**, Android **1.4.21**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/Worker-Demand-1.4.20.apk) |
+| Windows 64-bit | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/Worker-Demand-1.4.21.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.20).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.21).
 
 ### Find the next task
 
@@ -87,6 +89,24 @@ Open **Work Demand**. **Your work** shows unfinished Received requests from all 
 Choose **Check problems** to open the app, saved-record, selected-area, portal sign-in and request-list checks. Follow **Open Browser** if sign-in is needed. These checks send no demand. **Review last entry** opens the last saved summary when members still need attention.
 
 During a record download, the request list and open request show a bar and percentage. The percentage uses saved record checks. **Finding download totals** means the complete worker list is still being read. Paused downloads keep their saved progress. Sign-in problems and missing records remain visible. **100%** means the record checks finished; still choose **Check demand** before portal entry.
+
+In the selected area's **Record updates**, each item shows its saved or checked count. Job Cards and workers have separate counts. Days worked shows how many active workers have usable saved days. Work Codes and reported Work Order numbers show separate saved counts for the selected Panchayat. Each identity or payment check shows how many active workers have a current answer, including a reported No. Earlier answers that need an update are shown separately. **Total still being checked** means the complete list is not known yet; saved counts remain visible.
+
+**Required records come first.** The app downloads Job Card numbers, worker names and worker details first. It then reads eKYC, ABPS and Aadhaar Availability. Until the selected area's required records are saved, other Panchayats and Villages wait, including background and Muster Roll downloads. Seeding and other extra answers follow. Days worked, shared days left and work lists come last. Slow or failed optional reports do not hold up required worker checks. Paused downloads remain paused.
+
+Checked households appear as they are saved. The Village remains incomplete until every required page and household is accounted for. Closing a screen or retrying a download keeps completed saves. Extra reports start after 15 seconds without activity and pause at the next safe point when you resume work. A report needed for your current **Check demand** keeps its priority.
+
+If a public worker list cannot be read, the app keeps the saved workers and follows its normal retry time. A failed public read is separate from waiting for private worker checks. Open **Record updates** to see what needs another read.
+
+The Job Cards screen reads its list and totals together. Search covers all saved households before choosing a display page, including matching inactive workers and workers whose checks have not passed. Background updates keep the open households, search and page. **Eligible**, **Not eligible**, **Not yet checked** and **Data unavailable** describe the saved worker checks. Missing answers never mean eligible. Always run **Check demand** before portal entry.
+
+Above the worker table, use **Show Worked** and **Show Days left** separately. Your choices stay saved when the app reopens. These figures are information only, whether shown or hidden. Missing, old or unfinished day reports do not stop creating or checking a demand, reduce requested days or leave workers out. Unknown figures stay **Not known**; old figures show **Update needed**.
+
+Work Demand always checks the correct Job Card number and matching worker details, completed **eKYC**, active **ABPS**, and **Aadhaar Availability: Yes**. These checks cannot be turned off. Seeding, authentication, photo and day figures are optional information. A demand can be checked as soon as its required worker records pass, even while other reports continue downloading. **Ready to check a demand** and **all downloads complete** are separate results.
+
+If Settings cannot read the worker requirements, it shows a message and **Try again**. Required checks stay required. Portal entry still needs a successful demand check.
+
+Leave **Work Order or work** empty when no work is selected. An unfinished work list does not block that demand. A work you select still needs the matching Work Code, area, Financial Year and other existing work checks. The official portal keeps its own checks, and you still choose every official action.
 
 ### Protect saved records
 
@@ -104,7 +124,18 @@ To replace an existing personal code, choose **Choose my own login code** near y
 
 You can use a **4 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 4 characters. English letters A and a work the same. A code already used by another account cannot be used.
 
-For first-time setup or changing areas:
+If your places are already saved in **My Areas**:
+
+1. In **Android access → My phone → My areas**, choose **Create login code for My Areas**.
+2. Review your saved Panchayats and Villages. Untick places you do not need. Search by place or group name; your other choices are kept.
+3. Choose **Use selected areas**. Areas already added for the same Financial Year are reused. Current phone areas are kept.
+4. Enter **My login code (optional)** and choose **Save my login code**, or leave it blank and choose **Generate my login code**.
+
+Opening the shortcut does not add areas or change your code. A working code stays the same until you save a new code. Saving a new code ends earlier phone sign-ins. Secretary codes are kept separately.
+
+If no areas are saved, choose **Open My Areas** and save your Panchayats or Villages first. Whole Districts and Blocks cannot be used in this shortcut. Areas need complete saved worker records and must be allowed for your signed-in account. Any problem is shown beside the affected areas. Confirmed areas are reused after a failed attempt. If My Areas changes during review, choose **Read saved areas** before continuing. An assigned area's Financial Year is kept; review that area before using a different year.
+
+For other areas, **Add my Panchayat or Village** remains available. For first-time setup or changing areas manually:
 
 1. Add your working Panchayats or Villages if they are not listed.
 2. Choose **Set up my Android access**, or **Change my Android access** if already set up.
@@ -188,7 +219,7 @@ For an Android request, its Panchayat or Village and Financial Year are prepared
 
 Opening a received request gives its selected Village and Financial Year first priority for Aadhaar availability, ABPS and the other worker checks. You do not need to choose the same place in **Create demand**. This priority stays while you open **Browser** to sign in. Your separate Create demand area, days and dates are kept. For a request with several Villages, choose the Village you want to review.
 
-Whatever Panchayat or Village you are currently working on gets download priority, including worker checks, even outside the areas saved during setup. A selected Village goes first. With only a Panchayat selected, its Villages go first. Changing your current area changes the order for the next read and keeps completed records. This applies across the app, including Create demand, Received requests, Job Cards, Reports and area choices. Your saved setup areas stay the same. The signed-in portal account must still offer the selected area and Financial Year. Each open app copy shows the progress of its own portal connection.
+The Panchayat or Village selected in the tab you are using owns the downloads until its required worker records are saved, even outside your setup areas. A selected Village holds downloads for its siblings and all other areas. A selected Panchayat includes every Village in its current offered list. Other areas resume afterward. This applies across Create demand, Received requests, Job Cards, Reports and area choices. Your saved setup areas stay the same. The signed-in portal account must still offer the selected area and Financial Year. Each open app copy shows the progress of its own portal connection.
 
 If **Attention required** asks for a portal sign-in, open **Browser** in the desktop app and sign in personally with an account allowed to read that area and Financial Year. The remaining checks continue automatically when the portal is free. If you paused downloads, resume them in Settings. Wrong or unclear location details stay held for checking. **Ready** does not mean the workers are eligible or the demand has been submitted: use **Check demand** before the next portal action.
 
@@ -251,7 +282,11 @@ Private reports require your authorised portal account. An unavailable report or
 
 Area choices, worker filters and list size are remembered. A new choice takes priority. If an old choice is no longer offered, review it instead of silently switching places.
 
-Downloads give first priority to the Panchayat or Village selected in the tab you are using, with its selected Financial Year. Switching tabs changes the priority to that tab's choice. A selected Village comes before other Villages. If you select a whole Panchayat, its Villages come before other Panchayats. Hidden screens cannot take over the priority. Opening **Browser** to sign in keeps the area from the screen you just used. In a list with several ticked Villages, the last ticked Village in the current area gets the first turn. Completed records are kept, and a deliberate download pause stays paused.
+Only the Panchayat or Village selected in your active tab downloads while its required worker records are unfinished. Switching tabs or changing area changes the next read. Hidden screens and late replies cannot replace that choice. A page already being read may finish; completed records and progress are kept. If the selected area is waiting for sign-in, a missing answer or its retry time, other area downloads stay waiting. They resume after the selected area's required records are saved. Recent complete records are reused.
+
+Opening **Browser** to sign in keeps the area from the screen you just used. In a list with several ticked Villages, the last ticked Village owns the download turn. While a named report area is being matched to the saved location list, downloads wait instead of reading another area. A tab with no selected area releases the area hold. A deliberate download pause stays paused.
+
+The required records are matching Job Card and worker details, eKYC, ABPS and Aadhaar Availability answers. Each selected worker must still pass the required Yes, completed and active answers before a demand can be checked. Optional day figures, seeding and work lists do not hold other areas after those required records are saved. Being ready to check a demand does not mean every optional report is complete.
 
 ## 11. Balance and Recharge
 

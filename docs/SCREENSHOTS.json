@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-28T05:40:14.325059+00:00",
+  "captured_at": "2026-10-29T06:04:51.866541+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.20",
-    "android": "1.4.20"
+    "desktop": "1.4.21",
+    "android": "1.4.21"
   },
   "published_versions": {
-    "desktop": "1.4.20",
-    "android": "1.4.20"
+    "desktop": "1.4.21",
+    "android": "1.4.21"
   },
-  "published_notes_sha256": "743c092c18faa21031a6285c307e6f42a8585745f8fa1ea92c7bb0c12b3fb605",
-  "source_fingerprint": "ff2b2eb4e0ccb5cd1b9ce5017fd660983c28fac4b84fe7ca91eeda2f4bcd4581",
+  "published_notes_sha256": "82fcf75e982b048ab567698e2ae826f80321907934215eba86600f0b95bc0686",
+  "source_fingerprint": "6a3a76881bb93f7f32c274108f5b75dd9aafa64fab2bbb5c2521ee6caa5b9d34",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "909f1a4990ee1bd7fa570af9f9336babbafe1d8c2996b3e54021f978eeca20eb",
+      "sha256": "3b268f3c089fef1f7aeacc2c03d16e1cae438ab55a25d1664e0fddebb2b11427",
       "width": 1236,
       "height": 2745
     },
@@ -30,9 +30,9 @@
       "file": "02-android-login.png",
       "title": "Personal Android access",
       "app": "Desktop preview",
-      "caption": "Login code and My areas are grouped separately. Read areas or open code options only when needed. This displayed code is fictional.",
+      "caption": "Review Panchayats and Villages already saved in My Areas, then continue to your personal Android login code. This narrow desktop preview uses fictional records.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "3688eb2e41a17fb4137dd433873e6d97564d6fbd205a443dc933d5aebae68f6f",
+      "sha256": "0272f5260860736b184f1351ce521fe567de102cc06ecf99ad5586a3c3db7cce",
       "width": 960,
       "height": 2400
     },
@@ -50,9 +50,9 @@
       "file": "04-integrated-browser.png",
       "title": "First setup and your login page",
       "app": "Desktop preview",
-      "caption": "One guided page at a time: Login area, Sign in, Work areas and Download records. The official portal gets the full workspace during sign-in. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.",
+      "caption": "One guided page at a time: Login area, Sign in, Work areas and Download records. All app menus remain available before portal sign-in and during setup. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "04d87a4c73990581201ba6c7c5dea62f8dd8a64b75e9ce6f837c4c759b577096",
+      "sha256": "69894a733b2e1de585ae20cd2e7de6c5d290f2c965785e77da9f081c1c427e5c",
       "width": 960,
       "height": 1920
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "36f861d2cc5ccd813794ecd7d60997ec5defe49b070d61277c916fbd73bf670b",
+      "sha256": "5e642d6ba3458d85934beda252f2150d5ea7c4aa7895490a27c7d71bc0231f5d",
       "width": 960,
       "height": 1920
     },
@@ -110,9 +110,9 @@
       "file": "10-work-demand-entry.png",
       "title": "Guided Work Demand",
       "app": "Desktop preview",
-      "caption": "Create demand follows Area, Workers, Work, Days and dates, Review and send, and Result. Step buttons keep your entries and send nothing.",
+      "caption": "Follow the Work Demand steps. Show or hide Worked and Days left separately with saved switches. These figures are information only; your entered days stay unchanged.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "39d600b9e24d5a75f77ae92ad6b3879ac512f8df13d675220323ad9f591f3017",
+      "sha256": "eb0f78636e797e688f8658204b1c883aa0e4d578a05869af4eb422829faa5752",
       "width": 960,
       "height": 1920
     },
@@ -120,9 +120,9 @@
       "file": "11-check-demand.png",
       "title": "Check demand issues",
       "app": "Desktop preview",
-      "caption": "See the worker and the reason when a demand needs attention.",
+      "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "b49bbc07f513724506ea6c0e13ffc5df88f6febd91ed415e4835f4d88c49dad7",
+      "sha256": "44d4cca8b004c8eefb30c1c7ae933c6a40d2fa9df826cc496745a1d384583ae1",
       "width": 960,
       "height": 1920
     },
@@ -132,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "98306fa7ef247d9553a5a1d4a67d35ec4abac45a89676545fe5985691b15b685",
+      "sha256": "1d1754299309be119c841bb966aac9869541b4197a95979794c98486fb5e6264",
       "width": 960,
       "height": 1920
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Choose a Settings section, then change the options you need. Work, App and Account choices stay together. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "17f08598e2f0d092e0a5f92abc49d77eab9349c53fbd821c157b9db82777b9ad",
+      "sha256": "f189c09d959148c36a4f75f36f1b60473db061689cfc784fd1f2ed2220e4c770",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "b46e14ec418ba788d4e9151ac8e578c23370f4ee30b74282180c77ff99e6e037",
+      "sha256": "cfedeee3c3d130a63c72748e0c898217b93554a9ec013eb7c89a8b93a2bf0bb4",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "2ce42b4551ce7f967075ae1bf423b442a12f6ad2acdb472b3c55bc8b73ed5a0a",
-    "docs/USER_GUIDE.md": "e333be696bcae859c2f0f2db6cee9355d6c126d3acf67d076c1794479a2e9e05",
-    "docs/FEATURES.md": "c5aaf24d8c246b647b9ffa9e8ba83cb184d1edb8451b4a1eebb7862d0c1a0fe3",
-    "docs/LATEST_CHANGES.md": "809dabb035a11fcc17ba965d0989a8dd24125b1d83f1b65ed6d829cfa9299dd9"
+    "README.md": "7380271122e4b698bea3bd06ecdd8d2460508e80dccd824fe3138aa9e6b790ec",
+    "docs/USER_GUIDE.md": "e7f53a4aec0bc48a7eeeddb498a3405c697471c951be1b98ad567bbdda3481f3",
+    "docs/FEATURES.md": "ec2a61e2ef98aa0955e2214438b556a34fda99dab1ee3d3158126c013a9de694",
+    "docs/LATEST_CHANGES.md": "2e4e9831487d9c6f6cc1e93b37ea170bf9c9d5bc31ba6328c4ecd9f19d73a5d3"
   }
 }

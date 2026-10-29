@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.20 and Android 1.4.20 · 2026-10-28.**
+**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.20**, Android **1.4.20**.
+Published downloads: desktop **1.4.21**, Android **1.4.21**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/VBGRAMG-DEO-Assistant-1.4.20-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.20](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.20/Worker-Demand-1.4.20.apk) |
+| Windows 64-bit | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/Worker-Demand-1.4.21.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.20).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.21).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -33,14 +33,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.20**
+**Published 1.4.21**
 
-- Whatever Panchayat or Village you are currently working on gets first priority for downloads and worker checks, even outside the areas saved during setup. A selected Village comes first. A whole Panchayat puts its Villages before other Panchayats.
-- Changing area changes the next read while keeping completed records. The reader can pick up the newly selected area&#x27;s saved workers during an existing download. Setup areas stay saved for routine background work.
-- When saved choices finish loading, worker checks wait for the review screen to show the restored area. An older Village cannot take the first download turn during that change.
-- This priority follows the screen being used: Create demand, Received requests, Job Cards, Reports and area choices. Hidden screens cannot replace it. Opening Browser keeps the area from the screen just used.
-- Permitted received requests can prepare their exact Village outside the routine setup areas. The portal account&#x27;s offered locations and Financial Year still control private access. Removed request permissions stop request-specific background priorities.
-- Each running app copy keeps its own current request progress message. A side-browser copy without a portal connection cannot replace the desktop reader&#x27;s message with an incorrect sign-in request.
+- Required worker records come first. The app reads worker identities, eKYC, ABPS and Aadhaar Availability before extra reports. A work report needed for the current demand keeps its required checks.
+- Download requests for the same account, selected area, Financial Year and records share work. The selected Village goes first, followed by its siblings; the selected Panchayat stays ahead of other Panchayats.
+- Checked households are saved in small batches and can appear before the whole Village finishes. Pauses, failures and restarts keep completed records. An unfinished download stays incomplete.
+- Public readers reuse already checked Job Card details and area choices. Extra reports wait until the app has been idle for at least 15 seconds and yield when activity resumes. Deliberate pauses and portal entry protection remain in place.
+- Job Card lists and totals load together. Search covers the full saved list before choosing the display page. Background updates keep search, open households, selected workers, entered days and dates.
+- Required worker checks remain mandatory. Missing answers never mean eligible. Days worked and days left remain information and do not change entered days. Work selection stays optional; a chosen work keeps its checks.
 
 These pictures were refreshed from the source used for this publication.
 
