@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
+**Screens captured for desktop 1.4.22 and Android 1.4.22 · 2026-10-30.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -71,16 +71,16 @@ The sidebar shows a short explanation under each tool. **Work Demand** brings Re
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.21**, Android **1.4.21**.
+Published downloads: desktop **1.4.22**, Android **1.4.22**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/Worker-Demand-1.4.21.apk) |
+| Windows 64-bit | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/Worker-Demand-1.4.22.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.21).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.22).
 
 ### Find the next task
 
@@ -92,7 +92,7 @@ During a record download, the request list and open request show a bar and perce
 
 In the selected area's **Record updates**, each item shows its saved or checked count. Job Cards and workers have separate counts. Days worked shows how many active workers have usable saved days. Work Codes and reported Work Order numbers show separate saved counts for the selected Panchayat. Each identity or payment check shows how many active workers have a current answer, including a reported No. Earlier answers that need an update are shown separately. **Total still being checked** means the complete list is not known yet; saved counts remain visible.
 
-**Required records come first.** The app downloads Job Card numbers, worker names and worker details first. It then reads eKYC, ABPS and Aadhaar Availability. Until the selected area's required records are saved, other Panchayats and Villages wait, including background and Muster Roll downloads. Seeding and other extra answers follow. Days worked, shared days left and work lists come last. Slow or failed optional reports do not hold up required worker checks. Paused downloads remain paused.
+**Required records come first.** The app first saves Job Card numbers or Registration IDs and their family members from the complete registration and issued-card lists. Matching households appear in groups of up to 16 before their detail pages are requested. It then reads eKYC, ABPS and Aadhaar Availability. Extra information follows, including Aadhaar Authentication, Aadhaar Seeding, days worked, shared days left, active or inactive status and other details. Any useful answer returned on a page already being read is saved without opening that page again. Until the selected area's required records are saved, other Panchayats and Villages wait, including background and Muster Roll downloads. Slow or failed optional reports do not hold up the basic worker list. Paused downloads remain paused.
 
 Checked households appear as they are saved. The Village remains incomplete until every required page and household is accounted for. Closing a screen or retrying a download keeps completed saves. Extra reports start after 15 seconds without activity and pause at the next safe point when you resume work. A report needed for your current **Check demand** keeps its priority.
 
@@ -100,7 +100,17 @@ If a public worker list cannot be read, the app keeps the saved workers and foll
 
 The Job Cards screen reads its list and totals together. Search covers all saved households before choosing a display page, including matching inactive workers and workers whose checks have not passed. Background updates keep the open households, search and page. **Eligible**, **Not eligible**, **Not yet checked** and **Data unavailable** describe the saved worker checks. Missing answers never mean eligible. Always run **Check demand** before portal entry.
 
-Above the worker table, use **Show Worked** and **Show Days left** separately. Your choices stay saved when the app reopens. These figures are information only, whether shown or hidden. Missing, old or unfinished day reports do not stop creating or checking a demand, reduce requested days or leave workers out. Unknown figures stay **Not known**; old figures show **Update needed**.
+Above the worker table, use **Show Worked** and **Show Days left** separately. Your choices stay saved when the app reopens. These figures are information only, whether shown or hidden. Missing, old or unfinished day reports do not stop creating or checking a demand, reduce requested days or leave workers out. Unknown figures stay **Not known**; old figures show **Update needed** on a separate line below the saved number.
+
+In **Create demand**, the search, list size, **Add workers** and member buttons sit below **Optional day information**, directly above the worker list. Use **Add workers** to find saved members and add them to this demand. It remains available when the list is empty.
+
+Use **Sort by** to arrange the whole saved list by name, Job Card number, active first or inactive first. Names and Job Card numbers can run in either order. Job Card groups stay together, and sorting happens before the list is divided into pages. Unknown status is kept separate from confirmed active and inactive status. Your sort choice is remembered. Sorting keeps your selected workers, entered days and dates, and checked demand.
+
+Worker rows keep the last confirmed registration status when its daily check is old. **Saved: Active**, **Saved: Inactive** or **Saved: Deleted** appears with **Update needed**. Point to the status to see when it was checked. This saved label does not replace the current checks used for filters, sorting or demand entry. Records with no confirmed status still show **Active: unknown**.
+
+Each worker has a clear status tag: **Active**, **Inactive** or **Deleted**. Deleted records stay saved and can be found by name or Job Card search. Search also shows matching records left out by your current filters, for review. Change the relevant Worker filter to **No filter** to keep them in the normal list. Required checks still decide whether a worker can be selected. This follows the selected area for any State, Panchayat or Village offered by the portal and the signed-in account; no example place limits the status labels.
+
+Registration status is checked automatically when its daily update is due, while the app is running and downloads are enabled. Failed reads keep the previous saved status and follow the normal retry time. A successful background update changes the displayed tag without pressing **Refresh saved records**, keeping your entered days and dates. A deliberate download pause is respected. A portal or sign-in problem must be resolved before the missing records can finish updating.
 
 Work Demand always checks the correct Job Card number and matching worker details, completed **eKYC**, active **ABPS**, and **Aadhaar Availability: Yes**. These checks cannot be turned off. Seeding, authentication, photo and day figures are optional information. A demand can be checked as soon as its required worker records pass, even while other reports continue downloading. **Ready to check a demand** and **all downloads complete** are separate results.
 
@@ -209,9 +219,21 @@ Open **Work Demand**. Choose **Create demand** for a new demand, or **Received r
 
 Follow **Area → Workers → Work → Days and dates → Review and send → Result**. Choose a step to return to it. This only opens that section; it does not save, send or repeat a demand. Your entered workers, dates and days stay on the page.
 
+**Choose the Village and Financial Year** always stays expanded in Create demand. State, Financial Year, District, Block, Panchayat and Village stay visible while you move between steps. This panel has no collapse control.
+
+**Worker filters** also stays expanded. All filter choices remain visible, and clicking its heading does not hide them.
+
+Each filter shows its confirmed matches and how many answers still need checking. **Leave out** removes confirmed matches only. Missing or old answers stay listed for review. A worker can match several filters and is counted once in **left out**. Changing one filter may leave the same worker out because another filter still applies.
+
 **Work** is optional where the app already allows it. The bulk days box also selects eligible workers allowed by the current filters. Individual workers keep their own day and date controls in the worker list. Use **Edit individual days and dates** to return there.
 
+In **Days and dates**, type a date or choose the calendar icon inside its box. The icon stays in place when you point to it. Application Date, Start Date and End Date each open their own calendar.
+
 Use **Check demand** to find problems. Read the checked summary before **Send to VBGRAMG**. **Result** opens the active entry or your saved result list when one is available. A checked draft is separate from a confirmed saved portal demand.
+
+Before sending, select workers and enter their days and dates, then choose **Preview demand** in **Review and send**. The preview includes every selected worker across all list pages, each full Job Card and member number, their own dates, the Application Date, area, Financial Year and total requested days. Use **Save PDF** for a saved copy or **Print** to open your print window. Long lists continue on numbered A4 pages.
+
+The preview and saved copy say **DRAFT - NOT SENT TO VBGRAMG**. Making a copy does not check, approve or submit the demand. **Check demand** and the existing portal checks still apply before sending. Closing the preview keeps your workers, days and dates. A changed area, account or demand closes the old preview, and a late PDF cannot replace the current work. This is a desktop feature, also available in the web preview; Android keeps its existing request reports.
 
 Members and Work Order choices finish loading even while background updates continue. Earlier saved lists stay visible during a new read. Returning to this screen checks the latest saved lists. If the selected Village is still downloading, the app tries reading it again automatically. Your entered days and dates are kept. A download message is separate from the result of an official Work Demand submission.
 
@@ -225,7 +247,7 @@ If **Attention required** asks for a portal sign-in, open **Browser** in the des
 
 1. Check the area and Financial Year. Use current offered choices; do not replace an unavailable area with another place.
 2. Check the **Application Date**. This is separate from the requested work dates.
-3. Search the worker list or open **Worker filters**. Active status, Aadhaar availability, electronic identity verification (**eKYC**) and Aadhaar Based Payment System (**ABPS**) answers help find records to review.
+3. Search the worker list or review **Worker filters**. Active status, Aadhaar availability, electronic identity verification (**eKYC**) and Aadhaar Based Payment System (**ABPS**) answers help find records to review.
 4. Choose the workers. Set their own requested days, start and end dates. Days are shared by Job Card. Filters change what you see; review selected workers hidden by filters before continuing.
 5. Use the available add or remove controls to change this demand's worker list. Removing someone from a demand does not delete their Job Card record.
 6. Choose **Check demand**. Read the named worker and reason for every issue. Correct dates or selections, or update the saved checks, then check again.

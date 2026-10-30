@@ -2,7 +2,9 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
+**Screens captured for desktop 1.4.22 and Android 1.4.22 · 2026-10-30.**
+
+- **Preview, PDF and printing before sending:** review selected workers and their own requested dates in one draft copy. Save PDF or open the print window before portal entry. All selected list pages are included, with Job Card counts and total requested days. The copy stays marked as a draft; current checks and portal safeguards still apply. Desktop and web preview feature.
 
 - **Optional day columns:** show or hide Worked and Days left separately, with saved choices. Saved day figures never change entered days or hold up a Work Demand. Missing figures stay unknown.
 - **Selected area only until required saves finish:** the active tab's Panchayat or Village owns downloads until matching Job Card and worker records, eKYC, ABPS and Aadhaar Availability answers are saved. Other public, private and Muster Roll downloads wait, then resume. Changing area or tab changes the next read and keeps progress. Recent complete records are reused, including after a retry.

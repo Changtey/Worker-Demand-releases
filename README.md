@@ -14,16 +14,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.21**, Android **1.4.21**.
+Published downloads: desktop **1.4.22**, Android **1.4.22**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/VBGRAMG-DEO-Assistant-1.4.21-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.21](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.21/Worker-Demand-1.4.21.apk) |
+| Windows 64-bit | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/Worker-Demand-1.4.22.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.21).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.22).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -67,7 +67,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.21 and Android 1.4.21 · 2026-10-29.**
+**Screens captured for desktop 1.4.22 and Android 1.4.22 · 2026-10-30.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -88,7 +88,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>09. Worker filters</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/09-worker-search.png"><img src="docs/screenshots/09-worker-search.png" width="260" alt="Desktop preview: 09. Worker filters"></a><br>Keep the list compact with saved status and identity check choices.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>10. Guided Work Demand</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Guided Work Demand"></a><br>Follow the Work Demand steps. Show or hide Worked and Days left separately with saved switches. These figures are information only; your entered days stay unchanged.</td>
+<td width="33%" valign="top"><b>10. Preview, save and print a demand</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/10-work-demand-entry.png"><img src="docs/screenshots/10-work-demand-entry.png" width="260" alt="Desktop preview: 10. Preview, save and print a demand"></a><br>Review selected workers, full Job Cards, dates and totals before portal entry. Save PDF or Print a draft copy. Nothing is sent by making a copy. This is a narrow desktop preview with fictional records.</td>
 <td width="33%" valign="top"><b>11. Check demand issues</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/11-check-demand.png"><img src="docs/screenshots/11-check-demand.png" width="260" alt="Desktop preview: 11. Check demand issues"></a><br>See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.</td>
 <td width="33%" valign="top"><b>12. Record download progress</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/12-worker-management.png"><img src="docs/screenshots/12-worker-management.png" width="260" alt="Desktop preview: 12. Record download progress"></a><br>Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.</td>
 </tr>
@@ -147,13 +147,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.21**
+**Published 1.4.22**
 
-- Required worker records come first. The app reads worker identities, eKYC, ABPS and Aadhaar Availability before extra reports. A work report needed for the current demand keeps its required checks.
-- Download requests for the same account, selected area, Financial Year and records share work. The selected Village goes first, followed by its siblings; the selected Panchayat stays ahead of other Panchayats.
-- Checked households are saved in small batches and can appear before the whole Village finishes. Pauses, failures and restarts keep completed records. An unfinished download stays incomplete.
-- Public readers reuse already checked Job Card details and area choices. Extra reports wait until the app has been idle for at least 15 seconds and yield when activity resumes. Deliberate pauses and portal entry protection remain in place.
-- Job Card lists and totals load together. Search covers the full saved list before choosing the display page. Background updates keep search, open households, selected workers, entered days and dates.
-- Required worker checks remain mandatory. Missing answers never mean eligible. Days worked and days left remain information and do not change entered days. Work selection stays optional; a chosen work keeps its checks.
+- **Preview, save PDF and print before sending.** After selecting workers and entering their days and dates, choose **Preview demand** in **Review and send**. Review every selected member, full Job Card, individual dates and total requested days. Save an A4 PDF or open the print window. Copies say **DRAFT - NOT SENT…
+- **Basic workers appear sooner.** Matching Job Card numbers and their family members are saved from the complete registration and issued-card lists before household detail requests. Saves use groups of up to 16 households. Existing eKYC, ABPS and Aadhaar Availability reads follow; extra reports keep their later…
+- **Clear registration tags.** Active, Inactive and Deleted have distinct labels. An older confirmed answer stays visible as Saved with Update needed. Daily reads and automatic retries keep their existing schedule. Missing information stays unknown. Deleted records stay saved and searchable; selected filters still…
+- **Clearer worker filters and sorting.** Visible missing-answer counts and overlapping-match explanations make filter results easier to understand. Sort by names, Job Card numbers, active first or inactive first while keeping entered days, dates and selections.
+- **Smoother demand controls.** The area panel and worker filters stay expanded. Search, Add workers and list controls sit together above the worker list. Optional day warnings fit below their numbers. The two extra messages requested for removal have been removed.
+- **Calendar icons stay in their boxes.** Hovering a date button keeps it aligned inside Application Date, Start Date and End Date. Date typing and the calendar controls are retained.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.
