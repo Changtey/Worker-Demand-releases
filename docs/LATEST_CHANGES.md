@@ -2,24 +2,30 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.22 and Android 1.4.22 · 2026-10-30.**
+**Screens captured for desktop 1.4.24 and Android 1.4.24 · 2026-10-30.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.22**, Android **1.4.22**.
+Published downloads: desktop **1.4.24**, Android **1.4.24**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/Worker-Demand-1.4.22.apk) |
+| Windows 64-bit | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/Worker-Demand-1.4.24.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.22).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.24).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
 ## Changes in this release
+
+**30 October 2026 — Saved day totals are information only**
+
+The online family day-total limit has been removed. Days worked and days remaining must not stop a Work Demand or reduce the requested days. Checks with fictional records confirmed approval and entry preparation, unchanged requested days and protection against repeated worker periods. Every fictional online test change was rolled back. The official portal was not contacted.
+
+The separate desktop 1.4.23 correction also removes the old local approval check. The Android correction keeps requested days above earlier saved totals. These installation files are prepared and checked; installation and public app publication remain separate steps. Existing worker identity, required answers, dates and official portal checks remain in place.
 
 **27 October 2026 — Remove your own assigned areas enabled online**
 
@@ -33,14 +39,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.22**
+**Published 1.4.24**
 
-- **Preview, save PDF and print before sending.** After selecting workers and entering their days and dates, choose **Preview demand** in **Review and send**. Review every selected member, full Job Card, individual dates and total requested days. Save an A4 PDF or open the print window. Copies say **DRAFT - NOT SENT…
-- **Basic workers appear sooner.** Matching Job Card numbers and their family members are saved from the complete registration and issued-card lists before household detail requests. Saves use groups of up to 16 households. Existing eKYC, ABPS and Aadhaar Availability reads follow; extra reports keep their later…
-- **Clear registration tags.** Active, Inactive and Deleted have distinct labels. An older confirmed answer stays visible as Saved with Update needed. Daily reads and automatic retries keep their existing schedule. Missing information stays unknown. Deleted records stay saved and searchable; selected filters still…
-- **Clearer worker filters and sorting.** Visible missing-answer counts and overlapping-match explanations make filter results easier to understand. Sort by names, Job Card numbers, active first or inactive first while keeping entered days, dates and selections.
-- **Smoother demand controls.** The area panel and worker filters stay expanded. Search, Add workers and list controls sit together above the worker list. Optional day warnings fit below their numbers. The two extra messages requested for removal have been removed.
-- **Calendar icons stay in their boxes.** Hovering a date button keeps it aligned inside Application Date, Start Date and End Date. Date typing and the calendar controls are retained.
+- Job Card numbers and members come first, followed by eKYC, ABPS and Aadhaar Availability. Other information follows in the background. A slow public household page no longer holds up all following cards. The existing four-request limit is kept.
+- Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card. Availability updates, **Recheck data**, **Update Data**, another family member&#x27;s check and daily day-report reads skip those completed answers. No, missing, unknown and unconfirmed answers are tried again when an update is…
+- **Recheck data** appears under the selected Panchayat or Village&#x27;s progress, including after a completed download. **Download missing records** continues unfinished work. Both keep saved records and entered demand details.
+- **Settings → Manage downloaded data** lists Panchayats and saved Village choices, with Job Card counts, members and download status. Queue a whole Panchayat before its Village list has been read, or use **Read Village list** to choose individual Villages. Select several areas, download them in order, request fresh…
+- Deletion needs a separate review and confirmation. It covers downloaded records for the reviewed areas for **all Financial Years on this computer**. A checked private recovery copy is saved first. Removed areas stay stopped until explicitly downloaded again. Exported PDFs, official submissions, demand history,…
+- Saving new members avoids repeated empty lookups. Saved worker pages and totals share one calculation. Search still covers all saved workers before choosing a page. Display copies cannot approve or send a Work Demand.
 
 These pictures were refreshed from the source used for this publication.
 

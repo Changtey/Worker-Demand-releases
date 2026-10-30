@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-30T01:41:11.984808+00:00",
+  "captured_at": "2026-10-30T12:58:42.730897+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.22",
-    "android": "1.4.22"
+    "desktop": "1.4.24",
+    "android": "1.4.24"
   },
   "published_versions": {
-    "desktop": "1.4.22",
-    "android": "1.4.22"
+    "desktop": "1.4.24",
+    "android": "1.4.24"
   },
-  "published_notes_sha256": "632b9b21e8729caf0596ee7d471fd2a7068fdc42ddb1f60d1586887727f38dc0",
-  "source_fingerprint": "03df41d6b3222f86079dec67cde4f781ff2d4edd628b573c0533f7072dae6b23",
+  "published_notes_sha256": "86e63a91ed600ea5456eda5e0e7bf4a13dfa1688d15636411907501a68cb2072",
+  "source_fingerprint": "e16981c1cc38c20524291fa570febee1b8e5764fd3fe5577d7e8c2f6b54a8fb9",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "f11d2aab118476bfdd43f063b018f955f34ee0afaf85a8fd9b6d5f94dfd8a977",
+      "sha256": "bd254a969e07995c6a310c26c5fd0901b255db928c24640eeeb2bc80d04086e1",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "e5beba9072e1b949189a6f614f4bc9481a1239831c843dca3e11f7461b6876fb",
+      "sha256": "597052d718bdcf4689579451a7c8d7eed388605ad5fcf0592dc078a2a447733b",
       "width": 960,
       "height": 1920
     },
@@ -142,17 +142,17 @@
       "app": "Desktop preview",
       "caption": "Choose Panchayats and Villages for the official attendance reports.",
       "path": "docs/screenshots/13-muster-reports.png",
-      "sha256": "fce7e3361bb57b4cf364b3981880cfa3c1dced6e7a6761cd30fdfbb9d49cb035",
+      "sha256": "8459041fe4168b47b6b41566cc9fbed4060c6acc9b81061cf68751c7c0be1fd0",
       "width": 960,
       "height": 2300
     },
     {
       "file": "14-settings.png",
-      "title": "Simple app settings",
+      "title": "Manage downloaded data",
       "app": "Desktop preview",
-      "caption": "Choose a Settings section, then change the options you need. Work, App and Account choices stay together. This is a narrow desktop preview.",
+      "caption": "See saved Panchayats and Villages, choose areas to download, or review downloaded data to delete. Deletion needs a separate confirmation. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "a17ef63dcee4b2d617ae059b8101439c48e42f854dccdfeb3444fb3cd8db4729",
+      "sha256": "89fd256c806838c750114a9b5a2c5c81fe11d3ce7c7acf6ebc6234783583b222",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "a178d880bd4fe4e369df8a123a3c02dc5c13a2b7d674c1bb8d12dba1541fe58d",
+      "sha256": "10f4ae8b445f5a2c3e55b260e51db31224a3600f94b07f92f3a80e5b71303a7a",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "249314047602a4d23b7afe72237bec7f65fcd75c51827f08184275eee301d28f",
-    "docs/USER_GUIDE.md": "05c282d032e18b367da133608c6f23d175b2c655433a439eb33763449d90c36b",
-    "docs/FEATURES.md": "3613f0518e69eec08ec7acadb627b288df694bbc046bf8fd2034e71985009f37",
-    "docs/LATEST_CHANGES.md": "eedbcf1db2d7cef3398d0939928db5889ec64cff384b3cbe077d2f976a368e65"
+    "README.md": "a637d58583d103fee82524e9f0811e234a5c93527e72389c75ee1d28a529a2f8",
+    "docs/USER_GUIDE.md": "f5555643485c7361d263be104ff3340276121f1fd71dcc5234ab5725ba9fc3ec",
+    "docs/FEATURES.md": "d35274fe4cb7ee7ff174eaf2705b583832e280f5c8b7789a95cc87898bf23bad",
+    "docs/LATEST_CHANGES.md": "457df4b1058369903e9ee3be7057b6c975306c4688e0ac367e084c1f4a407e16"
   }
 }

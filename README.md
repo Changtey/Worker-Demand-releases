@@ -4,6 +4,12 @@
 
 VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, workers, work requests and Muster Roll reports. The companion **Worker Demand** Android app lets DEOs and Panchayat Secretaries prepare requests from their assigned areas.
 
+The desktop downloads one area at a time. The Panchayat or Village in the active tab goes first. Changing area keeps saved progress, and other queued areas continue one by one afterward. Settings shows the download order and each area's status.
+
+Under area progress, **Download missing records** continues unfinished work. **Recheck data** asks for fresh information for the selected Panchayat or Village and year. Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card, including during a recheck.
+
+**Settings → Manage downloaded data** puts area selection, saved counts, background downloads and reviewed deletion together. You can download a whole Panchayat before its Village list has been read. Use **Read Village list** to choose individual Villages.
+
 [Get the apps](#download) · [User guide](docs/USER_GUIDE.md) · [Features](docs/FEATURES.md) · [Latest changes](docs/LATEST_CHANGES.md)
 
 | For the office | For the phone |
@@ -14,16 +20,16 @@ VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, work
 
 ## Download
 
-Published downloads: desktop **1.4.22**, Android **1.4.22**.
+Published downloads: desktop **1.4.24**, Android **1.4.24**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/VBGRAMG-DEO-Assistant-1.4.22-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.22](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.22/Worker-Demand-1.4.22.apk) |
+| Windows 64-bit | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/Worker-Demand-1.4.24.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.22).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.24).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -50,11 +56,14 @@ Open **Work Demand** at any time, including before portal sign-in. All app menus
 
 ## What you can do
 
+Work Demand can try temporary browser problems again before filling starts. **Try again** and **Continue remaining entries** keep earlier results. Any worker with an uncertain Proceed result stays held for checking.
+
 On first use, sign in to VBGRAMG in **Browser**, save your assigned Panchayats or Villages, and wait for the required downloads to reach **100%**. Your default login page and work areas are kept for your account. Change areas later in Settings. Daily background updates continue, while matching completed eKYC, ABPS and Aadhaar Availability checks are reused with their original check dates.
 
 - Find Job Cards, household members, saved worker checks and days left.
 - Search by name or Job Card; filter by active status, Aadhaar availability, identity checks and Aadhaar payment checks.
 - Prepare each worker's requested days and dates, then use **Check demand** to find issues.
+- Days worked and days remaining are information only. Missing, old, zero or small saved totals do not block creating, approving or sending a request, or reduce the days you enter.
 - See confirmed submission counts and named worker issues after desktop entry. Retry failed entries safely and reopen the saved completion summary later.
 - Receive Received requests, prepare their area records automatically in the background, review changes and start entry in the desktop Browser.
 - Give a DEO personal Android access or assign separate Secretary access.
@@ -67,7 +76,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.22 and Android 1.4.22 · 2026-10-30.**
+**Screens captured for desktop 1.4.24 and Android 1.4.24 · 2026-10-30.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -94,7 +103,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 </tr>
 <tr>
 <td width="33%" valign="top"><b>13. Muster Roll Reports</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/13-muster-reports.png"><img src="docs/screenshots/13-muster-reports.png" width="260" alt="Desktop preview: 13. Muster Roll Reports"></a><br>Choose Panchayats and Villages for the official attendance reports.</td>
-<td width="33%" valign="top"><b>14. Simple app settings</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Simple app settings"></a><br>Choose a Settings section, then change the options you need. Work, App and Account choices stay together. This is a narrow desktop preview.</td>
+<td width="33%" valign="top"><b>14. Manage downloaded data</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Manage downloaded data"></a><br>See saved Panchayats and Villages, choose areas to download, or review downloaded data to delete. Deletion needs a separate confirmation. This is a narrow desktop preview.</td>
 <td width="33%" valign="top"><b>15. Your Android account</b><br><sub>Android</sub><br><a href="docs/screenshots/15-my-account.png"><img src="docs/screenshots/15-my-account.png" width="260" alt="Android: 15. Your Android account"></a><br>Check your role and assigned area, or sign out. Android follows the phone system colours.</td>
 </tr>
 </table>
@@ -135,6 +144,12 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 
 ## Current changes
 
+**30 October 2026 — Saved day totals are information only**
+
+The online family day-total limit has been removed. Days worked and days remaining must not stop a Work Demand or reduce the requested days. Checks with fictional records confirmed approval and entry preparation, unchanged requested days and protection against repeated worker periods. Every fictional online test change was rolled back. The official portal was not contacted.
+
+The separate desktop 1.4.23 correction also removes the old local approval check. The Android correction keeps requested days above earlier saved totals. These installation files are prepared and checked; installation and public app publication remain separate steps. Existing worker identity, required answers, dates and official portal checks remain in place.
+
 **27 October 2026 — Remove your own assigned areas enabled online**
 
 On desktop, open **Android access → My areas → Change my Android access**. Select your assigned Panchayats or Villages, choose **Remove selected areas**, check the names and choose **Remove areas**. You can remove only your own assignments. Other users' areas are protected. Saved worker records, requests, completed Work Demands, Muster Rolls, Secretary accounts, login codes and history are kept.
@@ -147,13 +162,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.22**
+**Published 1.4.24**
 
-- **Preview, save PDF and print before sending.** After selecting workers and entering their days and dates, choose **Preview demand** in **Review and send**. Review every selected member, full Job Card, individual dates and total requested days. Save an A4 PDF or open the print window. Copies say **DRAFT - NOT SENT…
-- **Basic workers appear sooner.** Matching Job Card numbers and their family members are saved from the complete registration and issued-card lists before household detail requests. Saves use groups of up to 16 households. Existing eKYC, ABPS and Aadhaar Availability reads follow; extra reports keep their later…
-- **Clear registration tags.** Active, Inactive and Deleted have distinct labels. An older confirmed answer stays visible as Saved with Update needed. Daily reads and automatic retries keep their existing schedule. Missing information stays unknown. Deleted records stay saved and searchable; selected filters still…
-- **Clearer worker filters and sorting.** Visible missing-answer counts and overlapping-match explanations make filter results easier to understand. Sort by names, Job Card numbers, active first or inactive first while keeping entered days, dates and selections.
-- **Smoother demand controls.** The area panel and worker filters stay expanded. Search, Add workers and list controls sit together above the worker list. Optional day warnings fit below their numbers. The two extra messages requested for removal have been removed.
-- **Calendar icons stay in their boxes.** Hovering a date button keeps it aligned inside Application Date, Start Date and End Date. Date typing and the calendar controls are retained.
+- Job Card numbers and members come first, followed by eKYC, ABPS and Aadhaar Availability. Other information follows in the background. A slow public household page no longer holds up all following cards. The existing four-request limit is kept.
+- Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card. Availability updates, **Recheck data**, **Update Data**, another family member&#x27;s check and daily day-report reads skip those completed answers. No, missing, unknown and unconfirmed answers are tried again when an update is…
+- **Recheck data** appears under the selected Panchayat or Village&#x27;s progress, including after a completed download. **Download missing records** continues unfinished work. Both keep saved records and entered demand details.
+- **Settings → Manage downloaded data** lists Panchayats and saved Village choices, with Job Card counts, members and download status. Queue a whole Panchayat before its Village list has been read, or use **Read Village list** to choose individual Villages. Select several areas, download them in order, request fresh…
+- Deletion needs a separate review and confirmation. It covers downloaded records for the reviewed areas for **all Financial Years on this computer**. A checked private recovery copy is saved first. Removed areas stay stopped until explicitly downloaded again. Exported PDFs, official submissions, demand history,…
+- Saving new members avoids repeated empty lookups. Saved worker pages and totals share one calculation. Search still covers all saved workers before choosing a page. Display copies cannot approve or send a Work Demand.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.
