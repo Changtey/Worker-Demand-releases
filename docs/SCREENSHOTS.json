@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-30T12:58:42.730897+00:00",
+  "captured_at": "2026-10-30T16:44:05.707786+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.24",
-    "android": "1.4.24"
+    "desktop": "1.4.25",
+    "android": "1.4.25"
   },
   "published_versions": {
-    "desktop": "1.4.24",
-    "android": "1.4.24"
+    "desktop": "1.4.25",
+    "android": "1.4.25"
   },
-  "published_notes_sha256": "86e63a91ed600ea5456eda5e0e7bf4a13dfa1688d15636411907501a68cb2072",
-  "source_fingerprint": "e16981c1cc38c20524291fa570febee1b8e5764fd3fe5577d7e8c2f6b54a8fb9",
+  "published_notes_sha256": "366f7a874058289e7422364779c261ed3c70bfab0eb7fd364540bf6e409b854a",
+  "source_fingerprint": "da363b88d23208e9b0bc58258c9857b1faf56f9046067132dd8b89508f487763",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "bd254a969e07995c6a310c26c5fd0901b255db928c24640eeeb2bc80d04086e1",
+      "sha256": "7cee6f495574263cd029bfefab1813dc290982d464d900ef56197eb4fe886987",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "597052d718bdcf4689579451a7c8d7eed388605ad5fcf0592dc078a2a447733b",
+      "sha256": "520db1a39ffc274edd7fb69fce77d2463cee285aba60113763cf6f70489c0508",
       "width": 960,
       "height": 1920
     },
@@ -150,9 +150,9 @@
       "file": "14-settings.png",
       "title": "Manage downloaded data",
       "app": "Desktop preview",
-      "caption": "See saved Panchayats and Villages, choose areas to download, or review downloaded data to delete. Deletion needs a separate confirmation. This is a narrow desktop preview.",
+      "caption": "See full, partial and interrupted downloads. Choose Select All, untick any Village to keep, then Delete Selected and confirm once. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "89fd256c806838c750114a9b5a2c5c81fe11d3ce7c7acf6ebc6234783583b222",
+      "sha256": "c5ed18817cfbad82b656177ffbd883c706d723737faa4924a22f6bde5be74e85",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "10f4ae8b445f5a2c3e55b260e51db31224a3600f94b07f92f3a80e5b71303a7a",
+      "sha256": "5b4cc345673c57e2291ad4e2229c79e8eaef7b373a46e523a26ae03dc48e356c",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "a637d58583d103fee82524e9f0811e234a5c93527e72389c75ee1d28a529a2f8",
-    "docs/USER_GUIDE.md": "f5555643485c7361d263be104ff3340276121f1fd71dcc5234ab5725ba9fc3ec",
-    "docs/FEATURES.md": "d35274fe4cb7ee7ff174eaf2705b583832e280f5c8b7789a95cc87898bf23bad",
-    "docs/LATEST_CHANGES.md": "457df4b1058369903e9ee3be7057b6c975306c4688e0ac367e084c1f4a407e16"
+    "README.md": "beba2c62538e6fd02660afd8f5227cfaecdcc3432a989eb2c896f6ce5da968a1",
+    "docs/USER_GUIDE.md": "6ee6e35f960caf00ae70e22d361ed4daeaa23cf55943970098ad3e187f25649b",
+    "docs/FEATURES.md": "4243ed54de841304dc727996e90eac8fee994fbcd6c0b1fbc609c79e1e7029f5",
+    "docs/LATEST_CHANGES.md": "bdf5f7fae0b727af37c7730c447fe7dc53c77f1b4352b4bb4ace7475eb35ae87"
   }
 }

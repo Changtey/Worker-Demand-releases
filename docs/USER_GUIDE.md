@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.24 and Android 1.4.24 · 2026-10-30.**
+**Screens captured for desktop 1.4.25 and Android 1.4.25 · 2026-10-30.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -71,16 +71,16 @@ The sidebar shows a short explanation under each tool. **Work Demand** brings Re
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.24**, Android **1.4.24**.
+Published downloads: desktop **1.4.25**, Android **1.4.25**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/Worker-Demand-1.4.24.apk) |
+| Windows 64-bit | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/Worker-Demand-1.4.25.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.24).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.25).
 
 ### Find the next task
 
@@ -102,7 +102,18 @@ If a public worker list cannot be read, the app keeps the saved workers and foll
 
 The Job Cards screen reads its list and totals together. Search covers all saved households before choosing a display page, including matching inactive workers and workers whose checks have not passed. Background updates keep the open households, search and page. **Eligible**, **Not eligible**, **Not yet checked** and **Data unavailable** describe the saved worker checks. Missing answers never mean eligible. Always run **Check demand** before portal entry.
 
-Above the worker table, use **Show Worked** and **Show Days left** separately. Your choices stay saved when the app reopens. These figures are information only, whether shown or hidden. Missing, old or unfinished day reports do not stop creating or checking a demand, reduce requested days or leave workers out. Unknown figures stay **Not known**; old figures show **Update needed** on a separate line below the saved number.
+Above the worker table, use **Show Worked** and **Show Days left** separately. Your choices stay saved when the app reopens. These figures are information only, whether shown or hidden. Missing, old or unfinished day reports do not stop creating or checking a demand, reduce requested days or leave workers out. If both day values are missing, they stay **Not known**. Old figures show **Update needed** on a separate line below the saved number.
+
+The app uses the **125-day Job Card total** to fill a missing value:
+
+- **Days left = 125 − days worked.** For example, 76 worked means 49 left; 10 worked means 115 left.
+- **Days worked = 125 − days left.** For example, 76 left means 49 worked.
+
+These days are shared by the whole Job Card. If a member's own worked days are missing, the desktop shows the shared worked figure with **Job Card total** below it. A member's recorded worked days keep their own value. The Village total counts each Job Card once. A calculation keeps the saved check time and does not become a new portal check. Reported values and warnings about disagreeing reports are kept.
+
+A current saved shared total avoids another request just for days left. If the required Aadhaar page already contains a checked day total, the app saves it during that same visit. A separate day check can still run when the available records need verification.
+
+If the complete saved family list has a current worked value for every member, the app can add those values once and calculate the family's days left. One missing member value keeps that sum unknown. This does not give each member a separate 125 days.
 
 The same rule applies to phone requests, Received request approval and **Send to VBGRAMG**. Missing, old, zero or small saved day totals cannot block these steps or reduce the days you entered. Checks for worker identity, required answers, valid dates and repeated or overlapping worker requests still apply. Any message from the official portal must still be resolved there.
 
@@ -209,7 +220,7 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 **About direct phone checks:** The phone uses only public reports for the assigned area and selected Financial Year. It does not sign into an office portal or submit official records. A missing field keeps its earlier saved answer and check time. A failed, incomplete, very large or extra-page report keeps the saved office copy with a clear message. Sign-in or Security Code checks must be handled by a person; the phone reader cannot bypass them.
 
-**Days worked and days left:** Days worked belong to that worker. Days left belong to the whole Job Card family. The phone uses complete employment records and confirmed totals. It shows days left only when the public report supplies enough figures. It never gives every worker a separate family allowance or treats missing days as zero. The office still checks the records before official entry.
+**Days worked and days left:** A worker's own days worked stay separate from the shared Job Card total. Days left belong to the whole Job Card family. The office calculates a missing shared value using the 125-day total and sends the saved family figures to the phone. Missing individual work stays unknown. The office still checks the records before official entry.
 
 If access has ended, sign in again with a current code from the DEO. Some actions require a connection or a recent access check. A phone request is not an official portal Work Demand.
 
@@ -258,7 +269,8 @@ If **Attention required** asks for a portal sign-in, open **Browser** in the des
 5. Use the available add or remove controls to change this demand's worker list. Removing someone from a demand does not delete their Job Card record.
 6. Choose **Check demand**. Read the named worker and reason for every issue. Correct dates or selections, or update the saved checks, then check again.
 
-In the pictured desktop workflow, a received request has two actions: **Check demand → Send to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check. 
+In the pictured desktop workflow, a received request has two actions: **Check demand → Send to VBGRAMG**. There is no separate Approve button. Changes to workers or dates need a new check.
+
 
 For an Android request, choose **Save Changes** to keep corrections without starting portal entry. Its reports use the saved request; save corrections before downloading the request's Excel or PDF.
 
@@ -311,7 +323,7 @@ Private reports require your authorised portal account. An unavailable report or
 - **Portal login:** save the portal area used to start work.
 - **Records:** manage downloads and updates. The current Village or Panchayat gets priority, followed by other authorised areas.
 - **My Areas:** keep commonly used places together.
-- **Manage downloaded data:** see saved Villages, select one or several areas, download them or review their downloaded data before deleting it.
+- **Manage downloaded data:** see full, partial and interrupted downloads. Select one area, several areas or **Select All**, then choose **Delete Selected** and confirm once.
 
 Area choices, worker filters and list size are remembered. A new choice takes priority. If an old choice is no longer offered, review it instead of silently switching places.
 
@@ -329,14 +341,19 @@ Opening **Browser** to sign in keeps the area from the screen you just used. In 
 
 The required records are matching Job Card and worker details, eKYC, ABPS and Aadhaar Availability answers. Each selected worker must still pass the required Yes, completed and active answers before a demand can be checked. Day figures, seeding and work lists remain optional for Work Demand. Requested extra downloads keep their place in the area queue. Being ready to check a demand does not mean every optional report is complete.
 
+Work Codes and reported Work Order numbers use the last download turn for the Panchayat, after worker and day reads. The app reads every offered work-report page before saving one shared Panchayat list. The list is reused across its Villages. Different works may have the same Work Order number; their Work Codes stay separate. A number not supplied by the portal stays unavailable. Choosing a work that needs a current check can request its work report sooner.
+
 ### Manage downloaded data
 
 1. Open **Settings → Manage downloaded data**. Choose the State, Financial Year, District and Block. Use **Update lists** if the offered place list needs refreshing.
-2. Panchayats are shown even if their Village lists have not been read. You can download a whole Panchayat immediately. Choose **Read Village list** to see and select its individual Villages. Read the saved Job Card and member counts beside each Village. Saved counts cover all years on this computer. Download status shows whether an area is saved, queued, downloading, paused, completed, failed or removed.
-3. Tick individual Villages, use the Panchayat checkbox for all its Villages, or choose **Select all shown**. Search keeps earlier ticks.
-4. Choose **Download selected** to continue missing records, or **Recheck selected** for fresh information in the chosen year. Downloads use the existing queue and proceed one Village at a time. You can use other app screens while they run.
-5. To remove local downloads, read any missing Village lists first, then choose **Delete downloaded data…**. Review the Village names and record counts. Deletion removes their downloaded Job Cards, members, checks and day records for **all Financial Years**. Matching downloaded work details and public report copies are also removed. Pause downloads and let the current page finish before confirming.
-6. Choose **Delete downloaded data** to leave the areas stopped, or **Delete and download again** to queue a fresh download. A private recovery copy is checked first. Official submissions, demand history, phone requests, login details and area choices are kept.
+2. Read the **Full data**, **Partial data** and **Interrupted** labels beside each Panchayat and Village. Full data needs saved completion checks for the chosen year; a saved Job Card count alone is not enough. Counts include all years on this computer.
+3. Tick one or several Panchayats or Villages, or choose **Select All** for every downloaded or unfinished Panchayat in this Block. Search keeps your ticks. **Select All** also includes downloaded items hidden by your search. Untick any Village you want to keep, or choose **Clear selection** to start again. Places with no download are left out of **Select All**.
+4. Choose **Delete Selected**. You do not need to read a missing Village list before deleting a Panchayat's saved data.
+5. Check the selected names and record counts in the one confirmation, then choose **Delete Selected**. This removes downloaded Job Cards, members, checks and day records for **all Financial Years**. Matching downloaded work details and report copies are included. A private recovery copy is checked first. **Cancel** keeps the data.
+
+Official submissions, demand history, phone requests, login details, area choices and exported files are kept. If a download or portal task is still running, the app keeps the records and explains what must finish before deletion can continue.
+
+For downloads, choose **Download selected** to continue missing records, or **Recheck selected** for fresh information in the chosen year. A whole Panchayat can be downloaded before its Village list is read. **Read Village list** is needed only to choose individual Villages that are not already listed. Downloads proceed one Village at a time while you use other app screens.
 
 Removed areas stay stopped across restarts until you choose to download them again. A recheck keeps confirmed Aadhaar Availability Yes answers. Deleting an area's downloaded checks removes those local answers too; a fresh download must read them again. A family with manually saved members needs review before its downloaded Job Card can be deleted.
 

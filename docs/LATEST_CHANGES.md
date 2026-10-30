@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.24 and Android 1.4.24 · 2026-10-30.**
+**Screens captured for desktop 1.4.25 and Android 1.4.25 · 2026-10-30.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.24**, Android **1.4.24**.
+Published downloads: desktop **1.4.25**, Android **1.4.25**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/VBGRAMG-DEO-Assistant-1.4.24-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.24](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.24/Worker-Demand-1.4.24.apk) |
+| Windows 64-bit | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/Worker-Demand-1.4.25.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.24).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.25).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -39,14 +39,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.24**
+**Published 1.4.25**
 
-- Job Card numbers and members come first, followed by eKYC, ABPS and Aadhaar Availability. Other information follows in the background. A slow public household page no longer holds up all following cards. The existing four-request limit is kept.
-- Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card. Availability updates, **Recheck data**, **Update Data**, another family member&#x27;s check and daily day-report reads skip those completed answers. No, missing, unknown and unconfirmed answers are tried again when an update is…
-- **Recheck data** appears under the selected Panchayat or Village&#x27;s progress, including after a completed download. **Download missing records** continues unfinished work. Both keep saved records and entered demand details.
-- **Settings → Manage downloaded data** lists Panchayats and saved Village choices, with Job Card counts, members and download status. Queue a whole Panchayat before its Village list has been read, or use **Read Village list** to choose individual Villages. Select several areas, download them in order, request fresh…
-- Deletion needs a separate review and confirmation. It covers downloaded records for the reviewed areas for **all Financial Years on this computer**. A checked private recovery copy is saved first. Removed areas stay stopped until explicitly downloaded again. Exported PDFs, official submissions, demand history,…
-- Saving new members avoids repeated empty lookups. Saved worker pages and totals share one calculation. Search still covers all saved workers before choosing a page. Display copies cannot approve or send a Work Demand.
+- **Select All → Delete Selected → one confirmation:** select one Panchayat or Village, several areas, or every downloaded and unfinished area in the chosen Block. Untick individual Villages to keep their records. Full, partial and interrupted downloads have clear labels.
+- A missing Village list no longer blocks deleting a Panchayat&#x27;s downloaded data. This includes partial downloads with only work records. The confirmation shows the selected places and counts. Deletion covers all Financial Years on this computer and checks a private recovery copy first. Official records, saved demand…
+- **Days left = 125 minus days worked. Days worked = 125 minus days left.** A missing shared figure is calculated from the saved value. Examples: 76 worked gives 49 left; 10 worked gives 115 left; 76 left gives 49 worked. The Job Card family shares one total.
+- A member&#x27;s own worked days keep their recorded value. When those days are missing, the desktop can show the shared figure labelled **Job Card total**. Village totals count each family once. A complete saved family list with known member days can supply one shared sum. Missing or conflicting information stays clear…
+- Current saved day information avoids another day request. A readable total already present on a required Aadhaar page is saved during the same visit. Calculations keep the original saved time. Confirmed Aadhaar Availability Yes answers keep their existing reuse rules.
+- **Important worker information first:** Job Cards and matching worker details, then eKYC (electronic identity check), ABPS (Aadhaar-based Payment System) and Aadhaar Availability. Other worker checks and needed day information follow. Work Codes and reported Work Order numbers download last. The Panchayat&#x27;s…
 
 These pictures were refreshed from the source used for this publication.
 
