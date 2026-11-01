@@ -1,0 +1,20 @@
+MUSIC USE — SIMPLE ENGLISH
+
+Music: Wednesday Night [Funk Fusion]
+Creator: Zane Little Music
+
+The creator released this recording under CC0 1.0 Universal, a public-domain dedication.
+You can use it in Facebook videos and paid advertisements, edit it, and share it without paying for the music or asking for permission. A music credit is not required.
+
+Creator's release page:
+https://opengameart.org/content/wednesday-night-funk-fusion
+
+CC0 terms:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Copies of these pages are included in music-license-proof/. The exact downloaded recording and its file check are listed in music-source.json.
+
+The earlier Funky Chunk track was free with a required credit. It was still copyrighted. It has been replaced in these videos.
+The earlier HeyGen rock track has also been replaced in the tutorial included here.
+
+This music-use note covers the background track used in these two updated videos.
