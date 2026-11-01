@@ -4,15 +4,39 @@
 
 VBGRAMG DEO Assistant helps Data Entry Operators (DEOs) organise Job Cards, workers, work requests and Muster Roll reports. The companion **Worker Demand** Android app lets DEOs and Panchayat Secretaries prepare requests from their assigned areas.
 
+Portal setup has two steps: **Select login area → Sign in**. A confirmed sign-in opens **Work Demand → Create demand**. Work-area selection and record downloads are separate tools.
+
 The desktop downloads one area at a time. The Panchayat or Village in the active tab goes first. Changing area keeps saved progress, and other queued areas continue one by one afterward. Settings shows the download order and each area's status.
 
-Day figures use the **125-day Job Card total**: calculate days left from days worked, or days worked from days left. A saved current total avoids a separate portal request. Job Cards, worker details, eKYC, ABPS and Aadhaar Availability come first. Work Codes and reported Work Order numbers download last, in one complete list shared across the Panchayat's Villages.
+**Settings → Factory reset** deletes all local app records, downloads, settings, areas, drafts, local history, recovery copies and saved sign-ins for every app account on this computer. Read the confirmation, tick the warning and choose **Reset app and restart** to begin again at first setup. Cancel keeps your data. Online account records, balance, official portal records and files exported outside the app stay in place.
 
-Under area progress, **Download missing records** continues unfinished work. **Recheck data** asks for fresh information for the selected Panchayat or Village and year. Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card, including during a recheck.
+Changing area wakes downloads straight away. The next area starts after the previous read stops, without waiting for the regular background check. If records were deleted or downloads were paused, the message explains how to start again.
 
-**Settings → Manage downloaded data** shows full, partial and interrupted downloads. Select one area, several areas or **Select All**, untick any Village to keep, then choose **Delete Selected** and confirm once. A missing Village list does not block Panchayat deletion.
+Downloads also follow the area opened in Browser. The order is **Job Card numbers → household and worker details → Aadhaar Authentication, Aadhaar Seeding, ABPS and eKYC → worked days and days left → other records → actual Aadhaar Availability confirmation**. Other areas wait, and saved progress is kept when you switch.
+
+When all four worker checks are Yes, the worker shows **Aadhaar Availability: Yes** and you can prepare Work Demand straight away. The app remembers that this comes from the four checks. The separate Work Demand form is checked later; its actual Yes or No replaces the temporary answer. An actual No blocks that worker and shows the reason. Download counts include actual reads only.
+
+Switching Panchayat or Village gives the new choice the next turn, including a place visited earlier. Required worker checks keep priority after its public lists finish. Area lists continue automatically while the previous page finishes.
+
+The progress bar names the selected Panchayat or Village. A compact **Download overview** names the area currently downloading, its measured progress, and paused and queued areas. Longer lists open with **more**. The display updates automatically, and paused downloads resume after the priority area finishes. Deliberate pauses are kept.
+
+The app avoids finding the same area and Job Cards again for every household. It still checks each worker. On the last household page, new answers, readable day figures and the download result save together. A failed save cannot leave a new completion result behind.
+
+When the complete registration and issued-card lists agree, required worker checks can start before the remaining household detail pages. The Village stays unfinished until the final checks pass. Saved-record updates refresh the visible counts sooner and keep your selected area.
+
+Day figures use the **125-day Job Card total**: calculate days left from days worked, or days worked from days left. A saved current total avoids a separate portal request. Job Cards, worker details and all four worker checks come first. Day figures follow, then Work Codes and reported Work Order numbers in one complete list shared across the Panchayat's Villages. The separate Aadhaar Availability confirmation comes last.
+
+The selected Panchayat or Village downloads automatically, first and alone, and unfinished work retries on its own. **Recheck data** asks for fresh information for the selected Panchayat or Village and year. Confirmed **Aadhaar Availability: Yes** answers are kept for the same worker and Job Card, including during a recheck.
+
+**Settings → Manage downloaded data** shows each area's download status, last saved date and record counts. Every Panchayat and Village has **Download**, **Recheck** and **Delete** buttons. Download continues missing records; Recheck asks for fresh information for the chosen year. Saved records are shared across the app. Use **Select All – Fully Downloaded**, **Partial**, **Interrupted/Incomplete**, **Queued**, or **Select All**, then adjust any ticks. Choose **Delete Selected** or **Remove from Queue** and confirm once. Queue removal keeps saved data. A missing Village list does not block Panchayat deletion.
+
+**Delete Selected** pauses all downloads automatically, waits for the current page and its saved progress, then deletes the reviewed downloaded records after checking a private recovery copy. Downloads stay paused after reopening until you choose to start them again.
 
 [Get the apps](#download) · [User guide](docs/USER_GUIDE.md) · [Features](docs/FEATURES.md) · [Latest changes](docs/LATEST_CHANGES.md)
+
+The desktop shows download counts for the selected area, including after reopening. A stopped download explains the reason and offers **Download records again**. Completed records are reused.
+
+Progress reads family records together to avoid repeated lookups. Worker-check counts follow the same matching rules as the worker reader. If a name or worker number changes, earlier answers stay saved and show that an update is needed.
 
 | For the office | For the phone |
 | --- | --- |
@@ -22,16 +46,16 @@ Under area progress, **Download missing records** continues unfinished work. **R
 
 ## Download
 
-Published downloads: desktop **1.4.25**, Android **1.4.25**.
+Published downloads: desktop **1.4.26**, Android **1.4.26**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/Worker-Demand-1.4.25.apk) |
+| Windows 64-bit | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/Worker-Demand-1.4.26.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.25).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.26).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -60,7 +84,7 @@ Open **Work Demand** at any time, including before portal sign-in. All app menus
 
 Work Demand can try temporary browser problems again before filling starts. **Try again** and **Continue remaining entries** keep earlier results. Any worker with an uncertain Proceed result stays held for checking.
 
-On first use, sign in to VBGRAMG in **Browser**, save your assigned Panchayats or Villages, and wait for the required downloads to reach **100%**. Your default login page and work areas are kept for your account. Change areas later in Settings. Daily background updates continue, while matching completed eKYC, ABPS and Aadhaar Availability checks are reused with their original check dates.
+On first use, sign in to VBGRAMG in **Browser** and save your assigned Panchayats or Villages. You can continue when essential worker details and checks are ready, before every download reaches 100%. Your default login page and work areas are kept for your account. Change areas later in Settings. Daily background updates continue, while matching completed eKYC, ABPS and confirmed Aadhaar Availability checks keep their original check dates.
 
 - Find Job Cards, household members, saved worker checks and days left.
 - Search by name or Job Card; filter by active status, Aadhaar availability, identity checks and Aadhaar payment checks.
@@ -78,7 +102,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.25 and Android 1.4.25 · 2026-10-30.**
+**Screens captured for desktop 1.4.26 and Android 1.4.26 · 2026-11-01.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -89,7 +113,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 <td width="33%" valign="top"><b>03. Secretary access</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/03-secretary-access.png"><img src="docs/screenshots/03-secretary-access.png" width="260" alt="Desktop preview: 03. Secretary access"></a><br>Assign a Panchayat or Village and create a Secretary login code.</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>One guided page at a time: Login area, Sign in, Work areas and Download records. All app menus remain available before portal sign-in and during setup. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.</td>
+<td width="33%" valign="top"><b>04. First setup and your login page</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/04-integrated-browser.png"><img src="docs/screenshots/04-integrated-browser.png" width="260" alt="Desktop preview: 04. First setup and your login page"></a><br>Two setup steps: Select login area and Sign in. Work Demand Creation opens after a confirmed portal sign-in. Setup does not ask for work areas or record downloads. This narrow desktop preview uses fictional choices; the official website is not pictured.</td>
 <td width="33%" valign="top"><b>05. Review a phone request</b><br><sub>Android</sub><br><a href="docs/screenshots/05-android-work-demand.png"><img src="docs/screenshots/05-android-work-demand.png" width="260" alt="Android: 05. Review a phone request"></a><br>Review workers and their requested days, then use Send to office. This sends a phone request for DEO review; it does not create an official portal demand.</td>
 <td width="33%" valign="top"><b>06. Secretary request history</b><br><sub>Android</sub><br><a href="docs/screenshots/06-secretary-work-demand.png"><img src="docs/screenshots/06-secretary-work-demand.png" width="260" alt="Android: 06. Secretary request history"></a><br>Find requests and follow the status returned by the office.</td>
 </tr>
@@ -105,7 +129,7 @@ All 15 pictures use fictional records. **Android** pictures show the current And
 </tr>
 <tr>
 <td width="33%" valign="top"><b>13. Muster Roll Reports</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/13-muster-reports.png"><img src="docs/screenshots/13-muster-reports.png" width="260" alt="Desktop preview: 13. Muster Roll Reports"></a><br>Choose Panchayats and Villages for the official attendance reports.</td>
-<td width="33%" valign="top"><b>14. Manage downloaded data</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Manage downloaded data"></a><br>See full, partial and interrupted downloads. Choose Select All, untick any Village to keep, then Delete Selected and confirm once. This is a narrow desktop preview.</td>
+<td width="33%" valign="top"><b>14. Manage downloaded data</b><br><sub>Desktop preview</sub><br><a href="docs/screenshots/14-settings.png"><img src="docs/screenshots/14-settings.png" width="260" alt="Desktop preview: 14. Manage downloaded data"></a><br>Download, recheck or delete from any row. Select by status for bulk actions. Saved records are shared across the app. Remove from Queue keeps saved data. This is a narrow desktop preview.</td>
 <td width="33%" valign="top"><b>15. Your Android account</b><br><sub>Android</sub><br><a href="docs/screenshots/15-my-account.png"><img src="docs/screenshots/15-my-account.png" width="260" alt="Android: 15. Your Android account"></a><br>Check your role and assigned area, or sign out. Android follows the phone system colours.</td>
 </tr>
 </table>
@@ -164,13 +188,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.25**
+**Published 1.4.26**
 
-- **Select All → Delete Selected → one confirmation:** select one Panchayat or Village, several areas, or every downloaded and unfinished area in the chosen Block. Untick individual Villages to keep their records. Full, partial and interrupted downloads have clear labels.
-- A missing Village list no longer blocks deleting a Panchayat&#x27;s downloaded data. This includes partial downloads with only work records. The confirmation shows the selected places and counts. Deletion covers all Financial Years on this computer and checks a private recovery copy first. Official records, saved demand…
-- **Days left = 125 minus days worked. Days worked = 125 minus days left.** A missing shared figure is calculated from the saved value. Examples: 76 worked gives 49 left; 10 worked gives 115 left; 76 left gives 49 worked. The Job Card family shares one total.
-- A member&#x27;s own worked days keep their recorded value. When those days are missing, the desktop can show the shared figure labelled **Job Card total**. Village totals count each family once. A complete saved family list with known member days can supply one shared sum. Missing or conflicting information stays clear…
-- Current saved day information avoids another day request. A readable total already present on a required Aadhaar page is saved during the same visit. Calculations keep the original saved time. Confirmed Aadhaar Availability Yes answers keep their existing reuse rules.
-- **Important worker information first:** Job Cards and matching worker details, then eKYC (electronic identity check), ABPS (Aadhaar-based Payment System) and Aadhaar Availability. Other worker checks and needed day information follow. Work Codes and reported Work Order numbers download last. The Panchayat&#x27;s…
+- **Faster Panchayat, Village and Job Card choices:** when a choice makes the portal load a whole new page, the app now reads the new page at once instead of waiting 8 seconds. In a fictional test page in the real desktop browser, the wait fell from 8.07 seconds to 0.48 seconds. Choices, filling, Proceed and other…
+- **Checked Work Demand entry with fewer repeated reads:** the browser, sign-in and area are checked together. Before each Proceed, the Job Card, worker, area, dates and days must still match the request. Progress shows **Waiting to start** and **Entering now** separately from completed, failed and uncertain entries.
+- **Start Work Demand sooner:** Job Card and worker details, then eKYC (electronic identity check), ABPS (Aadhaar-based Payment System), Aadhaar Seeding and Aadhaar Authentication download first, from one report. If all four are Yes for the same active worker, the app shows **Aadhaar Availability: Yes** for now and…
+- **Less waiting work for the selected area:** when the selected Village&#x27;s workers are saved, its worker checks start at once instead of waiting up to one minute. While those checks are waiting, the repeated fallback check slows down to 1, 2, 4, 8 and 16 seconds, then every 30 seconds. A newly saved worker answer or…
+- **Fewer &quot;public report page took too long&quot; failures:** when a public download has to pause, the app now saves a pause instead of waiting 18 seconds and recording a failed download with a retry delay. Live portal failure rates after this change have not been measured.
+- **Deliberate pauses are kept:** updating worker checks from Work Demand no longer ends a download pause. The selected area still downloads; other areas stay paused until **Resume downloads**, **Try again** or **Recheck data**.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

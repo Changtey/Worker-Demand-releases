@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.25 and Android 1.4.25 · 2026-10-30.**
+**Screens captured for desktop 1.4.26 and Android 1.4.26 · 2026-11-01.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.25**, Android **1.4.25**.
+Published downloads: desktop **1.4.26**, Android **1.4.26**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/VBGRAMG-DEO-Assistant-1.4.25-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.25](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.25/Worker-Demand-1.4.25.apk) |
+| Windows 64-bit | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/Worker-Demand-1.4.26.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.25).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.26).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -39,14 +39,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.25**
+**Published 1.4.26**
 
-- **Select All → Delete Selected → one confirmation:** select one Panchayat or Village, several areas, or every downloaded and unfinished area in the chosen Block. Untick individual Villages to keep their records. Full, partial and interrupted downloads have clear labels.
-- A missing Village list no longer blocks deleting a Panchayat&#x27;s downloaded data. This includes partial downloads with only work records. The confirmation shows the selected places and counts. Deletion covers all Financial Years on this computer and checks a private recovery copy first. Official records, saved demand…
-- **Days left = 125 minus days worked. Days worked = 125 minus days left.** A missing shared figure is calculated from the saved value. Examples: 76 worked gives 49 left; 10 worked gives 115 left; 76 left gives 49 worked. The Job Card family shares one total.
-- A member&#x27;s own worked days keep their recorded value. When those days are missing, the desktop can show the shared figure labelled **Job Card total**. Village totals count each family once. A complete saved family list with known member days can supply one shared sum. Missing or conflicting information stays clear…
-- Current saved day information avoids another day request. A readable total already present on a required Aadhaar page is saved during the same visit. Calculations keep the original saved time. Confirmed Aadhaar Availability Yes answers keep their existing reuse rules.
-- **Important worker information first:** Job Cards and matching worker details, then eKYC (electronic identity check), ABPS (Aadhaar-based Payment System) and Aadhaar Availability. Other worker checks and needed day information follow. Work Codes and reported Work Order numbers download last. The Panchayat&#x27;s…
+- **Faster Panchayat, Village and Job Card choices:** when a choice makes the portal load a whole new page, the app now reads the new page at once instead of waiting 8 seconds. In a fictional test page in the real desktop browser, the wait fell from 8.07 seconds to 0.48 seconds. Choices, filling, Proceed and other…
+- **Checked Work Demand entry with fewer repeated reads:** the browser, sign-in and area are checked together. Before each Proceed, the Job Card, worker, area, dates and days must still match the request. Progress shows **Waiting to start** and **Entering now** separately from completed, failed and uncertain entries.
+- **Start Work Demand sooner:** Job Card and worker details, then eKYC (electronic identity check), ABPS (Aadhaar-based Payment System), Aadhaar Seeding and Aadhaar Authentication download first, from one report. If all four are Yes for the same active worker, the app shows **Aadhaar Availability: Yes** for now and…
+- **Less waiting work for the selected area:** when the selected Village&#x27;s workers are saved, its worker checks start at once instead of waiting up to one minute. While those checks are waiting, the repeated fallback check slows down to 1, 2, 4, 8 and 16 seconds, then every 30 seconds. A newly saved worker answer or…
+- **Fewer &quot;public report page took too long&quot; failures:** when a public download has to pause, the app now saves a pause instead of waiting 18 seconds and recording a failed download with a retry delay. Live portal failure rates after this change have not been measured.
+- **Deliberate pauses are kept:** updating worker checks from Work Demand no longer ends a download pause. The selected area still downloads; other areas stay paused until **Resume downloads**, **Try again** or **Recheck data**.
 
 These pictures were refreshed from the source used for this publication.
 

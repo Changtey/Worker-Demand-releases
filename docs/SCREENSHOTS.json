@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-10-30T16:44:05.707786+00:00",
+  "captured_at": "2026-11-01T10:28:33.879896+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.25",
-    "android": "1.4.25"
+    "desktop": "1.4.26",
+    "android": "1.4.26"
   },
   "published_versions": {
-    "desktop": "1.4.25",
-    "android": "1.4.25"
+    "desktop": "1.4.26",
+    "android": "1.4.26"
   },
-  "published_notes_sha256": "366f7a874058289e7422364779c261ed3c70bfab0eb7fd364540bf6e409b854a",
-  "source_fingerprint": "da363b88d23208e9b0bc58258c9857b1faf56f9046067132dd8b89508f487763",
+  "published_notes_sha256": "9d778f8d77e12062bcb57ec70d00409552b9fc8e2872efedad5dead9f246f86f",
+  "source_fingerprint": "ee911446452d4a6e51661d111803e94a318fc806b2318f4557b341400cfa130c",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "5cbd5b13281ee9650b9484daad54b574dbc07bfb735e4d6aba83fb9355d5c42a",
+      "sha256": "23133139459065561e88c2ea5d2982ef2d4fd172cc4f0e0baaac97cf30e17bf0",
       "width": 1236,
       "height": 2745
     },
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Review Panchayats and Villages already saved in My Areas, then continue to your personal Android login code. This narrow desktop preview uses fictional records.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "b0f5e245dcdc01bc8f60764978a1ba2682f7f180cfb86c2db45d785e98b4a99e",
+      "sha256": "0272f5260860736b184f1351ce521fe567de102cc06ecf99ad5586a3c3db7cce",
       "width": 960,
       "height": 2400
     },
@@ -50,9 +50,9 @@
       "file": "04-integrated-browser.png",
       "title": "First setup and your login page",
       "app": "Desktop preview",
-      "caption": "One guided page at a time: Login area, Sign in, Work areas and Download records. All app menus remain available before portal sign-in and during setup. Saved settings and records stay through updates. This narrow desktop preview uses fictional choices; the official website is not pictured.",
+      "caption": "Two setup steps: Select login area and Sign in. Work Demand Creation opens after a confirmed portal sign-in. Setup does not ask for work areas or record downloads. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "69894a733b2e1de585ae20cd2e7de6c5d290f2c965785e77da9f081c1c427e5c",
+      "sha256": "4e692db6275b549c11fe855d09336e9f635f97af226140f46d67b6997ef2fe6a",
       "width": 960,
       "height": 1920
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "7cee6f495574263cd029bfefab1813dc290982d464d900ef56197eb4fe886987",
+      "sha256": "d8dbec1af44cdc85af2c428554c1794a7f186ddf9bb0968a7d2a8374f08f8139",
       "width": 960,
       "height": 1920
     },
@@ -102,7 +102,7 @@
       "app": "Desktop preview",
       "caption": "Keep the list compact with saved status and identity check choices.",
       "path": "docs/screenshots/09-worker-search.png",
-      "sha256": "9f88d5d4a3e9b9425cfdb75417d9591a5bb2d61e4658f6009493be3b31fdce95",
+      "sha256": "4cebb66480252dc1d18f7b5a5c6eab5a4c7b20d47174e1eb6c19f19bd87997c6",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "520db1a39ffc274edd7fb69fce77d2463cee285aba60113763cf6f70489c0508",
+      "sha256": "66ad96b96291cd961f92fd505b94753a6812a7a8e3d667856224ee99fe7cb27c",
       "width": 960,
       "height": 1920
     },
@@ -150,9 +150,9 @@
       "file": "14-settings.png",
       "title": "Manage downloaded data",
       "app": "Desktop preview",
-      "caption": "See full, partial and interrupted downloads. Choose Select All, untick any Village to keep, then Delete Selected and confirm once. This is a narrow desktop preview.",
+      "caption": "Download, recheck or delete from any row. Select by status for bulk actions. Saved records are shared across the app. Remove from Queue keeps saved data. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "c5ed18817cfbad82b656177ffbd883c706d723737faa4924a22f6bde5be74e85",
+      "sha256": "679a75eea3b1f942c719e007b6dcd917fef31fee7b71fcd4a318a612d8d5725c",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "5b4cc345673c57e2291ad4e2229c79e8eaef7b373a46e523a26ae03dc48e356c",
+      "sha256": "8ff97d7e111377f1a09ed4e22d8c4cedc4fb43de7dd75f4553b873dbd7579c4a",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "beba2c62538e6fd02660afd8f5227cfaecdcc3432a989eb2c896f6ce5da968a1",
-    "docs/USER_GUIDE.md": "6ee6e35f960caf00ae70e22d361ed4daeaa23cf55943970098ad3e187f25649b",
-    "docs/FEATURES.md": "4243ed54de841304dc727996e90eac8fee994fbcd6c0b1fbc609c79e1e7029f5",
-    "docs/LATEST_CHANGES.md": "bdf5f7fae0b727af37c7730c447fe7dc53c77f1b4352b4bb4ace7475eb35ae87"
+    "README.md": "049b6b415bf0b46293eaa6a997efe35fb1aa24668dc0e76bedd5c1fe6f72aa30",
+    "docs/USER_GUIDE.md": "2f8ef699ab4fdca6411cd7626b1e5703ad4b0f8c6faaa5e2fba4f3a53e5db14a",
+    "docs/FEATURES.md": "e9e7083fee8cecdf5203e96453615e207edf84878c732dd8ede0c816dd51e8fa",
+    "docs/LATEST_CHANGES.md": "aa51fad6231f6bb3be4038588cd01f72b03a73f7a5a2574c8c3412c4c523d698"
   }
 }
