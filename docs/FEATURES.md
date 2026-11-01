@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.26 and Android 1.4.26 · 2026-11-01.**
+**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The Android pictures show source changes that are not in the Android download above. The desktop pictures match the desktop download.
 
 - **Less work during form entry:** small area checks read the current choices without copying the full Job Card list. Optional household days are read once during each form action and afresh next time. Fields, choices and Proceed marked unavailable stop entry before use. Exact worker, Job Card, date, day and duplicate checks remain required. These are desktop source improvements checked with fictional records; live speed and installed builds need separate checks.
 - **Active area first:** the Panchayat or Village in the current screen owns the next download turn, including a place visited earlier. Required worker checks keep priority after its public lists finish. Previous downloads wait with saved progress; only a page already loading may finish. Area lists continue automatically during the handover. Browser area changes also update that choice. Old replies and hidden screens cannot restore an earlier area.
@@ -70,7 +70,7 @@ Saved selections do not change official permissions. Source downloads do not sub
 | Job Cards and members | Village records, household groups, search, saved checks and days left | Assigned worker list with Job Card numbers |
 | Days worked and days remaining | Information only throughout Work Demand creation, approval and sending. Saved totals never reduce requested days | Information only when preparing and sending a work request |
 | Worker filters | Status, work history, identity and payment checks | Available worker check choices in the phone list |
-| Days and dates | Individual worker values and bulk editing | Individual worker days, request dates and a large Apply Days to All button |
+| Days and dates | Individual worker values and bulk editing | Individual worker days, request dates and an Apply Days to All button beside the days box |
 | Work Demand | One menu for Received requests and manual entry. Shared checks and portal entry; received requests keep their phone updates, corrections, reports and decisions | Prepare, review, send and follow requests; available changes depend on status |
 | Check demand | Check workers, dates, days, selected work and reported issues | Review the assigned workers and request before sending to the office |
 | Automatic request records | An incoming Android request queues its exact Panchayat or Village and Financial Year. Recent records are reused; missing records and checks download in the background | Send the request using its assigned area; no extra desktop area selection is needed |
@@ -88,9 +88,9 @@ Saved selections do not change official permissions. Source downloads do not sub
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
 | Muster Roll Reports | Area choices and the available attendance report tools | Desktop feature |
-| Balance and Recharge | Work Demand automation reserves 1 before entry and deducts it after saved work is confirmed. Zero available Balance blocks new runs and unfunded retries, then opens Recharge and keeps the current work. Failed runs release their reservation. Low-balance report choices have a Recharge shortcut | Secretary request preparation stays free; office charges are handled on desktop |
+| Balance and Recharge | Work Demand automation uses 1 for every 10 selected workers, or part of 10 (11–20 workers use 2; 100 workers use 10). It sets this amount aside before entry and uses it only after saved work is confirmed. A low Balance never blocks entry: the part not available is owed and is taken automatically from the next recharge, only if the run completes. There is no limit on the number of workers; the portal's own Work Allocation limit pauses entry until you allocate, then the same list continues. Failed runs release their reservation. Low-balance report choices have a Recharge shortcut. Recharge any whole-rupee amount from ₹50 to ₹1,000 (₹1 adds 1) | Secretary request preparation stays free; office charges are handled on desktop |
 | Saved choices | Areas, Financial Year, filters, list size and menus | Assigned area and worker choices |
-| Sidebar menus | Short tool descriptions, clear selected menu, Arrange menus shortcut and an icon-only view | Uses its own phone navigation |
+| Sidebar menus | One-line menu items (the description shows when you point at an item and is read by screen readers), a clear selected menu, an Arrange menus shortcut and an icon-only view. Below 900 pixels wide the menu opens as a drawer | Uses its own bottom bar: Home, History and My account |
 | Saved records while offline | Reuse available saved records; current checks may need a connection | Keep phone drafts and waiting requests; access and sending checks still apply |
 
 ## Simple daily work
@@ -101,7 +101,7 @@ Desktop and Android use short labels, clear work steps and details that open whe
 
 The desktop Job Cards list shows **Eligible**, **Not eligible**, **Not yet checked** or **Data unavailable** for each saved worker. Every required check must pass before **Eligible** appears. Optional day figures do not add a new requirement. These labels describe saved records; **Check demand** still performs the checks needed for the current request.
 
-Android shows **Status: Active**, **Status: Inactive** or **Status: Unknown** beside eKYC when choosing workers, entering days and reviewing a request. Set **Worker filters → Active member → All** to include inactive workers. Android can read public portal reports directly for selected assigned workers. Use **Check portal**, then the worker's information button for **Worker details**, including each answer's source and check time. It reads explicit eKYC, active or inactive status, offered identity and payment checks, complete worked days and confirmed family days left. Missing, incomplete or access-protected reports keep the saved copy with a clear message. Phone checks do not use Balance or submit official records.
+Android shows a small tag beside a worker only when something needs attention: **Inactive**, **Status unknown**, **eKYC pending** or **eKYC unknown**. A short line above the list says when every listed worker is active with eKYC complete. The same tags appear when entering days and reviewing a request. Set **Worker filters → Active member → All** to include inactive workers. Android can read public portal reports directly for selected assigned workers. Use **Check portal**, then the worker's information button for **Worker details**, including each answer's source and check time. It reads explicit eKYC, active or inactive status, offered identity and payment checks, complete worked days and confirmed family days left. Missing, incomplete or access-protected reports keep the saved copy with a clear message. Phone checks do not use Balance or submit official records.
 
 The app shows saved answers and whether they are current. Electronic identity verification (**eKYC**) and the Aadhaar Based Payment System (**ABPS**) are shown separately from Aadhaar availability. Statuses such as inactive, deleted, missing or old remain meaningful. Missing information is never counted as a confirmed answer.
 

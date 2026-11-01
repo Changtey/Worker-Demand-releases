@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.26 and Android 1.4.26 · 2026-11-01.**
+**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The Android pictures show source changes that are not in the Android download above. The desktop pictures match the desktop download.
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -12,16 +12,16 @@ Videos for **version 1.4.15**, using fictional app examples.
 
 | Video | Length | Watch or download |
 | --- | --- | --- |
-| Promo | 60 seconds | [Play the promo](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Promo-60s.mp4) |
-| Simple English tutorial | 7 minutes 30 seconds | [Play the tutorial](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Tutorial-Simple-English.mp4) |
+| Promo | 60 seconds | [Play the promo](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Promo-60s.mp4) |
+| Simple English tutorial | 7 minutes 30 seconds | [Play the tutorial](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.mp4) |
 
 [Watch both videos on the download page](https://changtey.github.io/Worker-Demand-releases/#watch). The tutorial has 15 numbered steps, separate phone and computer sections, captions and buttons to repeat a lesson. It was refreshed on 26 October 2026.
 
 The tutorial covers Received requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
 
-[Promo captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Promo.srt) · [Tutorial captions](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Tutorial-Simple-English-chapters.txt)
+[Promo captions](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Promo.srt) · [Tutorial captions](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://changtey.github.io/Worker-Demand-releases/videos/Tutorial-Simple-English-chapters.txt)
 
-Both videos use CC0 public-domain music. [Read the music-use details](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.16/Music-use.txt). The apps are free to download. Some computer tasks use Balance; read the current costs below.
+Both videos use CC0 public-domain music. [Read the music-use details](https://changtey.github.io/Worker-Demand-releases/videos/Music-use.txt). The apps are free to download. Some computer tasks use Balance; read the current costs below.
 
 ## 1. Install and sign in
 
@@ -80,20 +80,20 @@ If the download or installer cannot start, choose **Try again** in the same visi
 4. In **Settings → Portal login**, choose your State, Financial Year, District and Block from the current lists. Save the area.
 5. Use **Show menu** on a narrow screen to open the app's menus. If an optional menu is hidden, show it in **Settings → Sidebar menus**.
 
-The sidebar shows a short explanation under each tool. **Work Demand** brings Received requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android access** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. **Collapse menu** keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom.
+The sidebar shows one line for each tool. Point at a tool to read a short explanation. Below 900 pixels wide, choose the menu button to open the menu as a drawer. **Work Demand** brings Received requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android access** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. **Collapse menu** keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom.
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.26**, Android **1.4.26**.
+Published downloads: desktop **1.4.27**, Android **1.4.26**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/VBGRAMG-DEO-Assistant-1.4.26-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/Worker-Demand-1.4.26.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.26).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.27).
 
 ### Find the next task
 
@@ -210,6 +210,8 @@ Before saving access for a new area or Financial Year, download its complete wor
 4. On the matching official login page, **Save** or **Update** stores the login pair only when you choose it. **Login details** lets you change or delete the saved pair.
 5. Keep the Browser open for current portal checks and entry. Follow the messages when the session needs signing in again.
 
+Started entry, downloads and report reading keep going when you minimize the app, switch to another program or open another app tab. Keep the app open and the computer awake. Closing the app or letting the computer sleep stops the work; saved records are kept.
+
 The Browser is a desktop feature. The narrow preview shows its controls; it does not show a real official website or a logged-in session.
 
 ## 5. Find Job Cards and workers
@@ -223,10 +225,10 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 ## 6. Make a work request on Android
 
-1. On **Home**, check your account and assigned Panchayat or Village. A DEO can choose among their assigned areas.
-2. Choose **Create work request**. Search by worker or Job Card and choose the workers. Each row shows **Status: Active**, **Status: Inactive** or **Status: Unknown**, followed by eKYC. The same labels appear when entering days and reviewing the request. Open **Worker filters** and set **Active member** to **All** to include inactive workers. Missing or old answers show **Unknown** until checked again.
+1. On **Home**, check the line at the top (it says whether records are connected and when they were checked) and your assigned Panchayat or Village. If requests are waiting for the office or drafts are saved on the phone, a short list appears; tap a line to open **History**. A DEO can choose among their assigned areas.
+2. Choose **Create work request**. Search by worker or Job Card and choose the workers. A worker who is active with eKYC complete shows no tag, and a line above the list says so. A worker who needs attention shows **Inactive**, **Status unknown**, **eKYC pending** or **eKYC unknown**. The same tags appear when entering days and reviewing the request. Open **Worker filters** and set **Active member** to **All** to include inactive workers. Missing or old answers show as unknown until checked again.
 3. Choose **Check portal** to read the selected workers' public reports directly on the phone. Review eKYC and active status. Tap the information button beside a worker to open **Worker details** for days worked, family days left, Aadhaar availability, Aadhaar Based Payment System (ABPS), other offered checks, sources and check times. Choose **Stop portal check** if needed; your choices are kept.
-4. Set each selected worker's requested days, or enter days above the wide teal **Apply Days to All** button and press it to use those days for every selected worker.
+4. Set each selected worker's requested days, or enter days in **Days for all selected workers** and press **Apply Days to All** beside it to use those days for every selected worker.
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
 6. Review the workers, days and dates, then choose **Send to office** to send it to the DEO.
 7. Open **History** for the received status. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
@@ -241,7 +243,7 @@ If access has ended, sign in again with a current code from the DEO. Some action
 
 **Use the same days for several workers:** Select the workers, enter a number in **Days for all selected workers**, then press **Apply Days to All**. Check the Days box beside each name. You can still change one worker's days separately.
 
-<img src="screenshots/08-worker-list.png" width="300" alt="Android: selected fictional workers and the teal Apply Days to All button">
+<img src="screenshots/08-worker-list.png" width="300" alt="Android: selected fictional workers and the Apply Days to All button">
 
 ## 7. Prepare and check a demand on desktop
 
@@ -311,6 +313,8 @@ For an Android request, choose **Save Changes** to keep corrections without star
 8. If the portal leaves entries pending for a separate final **Submit**, the app keeps that page open and waits for you to finish it. It does not open Allocation automatically while those entries are still pending. Then choose **Check saved list again**. For any other unfinished final check, use the same button. This reads the saved list without pressing Proceed again or changing Work Code, allocation dates or worker checkboxes. Application dates are compared only when the saved list shows them. When Allocation has no Village list, the app checks the requested workers by their full Job Cards under the selected Panchayat and explains this on screen.
 
 If every selected worker already has an entry record on this PC for the requested dates, Send keeps the current portal page open and shows **Earlier entry records found**. It does not enter those demands again or immediately open Work Allocation. Choose **Check saved list again** to read their saved portal results. Work Allocation is used only to check saved demands; it is not the data entry page. A saved entry record on the PC is not final portal verification.
+
+**Any number of workers.** The app has no worker limit. A Work Demand can include 100, 1,000, 10,000 or more workers. The portal itself takes Work Demand for a limited number of people at a time, for example 100, until work is allocated to them. When the portal says “You have registered 100 persons demand for work,Kindly allocate them first then do demand for the rest.”, the app presses OK, stops before the next worker and sends nothing for that worker. The progress panel shows **Waiting for Allocation**. Allocate work to those people on the portal yourself. Then choose **Continue remaining entries**. The app enters the rest of the same list and keeps every entry already made. The app does not allocate work for you.
 
 Entry continues when you return to the request screen. Its message shows whether entry is running, paused, stopping or checking saved demands. Choose **Open entry progress** to return to Browser and use its entry controls. The request stays locked while entry is active.
 
@@ -400,6 +404,8 @@ In **Settings → Records**, open **Download order · one area at a time**. Each
 
 The selected Panchayat or Village is also named beside its progress bar. Just below it, a compact download overview shows **Currently downloading**, **Paused** and **Queued**, with area names and the Financial Year. A Village includes its Panchayat name. Up to two names from each waiting list stay visible; choose **more** to see the rest. The display updates every few seconds without opening Settings.
 
+The area records panel is small and steady. It shows the area name, a large download percentage, a progress bar and one short message. Below are small cards for each saved record: Job Cards and worker details, eKYC, ABPS, Aadhaar seeding, Aadhaar authentication, days worked and days left, Aadhaar Availability and Work Codes, each with its own percentage. eKYC, ABPS, Aadhaar seeding and Aadhaar authentication come from one portal report, so the app reads them together in one pass. Aadhaar Availability follows from them: a worker with all four Yes counts as Aadhaar Availability: Yes for now, and the Work Demand form check confirms it next. A status that flips for a moment while the app retries is not shown until it has lasted a few seconds, so the panel does not blink. Choose **Show more** to read a long message in full.
+
 **Waiting to download** means the request is saved but no page for that area is being read yet. **Download paused** means you must choose to continue. **Download incomplete** keeps saved records and shows that more checks are needed. A saved request alone does not show a running download. When no page is being read, an unknown total stays unknown and the progress bar does not move. Read **Record updates** for report problems. A worker check can also explain that it is waiting for sign-in or for a portal form to finish.
 
 When you switch areas, **Finishing current page** names the previous area if a page is still loading, and **Next** names your new selection. Its percentage stays separate from the selected area's progress. Once the new area's turn finishes, paused downloads resume automatically with their saved records. A deliberate pause or a removed download still needs your choice to restart. If totals are unknown, the panel says **Checking totals** instead of inventing a percentage. If its status cannot be refreshed, the panel labels the last reported download and tries again.
@@ -434,16 +440,28 @@ Removed areas stay stopped across restarts until you choose to download them aga
 
 Open **Balance & recharges** from the side menu. **Balance** is the app credit used for charged tasks. Recharge prices are shown in rupees. You can see your available balance, paid balance, free balance and any balance held for unfinished tasks.
 
-If a Work Demand task cannot start because the balance is too low, the app opens **Recharge**. Village reports show a **Recharge** button when the selected reports need more balance. A low-balance answer while starting or saving a report also opens Recharge. Your current request and report choices are kept.
+A low balance never stops a Work Demand task. Village reports show a **Recharge** button when the selected reports need more balance. A low-balance answer while starting or saving a report also opens Recharge. Your current request and report choices are kept.
 
 1. Read the balance and recharge price.
-2. Choose **Recharge** with the shown amount if you want to add balance. Confirm before opening Razorpay.
-3. Complete the payment yourself. Use **Check payment** when needed. The app adds balance only after the payment has been checked.
+2. Choose an amount: ₹50, ₹100, ₹150, ₹200, ₹250, ₹300, ₹400, ₹500 or ₹1,000. Or type any whole-rupee amount from ₹50 to ₹1,000 in **Other amount**. No amount is chosen until you choose one. Each ₹1 you pay adds exactly 1 Balance, so ₹150 adds 150 and ₹1,000 adds 1,000. Choose **Recharge** and confirm before opening Razorpay. The Razorpay page always asks for the amount you chose. If the payment service does not confirm that amount, the app does not open Razorpay and no money is taken.
+3. In the desktop app, Razorpay opens in a payment window inside the app. The window title shows which site is open, such as your bank's page. Complete the payment yourself, then close the window. The app checks the payment at once, and closes the window by itself when Razorpay reports the payment first. The app adds balance only after the payment has been checked. The message names the amount paid and the Balance added, for example "Payment of ₹150.00 checked. 150 was added to your balance once." If you close the window without paying, choose **Reopen this recharge** to pay later. **Check payment** in the list still works at any time.
 4. Choose **Return to your work**. Review the kept details, check the balance and choose the next task action yourself.
 
-Work Demand automation needs at least 1 available Balance before it can start. The app reserves 1 for the run, then deducts it after the saved Work Demand is confirmed. A failed run releases its reservation. A run with an unclear result keeps its reservation until its saved result is checked. A funded run can continue using that reservation; it does not pay twice.
+If an earlier recharge is not finished, the app offers **Reopen this recharge** at its first amount. Choose **Choose another amount** to start a new one instead. The earlier recharge stays in the list, and **Check payment** still works for it.
 
-With zero available Balance, a new run or an unfunded retry stops and opens Recharge. Older unfinished free requests also need enough Balance before entry can restart. Completed free work keeps its original price. If the balance cannot be checked, entry waits until it can be checked.
+A successful Work Demand entry uses 1 from your Balance for every 10 selected workers. A part of 10 counts as a full 10:
+
+| Selected workers | Balance used |
+| --- | --- |
+| 1–10 | 1 |
+| 11–20 | 2 |
+| 41–50 | 5 |
+| 91–100 | 10 |
+| 101–110 | 11 |
+
+Before entry starts, the app sets this amount aside from your available Balance. It is used only after every saved Work Demand is confirmed. The entry progress panel shows the amount set aside and, at the end, the amount used. A failed run releases its reservation. A run with an unclear result keeps its reservation until its saved result is checked. A funded run can continue using that reservation; it does not pay twice. A run that set aside Balance at an older price keeps that price.
+
+If the available Balance is too low, entry still starts and runs normally. There is no message and no stop. The app sets aside what is available and records the rest as owed. For example, 298 workers use 30; with 5 available, 5 is set aside and 25 is owed. The progress panel shows both parts. If the run fails, nothing is used and nothing is owed. If every demand is saved and confirmed, the owed part becomes an **Amount owed** on **Balance & recharges**. Your next recharge, or any other Balance added later, pays the amount owed first, automatically. The rest is added to your Balance. Your balance history shows this as **Amount owed – taken from new balance**. An older copy of the app must be updated before it can start a new charged run. Completed free work keeps its original price. If the balance cannot be checked, entry waits until it can be checked.
 
 A successfully saved Village report uses 2, including each Village in a whole Panchayat. Failed reports and cancelled saves cost nothing. Viewing a cost or opening Recharge does not start a payment.
 
@@ -471,3 +489,14 @@ The desktop menu uses **Work Demand**, **Job Cards**, **Reports**, **Browser**, 
 In **Android access**, use **My phone** or **Secretary codes** to go to the matching section. Existing codes and area safeguards still apply. **Job Cards** puts search before totals; open **More totals** or **About this list** for the other information.
 
 The Android request pages show their current step: **Area → Workers → Work and dates → Review**. **Send to office** sends a request to your Data Entry Operator (DEO). The office still checks it before official portal entry. The send button stays below the review list while you scroll. Phone drafts and waiting offline requests are kept.
+
+---
+
+## 12. Choose your language
+
+Both apps can show English, Hindi and Garo.
+
+- **Android:** choose **Language** on the sign-in screen or in **My account**. The choice is kept on the phone. Sign-in, Home, Choose workers, Request details, Review and History have Hindi text.
+- **Desktop:** choose **Language** at the top of **Settings → Appearance**. The menu, top bar, footer and the Work Demand page have Hindi text. Other desktop screens are still being added and show English.
+
+Hindi is a first draft. **Garo is a draft translation**: it has no words yet, so the app shows English and says so until a Garo speaker has confirmed the text. Names, numbers, dates, amounts and official names such as Job Card, Work Order and Muster Roll are not translated.

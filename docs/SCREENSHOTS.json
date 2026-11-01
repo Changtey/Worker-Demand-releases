@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-01T10:28:33.879896+00:00",
-  "mode": "release",
+  "captured_at": "2026-11-01T18:52:47.800577+00:00",
+  "mode": "source-preview",
   "source_versions": {
-    "desktop": "1.4.26",
-    "android": "1.4.26"
+    "desktop": "1.4.27",
+    "android": "1.4.27"
   },
   "published_versions": {
-    "desktop": "1.4.26",
+    "desktop": "1.4.27",
     "android": "1.4.26"
   },
-  "published_notes_sha256": "9d778f8d77e12062bcb57ec70d00409552b9fc8e2872efedad5dead9f246f86f",
-  "source_fingerprint": "ee911446452d4a6e51661d111803e94a318fc806b2318f4557b341400cfa130c",
+  "published_notes_sha256": "f8a17be80041a0fe1c65d6c6a5492d0c2ee1d1dd4ac9cf495ff777122ef19087",
+  "source_fingerprint": "06360597e6fd2b3a74dae4256b2c637a6b35e86c527739a763fc049c98691063",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "23133139459065561e88c2ea5d2982ef2d4fd172cc4f0e0baaac97cf30e17bf0",
+      "sha256": "64b5a76349191f61351ed03ab9a88a874a6e1f94d95dc8c9ad749940c4a36a05",
       "width": 1236,
       "height": 2745
     },
@@ -32,7 +32,7 @@
       "app": "Desktop preview",
       "caption": "Review Panchayats and Villages already saved in My Areas, then continue to your personal Android login code. This narrow desktop preview uses fictional records.",
       "path": "docs/screenshots/02-android-login.png",
-      "sha256": "0272f5260860736b184f1351ce521fe567de102cc06ecf99ad5586a3c3db7cce",
+      "sha256": "beaf98f6539281d89277b41ac69f1a0d7af9b5a083e2a818c9dd4f62f7140c10",
       "width": 960,
       "height": 2400
     },
@@ -42,7 +42,7 @@
       "app": "Desktop preview",
       "caption": "Assign a Panchayat or Village and create a Secretary login code.",
       "path": "docs/screenshots/03-secretary-access.png",
-      "sha256": "9434103ab9f68efe1a6d329aafb4125dcdebd9cc1af5a472230757d09936e53d",
+      "sha256": "73aaeba23c78ed5b11f3aa82befba23c81d1d945968b42493f02135953043c45",
       "width": 960,
       "height": 2300
     },
@@ -52,7 +52,7 @@
       "app": "Desktop preview",
       "caption": "Two setup steps: Select login area and Sign in. Work Demand Creation opens after a confirmed portal sign-in. Setup does not ask for work areas or record downloads. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
-      "sha256": "4e692db6275b549c11fe855d09336e9f635f97af226140f46d67b6997ef2fe6a",
+      "sha256": "d0b6ee532e0a9e3d516baeb6df532a7aad707cfeaa7edce51ccf8f7f7b2a446f",
       "width": 960,
       "height": 1920
     },
@@ -62,7 +62,7 @@
       "app": "Android",
       "caption": "Review workers and their requested days, then use Send to office. This sends a phone request for DEO review; it does not create an official portal demand.",
       "path": "docs/screenshots/05-android-work-demand.png",
-      "sha256": "08fafbf1789842cc4d4fe607b3068562cda48580d20a19c36c5d1b9ac0b72f37",
+      "sha256": "18bd4b28da3e7bc70c0244ac9c716059d1dc356588ebb910d54c7221f7448676",
       "width": 1236,
       "height": 2745
     },
@@ -72,7 +72,7 @@
       "app": "Android",
       "caption": "Find requests and follow the status returned by the office.",
       "path": "docs/screenshots/06-secretary-work-demand.png",
-      "sha256": "0075391c4fb48074bb0f100e2f6b8ff6812d4129536f6013bf0ff9d06c68fbd2",
+      "sha256": "4d7496f4f7f6a05bbbd65d74b53b57ea1cba0c814e8f445df2fbd9e00471121c",
       "width": 1236,
       "height": 2745
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "d8dbec1af44cdc85af2c428554c1794a7f186ddf9bb0968a7d2a8374f08f8139",
+      "sha256": "4bf3fd2581507a9c8216eb40f3c8cb182d754cf1e8409dc1885b003580a2def1",
       "width": 960,
       "height": 1920
     },
@@ -92,7 +92,7 @@
       "app": "Android",
       "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "d28cbf0544aaeed00343e5494ee99ac4488d371adef49b95ea0145316e00ecb6",
+      "sha256": "6b04ad366a7f7d44227e1324983a1ce3d902dc305e29d6ec5ed5020580d05ca3",
       "width": 1236,
       "height": 2745
     },
@@ -102,7 +102,7 @@
       "app": "Desktop preview",
       "caption": "Keep the list compact with saved status and identity check choices.",
       "path": "docs/screenshots/09-worker-search.png",
-      "sha256": "4cebb66480252dc1d18f7b5a5c6eab5a4c7b20d47174e1eb6c19f19bd87997c6",
+      "sha256": "8b857a3b0ae443e239eb6536078e4257b0b41ef874157c63f14496198b58810a",
       "width": 960,
       "height": 1920
     },
@@ -112,7 +112,7 @@
       "app": "Desktop preview",
       "caption": "Review selected workers, full Job Cards, dates and totals before portal entry. Save PDF or Print a draft copy. Nothing is sent by making a copy. This is a narrow desktop preview with fictional records.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "03d9ff1eee9e5b4188d1afdae84fc881515fd6df3cc263d964222ee1b9055998",
+      "sha256": "d19d75b373d19c1360040ff9bd7a926fdb3ed734c29f112580126728f55c525d",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "66ad96b96291cd961f92fd505b94753a6812a7a8e3d667856224ee99fe7cb27c",
+      "sha256": "e2d46d8f88f9579e7f67c9ed1d6b508c4a9a7fe3fdb4af6486f7158df242811c",
       "width": 960,
       "height": 1920
     },
@@ -132,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "7e8b12f3a3b8c61b17c461385a0333728a83730c6bed0ff47ee2781f27badf3b",
+      "sha256": "74d19b15f209fd986873253460742965e31c20065f569d6616fda479576ed8a9",
       "width": 960,
       "height": 1920
     },
@@ -142,7 +142,7 @@
       "app": "Desktop preview",
       "caption": "Choose Panchayats and Villages for the official attendance reports.",
       "path": "docs/screenshots/13-muster-reports.png",
-      "sha256": "8459041fe4168b47b6b41566cc9fbed4060c6acc9b81061cf68751c7c0be1fd0",
+      "sha256": "90282c08319059b791537775a2662a31493ced46174304ac64763e8300974c99",
       "width": 960,
       "height": 2300
     },
@@ -152,7 +152,7 @@
       "app": "Desktop preview",
       "caption": "Download, recheck or delete from any row. Select by status for bulk actions. Saved records are shared across the app. Remove from Queue keeps saved data. This is a narrow desktop preview.",
       "path": "docs/screenshots/14-settings.png",
-      "sha256": "679a75eea3b1f942c719e007b6dcd917fef31fee7b71fcd4a318a612d8d5725c",
+      "sha256": "79aed703d711137680f093b85d7ae9e05a40c6f42b6185022002723c63845803",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "8ff97d7e111377f1a09ed4e22d8c4cedc4fb43de7dd75f4553b873dbd7579c4a",
+      "sha256": "0a120c470877f38be7685c68118f85e51ed8234716e2c7d7740ea957c6480867",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "049b6b415bf0b46293eaa6a997efe35fb1aa24668dc0e76bedd5c1fe6f72aa30",
-    "docs/USER_GUIDE.md": "2f8ef699ab4fdca6411cd7626b1e5703ad4b0f8c6faaa5e2fba4f3a53e5db14a",
-    "docs/FEATURES.md": "e9e7083fee8cecdf5203e96453615e207edf84878c732dd8ede0c816dd51e8fa",
-    "docs/LATEST_CHANGES.md": "aa51fad6231f6bb3be4038588cd01f72b03a73f7a5a2574c8c3412c4c523d698"
+    "README.md": "b417ff95563cc66e05342e234a3cfd8fcc105b61f347725b12b04d460998b45e",
+    "docs/USER_GUIDE.md": "7cdcbc0045af3107844854bc348efbc9de6e13728983354dc2165ff3c2518354",
+    "docs/FEATURES.md": "adacd13962e28fa1df0c67a5464592a5613670148af90a822d665c22a9e75af8",
+    "docs/LATEST_CHANGES.md": "5e5129ce011c68d00890db0ec9c87eb5bba0351befa72f34ca7350971ad68fd2"
   }
 }
