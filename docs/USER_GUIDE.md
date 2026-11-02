@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The Android pictures show source changes that are not in the Android download above. The desktop pictures match the desktop download.
+**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -36,7 +36,7 @@ The app waits for the login form to be ready. Images that are still loading do n
 
 After a confirmed sign-in, **Work Demand → Create demand** opens straight away. Choose the area and workers for the demand there. Setup does not ask for work areas, download records or start Muster Roll report downloads. Older unfinished setup downloads do not block you.
 
-**Save my User ID and password securely after a successful sign-in** is selected on the login-area form. Clear it if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The Security Code is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available.
+**Save my User ID and password securely after a successful sign-in** is selected on the login-area form. Clear it if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The Security Code is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available. Choose **Hide** to give the portal page more room, and the 🔑 button in the Browser toolbar to show the login bar again. The app remembers this choice on the PC.
 
 All app menus stay available before portal sign-in and after portal sign-out. Opening a menu does not sign you in or submit records. Portal checks and entry still need the right signed-in account. Selected workers must pass the required checks before an official demand is sent.
 
@@ -80,18 +80,18 @@ If the download or installer cannot start, choose **Try again** in the same visi
 4. In **Settings → Portal login**, choose your State, Financial Year, District and Block from the current lists. Save the area.
 5. Use **Show menu** on a narrow screen to open the app's menus. If an optional menu is hidden, show it in **Settings → Sidebar menus**.
 
-The sidebar shows one line for each tool. Point at a tool to read a short explanation. Below 900 pixels wide, choose the menu button to open the menu as a drawer. **Work Demand** brings Received requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android access** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. **Collapse menu** keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom.
+The sidebar shows one line for each tool. Point at a tool to read a short explanation. Below 900 pixels wide, choose the menu button to open the menu as a drawer. **Work Demand** brings Received requests and manual entry together. Use its two source choices to switch without losing your current draft. **Android access** opens your own and Secretary access tools. Choose **Arrange menus** to show, hide or group menus. You can also drag menus into your preferred order. Every menu shows without scrolling. **Collapse menu**, beside the app name, keeps just the icons; **Expand menu** restores the names. Help and account links stay at the bottom, with **Sign out** beside your account name. On a short window the help links show as a row of icons; point at one to see its name.
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.27**, Android **1.4.26**.
+Published downloads: desktop **1.4.27**, Android **1.4.27**.
 
 | Device | Download |
 | --- | --- |
 | Windows 64-bit | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Setup.exe) |
 | Linux Debian / Ubuntu | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.deb) |
 | Linux AppImage | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/Worker-Demand-1.4.26.apk) |
+| Android APK | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/Worker-Demand-1.4.27.apk) |
 
 [Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.27).
 
@@ -306,7 +306,7 @@ For an Android request, choose **Save Changes** to keep corrections without star
 1. After a successful check, review the selected workers and totals.
 2. Choose **Send to VBGRAMG** for either source. This starts desktop portal entry for the checked area.
 3. New entries open **D.3 Work Demand → Demand**, then choose the requested Panchayat, Village and Job Card. The app keeps matching area choices while moving through Job Cards and members. It changes only the choices needed for another area, or restores choices cleared by the portal. Members of the same Job Card are processed together. Review every offered official action. The portal's **Proceed** can save an official demand; a separate final **Submit**, if offered, stays under your control.
-4. Only after all new entries finish and the portal replies are confirmed, the app opens **D.4 Work Allocation → Allocation**. It chooses the requested Panchayat and, when offered, the Village. It then compares the full **Registration No.** (Job Card), **Job seeker name**, and the **Work Demand date → From / No of days / To** values. It reads every offered result page. The separate editable **Work Allocation Date** fields do not prove the saved demand.
+4. Only after all new entries finish and the portal replies are confirmed, the app opens **D.4 Work Allocation → Allocation**. It chooses the requested Panchayat and, when offered, the Village. It then compares the full **Registration No.** (Job Card), **Job seeker name**, and the **Work Demand date → From / No of days / To** values. It reads every offered result page. The separate editable **Work Allocation Date** fields do not prove the saved demand. The list also shows demands entered by other people. A row the app cannot read clearly holds only the worker it may belong to; other workers are still checked.
 5. Read the completion pop-up. It shows **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. Finished entry steps and confirmed saved demands are different counts. An unreadable final list can show 61 entry steps finished, 0 confirmed saved demands and 0 failures. The app keeps these entries and offers **Check saved results**, which sends no demand. Older saved summaries show the entry-step count only if it was recorded. Earlier saved demands, unverified results and unstarted members are counted separately. **Automation Completed Successfully** appears when every selected worker passes the final saved-list check, including if the browser stops after returning the complete matching results. A timing-report problem does not turn confirmed submissions into failures. If entry finishes but the saved list cannot be read, the app retries that read once and shows **Data entry finished. Final check incomplete** if needed. This is not a failed-entry count. Expand the member lists for each name, Registration ID and reason. Actual failed entries alongside confirmed demands show **Work Demand partly completed**. A filled form or a portal reply alone does not count as a saved demand.
 6. Choose **Retry Failed Entries** to try only failed or unstarted entries. The app keeps earlier processed demands and holds uncertain entries. Choose **Check saved results** to read uncertain results without sending another demand. If the portal offers a separate final **Submit**, complete it yourself before checking again.
 7. Close the pop-up with **Done**. Open **Work Demand → Submission summaries** or **Notifications → View submission summary** to review it later. The last 20 run summaries are kept on this PC for your signed-in app account, including after reopening the app. An older summary records the result at that time; it does not start a new submission. If saving a summary fails, the app tells you.
@@ -314,7 +314,19 @@ For an Android request, choose **Save Changes** to keep corrections without star
 
 If every selected worker already has an entry record on this PC for the requested dates, Send keeps the current portal page open and shows **Earlier entry records found**. It does not enter those demands again or immediately open Work Allocation. Choose **Check saved list again** to read their saved portal results. Work Allocation is used only to check saved demands; it is not the data entry page. A saved entry record on the PC is not final portal verification.
 
-**Any number of workers.** The app has no worker limit. A Work Demand can include 100, 1,000, 10,000 or more workers. The portal itself takes Work Demand for a limited number of people at a time, for example 100, until work is allocated to them. When the portal says “You have registered 100 persons demand for work,Kindly allocate them first then do demand for the rest.”, the app presses OK, stops before the next worker and sends nothing for that worker. The progress panel shows **Waiting for Allocation**. Allocate work to those people on the portal yourself. Then choose **Continue remaining entries**. The app enters the rest of the same list and keeps every entry already made. The app does not allocate work for you.
+**Any number of workers.** The app has no worker limit. A Work Demand can include 100, 1,000, 10,000 or more workers. The portal itself lets only up to 100 people in a Panchayat wait for Work Allocation (the official step that gives them work and dates). Then it refuses new Work Demand with “You have registered 100 persons demand for work,Kindly allocate them first then do demand for the rest.”
+
+The app enters the list in parts:
+
+1. Before entry starts, the app reads how many people already wait in the selected Panchayat's **Work Allocation** list. This only reads; nothing is sent. The progress panel then tells you the split, for example: 298 workers will be entered in 3 parts: 100, 100 and 98.
+2. At the end of each part, the app stops before the next worker, so the portal never has to refuse one. It checks that part's workers in the Work Allocation list while they are still listed.
+3. The progress panel shows **Waiting for Allocation** and one short step, for example: “Part 1 of 3 done: 100 workers entered and confirmed. Allocate work to them on the portal, then press Continue.” Work Allocation for the Panchayat stays open in Browser.
+4. Allocate work to those people on the portal yourself. You choose the work and dates. The app does not allocate work.
+5. Press **Continue**. The app reads the waiting count again first. If the portal is still full, it stays stopped and asks you to allocate work. Otherwise it enters the next part of the same list and keeps every entry already made.
+
+If the waiting count cannot be read, for example because Work Allocation shows only one Village, the app enters until the portal shows its notice. It presses OK, sends nothing more for that worker and stops in the same way.
+
+If a part's workers cannot all be confirmed, the message says how many, for example “Part 1 of 3: 100 workers entered, but 4 could not be confirmed in the Work Allocation list yet.” Choose **Check saved list again** before you allocate work, because allocated workers leave that list.
 
 Entry continues when you return to the request screen. Its message shows whether entry is running, paused, stopping or checking saved demands. Choose **Open entry progress** to return to Browser and use its entry controls. The request stays locked while entry is active.
 
@@ -340,14 +352,19 @@ After an error or stop, open the request and choose **Send to Browser again**. T
 
 ## 9. Prepare Muster Roll reports
 
-A **Muster Roll** is the official worker attendance list. Open **Reports** on desktop.
+A **Muster Roll** is the official worker attendance list. Open **Reports** on desktop. **Make Village reports** has three steps:
 
-1. Choose the State, Financial Year, District and Block from the offered lists.
-2. Search and tick the Panchayats you need. Then tick the Villages in those Panchayats.
-3. Review the selected areas, report settings and the balance needed.
-4. Choose the report action when ready. Use the available PDF or Excel save control for the finished report.
+1. **Area:** choose the State, Financial Year, District and Block from the portal's current lists.
+2. **Places:** tick the Panchayats you need. Then choose **All listed Villages**, **Multiple Villages** or **Single Village**.
+3. **Categories and pages:** tick the caste categories to include. Each page group starts a new page. Use **Change page groups** to join or rename groups.
 
-Private reports require your authorised portal account. An unavailable report or incomplete reading needs attention; selecting areas or viewing the cost does not mean a report was generated.
+The bar at the bottom shows the Villages selected, the balance needed (2 for each Village report) and your available balance. If something is still missing, the line under **Generate** says what to do next. Each Village gets its own PDF. Several Villages are saved together in one ZIP file. Only saved Village PDFs use balance.
+
+**Generate** checks the portal first. If the portal asks for its **Security Code**, a box appears at the top of Reports before the save box opens and before any balance is used. You can also choose **Check portal now** earlier. Read the question, type the answer and press Enter. For a sum, the app shows a suggested answer, but you type and send it yourself. If the portal asks again during a long read, the same box appears, the taskbar button blinks and other screens show a reminder.
+
+**Saved report copies** lists single Muster Rolls already read on this computer. Search by Muster Roll number, Panchayat or Work Code, then preview, print, or save them as PDF or Excel. **Read a public report page yourself** is for special cases.
+
+Selecting areas or viewing the cost does not make a report. These are prepared copies of public portal reports, not official submissions.
 
 <img src="screenshots/13-muster-reports.png" width="300" alt="Desktop preview: fictional Panchayat and Village report choices">
 
@@ -449,19 +466,19 @@ A low balance never stops a Work Demand task. Village reports show a **Recharge*
 
 If an earlier recharge is not finished, the app offers **Reopen this recharge** at its first amount. Choose **Choose another amount** to start a new one instead. The earlier recharge stays in the list, and **Check payment** still works for it.
 
-A successful Work Demand entry uses 1 from your Balance for every 10 selected workers. A part of 10 counts as a full 10:
+A successful Work Demand entry uses 1 from your Balance for every 20 selected workers. A part of 20 counts as a full 20:
 
 | Selected workers | Balance used |
 | --- | --- |
-| 1–10 | 1 |
-| 11–20 | 2 |
-| 41–50 | 5 |
-| 91–100 | 10 |
-| 101–110 | 11 |
+| 1–20 | 1 |
+| 21–40 | 2 |
+| 81–100 | 5 |
+| 101–120 | 6 |
+| 281–300 | 15 |
 
-Before entry starts, the app sets this amount aside from your available Balance. It is used only after every saved Work Demand is confirmed. The entry progress panel shows the amount set aside and, at the end, the amount used. A failed run releases its reservation. A run with an unclear result keeps its reservation until its saved result is checked. A funded run can continue using that reservation; it does not pay twice. A run that set aside Balance at an older price keeps that price.
+Before entry starts, the app sets this amount aside from your available Balance. It is used only after every saved Work Demand is confirmed. The entry progress panel shows the amount set aside and, at the end, the amount used. A failed run releases its reservation. A run with an unclear result keeps its reservation until its saved result is checked. A funded run can continue using that reservation; it does not pay twice. If a run stops part-way and is not continued, you pay only for the workers whose demand was saved and checked: 1 for every 20 of them, never more than the amount set aside. The rest is released. This happens when you start another Work Demand task, or when nobody has continued the run for a day. If you later continue the same list, workers already paid for are not charged again. A run that set aside Balance at an older price keeps that price.
 
-If the available Balance is too low, entry still starts and runs normally. There is no message and no stop. The app sets aside what is available and records the rest as owed. For example, 298 workers use 30; with 5 available, 5 is set aside and 25 is owed. The progress panel shows both parts. If the run fails, nothing is used and nothing is owed. If every demand is saved and confirmed, the owed part becomes an **Amount owed** on **Balance & recharges**. Your next recharge, or any other Balance added later, pays the amount owed first, automatically. The rest is added to your Balance. Your balance history shows this as **Amount owed – taken from new balance**. An older copy of the app must be updated before it can start a new charged run. Completed free work keeps its original price. If the balance cannot be checked, entry waits until it can be checked.
+If the available Balance is too low, entry still starts and runs normally. There is no message and no stop. The app sets aside what is available and records the rest as owed. For example, 298 workers use 15; with 5 available, 5 is set aside and 10 is owed. The progress panel shows both parts. If the run fails, nothing is used and nothing is owed. If every demand is saved and confirmed, the owed part becomes an **Amount owed** on **Balance & recharges**. Your next recharge, or any other Balance added later, pays the amount owed first, automatically. The rest is added to your Balance. Your balance history shows this as **Amount owed – taken from new balance**. An older copy of the app must be updated before it can start a new charged run. Completed free work keeps its original price. If the balance cannot be checked, entry waits until it can be checked.
 
 A successfully saved Village report uses 2, including each Village in a whole Panchayat. Failed reports and cancelled saves cost nothing. Viewing a cost or opening Recharge does not start a payment.
 
@@ -475,6 +492,9 @@ A successfully saved Village report uses 2, including each Village in a whole Pa
 | Aadhaar available not confirmed Yes | Review that worker's portal answer before portal entry. Do not use a filter to bypass the check. |
 | Request changed elsewhere | Read the latest changes, review the workers and check again. |
 | Portal reply uncertain | Check the saved list before retrying. |
+| Saved records changed. Check the demand again. | The notice lists each worker in this demand whose saved record changed, and how. Choose **Check demand again**. Your workers, days and dates are kept. A change to another worker in the Village does not clear your checked demand. |
+| Need your check (during entry) | Choose **See why … workers need your check**. Each worker shows the earlier entry that holds it, its dates and what to do. A held worker is never sent twice. |
+| Saving a list of workers with issues | Choose **Save as PDF** or **Save as Excel** below a worker issue list. The file is a list to check or print. It is not an official record and sends nothing to VBGRAMG. |
 | Balance too low | Open Recharge, check the amount and decide whether to add balance. Your current work is kept. |
 | Phone offline | Keep the same saved request and reconnect. Check History for its received status. |
 

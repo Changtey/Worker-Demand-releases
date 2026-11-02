@@ -46,14 +46,14 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.27**, Android **1.4.26**.
+Published downloads: desktop **1.4.27**, Android **1.4.27**.
 
 | Device | Download |
 | --- | --- |
 | Windows 64-bit | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Setup.exe) |
 | Linux Debian / Ubuntu | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.deb) |
 | Linux AppImage | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/VBGRAMG-DEO-Assistant-1.4.27-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.26](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.26/Worker-Demand-1.4.26.apk) |
+| Android APK | [Download 1.4.27](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.27/Worker-Demand-1.4.27.apk) |
 
 [Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.27).
 
@@ -102,7 +102,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The Android pictures show source changes that are not in the Android download above. The desktop pictures match the desktop download.
+**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -169,6 +169,25 @@ A phone draft stays on the phone. A submitted phone request goes to the DEO for 
 Use only areas and records you are authorised to access. Enter the portal Security Code yourself. Never share login codes, passwords or office records in public issues or screenshots.
 
 ## Current changes
+
+**2 November 2026 source improvement — Muster Roll Reports read faster and steadier, on a simpler screen**
+
+- Report pages no longer wait for files from other websites, such as the portal's translation plugin, or for fonts. The Security Code picture still loads. Report tables are read as soon as the page text is ready, without waiting for pictures.
+- A Muster Roll page that does not open is tried twice more. One Muster Roll that still fails no longer stops the rest of its Panchayat. The message names it, and trying again opens only the unread ones, because recent checked copies are reused. After three failures in a row, the app leaves the rest of that Panchayat for later and keeps checked records.
+- Progress checks during long reads no longer count every saved worker again each second, so the app stays quick.
+- The Security Code now comes first. **Generate** opens the portal report page before anything else, so any code is answered before the save box opens, before balance is held and before reading starts. **Check portal now** does the same check earlier. You still type the answer yourself; the app does not solve or send it on its own. If the portal asks again during a long read, the taskbar button blinks and other screens show a reminder.
+- The screen now has three steps instead of six, one balance line, a line that says why **Generate** is not ready yet, one progress area, and a searchable list of saved copies that shows 50 at a time.
+- Checked with automated tests on fictional pages and records only. Live portal speed has not been timed. This source preview does not replace the published installation files.
+
+**2 November 2026 source improvement — the Work Allocation check works with a busy Panchayat, and entry is split into parts**
+
+- Since 31 October 2026, every Work Allocation check in the saved run summaries ended with "The Work Allocation worker list could not be checked completely", from 18 workers up to 298. No worker was compared, so even 102 correctly entered workers showed as not confirmed.
+- The likely cause: the Work Allocation list shows every demand waiting in the Panchayat, including demands entered by other people. The app stopped reading the whole list when any one row looked unusual, for example a blank footer row under the list, a hidden box in a date cell, or another person's row whose days did not fit its dates. Each of these alone caused exactly this message in fictional copies of the page. Which one the live page has is not known yet; no copy of the live page was saved.
+- Now a row the app cannot read clearly holds only the worker it may belong to. Every other worker is still compared by full Registration No., name, days and work dates. Two households under one Registration No. stay two different members. A page still loading is read again for up to 15 seconds. If a check still stops, the run keeps a short rule name, such as "pager", without any page text, so the next problem can be found quickly.
+- Before entry starts, the app reads how many people already wait for Work Allocation in the selected Panchayat. It only reads. It then tells you how the list will be split, for example 298 workers in 3 parts: 100, 100 and 98, and stops after each part before the portal has to refuse a worker.
+- Each pause is one short step: "Part 1 of 3 done: 100 workers entered and confirmed. Allocate work to them on the portal, then press Continue." Work Allocation for the Panchayat stays open in Browser. **Continue** reads the waiting count again first and stays stopped if the portal is still full. You still choose the work and dates and allocate work yourself.
+- If the count cannot be read, for example when Work Allocation shows only one Village, entry continues until the portal's own notice, as before.
+- Checked with automated tests on fictional pages and records only, including a 102-worker list over three pages beside 20 other demands. Not yet checked on the live portal: the live list's exact layout, the live waiting count and a full live run with parts. This source preview does not replace the published installation files.
 
 **1 November 2026 source improvement — Work Allocation pause checked, faster entry and login area**
 
@@ -368,6 +387,12 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 - Downloads show checked counts and distinguish working, waiting, paused and stopped readers. Report problems show their reason. **Retry missing data** includes unfinished days-worked checks and keeps completed records.
 - A clear first-use message explains that later work is usually faster through saved records. Settings, selected areas and downloaded records stay through normal app updates.
 
+**2 November 2026 — Work Demand entry now costs half**
+
+A successful Work Demand entry now uses 1 from your Balance for every 20 selected workers. A part of 20 counts as a full 20: 1–20 workers use 1, 21–40 use 2 and 100 use 5. Before, it was 1 for every 10 workers. ₹1 still adds 1 Balance, and Muster Roll Village reports still use 2 for each saved Village.
+
+This online change applies to every app copy at once. Desktop 1.4.27 still says "every 10 workers" on its Balance page until the next app update, but it is charged the new, lower price. A run that already set aside Balance keeps its earlier price. The change was checked online without starting a run or making a payment. No installation file was replaced.
+
 **30 October 2026 — Saved day totals are information only**
 
 The online family day-total limit has been removed. Days worked and days remaining must not stop a Work Demand or reduce the requested days. Checks with fictional records confirmed approval and entry preparation, unchanged requested days and protection against repeated worker periods. Every fictional online test change was rolled back. The official portal was not contacted.
@@ -391,7 +416,7 @@ This online service update applies to the existing app downloads. The recharge p
 - **Faster Panchayat and Village downloads.** The Panchayat&#x27;s issued Job Card list, registration register and two summary reports are read once per download instead of again for every Village. In a fictional test Panchayat with 4 Villages, portal page loads fell from 54 to 15. An **Update** no longer downloads the…
 - **Faster Work Demand entry.** After the portal opens its main menu, the saved household is not chosen again, and repeated sign-in checks with nothing in between are gone. The checks right before choosing, filling and Proceed stay.
 - **Work Allocation pause.** When the portal asks you to allocate work first, entry pauses, keeps your place and continues the same run afterwards. Workers already entered are confirmed in the Work Allocation list before the pause, so the run can finish as checked.
-- **Work Demand price: 1 Balance for every 10 workers** in one entry run, with no worker limit. If your Balance is low, the run still goes ahead and the amount owed is taken first from your next recharge.
+- **Work Demand price: 1 Balance for every 20 workers** in one entry run, with no worker limit (21–40 workers use 2; 100 workers use 5). It was 1 for every 10 workers when Windows and Linux were published; the online service lowered it on 2 November 2026 for every app copy. The desktop 1.4.27 Balance page still says…
 - **Recharge any whole-rupee amount from ₹50 to ₹1,000.** ₹1 paid adds 1 Balance. Razorpay opens in an app payment window and the screen says how much of a payment pays an amount owed.
 - **More stable.** The desktop service and app screen restart by themselves after a crash, screens no longer freeze while your office sign-in is checked on a slow connection, and a refused Muster Roll report charge no longer blocks the Balance page or Recharge.
 

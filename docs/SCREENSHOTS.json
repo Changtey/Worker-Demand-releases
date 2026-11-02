@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "captured_at": "2026-11-01T18:52:47.800577+00:00",
+  "captured_at": "2026-11-02T01:11:48.582557+00:00",
   "mode": "source-preview",
   "source_versions": {
     "desktop": "1.4.27",
@@ -8,10 +8,10 @@
   },
   "published_versions": {
     "desktop": "1.4.27",
-    "android": "1.4.26"
+    "android": "1.4.27"
   },
-  "published_notes_sha256": "f8a17be80041a0fe1c65d6c6a5492d0c2ee1d1dd4ac9cf495ff777122ef19087",
-  "source_fingerprint": "06360597e6fd2b3a74dae4256b2c637a6b35e86c527739a763fc049c98691063",
+  "published_notes_sha256": "29783b976871336bdc6310467acd64fe0d6342d2aa5f9c3b25ba679a0bad2edf",
+  "source_fingerprint": "75d4d3c4bc1e880e4625ce489534cc1e26491c84b3352ed6e121401b0fb851a0",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "e2d46d8f88f9579e7f67c9ed1d6b508c4a9a7fe3fdb4af6486f7158df242811c",
+      "sha256": "faa8ef432362538e1c48af166ef672821748f15f4555ea46434e52e190c38680",
       "width": 960,
       "height": 1920
     },
@@ -132,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "74d19b15f209fd986873253460742965e31c20065f569d6616fda479576ed8a9",
+      "sha256": "dcf64ce7df1d1d0938f29cd524883413f0dd08330fde0bb85a81e42109954c80",
       "width": 960,
       "height": 1920
     },
@@ -142,7 +142,7 @@
       "app": "Desktop preview",
       "caption": "Choose Panchayats and Villages for the official attendance reports.",
       "path": "docs/screenshots/13-muster-reports.png",
-      "sha256": "90282c08319059b791537775a2662a31493ced46174304ac64763e8300974c99",
+      "sha256": "7b72d6a5825dee40483ad3597033760641570d49b279f1e6de9eab88bfe742fa",
       "width": 960,
       "height": 2300
     },
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "b417ff95563cc66e05342e234a3cfd8fcc105b61f347725b12b04d460998b45e",
-    "docs/USER_GUIDE.md": "7cdcbc0045af3107844854bc348efbc9de6e13728983354dc2165ff3c2518354",
-    "docs/FEATURES.md": "adacd13962e28fa1df0c67a5464592a5613670148af90a822d665c22a9e75af8",
-    "docs/LATEST_CHANGES.md": "5e5129ce011c68d00890db0ec9c87eb5bba0351befa72f34ca7350971ad68fd2"
+    "README.md": "a197a8bb3a0845644e205a9c193187fba78ecca255eaab3982ffeb7742fd1760",
+    "docs/USER_GUIDE.md": "93aa3b1b16b92aa41a918627433dbaed4f494e362ea2c3e493b751d2d486a138",
+    "docs/FEATURES.md": "752775b75a0e9495daf1426c10d9e47f4c977029ee196e52117bfc691dccc243",
+    "docs/LATEST_CHANGES.md": "03ec5f599749a52a49ea7d7eb349176286f5521178b92ed4322211ae56716c8e"
   }
 }
