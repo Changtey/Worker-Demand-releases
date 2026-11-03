@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "captured_at": "2026-11-02T01:11:48.582557+00:00",
+  "captured_at": "2026-11-03T10:38:40.649867+00:00",
   "mode": "source-preview",
   "source_versions": {
-    "desktop": "1.4.27",
+    "desktop": "1.4.28",
     "android": "1.4.27"
   },
   "published_versions": {
@@ -11,7 +11,7 @@
     "android": "1.4.27"
   },
   "published_notes_sha256": "29783b976871336bdc6310467acd64fe0d6342d2aa5f9c3b25ba679a0bad2edf",
-  "source_fingerprint": "75d4d3c4bc1e880e4625ce489534cc1e26491c84b3352ed6e121401b0fb851a0",
+  "source_fingerprint": "4fe4a35dcd9a9377afabff9c1397fa568d1f33e66b745360dad4aa1e578a2e56",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "64b5a76349191f61351ed03ab9a88a874a6e1f94d95dc8c9ad749940c4a36a05",
+      "sha256": "cf0784adce30ca1b4a701c913d2f3d6e2696d8c4a7526f20aa1a199fad060a49",
       "width": 1236,
       "height": 2745
     },
@@ -92,7 +92,7 @@
       "app": "Android",
       "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "6b04ad366a7f7d44227e1324983a1ce3d902dc305e29d6ec5ed5020580d05ca3",
+      "sha256": "51e50162390afb671dc16b47a07334f4491fb224657a68a4ddad51845e2fb934",
       "width": 1236,
       "height": 2745
     },
@@ -102,7 +102,7 @@
       "app": "Desktop preview",
       "caption": "Keep the list compact with saved status and identity check choices.",
       "path": "docs/screenshots/09-worker-search.png",
-      "sha256": "8b857a3b0ae443e239eb6536078e4257b0b41ef874157c63f14496198b58810a",
+      "sha256": "74685dbe44c2966255a4b84089b787eff8047f2a852cb2a21e4791b81f032948",
       "width": 960,
       "height": 1920
     },
@@ -112,7 +112,7 @@
       "app": "Desktop preview",
       "caption": "Review selected workers, full Job Cards, dates and totals before portal entry. Save PDF or Print a draft copy. Nothing is sent by making a copy. This is a narrow desktop preview with fictional records.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "d19d75b373d19c1360040ff9bd7a926fdb3ed734c29f112580126728f55c525d",
+      "sha256": "b2b259fe021ab70a4632c0e732c3b8e592e1df1767a8b1365843a187f74212e9",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "faa8ef432362538e1c48af166ef672821748f15f4555ea46434e52e190c38680",
+      "sha256": "810c2969aa21aecfc0cdb133c354bc8167cf57f24fbfe8f71aaa1eb337b5e1db",
       "width": 960,
       "height": 1920
     },
@@ -132,7 +132,7 @@
       "app": "Desktop preview",
       "caption": "Follow the measured record download percentage on a received request. Saved checks set the percentage; record download progress does not mean a demand was submitted.",
       "path": "docs/screenshots/12-worker-management.png",
-      "sha256": "dcf64ce7df1d1d0938f29cd524883413f0dd08330fde0bb85a81e42109954c80",
+      "sha256": "6388f432f93f914d4bd791d2dd2f03e1e9daf759616d18304eb21fec099aa7c7",
       "width": 960,
       "height": 1920
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "0a120c470877f38be7685c68118f85e51ed8234716e2c7d7740ea957c6480867",
+      "sha256": "f552b6b5304211e35b85e7914e30f7101b8d91ff03a8c21d2cc5a88bb45fa279",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "a197a8bb3a0845644e205a9c193187fba78ecca255eaab3982ffeb7742fd1760",
-    "docs/USER_GUIDE.md": "93aa3b1b16b92aa41a918627433dbaed4f494e362ea2c3e493b751d2d486a138",
-    "docs/FEATURES.md": "752775b75a0e9495daf1426c10d9e47f4c977029ee196e52117bfc691dccc243",
-    "docs/LATEST_CHANGES.md": "03ec5f599749a52a49ea7d7eb349176286f5521178b92ed4322211ae56716c8e"
+    "README.md": "6826baa4ca331c83a0fc79aafcb360f687f41aa0f115e2b236c96ae235e4b12d",
+    "docs/USER_GUIDE.md": "4db5be192c54a40f61b022b6f3b3e656e6153acb4bb945cfa5f123e14286ef11",
+    "docs/FEATURES.md": "fef34493a7f45201608587f1522c688a9693ebff94bf35a0f875661f8052d22c",
+    "docs/LATEST_CHANGES.md": "06a3399e66e8d726b5bcee87bb7a8a88a2bd52edc4db27e8a670fa2eb232907f"
   }
 }

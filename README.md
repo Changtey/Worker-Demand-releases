@@ -59,22 +59,24 @@ Published downloads: desktop **1.4.27**, Android **1.4.27**.
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
-## Watch the videos
+## Watch and practise
 
-Videos for **version 1.4.15**, using fictional app examples.
+The tutorial was refreshed on **3 November 2026**. Follow real app screens, slow spoken instructions and captions. All names, places and dates in the lesson are samples.
 
-| Video | Length | Watch or download |
-| --- | --- | --- |
-| Promo | 60 seconds | [Play the promo](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Promo-60s.mp4) |
-| Simple English tutorial | 7 minutes 30 seconds | [Play the tutorial](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.mp4) |
+| Learn your way | Open |
+| --- | --- |
+| Tutorial: 9 short lessons, 6 minutes 21 seconds | [Watch the tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html) |
+| Guided practice with sample workers | [Try the practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) |
+| Clear desktop and Android pictures | [Open full-size screenshots](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html) |
+| Video file | [Open or download the tutorial](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.mp4) |
 
-[Watch both videos on the download page](https://changtey.github.io/Worker-Demand-releases/#watch). The tutorial has 15 numbered steps, separate phone and computer sections, captions and buttons to repeat a lesson. It was refreshed on 26 October 2026.
+Watch a lesson, pause to read the screen, then try the steps. The practice copy ends at **Check demand**. It cannot send records to the office or the official work website.
 
-The tutorial covers Received requests, desktop review, days worked, shared Job Card days left, electronic identity verification (eKYC), the Aadhaar Based Payment System (ABPS) and Aadhaar availability. Saved answers are separate from a new portal check. The promo's 80–90% figure is the creator's estimate; actual results vary.
+The tutorial covers setup, area choices, Android requests, office review, days and dates, saved results, reports and settings. Read the result carefully: finishing entry steps is different from confirming that a demand was saved.
 
-[Promo captions](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Promo.srt) · [Tutorial captions](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.srt) · [Tutorial chapters](https://changtey.github.io/Worker-Demand-releases/videos/Tutorial-Simple-English-chapters.txt)
+[Tutorial captions](https://changtey.github.io/Worker-Demand-releases/videos/VBGRAMG-Tutorial-Simple-English.srt) · [Written script](https://changtey.github.io/Worker-Demand-releases/videos/tutorial-transcript.txt) · [Lesson times](https://changtey.github.io/Worker-Demand-releases/videos/Tutorial-Simple-English-chapters.txt)
 
-Both videos use CC0 public-domain music. [Read the music-use details](https://changtey.github.io/Worker-Demand-releases/videos/Music-use.txt). The apps are free to download. Some computer tasks use Balance; read the current costs in the user guide.
+[Watch the earlier 60-second introduction](https://changtey.github.io/Worker-Demand-releases/#watch). Its 80–90% figure is the creator's estimate; actual results vary. The introduction uses CC0 public-domain music. The new tutorial has spoken instructions without music. The apps are free to download; some computer tasks use Balance. Read the current costs in the user guide.
 
 ## Follow your daily work
 
@@ -82,7 +84,7 @@ Open **Work Demand** at any time, including before portal sign-in. All app menus
 
 ## What you can do
 
-Work Demand can try temporary browser problems again before filling starts. **Try again** and **Continue remaining entries** keep earlier results. Any worker with an uncertain Proceed result stays held for checking.
+Work Demand can try temporary browser problems again before filling starts. **Try again** and **Continue remaining entries** keep earlier results. Any worker with an uncertain Proceed result stays held for checking in that run. In a later run, VBGRAMG's saved demands decide whether the worker is entered again.
 
 On first use, sign in to VBGRAMG in **Browser** and save your assigned Panchayats or Villages. You can continue when essential worker details and checks are ready, before every download reaches 100%. Your default login page and work areas are kept for your account. Change areas later in Settings. Daily background updates continue, while matching completed eKYC, ABPS and confirmed Aadhaar Availability checks keep their original check dates.
 
@@ -102,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Current source preview · 2026-11-02.** Desktop source 1.4.27; Android source 1.4.27. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
+**Current source preview · 2026-11-03.** Desktop source 1.4.28; Android source 1.4.27. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -169,6 +171,64 @@ A phone draft stays on the phone. A submitted phone request goes to the DEO for 
 Use only areas and records you are authorised to access. Enter the portal Security Code yourself. Never share login codes, passwords or office records in public issues or screenshots.
 
 ## Current changes
+
+**3 November 2026 source change (later) — VBGRAMG decides repeated workers**
+
+- This PC's own entry records no longer stop a worker by themselves, whether the earlier entry was today, this week or before. For a worker this PC entered before on some of the chosen days, entry first reads View Demand Details on the portal for that household. Only these workers are read first; other workers are entered at the same speed as before.
+- If VBGRAMG shows a demand on the same or overlapping days, the worker is skipped and shown as **Already has a demand on VBGRAMG — skipped**, with the portal's dates. This is not a problem that needs your check, and it is never charged. The same demand on the same dates is kept as **Already entered**, and the final list check confirms it.
+- If VBGRAMG shows no such demand, the worker is entered again, even if this PC entered the worker before. An earlier reply that was never confirmed counts the same way from 10 minutes after it, because a slow portal may still save it within that time. The earlier record on this PC is then marked as not on the portal.
+- When automatic saved-demand checks are on, a demand already on VBGRAMG for overlapping days is also skipped this way instead of stopping entry for a check.
+- Safeguards that hold a worker for your check instead: an entry from this PC that is still being sent, or whose reply was unclear less than 10 minutes ago; two members of the household with the same name when VBGRAMG shows a demand for that name, because the saved list shows names only; and a form with a separate final Submit, whose saved demands cannot be read there. A worker whose reply is unclear in the current run stays held until it is checked. If the portal answers Proceed with a message that a demand already exists, that worker stops for your check.
+- Workers this PC never entered are not read first, so entry keeps its speed for them.
+- A worker entered again after VBGRAMG no longer shows an earlier demand is not charged a second time.
+- **Check demand** no longer leaves out a worker for an earlier entry from this PC. It lists such workers and says that entry checks VBGRAMG first. This replaces the leave-out described in the earlier 3 November entry about **Check demand** below.
+- Checked with automated tests and in the real desktop app, on fictional records and pages only. Not yet checked with a live run.
+
+**3 November 2026 source improvement — Print, Find and the usual keyboard keys**
+
+- The Browser toolbar has a **🖨 Print** button for every page. It, and **Ctrl+P**, open the normal Windows print box for the page you see. The Work Allocation page keeps its own print window with every row.
+- **Ctrl+F** or the **⌕** button finds words on the Browser page and shows how many match. **Alt+←**, **Alt+→**, **F5**, **Ctrl+R** and **Ctrl+L** work as in a normal web browser; reloading still asks first.
+- On other app screens, **Ctrl+P** prints the open screen without the side menu, and **Ctrl+F** goes to the screen's search box first, then finds words on the screen.
+- Copy, Cut, Paste, Select all, Undo and Redo keep working everywhere. A right-click menu now offers them in text boxes and on selected words.
+- While the print box for a portal page is open, background portal reads wait instead of failing. Printing and finding never save, send or submit anything.
+- Checked in the real desktop app with fictional pages, and with automated tests on fictional records. Not yet checked on the live portal or with a real printer.
+
+**3 November 2026 source improvement — workers who already have a demand are left out at Check demand, and entry shows its time**
+
+- **Check demand** now leaves out a worker who already has a demand for some of the chosen days, when that demand was entered from this PC and the portal saved it. The check lists each one with the earlier dates and what to do: choose dates after the earlier demand if the worker needs more days. Entry then runs only the other workers, so these workers no longer appear under **Need your check**. Before, entry stopped each of them for a check.
+- An exact repeat of the same dates is still skipped by entry as already entered. An earlier entry whose result was not confirmed still needs your check, because it may or may not be saved.
+- The Work Demand progress panel now shows **Time so far** and **Time left** during entry, and **Time taken** when entry finishes.
+- The time report saved on this PC after each entry now also counts the sign-in checks, page reads, the portal's own reply time and the short wait for the page to settle. It only measures. It does not change any step, so the next live run shows where the remaining time goes.
+- On 3 November, the faster Job Card change from 2 November was used on the live portal for 224 workers in one Village. The portal showed its success message for all 224, with 0 failed entries, in 7 minutes 44 seconds. Choosing each household took 0.39 seconds on average, compared with 1.76 seconds the evening before.
+- The two new features were checked with automated tests on fictional records and pages. Not yet checked with a live run.
+
+**2 November 2026 source improvement (night) — a safe, faster Job Card change**
+
+- The household is found by its full Registration ID (Job Card number) and checked. The worker is then found by name inside that household. Two members with the same name in one household still stop entry for a personal check.
+- When the next worker is in the same Panchayat and Village, the app now picks the next Registration ID directly again, without choosing the Panchayat and Village. This is used only when the portal's copied dates land on the requested worker's own line, with exactly the same dates and days. This was the case that worked on the live portal on 2 November.
+- If the copied dates land on another member's line, or differ in any way, the app opens a fresh form and chooses the area again, as in the evening fix. It never empties another member's line on screen and continues.
+- If entry stops right after the direct choice, before the copied line is checked, the next try opens a fresh form first.
+- Households, and the members inside each household, are entered in the order that allows the direct choice most often, one Panchayat and Village at a time. The list on screen keeps its order. With the saved lists from 1 and 2 November, this would allow the direct choice for about 99 of every 100 household changes (1,018 of 1,027), compared with about half before. Any household whose saved member order does not match the portal simply uses a fresh form.
+- Checked with automated tests on fictional pages, including a page that copies the live portal's reply. Not yet checked with a live run.
+
+**2 November 2026 source fix (evening) — the faster Job Card change below is withdrawn**
+
+- On the live portal, the faster Job Card change stopped entry with "The portal returned another member's dates or days that do not match a saved confirmation". It happened 4 times in 3 runs in 2 Villages, each time on the first worker of a new household. The app had emptied the last worker's dates from another member's row on screen, but after **Proceed** the portal showed them again in that row.
+- Work Demand entry is back to the earlier, proven way: before each new household, the app clears the previous Registration ID with the portal's own empty choice, or opens a fresh form. This takes a little longer for each household. The Panchayat and Village are still kept when the portal allows it.
+- Printing the Work Allocation list is unchanged.
+- Checked with automated tests on fictional pages, including a new page that copies the live portal's reply. With the withdrawn code it stopped with the same message; now it enters the worker correctly. Not yet checked with a live run.
+
+**2 November 2026 source improvement — faster Job Card changes and printing the Work Allocation list**
+
+- After each saved worker, Work Demand entry now picks the next Registration ID directly and keeps the Panchayat and Village selected, as shown in the 2 November recording. Before, each new household started a fresh form, and the Panchayat, Village and Registration ID were all chosen again. The area is chosen again only for another area or when the portal clears it.
+- The portal can show the last worker's dates and days again in the same row of the next household. The app clears such a row only when every value exactly matches what it just sent. Anything else makes it open a fresh form, as before. The worker, dates, days, success message and repeat-entry checks are unchanged.
+- On the Work Allocation page, a **🖨 Print** button in the Browser toolbar and **Ctrl+P** open a print window with a preview of the real pages, printer, paper size, layout and copies, and the normal Windows print box. The print has the area details and every row, including rows below the screen, on as many pages as needed. Printing only reads the page; nothing is saved, allocated or submitted.
+- Checked with automated tests on fictional pages only, including three workers across two Job Cards in one Village, a change to another area, and a 60-row list printed over 3 pages. Not yet checked on the live portal: a live run across several Job Cards, and printing a live Work Allocation list on a real printer.
+
+**2 November 2026 source improvement — Balance notices and a visible app update**
+
+- Each Work Demand charge now leaves a **Balance used for Work Demand** notice in the bell: the Balance used, for how many saved and checked workers, the area, any part owed and the Balance left. A new one also shows as a Windows notification. **Mark as read** removes it.
+- **Update now** on Windows shows a small installer window while the update installs, then opens the updated app by itself. Before, the app closed and nothing showed for about 40 seconds. This applies from the next update, including updates started from 1.4.27.
 
 **2 November 2026 source improvement — Muster Roll Reports read faster and steadier, on a simpler screen**
 
@@ -274,6 +334,25 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 - These changes were checked with isolated fictional records. They are in the newer source only. Installed apps, published downloads, device checks and official portal results need their own checks.
 - The area records panel and download status are one small card with a download percentage for the area and for each record. The four worker checks (eKYC, ABPS, Aadhaar seeding and Aadhaar authentication) are shown as one pass, followed by Aadhaar Availability. The status no longer blinks when a retry flips for a moment. These are display changes; the download order and the portal reads are unchanged.
 
+**3 November 2026 source improvement — welcome tour for new users**
+
+- After the first sign-in on the desktop app, a short Welcome tour (six screens) opens once over Create demand. Skip tour or Start using the app closes it for good. Settings → Help → Take the welcome tour shows it again. The web preview never opens it by itself. Checked with fictional records only.
+
+**3 November 2026 source improvement — quicker area choices**
+
+- Long place lists have a **Type to find…** box. Typing any part of a name narrows the list. Up to six matches show as buttons, and Enter chooses the only match left. Spaces, brackets and dashes do not matter, and names in any script can be found.
+- On Create demand, a District, Block, Panchayat or Village is chosen for you when it is the only one offered. Two or more are never guessed, and a place you clear by hand stays cleared.
+- **Recent Villages** is now on Create demand too.
+- The list note says when the lists were saved, for example "Lists saved today at 9:12 am".
+- All six levels (State, Financial Year, District, Block, Panchayat, Village) stay, so it works for every State. Checked with fictional lists only.
+
+**3 November 2026 source improvement — the first five steps download together**
+
+- Job Cards and workers, eKYC, ABPS, Aadhaar Seeding and Aadhaar Authentication now download at the same time. The four worker checks start as soon as the list of Job Cards and workers is saved. Before, they often waited until every household page was read.
+- If the app and the signed-in reader both want the same Village, the second one no longer waits for the whole download. It starts its checks as soon as the workers are saved.
+- Safety stays the same. Every check is matched only to a saved worker. If the checks stop because you chose another area or the login ended, the household pages stop too, and everything already read stays saved.
+- Checked with fictional records only.
+
 **1 November 2026 source improvements — Panchayat lists read once per download**
 
 - The Panchayat's issued Job Card list, its registration register and its two summary reports are read once per download, instead of again for every Village. In a fictional Panchayat with 4 Villages, portal page loads fell from 54 to 15. These copies last five minutes; during an **Update** only copies read after the Update are used.
@@ -324,7 +403,7 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 - The active screen's Panchayat or Village gets the next download turn immediately after its choice is confirmed. Browser area changes wake the area check; hidden pages and late older replies cannot take priority. Slow public Job Card reads check for area changes while waiting and preserve saved cards.
 - Returning to an earlier Panchayat or Village renews its place at the front of the queue. Required worker checks keep that priority after public lists finish. Recent complete records release their turn without another download. Area lists interrupted by the handover continue automatically with the latest choice; a real failed read still offers Try again. Deliberate pauses, removed areas and failed-report retry times are kept.
 - The download order is Job Card numbers and Registration IDs, members, eKYC, ABPS, Aadhaar Availability, worked days, days left, then additional records. Extra checks and Work Codes wait behind a running day read. Data already present on a required page is saved without extra visits. Worker selection can begin before every additional report is complete.
-- Saved area choices restore the download panel after reopening. Job Card, worker, eKYC, ABPS and Aadhaar Availability counts appear without opening Record updates and refresh while downloads run. An unconfirmed Village cannot silently request the whole Panchayat.
+- Saved area choices restore a compact download summary after reopening. It shows the selected area, progress, saved-check count and whether you can prepare a Work Demand. **Details** opens the report counts, waiting areas, last saved dates and update notes. **Recheck data** stays beside Details. The counts refresh while downloads run. An unconfirmed Village cannot silently request the whole Panchayat.
 - Deleted data and areas removed from the queue show **Download stopped**, with a clear reason and **Download records again**. Visiting the area keeps the stop until that button is chosen. Completed saved records are reused.
 - Download, recheck or delete any Panchayat or Village directly from its row. Download continues missing records. Recheck asks for fresh information for the chosen year and keeps saved records. See download status, the last saved date and record counts together.
 - Select fully downloaded, partial, interrupted/incomplete or queued areas with one button. Adjust individual ticks, then delete the selection or remove it from the queue with one confirmation.
@@ -386,6 +465,10 @@ Use only areas and records you are authorised to access. Enter the portal Securi
 - Setup uses one guided workspace: **Login area → Sign in → Work areas → Download records**. The official portal gets the full workspace during sign-in.
 - Downloads show checked counts and distinguish working, waiting, paused and stopped readers. Report problems show their reason. **Retry missing data** includes unfinished days-worked checks and keeps completed records.
 - A clear first-use message explains that later work is usually faster through saved records. Settings, selected areas and downloaded records stay through normal app updates.
+
+**2 November 2026 — Balance held by unconfirmed Work Demand runs released**
+
+Work Demand runs whose result was never confirmed no longer hold your Balance. All Balance they set aside is free again, and nobody was charged for them. The online service can now charge a run that stops part-way only for the workers whose demand was saved and checked, at 1 for every 20 of them. The app uses this from its next update. The change was checked online without starting a real run or making a payment. No installation file was replaced.
 
 **2 November 2026 — Work Demand entry now costs half**
 
