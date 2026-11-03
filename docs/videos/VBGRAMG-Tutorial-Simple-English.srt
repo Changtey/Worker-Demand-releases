@@ -1,499 +1,183 @@
 1
-00:00:00,761 --> 00:00:04,807
-This guide shows how to prepare a work request on Android, review it
+00:00:00,550 --> 00:00:09,838
+Let's follow two workers as they ask for five days of work. You'll see what to do on the phone, and what the office does on the computer.
 
 2
-00:00:04,817 --> 00:00:07,473
-on your computer, and check the saved result.
+00:00:12,038 --> 00:00:15,614
+Every name and date you see is for practice.
 
 3
-00:00:07,747 --> 00:00:09,487
-We will go one step at a time.
+00:00:18,717 --> 00:00:27,213
+Use the download link below the video. Choose Android for your phone, or Windows or Linux for your computer.
 
 4
-00:00:09,775 --> 00:00:13,264
-The people and records shown are fictional examples.
+00:00:30,342 --> 00:00:33,870
+On the computer, start with Sign in with Google.
 
 5
-00:00:13,553 --> 00:00:15,209
-Pause whenever you need more time.
+00:00:37,008 --> 00:00:45,984
+On Select login area, choose your State and Financial Year. The Financial Year is the year for these work records.
 
 6
-00:00:18,583 --> 00:00:21,795
-First, install the app for your device from this page.
+00:00:48,184 --> 00:00:53,968
+Then choose your District and Block. Check that all four choices are right.
 
 7
-00:00:22,056 --> 00:00:26,823
-On Android, open Worker Demand and use the private login code given by
+00:00:56,168 --> 00:00:59,360
+Click Save and open login page.
 
 8
-00:00:26,833 --> 00:00:29,781
-your Data Entry Operator, or DEO.
+00:01:02,467 --> 00:01:09,523
+Sign in to the work website with your own account. You enter the Security Code and choose Login.
 
 9
-00:00:30,042 --> 00:00:36,934
-On Windows or Linux, open VBGRAMG DEO Assistant and sign in with your
+00:01:12,633 --> 00:01:17,745
+Open My Areas to keep your usual Panchayats and Villages together.
 
 10
-00:00:36,944 --> 00:00:38,101
-own Google account.
+00:01:19,945 --> 00:01:25,201
+When records need to be read, the app starts with the area you are using.
 
 11
-00:00:38,389 --> 00:00:40,045
-Keep login codes private.
+00:01:28,342 --> 00:01:35,878
+The office sets up phone access under Android access. Get your private login code from the office.
 
 12
-00:00:43,361 --> 00:00:44,142
-Step one.
+00:01:39,008 --> 00:01:44,288
+On the phone, check your area. Tap Create work request.
 
 13
-00:00:44,403 --> 00:00:46,239
-On your phone, open Home.
+00:01:46,488 --> 00:01:51,504
+Find the workers who asked for work. Tick one name at a time.
 
 14
-00:00:46,528 --> 00:00:50,156
-Check the Panchayat or Village and the Financial Year.
+00:01:54,633 --> 00:02:01,113
+Both workers want five days. Type five in Days for all selected workers.
 
 15
-00:00:50,431 --> 00:00:52,253
-Use the area assigned to you.
+00:02:03,313 --> 00:02:09,505
+Tap Apply Days to All. Check that both workers now show five days.
 
 16
-00:00:52,514 --> 00:00:54,628
-Then choose Create work request.
+00:02:12,633 --> 00:02:14,505
+Tap Continue.
 
 17
-00:00:54,917 --> 00:01:00,240
-If the area is wrong, ask your DEO to check your access before
+00:02:16,705 --> 00:02:18,817
+Choose the Start Date.
 
 18
-00:01:00,250 --> 00:01:01,031
-you continue.
+00:02:21,017 --> 00:02:23,537
+Then open Review request.
 
 19
-00:01:04,347 --> 00:01:05,114
-Step two.
+00:02:26,675 --> 00:02:31,619
+Check the names, days, and dates. Tap Send to office.
 
 20
-00:01:05,444 --> 00:01:08,212
-Find a worker by name or Job Card.
+00:02:33,819 --> 00:02:39,387
+Open History to see the request. The office still needs to check it.
 
 21
-00:01:08,486 --> 00:01:11,239
-Tick the workers who belong in this request.
+00:02:43,342 --> 00:02:48,790
+On the computer, open Work Demand. Choose Received requests.
 
 22
-00:01:11,528 --> 00:01:13,684
-Check their names and Job Cards.
+00:02:50,990 --> 00:02:57,398
+Open a request. Read the names, requested days, and start dates.
 
 23
-00:01:13,972 --> 00:01:16,656
-Look at the selected count before moving on.
+00:03:00,508 --> 00:03:05,500
+Click Check demand. Read the result before you do anything else.
 
 24
-00:01:16,944 --> 00:01:20,226
-Only the workers you select belong in this request.
+00:03:07,700 --> 00:03:12,476
+If a worker needs a closer look, read the reason beside their name.
 
 25
-00:01:23,561 --> 00:01:24,523
-Step three.
+00:03:15,592 --> 00:03:20,968
+You can also start a request on the computer. Choose Create demand.
 
 26
-00:01:24,783 --> 00:01:28,231
-Enter the requested days beside each worker.
+00:03:23,168 --> 00:03:28,376
+Check the Financial Year. Then choose your Panchayat and Village.
 
 27
-00:01:28,519 --> 00:01:33,037
-If everyone needs the same number, enter that number above Apply Days to
+00:03:31,508 --> 00:03:34,820
+Open Workers and tick the names you want.
 
 28
-00:01:33,047 --> 00:01:35,606
-All. Press Apply Days to All.
+00:03:37,191 --> 00:03:40,695
+You can use Worker filters to narrow the list.
 
 29
-00:01:35,894 --> 00:01:39,203
-Then check the number beside every selected name.
+00:03:43,800 --> 00:03:50,760
+Add a Work Code or Work Order if you need one. These tell the app which work you mean.
 
 30
-00:01:39,478 --> 00:01:42,773
-Different workers can have different requested days.
+00:03:52,960 --> 00:03:56,896
+If the Work step is optional, you can leave it blank.
 
 31
-00:01:46,081 --> 00:01:47,014
-Step four.
+00:04:00,008 --> 00:04:08,672
+Open Days and dates. The Application Date is when the workers asked for work. Check that date first.
 
 32
-00:01:47,303 --> 00:01:50,417
-Choose Continue to open Work request details.
+00:04:10,872 --> 00:04:17,088
+Enter five in No of Days. Use Start Date for the first day the workers want to work.
 
 33
-00:01:50,692 --> 00:01:53,848
-Choose the Start Date and check the requested days.
+00:04:19,288 --> 00:04:24,376
+The app shows the End Date. Read it, then click Check demand.
 
 34
-00:01:54,094 --> 00:01:56,042
-Read the other fields on this screen.
+00:04:28,342 --> 00:04:33,358
+Use Print Demand if you want a draft copy for review or printing.
 
 35
-00:01:56,303 --> 00:01:58,931
-Add a Work Code or Work Order when needed.
+00:04:35,558 --> 00:04:42,422
+A draft copy lets you review the names, days, and dates before official entry.
 
 36
-00:01:59,206 --> 00:02:02,320
-Some requests allow these fields to stay empty.
+00:04:45,550 --> 00:04:53,926
+Read the checked list. In the real office workflow, Send to VBGRAMG starts official entry.
 
 37
-00:02:02,719 --> 00:02:04,931
-Follow the message shown in the app.
+00:04:56,126 --> 00:05:02,534
+Watch the progress. You may still have to press a final Submit button on the work website.
 
 38
-00:02:08,228 --> 00:02:09,148
-Step five.
+00:05:05,675 --> 00:05:14,171
+Look at these two counts. Two entry steps finished. The app could confirm only one saved demand.
 
 39
-00:02:09,422 --> 00:02:11,162
-Choose Review request.
+00:05:16,371 --> 00:05:22,035
+When a result is unclear, check the saved list before trying to send it again.
 
 40
-00:02:11,436 --> 00:02:15,398
-Read the area, worker names, days, and dates.
+00:05:26,008 --> 00:05:32,296
+Open Reports for Muster Rolls. A Muster Roll is the worker attendance list.
 
 41
-00:02:15,672 --> 00:02:17,787
-Go back if anything needs changing.
+00:05:34,496 --> 00:05:38,264
+Choose the Panchayat and the Villages you want.
 
 42
-00:02:18,075 --> 00:02:21,717
-When the details are correct, choose Submit request.
+00:05:41,383 --> 00:05:46,471
+Choose the groups to include. Use Generate to make the PDF.
 
 43
-00:02:21,992 --> 00:02:24,926
-This sends the request to the office for review.
+00:05:49,592 --> 00:05:54,536
+In Settings you can change the look of the app and manage saved records.
 
 44
-00:02:25,200 --> 00:02:29,037
-It does not create an official demand on the government website.
+00:05:56,736 --> 00:06:01,032
+Open Balance and recharges to see your balance.
 
 45
-00:02:32,361 --> 00:02:33,364
-Step six.
+00:06:04,133 --> 00:06:11,597
+Open the practice app below the video. Pick two workers, enter five days, and click Check demand.
 
 46
-00:02:33,625 --> 00:02:36,045
-Open History to follow the request.
-
-47
-00:02:36,306 --> 00:02:38,614
-Read the status returned by the office.
-
-48
-00:02:38,889 --> 00:02:41,462
-A draft saved on your phone stays on your phone.
-
-49
-00:02:41,722 --> 00:02:46,782
-If a request is waiting for connection, reconnect and let the same request
-
-50
-00:02:46,792 --> 00:02:50,989
-continue. Avoid creating another copy of the same request.
-
-51
-00:02:54,342 --> 00:02:55,762
-The phone steps are complete.
-
-52
-00:02:56,050 --> 00:02:59,526
-Now move to the D E O's Windows or Linux computer.
-
-53
-00:02:59,814 --> 00:03:04,707
-The next lessons show how to review the request, check the workers, and
-
-54
-00:03:04,717 --> 00:03:06,873
-choose whether to start official entry.
-
-55
-00:03:10,194 --> 00:03:11,101
-Step seven.
-
-56
-00:03:11,389 --> 00:03:16,364
-On your computer, open Notifications and choose Open request.
-
-57
-00:03:16,653 --> 00:03:21,003
-You can also open Work Demand Management and choose Android requests.
-
-58
-00:03:21,250 --> 00:03:23,226
-Open the request you want to review.
-
-59
-00:03:23,500 --> 00:03:26,739
-Check who sent it and which area it belongs to.
-
-60
-00:03:30,047 --> 00:03:30,787
-Step eight.
-
-61
-00:03:31,075 --> 00:03:37,093
-Check the Panchayat or Village, Financial Year, Application Date, workers,
-
-62
-00:03:37,103 --> 00:03:38,301
-and work dates.
-
-63
-00:03:38,575 --> 00:03:40,967
-The received request keeps its own area.
-
-64
-00:03:41,256 --> 00:03:46,134
-A different area selected for manual entry does not change this request.
-
-65
-00:03:46,408 --> 00:03:50,120
-Correct any wrong details before going further.
-
-66
-00:03:53,447 --> 00:03:54,298
-Step nine.
-
-67
-00:03:54,558 --> 00:03:56,395
-Read Worked and Days left.
-
-68
-00:03:56,656 --> 00:04:01,173
-Worked shows this worker's recorded days for the selected Financial Year.
-
-69
-00:04:01,447 --> 00:04:05,145
-Days left is shared by everyone on the same Job Card.
-
-70
-00:04:05,419 --> 00:04:10,423
-If two workers on one Job Card each show forty days left, that
-
-71
-00:04:10,433 --> 00:04:13,617
-is one shared balance of forty, not eighty.
-
-72
-00:04:16,947 --> 00:04:17,742
-Step ten.
-
-73
-00:04:18,031 --> 00:04:21,145
-Read the saved checks beside each worker.
-
-74
-00:04:21,433 --> 00:04:25,770
-Aadhaar shows whether the record says Aadhaar is available.
-
-75
-00:04:26,031 --> 00:04:29,520
-eKYC is the electronic identity check.
-
-76
-00:04:29,794 --> 00:04:33,451
-ABPS means Aadhaar Based Payment System.
-
-77
-00:04:33,739 --> 00:04:35,020
-Check each answer.
-
-78
-00:04:35,294 --> 00:04:39,062
-These saved answers may need updating before you continue.
-
-79
-00:04:42,361 --> 00:04:43,295
-Step eleven.
-
-80
-00:04:43,569 --> 00:04:47,990
-If an answer is old or missing, sign in to the official website
-
-81
-00:04:48,000 --> 00:04:49,434
-in the desktop Browser.
-
-82
-00:04:49,708 --> 00:04:52,087
-Then choose Update worker checks.
-
-83
-00:04:52,375 --> 00:04:54,837
-Read any warning beside the worker.
-
-84
-00:04:55,125 --> 00:04:56,809
-A red mark needs attention.
-
-85
-00:04:57,056 --> 00:05:01,309
-An unknown answer means the app does not have a usable saved answer.
-
-86
-00:05:01,569 --> 00:05:05,476
-Saving an answer is separate from checking the website again.
-
-87
-00:05:08,761 --> 00:05:09,792
-Step twelve.
-
-88
-00:05:10,067 --> 00:05:14,862
-If needed, change the workers, requested days, or dates.
-
-89
-00:05:15,150 --> 00:05:16,612
-Choose Save Changes.
-
-90
-00:05:16,886 --> 00:05:18,903
-Review the saved details again.
-
-91
-00:05:19,192 --> 00:05:21,834
-The original received list is kept.
-
-92
-00:05:22,108 --> 00:05:25,556
-Saving changes does not start official entry.
-
-93
-00:05:25,844 --> 00:05:29,014
-You will check the corrected request in the next step.
-
-94
-00:05:32,314 --> 00:05:33,484
-Step thirteen.
-
-95
-00:05:33,758 --> 00:05:34,873
-Choose Check demand.
-
-96
-00:05:35,161 --> 00:05:37,720
-Read each message and the worker's name.
-
-97
-00:05:37,981 --> 00:05:40,387
-Correct the details and check again.
-
-98
-00:05:40,661 --> 00:05:44,803
-If you change a worker, a day, or a date after a check,
-
-99
-00:05:45,092 --> 00:05:46,581
-run Check demand again.
-
-100
-00:05:46,869 --> 00:05:49,998
-This check does not submit an official demand.
-
-101
-00:05:53,328 --> 00:05:54,456
-Step fourteen.
-
-102
-00:05:54,744 --> 00:05:56,373
-Wait for the check to pass.
-
-103
-00:05:56,633 --> 00:06:00,845
-Review the workers, dates, and totals one last time.
-
-104
-00:06:01,133 --> 00:06:05,123
-When you decide to continue, choose Submit to VBGRAMG.
-
-105
-00:06:05,411 --> 00:06:09,303
-This starts entry on the official website through the desktop app.
-
-106
-00:06:09,578 --> 00:06:13,831
-Read the next lesson before using the official website's buttons.
-
-107
-00:06:17,114 --> 00:06:21,451
-Complete the official sign-in and enter the Security Code yourself.
-
-108
-00:06:21,739 --> 00:06:24,034
-Keep your login details private.
-
-109
-00:06:24,308 --> 00:06:27,131
-The official Proceed button can save a demand.
-
-110
-00:06:27,406 --> 00:06:32,229
-If the website asks for a separate final Submit, review it and complete
-
-111
-00:06:32,239 --> 00:06:33,603
-that action yourself.
-
-112
-00:06:33,878 --> 00:06:38,187
-Do not assume that an unfinished final check means nothing was saved.
-
-113
-00:06:41,494 --> 00:06:42,484
-Step fifteen.
-
-114
-00:06:42,758 --> 00:06:44,206
-Read the result window.
-
-115
-00:06:44,481 --> 00:06:46,373
-Look at Saved demands confirmed.
-
-116
-00:06:46,661 --> 00:06:49,123
-Entry steps finished is a different count.
-
-117
-00:06:49,411 --> 00:06:53,984
-If the final check is incomplete, choose Check saved results.
-
-118
-00:06:54,258 --> 00:06:58,456
-This checks the saved result without sending the same demand again.
-
-119
-00:06:58,814 --> 00:07:02,442
-Follow the message for any worker who still needs attention.
-
-120
-00:07:05,747 --> 00:07:06,820
-That is the routine.
-
-121
-00:07:07,081 --> 00:07:10,626
-On the phone, prepare, review, and send.
-
-122
-00:07:10,900 --> 00:07:16,584
-On the computer, review the details, check the workers, and choose official
-
-123
-00:07:16,594 --> 00:07:19,723
-entry. Finish by reading the saved result.
-
-124
-00:07:19,997 --> 00:07:23,542
-Use Android History for the office's latest status.
-
-125
-00:07:23,817 --> 00:07:27,889
-Repeat any lesson using the chapter buttons below this video.
+00:06:13,797 --> 00:06:18,069
+Take your time. You can replay any lesson.

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work Demand · Watch and try</title>
+<style>
+  :root{color-scheme:light;--ink:#143b38;--muted:#496360;--line:#ccdeda;--wash:#edf5f1;--paper:#fcfdfc;--gold:#ffda7a;font:16px "Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--wash)}
+  *{box-sizing:border-box}body{margin:0}main{max-width:1720px;margin:auto;padding:clamp(12px,2.5vw,40px)}
+  header{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:26px}
+  h1{font-size:clamp(28px,5vw,51px);letter-spacing:-.045em;line-height:1.05;margin:6px 0 10px}
+  p{line-height:1.5;margin:0}.tag{font-size:.77rem;font-weight:800;letter-spacing:.12em;color:#35625e}
+  .lead{color:var(--muted);max-width:49ch}.action{display:inline-block;padding:13px 18px;background:var(--gold);color:#193a37;border-radius:9px;font-weight:750;text-decoration:none;white-space:nowrap}
+  .layout{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:21px}
+  .screen{background:#132f2e;border-radius:13px;overflow:hidden;box-shadow:0 14px 35px #173a371b}
+  video{width:100%;aspect-ratio:8/5;display:block}
+  aside{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:15px}
+  h2{font-size:1.12rem;margin:0 0 10px}ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));list-style:none;gap:3px;margin:0;padding:0}
+  button{display:grid;grid-template-columns:25px 1fr auto;align-items:center;gap:7px;width:100%;text-align:left;background:transparent;border:0;border-radius:7px;padding:10px 7px;color:var(--ink);font:inherit;cursor:pointer}
+  button:hover{background:#e5eeeb}button[aria-current="true"]{background:#d9eee7;font-weight:750}
+  .number,.time{color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+  footer{display:flex;gap:16px;flex-wrap:wrap;margin-top:20px;color:var(--muted);font-size:.9rem}footer a{color:var(--ink)}
+  a:focus-visible,button:focus-visible{outline:3px solid #89660f;outline-offset:2px}
+  @media(max-width:970px){.layout{grid-template-columns:1fr}ol{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}}
+</style>
+<main>
+  <p><a href="../index.html">Back to downloads</a></p>
+  <header>
+    <div><p class="tag">WATCH AND TRY</p><h1>Work Demand, one step at a time</h1>
+    <p class="lead">Watch the app screen as each step happens. Pick a lesson or pause to read the screen at your own pace.</p></div>
+    <a class="action" href="practice.html" target="_blank" rel="noopener">Open the practice app</a>
+  </header>
+  <div class="layout">
+    <section class="screen" aria-label="Work Demand video">
+      <video controls playsinline preload="metadata" poster="cover.jpg" src="../videos/VBGRAMG-Tutorial-Simple-English.mp4?v=20261103"></video>
+    </section>
+    <aside><h2>Choose a lesson</h2><ol id="chapters"></ol></aside>
+  </div>
+  <footer><span>Sample records only.</span><a href="screenshots.html">Full-size app screenshots</a><a href="../videos/VBGRAMG-Tutorial-Simple-English.mp4?v=20261103" download>Download the video</a>
+    <a href="../index.html">Get the app</a></footer>
+</main>
+<script src="chapters.js"></script>
+<script>
+const video=document.querySelector("video");
+const items=document.querySelector("#chapters");
+const chapters=window.lessonChapters || [];
+const showTime=s=>Math.floor(s/60)+":"+String(Math.floor(s)%60).padStart(2,"0");
+const controls=chapters.map((chapter,i)=>{
+  const item=document.createElement("li"), button=document.createElement("button");
+  button.type="button";
+  [String(i+1).padStart(2,"0"),chapter.title,showTime(chapter.start)].forEach((value,n)=>{
+    const span=document.createElement("span"); span.textContent=value;
+    span.className=n===0?"number":n===2?"time":"name"; button.append(span);
+  });
+  button.addEventListener("click",()=>{video.currentTime=chapter.start; video.play().catch(()=>{});});
+  item.append(button); items.append(item); return button;
+});
+function update() {
+  const current=chapters.findLastIndex(chapter=>chapter.start<=video.currentTime+.08);
+  controls.forEach((button,i)=>button.setAttribute("aria-current",String(i===current)));
+}
+video.addEventListener("timeupdate",update);
+update();
+</script>
+</html>

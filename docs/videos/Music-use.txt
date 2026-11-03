@@ -1,4 +1,4 @@
-MUSIC USE — SIMPLE ENGLISH
+MUSIC USE — 60-SECOND INTRODUCTION
 
 Music: Wednesday Night [Funk Fusion]
 Creator: Zane Little Music
@@ -12,9 +12,6 @@ https://opengameart.org/content/wednesday-night-funk-fusion
 CC0 terms:
 https://creativecommons.org/publicdomain/zero/1.0/
 
-Copies of these pages are included in music-license-proof/. The exact downloaded recording and its file check are listed in music-source.json.
+This note covers the earlier 60-second introduction only.
 
-The earlier Funky Chunk track was free with a required credit. It was still copyrighted. It has been replaced in these videos.
-The earlier HeyGen rock track has also been replaced in the tutorial included here.
-
-This music-use note covers the background track used in these two updated videos.
+The new tutorial, updated on 3 November 2026, has spoken instructions without background music.
