@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-03T14:19:12.138662+00:00",
+  "captured_at": "2026-11-03T17:26:15.280968+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.29",
+    "desktop": "1.4.30",
     "android": "1.4.28"
   },
   "published_versions": {
-    "desktop": "1.4.29",
+    "desktop": "1.4.30",
     "android": "1.4.28"
   },
-  "published_notes_sha256": "f692205a499aa85a9e827f2bf48d065e174f234e6a5235f834ad66428d07f3a5",
-  "source_fingerprint": "71912c115911fc6a83189461de8d35a30e6c1536068d11b32f25efabbfe1ea4c",
+  "published_notes_sha256": "5fd5fd8c1472c42b9cdf30784509a47ba3cc40758bd3ec0b739af80726384e26",
+  "source_fingerprint": "300e1e68fee9cb1ef812f519ffa5e903b13f8c9a5d10f1d0219b644c2f9b2a89",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "8586001765f01da6f88a76672684b4d284271c38f36e840c51f4dbd3ebc2b186",
-    "docs/USER_GUIDE.md": "c9961c148c9330030f6c54f40ead27705f5976524cbbaa4556a256270ec0f7df",
-    "docs/FEATURES.md": "22f4782ee6c52c7d2bcc84f581ab1144fb34a2a895e09378ae425abe0d603e85",
-    "docs/LATEST_CHANGES.md": "7d65ae0a6e1e89d2a0e39515b9794b73e0ab2c0e7006189cf159605a49f2f280"
+    "README.md": "28e77b11e6ce730fb63a2b45b8d51e8ce3750cfb7b4f0b74ac30747b639e5acf",
+    "docs/USER_GUIDE.md": "662206efa1ebe1a05b83f75121ae17059e5988e7b6d86ce1c706fc9807314c03",
+    "docs/FEATURES.md": "1ae6876713e6ecfb85fe2cb188a2adfe2348a5bb5690373884e6d1df4b60ccd0",
+    "docs/LATEST_CHANGES.md": "6b10b7255ea96bd44f1504de0ee74d9c6b6782780b89940e37c39a565d55a7f2"
   }
 }

@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.29**, Android **1.4.28**.
+Published downloads: desktop **1.4.30**, Android **1.4.28**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/Worker-Demand-1.4.28.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.29).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.30).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.29 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.30 and Android 1.4.28 · 2026-11-03.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,9 +200,9 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.29**
+**Published 1.4.30**
 
-- **Totals for the selected workers only.** Under the worker list, in both **Create demand** and **Received requests**, the totals now count only the workers you selected: **Job Cards selected**, **Members selected** and **Days requested**. **Days worked** and **Workdays left** show the shared totals of the selected…
-- **Serial numbers.** Every Job Card heading and every worker in the list has a serial number, such as **1. Job Card · …** and **1. Worker name**. The numbers continue on the next page.
+- **Long place lists stay open while you scroll.** Some browsers closed the Panchayat list as soon as the mouse wheel moved, so a Block with many Panchayats was hard to use. A list with more than 12 places now opens inside the page when you click it. Scroll it with the mouse wheel and click a place. **Escape** closes…
+- **Old, unused parts removed.** The app no longer contains the old code that could type login details and press Login on the portal. That code was already switched off; you always type the Security Code and press **Login** yourself. Other unused code and old one-off tools were removed too. Nothing you use has changed.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

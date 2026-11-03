@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.29 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.30 and Android 1.4.28 · 2026-11-03.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -86,16 +86,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.29**, Android **1.4.28**.
+Published downloads: desktop **1.4.30**, Android **1.4.28**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/Worker-Demand-1.4.28.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.29).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.30).
 
 ### Find the next task
 
@@ -269,7 +269,7 @@ Follow **Area → Workers → Work → Days and dates → Review and send → Re
 
 **Choose the Village and Financial Year** always stays expanded in Create demand. State, Financial Year, District, Block, Panchayat and Village stay visible while you move between steps. This panel has no collapse control.
 
-Long place lists have a **Type to find…** box under them. Type any part of a name, such as part of a Panchayat name. Up to six matching places show as buttons. Click one, or press Enter when only one is left. On Create demand, a place is chosen for you when it is the only one offered, for example a Panchayat with one Village. It never guesses between two or more. **Recent Villages** at the top brings back a Village you used before, with all its parent choices. The note under the lists says when they were saved, for example "Lists saved today at 9:12 am". These work the same in every State.
+A long place list, such as a Block's Panchayats, opens inside the page when you click it. Scroll it with the mouse wheel and click a place; Escape closes it without a change. Long place lists also have a **Type to find…** box under them. Type any part of a name, such as part of a Panchayat name. Up to six matching places show as buttons. Click one, or press Enter when only one is left. On Create demand, a place is chosen for you when it is the only one offered, for example a Panchayat with one Village. It never guesses between two or more. **Recent Villages** at the top brings back a Village you used before, with all its parent choices. The note under the lists says when they were saved, for example "Lists saved today at 9:12 am". These work the same in every State.
 
 **Worker filters** also stays expanded. All filter choices remain visible, and clicking its heading does not hide them.
 
