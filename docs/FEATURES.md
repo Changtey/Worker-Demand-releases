@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.28 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.29 and Android 1.4.28 · 2026-11-03.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 
@@ -21,7 +21,7 @@
 
 - **Print Demand before sending:** a coloured button on the left opens a draft copy of selected workers and their own requested dates. Save PDF or open the print window before portal entry. All selected list pages are included, with Job Card counts and total requested days. The copy stays marked as a draft; current checks and portal safeguards still apply. Desktop and web preview feature.
 
-- **Simple day calculation:** use the 125-day Job Card total. Days left = 125 minus days worked; days worked = 125 minus days left. One saved value fills the missing value without another portal request. When a member's own worked days are missing, the desktop shows the shared figure as **Job Card total**. Village totals count that family once. Both missing values stay unknown. Existing reported values and report warnings are kept.
+- **Simple day calculation:** use the 125-day Job Card total. Days left = 125 minus days worked; days worked = 125 minus days left. One saved value fills the missing value without another portal request. When a member's own worked days are missing, the desktop shows the shared figure as **Job Card total**. The totals for selected workers count that family once. Both missing values stay unknown. Existing reported values and report warnings are kept.
 - **Optional day columns:** Worked and Days left stay hidden until you turn them on; each choice is saved. Saved and calculated day figures never change entered days or hold up a Work Demand.
 - **One area at a time:** the active tab's Panchayat or Village gets the download turn. Even within one Panchayat, Villages download one by one. Other public, worker-check and Muster Roll reads wait when they belong to another area. A page already loading may finish before the new area starts. Changing area keeps completed records and unfinished progress. Recent household pages and matching requests are shared instead of downloaded twice.
 - **Clear download order:** Settings shows **Queued**, **Downloading**, **Paused**, **Completed** and **Failed** beside the areas in the current download queue. Saved counts remain visible while another area has priority. Changing area wakes the next read without waiting for the regular background check. Temporary report interruptions retry automatically, keeping completed records. The progress panel names the recovering stage and its next attempt. A failed or unfinished report stays incomplete.

@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.28 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.29 and Android 1.4.28 · 2026-11-03.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -86,16 +86,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.28**, Android **1.4.28**.
+Published downloads: desktop **1.4.29**, Android **1.4.28**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/Worker-Demand-1.4.28.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.28).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.29).
 
 ### Find the next task
 
@@ -235,7 +235,7 @@ The Browser is a desktop feature. The narrow preview shows its controls; it does
 3. Use **Show household members** beside a Job Card to see its workers and saved checks. Scroll the table sideways on a narrow screen for the other columns.
 4. Use **Update from VBGRAMG** when records need updating. Keep an incomplete or unknown result open for review.
 
-Job Card members share the household's days left. A missing total means **Not known**, not zero. Village totals cover the saved Village; searching and paging change the list, not those totals.
+Job Card members share the household's days left. A missing total means **Not known**, not zero. The totals under the list count only the selected workers: **Job Cards selected**, **Members selected**, **Days requested**, and the shared **Days worked** and **Workdays left** of each selected Job Card (counted once). Every Job Card and worker has a serial number, which continues on the next page.
 
 ## 6. Make a work request on Android
 

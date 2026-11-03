@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.28**, Android **1.4.28**.
+Published downloads: desktop **1.4.29**, Android **1.4.28**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/VBGRAMG-DEO-Assistant-1.4.28-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.29](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.29/VBGRAMG-DEO-Assistant-1.4.29-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/Worker-Demand-1.4.28.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.28).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.29).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.28 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.29 and Android 1.4.28 · 2026-11-03.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,13 +200,9 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.28**
+**Published 1.4.29**
 
-- **Work Allocation check fixed.** Since 31 October the final check stopped on any unusual row in the Panchayat&#x27;s Work Allocation list, such as a blank footer row or another person&#x27;s row, so no entered worker was confirmed. Now an unclear row holds back only the worker it may belong to. Every other worker is still…
-- **Large lists are entered in planned parts.** The portal takes new Work Demands only while fewer than 100 people in a Panchayat are waiting for Work Allocation. Before entry starts, the app counts the people already waiting (read-only) and plans the parts. After each part it stops, you allocate work on the portal,…
-- **You are told when Balance is used.** Each Work Demand charge shows a **Balance used for Work Demand** notice in the bell: how much was used, for how many saved and checked workers, the area, any part owed and the Balance left. A new one also shows as a Windows notification. **Mark as read** removes it.
-- **Work Demand price: 1 Balance for every 20 workers** (21–40 workers use 2; 100 workers use 5). A run that stops part-way pays only for the workers whose demand was saved and checked, and the rest of the set-aside Balance is released. These rules are on the online service already; this update shows them correctly…
-- **Update now shows the installation.** The app downloads and checks the update, closes, and a small installer window shows the progress. The updated app then opens by itself. Before, nothing showed for about 40 seconds, so it looked as if the update had failed.
-- **Muster Roll Reports.** Generate opens the portal report page first, so any Security Code is answered before anything is saved or Balance is held. You still type the code yourself. Report pages load faster, a page that does not open is tried twice more, and one failed Muster Roll no longer stops its Panchayat. The…
+- **Totals for the selected workers only.** Under the worker list, in both **Create demand** and **Received requests**, the totals now count only the workers you selected: **Job Cards selected**, **Members selected** and **Days requested**. **Days worked** and **Workdays left** show the shared totals of the selected…
+- **Serial numbers.** Every Job Card heading and every worker in the list has a serial number, such as **1. Job Card · …** and **1. Worker name**. The numbers continue on the next page.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.
