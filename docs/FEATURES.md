@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Current source preview · 2026-11-03.** Desktop source 1.4.28; Android source 1.4.27. The desktop pictures include newer changes that are not in the downloads above. The same Android version number does not prove that a source screen matches an older APK.
+**Screens captured for desktop 1.4.28 and Android 1.4.28 · 2026-11-03.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 
