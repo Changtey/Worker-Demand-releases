@@ -64,6 +64,17 @@ async function readInvitation(){
 readDownloads()
 readInvitation()
 
+function prepareSendToComputer(){
+  const button=element('copy-page-link'),result=element('copy-page-result')
+  if(!button || !result)return
+  const link='https://changtey.github.io/Worker-Demand-releases/#computer-downloads'
+  button.addEventListener('click',async()=>{
+    try{await navigator.clipboard.writeText(link);result.textContent='Page link copied. Paste it in a message to yourself, then open it on your computer.'}
+    catch{result.textContent=`Copy this link and open it on your computer: ${link}`}
+  })
+}
+prepareSendToComputer()
+
 function prepareVideos(){
   const tutorial=element('tutorial-video'),promo=element('promo-video'),status=element('lesson-status')
   if(!tutorial || !promo || !status)return

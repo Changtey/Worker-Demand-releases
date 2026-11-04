@@ -43,3 +43,4 @@ video:focus-visible,summary:focus-visible{outline:3px solid #4c9d86;outline-offs
 .promo-preview summary{cursor:pointer;font-weight:650}
 .promo-preview .promo-card{max-width:270px;margin:20px 0}
 .promo-preview .video-heading{min-height:0}
+.independent{font-size:13px;color:var(--muted);margin:-16px 0 26px}.send-to-computer{margin:4px 0 16px;padding:16px;border:1px dashed #9cc9bb;border-radius:10px;background:#f6fbf8}.send-to-computer p{margin:0 0 12px;font-size:14px}.send-to-computer p:last-child{margin:10px 0 0;font-size:13px;color:var(--muted)}.send-to-computer p:last-child:empty{display:none}.send-actions{display:flex;gap:10px;flex-wrap:wrap}.send-whatsapp{display:inline-block;border-radius:8px;background:var(--accent);color:white;font-weight:650;padding:12px 22px;text-decoration:none}#copy-page-link{background:white;color:var(--accent);border:1px solid #9cc9bb}@media(max-width:650px){.send-actions>*{flex:1 1 100%;text-align:center}}
