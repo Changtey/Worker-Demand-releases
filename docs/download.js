@@ -78,6 +78,9 @@ prepareSendToComputer()
 function prepareVideos(){
   const tutorial=element('tutorial-video'),promo=element('promo-video'),status=element('lesson-status')
   if(!tutorial || !promo || !status)return
+  // Only one video plays at a time.
+  const videos=[tutorial,promo,element('quick-look-video')].filter(Boolean)
+  for(const video of videos)video.addEventListener('play',()=>{for(const other of videos)if(other!==video)other.pause()})
   const buttons=Array.from(document.querySelectorAll('[data-lesson-time]'))
   let selected=null
   function markLesson(){
@@ -107,8 +110,6 @@ function prepareVideos(){
   })
   tutorial.addEventListener('loadedmetadata',()=>{if(selected)startLesson()})
   tutorial.addEventListener('timeupdate',markLesson)
-  tutorial.addEventListener('play',()=>promo.pause())
-  promo.addEventListener('play',()=>tutorial.pause())
   for(const video of [tutorial,promo])video.addEventListener('error',()=>{
     if(video===tutorial){selected=null;status.textContent='The tutorial could not play here. Use Open or download the tutorial above.'}
   })
