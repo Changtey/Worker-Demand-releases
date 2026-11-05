@@ -79,7 +79,7 @@ function prepareVideos(){
   const tutorial=element('tutorial-video'),promo=element('promo-video'),status=element('lesson-status')
   if(!tutorial || !promo || !status)return
   // Only one video plays at a time.
-  const videos=[tutorial,promo,element('quick-look-video')].filter(Boolean)
+  const videos=[tutorial,promo]
   for(const video of videos)video.addEventListener('play',()=>{for(const other of videos)if(other!==video)other.pause()})
   const buttons=Array.from(document.querySelectorAll('[data-lesson-time]'))
   let selected=null
