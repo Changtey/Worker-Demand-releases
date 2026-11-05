@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.32 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.33 and Android 1.4.32 · 2026-11-05.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -37,6 +37,8 @@ Sign in to the app with your own Google account. This is separate from the offic
 The app waits for the login form to be ready. Images that are still loading do not stop it. If the portal cannot open your choices, read the message below **Save and open login page**. Your area stays saved. Use the same button to try again. If a Security Code page is already open, finish it in **Sign in**.
 
 After a confirmed sign-in, **Work Demand → Create demand** opens straight away. Choose the area and workers for the demand there. The first time, a short **Welcome tour** opens on top: six small screens about signing in, choosing your area, automatic downloads, making and checking a Work Demand, and Received requests. Use **Next** and **Back**, or the dots, to move. **Skip tour** or **Start using the app** closes it for good; **Open the full guide** shows the detailed 7-step guide. To see the tour again, open **Settings → Help** and choose **Take the welcome tour**, or choose **Welcome tour** inside **Quick guide**. Setup does not ask for work areas, download records or start Muster Roll report downloads. Older unfinished setup downloads do not block you.
+
+After the tour, a new installation shows a small **Getting started** card with **Step N of 7**, one sentence about what to do next, and **Show me**. On a wide window it sits at the foot of the left menu. On a narrow window it sits in a bottom corner, and in **Browser** it sits above the portal page, never on top of it. **Show me** opens the right screen, dims the rest of the page and points at the button or box with a gold ring. The pointed place still works. Choose **Got it** or press Esc to close it. Each step ticks itself when the app sees the work done: the login area saved, a confirmed portal sign-in, a Panchayat and Village chosen, the Village's records ready, workers with their days, a successful **Check demand**, and a finished entry with its result. Choosing **Show me** never ticks a step. The minus button makes the card smaller. **Hide guide** hides it on this computer; open it again in **Settings → Help & tips → Show Getting started guide**. A computer that used the app before this card was added does not show it on its own.
 
 **Save my User ID and password securely after a successful sign-in** is selected on the login-area form. Clear it if you do not want to save them. Only a confirmed sign-in saves the original pair in the computer's secure storage. A failed login keeps the earlier saved pair. The Security Code is never saved. Browser **Save login details**, **Update login details** and **Login details** remain available. Choose **Hide** to give the portal page more room, and the 🔑 button in the Browser toolbar to show the login bar again. The app remembers this choice on the PC.
 
@@ -86,16 +88,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.32**, Android **1.4.32**.
+Published downloads: desktop **1.4.33**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.32).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.33).
 
 ### Find the next task
 

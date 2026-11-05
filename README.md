@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.32**, Android **1.4.32**.
+Published downloads: desktop **1.4.33**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.32).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.33).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.32 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.33 and Android 1.4.32 · 2026-11-05.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,13 +200,10 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.32**
+**Published 1.4.33**
 
-- **Works for names in every Indian script.** Worker names in Hindi, Tamil, Odia and other scripts are now compared with their vowel signs. Before, names such as राम and रमा counted as the same name, so one worker could be held or skipped for another person in the same household.
-- **Job Card area check works in every State.** Official State renames (Pondicherry, Orissa, Uttaranchal), &quot;&amp;&quot; and &quot;and&quot;, and place names shown in a local script on the Job Card page are now accepted.
-- **Large Panchayats.** The Android app now reads every page of the issued Job Card list and the registration register, not only page 1. The on-screen Work Order list now allows 5,000 works.
-- **Repeated place names.** If two places in one list have the same name, only those two are left out, with a clear message. The rest of the list works.
-- **Work Demand History.** **Work Demand → History** keeps the last 100 processed worker lists on this PC, from **Create demand** and **Received requests**. For each list you can:
-- **Add workers from a list.** In **Create demand**, paste Job Card numbers or choose an Excel or CSV file to add workers. A name, or a number in a column headed **Member**, chooses one worker. Serial numbers and days never choose a worker.
+- **Getting started guide.** New users see a small **Getting started** box with seven steps: set your login area, sign in to your own VBGRAMG account, choose your Panchayat and Village, wait for the records to download, choose workers and days, **Check demand**, and **Send to VBGRAMG**. **Show me** opens the right…
+- **Simpler menu for new users.** A new installation shows four menus: **Work Demand**, **Browser**, **Android access** and **Settings**. Job Cards, Reports and My Areas are still there: open them from **Settings → More tools**, or show them again in **Settings → Sidebar menus**. People who already use the app keep…
+- **Help in the WhatsApp group.** **Help &amp; contact** now has **Join WhatsApp group**. Ask questions there. Never share passwords, Security Codes or Aadhaar numbers in the group. Email still works.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.
