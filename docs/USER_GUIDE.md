@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.30 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.32 and Android 1.4.32 · 2026-11-05.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -86,16 +86,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.30**, Android **1.4.28**.
+Published downloads: desktop **1.4.32**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.30](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.30/VBGRAMG-DEO-Assistant-1.4.30-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.28](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.28/Worker-Demand-1.4.28.apk) |
+| Windows 64-bit | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/VBGRAMG-DEO-Assistant-1.4.32-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.30).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.32).
 
 ### Find the next task
 
@@ -162,7 +162,7 @@ The panel has two sections: **My login code** and **My areas**. Choose **View my
 
 To replace an existing personal code, choose **Choose my own login code** near your current code. Enter **My new login code**, then choose **Save my login code**. Your selected areas stay the same. **Show code** lets you check what you typed. Cancel keeps your current code. The new box never creates a random code when left empty.
 
-You can use a **4 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 4 characters. English letters A and a work the same. A code already used by another account cannot be used.
+You can use a **4 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 4 characters. English letters A and a work the same. Each person needs their own code. A code already used by another user cannot be used. If you choose one, the app says so and keeps your typed code so you can change it.
 
 If your places are already saved in **My Areas**:
 
@@ -196,7 +196,8 @@ To remove your own assignments, choose **Set up my Android access** or **Change 
 2. Choose the State, Financial Year, District, Block and Panchayat. Choose a Village for Village-only access, or keep the whole Panchayat choice when that is intended.
 3. Enter a private **Login code** and choose **Save code**. Characters stay visible while you type. Current code rules are shown beside the field.
 4. Share the code privately with the intended Panchayat Secretary.
-5. The Secretary signs in to the same Android app. Their account shows their assigned area and worker list.
+5. The Secretary installs the Android app. In **Android access → Get the Android app**, the Secretary can scan the QR code with the phone camera, or you can choose **Copy link** and send the link. It opens the download page; choose **Download for Android**.
+6. The Secretary signs in to the same Android app. Their account shows their assigned area and worker list.
 
 Use **Read latest codes** to recheck a saved result after a connection problem. If a code is already used, choose another code. To end access, open its available disable or delete control and read the confirmation. Keep the Android app updated before using newer code formats.
 
@@ -248,6 +249,7 @@ The first time you sign in, a short **Welcome tour** (six screens) explains the 
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
 6. Review the workers, days and dates, then choose **Send to office** to send it to the DEO.
 7. Open **History** for the received status. **Being entered on VBGRAMG** means the office has started entry. **Entered – office is checking** means entry has finished and the office is confirming the saved result. **Completed on VBGRAMG** means the office has confirmed it. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
+8. To send a request like an earlier one, open **History**, open the sent request and tap **Copy to new request**. The same workers, days and work are copied into a new request with a new request number. Choose a new **Start Date**, check the days, then send it. The earlier request is not changed.
 
 **About direct phone checks:** The phone uses only public reports for the assigned area and selected Financial Year. It does not sign into an office portal or submit official records. A missing field keeps its earlier saved answer and check time. A failed, incomplete, very large or extra-page report keeps the saved office copy with a clear message. Sign-in or Security Code checks must be handled by a person; the phone reader cannot bypass them.
 
@@ -325,10 +327,27 @@ For an Android request, choose **Save Changes** to keep corrections without star
 2. Choose **Send to VBGRAMG** for either source. This starts desktop portal entry for the checked area.
 3. New entries open **D.3 Work Demand → Demand**, then choose the requested Panchayat, Village and Job Card. The household is found by its full Registration ID (Job Card number); the worker is then found by name inside that household. When the next worker is in the same Panchayat and Village, the app picks the next Registration ID directly, as you would by hand, if the portal's copied dates land on that worker's own line with the same dates. If they land on another member's line, the app opens a fresh form and chooses the area again, so no dates stay under the wrong member. Members of the same Job Card are processed together. Households and their members are entered in the order that allows the direct choice most often; the list on screen keeps its order. Review every offered official action. The portal's **Proceed** can save an official demand; a separate final **Submit**, if offered, stays under your control.
 4. Only after all new entries finish and the portal replies are confirmed, the app opens **D.4 Work Allocation → Allocation**. It chooses the requested Panchayat and, when offered, the Village. It then compares the full **Registration No.** (Job Card), **Job seeker name**, and the **Work Demand date → From / No of days / To** values. It reads every offered result page. The separate editable **Work Allocation Date** fields do not prove the saved demand. The list also shows demands entered by other people. A row the app cannot read clearly holds only the worker it may belong to; other workers are still checked.
-5. Read the completion pop-up. It shows **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. Finished entry steps and confirmed saved demands are different counts. An unreadable final list can show 61 entry steps finished, 0 confirmed saved demands and 0 failures. The app keeps these entries and offers **Check saved results**, which sends no demand. Older saved summaries show the entry-step count only if it was recorded. Earlier saved demands, unverified results and unstarted members are counted separately. **Automation Completed Successfully** appears when every selected worker passes the final saved-list check, including if the browser stops after returning the complete matching results. A timing-report problem does not turn confirmed submissions into failures. If entry finishes but the saved list cannot be read, the app retries that read once and shows **Data entry finished. Final check incomplete** if needed. This is not a failed-entry count. Expand the member lists for each name, Registration ID and reason. Actual failed entries alongside confirmed demands show **Work Demand partly completed**. A filled form or a portal reply alone does not count as a saved demand.
+5. Read the completion pop-up. It shows **Members processed**, **Entry steps finished**, **Saved demands confirmed** and **Failed entries**. Finished entry steps and confirmed saved demands are different counts. An unreadable final list can show 61 entry steps finished, 0 confirmed saved demands and 0 failures. The app keeps these entries and offers **Check saved results**, which sends no demand. Older saved summaries show the entry-step count only if it was recorded. Earlier saved demands, unverified results and unstarted members are counted separately. **Automation Completed Successfully** appears when every selected worker passes the final saved-list check, including if the browser stops after returning the complete matching results. A timing-report problem does not turn confirmed submissions into failures. If every entry went through but the saved list cannot be read, the app retries that read once. It then shows **Data entry finished for** the number of members, with a green tick and the label **Data entry completed**, and says how many still need the final check. Choose **Check saved results** to finish that check; it sends no demand. This is not a failed-entry count. Expand the member lists for each name, Registration ID and reason. Actual failed entries alongside confirmed demands show **Work Demand partly completed**. A filled form or a portal reply alone does not count as a saved demand.
 6. Choose **Retry Failed Entries** to try only failed or unstarted entries. The app keeps earlier processed demands and holds uncertain entries. Choose **Check saved results** to read uncertain results without sending another demand. If the portal offers a separate final **Submit**, complete it yourself before checking again.
-7. Close the pop-up with **Done**. Open **Work Demand → Submission summaries** or **Notifications → View submission summary** to review it later. The last 20 run summaries are kept on this PC for your signed-in app account, including after reopening the app. An older summary records the result at that time; it does not start a new submission. If saving a summary fails, the app tells you.
+7. Close the pop-up with **Done**. Open **Work Demand → History** or **Notifications → View submission summary** to review it later. History keeps the last 100 runs on this PC for your signed-in app account, including after reopening the app. Choose **Open** to see a run's workers, days, dates and results. An older run records the result at that time; opening it does not start a new submission. If saving a run fails, the app tells you.
 8. If the portal leaves entries pending for a separate final **Submit**, the app keeps that page open and waits for you to finish it. It does not open Allocation automatically while those entries are still pending. Then choose **Check saved list again**. For any other unfinished final check, use the same button. This reads the saved list without pressing Proceed again or changing Work Code, allocation dates or worker checkboxes. Application dates are compared only when the saved list shows them. When Allocation has no Village list, the app checks the requested workers by their full Job Cards under the selected Panchayat and explains this on screen.
+
+### Use a worker list again
+
+**History** keeps each processed worker list, so you can make the same demand again next week or later.
+
+1. Open **Work Demand → History**. Each list shows its Panchayat and Village, the date, the number of workers and how many were saved.
+2. Choose **Copy to new demand**. **Create demand** opens for the same Village with the same workers and requested days. The dates are left empty.
+3. Add or remove workers, choose the new dates, then choose **Check demand** and **Send to VBGRAMG** as usual. Nothing is sent until you do this.
+4. To continue a run that stopped halfway, choose **Copy unfinished workers**. Only workers whose entry failed or did not start in that run are copied. Workers still waiting for the saved-list check are not copied, because their demand may already be on VBGRAMG. Use **Check saved results** for them first.
+5. To print a list, choose **Print**. The print window shows the area, Financial Year, each worker, their days and dates, and the result. It is a copy of what this PC recorded, not an official VBGRAMG document. **Print** is also in the result window that **Open** shows.
+6. To remove a list you no longer need, choose **Delete**, then **Delete list**. This removes it from History on this PC only. It does not delete or change any demand on VBGRAMG or any received request, and the app still never enters the same worker twice for the same dates.
+
+History shows lists from both **Create demand** and **Received requests**. Lists that came from a received request say **From a received request**. Runs saved before this update show results only and cannot be copied.
+
+**Add workers from a list.** In **Create demand**, open **Add from a list**. Paste Job Card numbers, one on each line, or choose an Excel (.xlsx) or CSV file. A Job Card alone adds every worker on it. To add one worker, put their name after the Job Card, or their Member number in a column headed **Member**. In a pasted list without headings, `Job Card, 2` adds Member 2. Other number columns, such as serial numbers or days, never choose a worker. Job Cards not saved for this area are listed so you can check them. The list is read on this computer only.
+
+**Process a received request again.** Open the request in **Work Demand → Received requests**. **Process again** shows how many times it was processed on this PC and when it was last processed. Choose **Copy workers to a new demand** to use its workers and days in Create demand. This works after **Completed**, **Partly completed** or a stop, as often as you need, until you delete the request. The request and its own history stay unchanged. The app still never enters the same worker twice for the same dates.
 
 **Print the Work Allocation list.** When Browser shows **Work Allocation**, the **🖨 Print** button in the Browser toolbar is highlighted. Choose it, or press **Ctrl+P**. A print window opens with a preview of the actual pages: the area details and every row of the list, including rows below the screen, with the Registration No., worker name, family completed days, and the Work Demand and Work Allocation dates and days. Choose the **Printer**, **Paper size** (A4, A3, Letter or Legal), **Layout** and **Copies**, then **Print**. **Windows print options…** opens the normal Windows print box. Long lists continue on more pages, with the headings repeated and page numbers at the foot. Printing only reads the page. It does not press Save, allocate work or submit a demand. If the portal list has more pages of its own, the print says so; open each page on the portal and print it too.
 
@@ -528,7 +547,7 @@ The desktop menu uses **Work Demand**, **Job Cards**, **Reports**, **Browser**, 
 
 **Settings** groups choices under **Work**, **App** and **Account**. On a narrow screen, use **Settings section** to choose a page. Unsaved changes stay while you switch sections. Read any unsaved-change warning before closing the app.
 
-In **Android access**, use **My phone** or **Secretary codes** to go to the matching section. Existing codes and area safeguards still apply. **Job Cards** puts search before totals; open **More totals** or **About this list** for the other information.
+In **Android access**, use **My phone**, **Secretary codes** or **Get the Android app** to go to the matching section. Existing codes and area safeguards still apply. **Job Cards** puts search before totals; open **More totals** or **About this list** for the other information.
 
 The Android request pages show their current step: **Area → Workers → Work and dates → Review**. **Send to office** sends a request to your Data Entry Operator (DEO). The office still checks it before official portal entry. The send button stays below the review list while you scroll. Phone drafts and waiting offline requests are kept.
 

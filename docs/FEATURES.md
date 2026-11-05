@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.30 and Android 1.4.28 · 2026-11-03.**
+**Screens captured for desktop 1.4.32 and Android 1.4.32 · 2026-11-05.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 
@@ -86,7 +86,9 @@ Saved selections do not change official permissions. Source downloads do not sub
 | Record backups | Checked daily copies while the desktop app is open; manual copies and a separate recovery check in Settings | Phone records and login details are separate |
 | Earlier entry records | A repeated Send keeps the current portal page; choose Check saved list again to read earlier results | Earlier requests remain visible in History |
 | Final demand check | Check every selected worker's Job Card, name, days and work dates in the saved portal list; show success only when all match | Portal verification is handled on desktop |
-| Submission summaries | Completion pop-up with separate counts for members processed, entry steps finished, saved demands confirmed and failed entries; named issues, safe retry and 20 saved run summaries per app account on this PC | An unreadable final list does not turn finished entry steps into failures. Older summaries show an entry-step count only when it was recorded. Confirmed results stay successful after browser cleanup |
+| Submission summaries and History | Completion pop-up with separate counts for members processed, entry steps finished, saved demands confirmed and failed entries; named issues, safe retry and 100 saved runs per app account on this PC, each with its worker list, days and dates | An unreadable final list does not turn finished entry steps into failures. Older summaries show an entry-step count only when it was recorded. Confirmed results stay successful after browser cleanup |
+| Use a list again | Copy a run from History into a new demand with the same workers and days, then choose new dates. Copy only the unfinished workers of a stopped run | Copy to new request makes a new request with the same workers and days; choose a new Start Date |
+| Process a request again | Copy a received request's workers into a new demand after Completed, Partly completed or a stop, as often as needed. Shows how many times it was processed on this PC | The sent request and its history stay unchanged |
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
 | Muster Roll Reports | Village PDFs of Filled Muster Rolls by caste category, and saved copies as PDF or Excel | Desktop feature |
