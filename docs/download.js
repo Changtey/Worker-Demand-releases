@@ -76,12 +76,29 @@ function prepareSendToComputer(){
 prepareSendToComputer()
 
 function prepareVideos(){
-  const tutorial=element('tutorial-video'),promo=element('promo-video'),status=element('lesson-status')
-  if(!tutorial || !promo || !status)return
+  const panels=Array.from(document.querySelectorAll('[data-tutorial-panel]'))
+  const choices=Array.from(document.querySelectorAll('[data-tutorial-language]'))
+  const videos=[...panels.map(panel=>panel.querySelector('video')),element('promo-video')].filter(Boolean)
   // Only one video plays at a time.
-  const videos=[tutorial,promo]
   for(const video of videos)video.addEventListener('play',()=>{for(const other of videos)if(other!==video)other.pause()})
-  const buttons=Array.from(document.querySelectorAll('[data-lesson-time]'))
+  for(const panel of panels)prepareLessons(panel)
+  // Hindi shows first. The choice only changes which tutorial is shown.
+  function showLanguage(language){
+    for(const panel of panels){
+      const shown=panel.dataset.tutorialPanel===language
+      if(!shown)panel.querySelector('video')?.pause()
+      panel.hidden=!shown
+    }
+    for(const choice of choices)choice.setAttribute('aria-pressed',String(choice.dataset.tutorialLanguage===language))
+  }
+  for(const choice of choices)choice.addEventListener('click',()=>showLanguage(choice.dataset.tutorialLanguage))
+}
+
+function prepareLessons(panel){
+  const tutorial=panel.querySelector('video'),status=panel.querySelector('.lesson-status')
+  if(!tutorial || !status)return
+  const buttons=Array.from(panel.querySelectorAll('[data-lesson-time]'))
+  const stepOf=button=>`step ${button.dataset.lessonStep}: ${button.dataset.lessonTitle.replace(/[.!?।]+$/,'')}`
   let selected=null
   function markLesson(){
     let current=null
@@ -94,24 +111,24 @@ function prepareVideos(){
   async function startLesson(){
     if(!selected)return
     const lesson=selected;selected=null
-    const title=lesson.dataset.lessonTitle.replace(/[.!?]+$/,'')
     tutorial.currentTime=Number(lesson.dataset.lessonTime)
-    status.textContent=`Lesson selected: ${title}.`
+    status.textContent=`Playing ${stepOf(lesson)}.`
     markLesson()
     try{await tutorial.play()}
-    catch{status.textContent=`Lesson selected: ${title}. Press Play to begin.`}
+    catch{status.textContent=`Ready at ${stepOf(lesson)}. Press Play to begin.`}
   }
   for(const button of buttons)button.addEventListener('click',()=>{
     selected=button
-    status.textContent=`Opening lesson: ${button.dataset.lessonTitle.replace(/[.!?]+$/,'')}…`
+    status.textContent=`Opening ${stepOf(button)}…`
     tutorial.scrollIntoView({block:'center',behavior:'auto'})
     if(tutorial.readyState>=1)startLesson()
     else tutorial.load()
   })
   tutorial.addEventListener('loadedmetadata',()=>{if(selected)startLesson()})
   tutorial.addEventListener('timeupdate',markLesson)
-  for(const video of [tutorial,promo])video.addEventListener('error',()=>{
-    if(video===tutorial){selected=null;status.textContent='The tutorial could not play here. Use Open or download the tutorial above.'}
+  // A failed video file is reported on its source, not on the video.
+  for(const item of [tutorial,...tutorial.querySelectorAll('source')])item.addEventListener('error',()=>{
+    selected=null;status.textContent='This video could not play here. Use the Open or download link above.'
   })
 }
 prepareVideos()
