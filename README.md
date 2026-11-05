@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.33**, Android **1.4.32**.
+Published downloads: desktop **1.4.34**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.33).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.34).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.33 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.34 and Android 1.4.32 · 2026-11-05.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,10 +200,9 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.33**
+**Published 1.4.34**
 
-- **Getting started guide.** New users see a small **Getting started** box with seven steps: set your login area, sign in to your own VBGRAMG account, choose your Panchayat and Village, wait for the records to download, choose workers and days, **Check demand**, and **Send to VBGRAMG**. **Show me** opens the right…
-- **Simpler menu for new users.** A new installation shows four menus: **Work Demand**, **Browser**, **Android access** and **Settings**. Job Cards, Reports and My Areas are still there: open them from **Settings → More tools**, or show them again in **Settings → Sidebar menus**. People who already use the app keep…
-- **Help in the WhatsApp group.** **Help &amp; contact** now has **Join WhatsApp group**. Ask questions there. Never share passwords, Security Codes or Aadhaar numbers in the group. Email still works.
+- **Join the WhatsApp group from your phone.** **Help &amp; contact** now shows a QR code for the app&#x27;s WhatsApp group. Scan it with the phone camera or WhatsApp, then tap **Join group**. This helps when WhatsApp is only on your phone, or when WhatsApp on the computer opens to a blank screen. **Join WhatsApp group**…
+- **Correct group name.** Help &amp; contact now shows the group&#x27;s real name, **Work Demand &amp; Muster Roll App**.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

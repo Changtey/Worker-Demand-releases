@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.33 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.34 and Android 1.4.32 · 2026-11-05.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -88,16 +88,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.33**, Android **1.4.32**.
+Published downloads: desktop **1.4.34**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.33](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.33/VBGRAMG-DEO-Assistant-1.4.33-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.33).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.34).
 
 ### Find the next task
 
@@ -540,6 +540,10 @@ A successfully saved Village report uses 2, including each Village in a whole Pa
 | Saving a list of workers with issues | Choose **Save as PDF** or **Save as Excel** below a worker issue list. The file is a list to check or print. It is not an official record and sends nothing to VBGRAMG. |
 | Balance too low | Open Recharge, check the amount and decide whether to add balance. Your current work is kept. |
 | Phone offline | Keep the same saved request and reconnect. Check History for its received status. |
+
+### Ask for help
+
+Open **Help & contact** at the bottom of the menu. **Join WhatsApp group** opens the app's WhatsApp group, where you can ask questions. If WhatsApp on the computer does not open or stays blank, scan the QR code in **Join from your phone** with the phone camera or WhatsApp, then tap **Join group**. **Email me** opens your email app. Never share passwords, Security Codes or Aadhaar numbers in the group.
 
 Never include real Aadhaar numbers, passwords, Security Codes or login codes in a screenshot or public issue. Explain what happened using fictional examples.
 
