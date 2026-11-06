@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-06T01:16:51.162608+00:00",
+  "captured_at": "2026-11-06T07:03:25.839992+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.35",
+    "desktop": "1.4.36",
     "android": "1.4.32"
   },
   "published_versions": {
-    "desktop": "1.4.35",
+    "desktop": "1.4.36",
     "android": "1.4.32"
   },
-  "published_notes_sha256": "c7247abda441c899bcbf9cdb002543ab79dc21424a456a8e337164322a59aebe",
-  "source_fingerprint": "47c245b1367729c9c0e9b1d0b06d5edf6149571db81df43b290a801c0a98394e",
+  "published_notes_sha256": "16800f5a29eaf94d19ca5a46d8fa8beada3ac12f9b5d61bd6e31f9cfda1fd4ba",
+  "source_fingerprint": "2804c154c59d912f2d5638dca82d0876b8fd53555ada3fb5b67235339ab412f2",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -142,7 +142,7 @@
       "app": "Desktop preview",
       "caption": "Choose Panchayats and Villages for the official attendance reports.",
       "path": "docs/screenshots/13-muster-reports.png",
-      "sha256": "7b72d6a5825dee40483ad3597033760641570d49b279f1e6de9eab88bfe742fa",
+      "sha256": "420d32e1d6c9f9ac3477dca82f53f7413c90408b3f5ccc8d56008f8d2c959f8f",
       "width": 960,
       "height": 2300
     },
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "54032c5a1513c9ed8b743d3bf4a0679c72f044695a2cd43a08d16c23b9429040",
-    "docs/USER_GUIDE.md": "263b5a9e1ddba4e2edc51ba8db41f9a51beac05eaf5493b1bddf183347faf6ec",
-    "docs/FEATURES.md": "ba342ee741050a76768d0e2b7ef50cd3c0f11b08b2a49fecd7f5d262da56b607",
-    "docs/LATEST_CHANGES.md": "d0012bba1e964212297dc6ca67102a5c2ee2916fdb455d4b1949051487c56190"
+    "README.md": "0471ee64408465b634b77987ede86130eaf1b70c9c9903289ae9bd0dd078d007",
+    "docs/USER_GUIDE.md": "39d92784cf8680e41e2a7482144a48311150aa9c162509e18f3ecbb5411534ca",
+    "docs/FEATURES.md": "f04d1ac2a3045014e3538e03e8e5f8f57021ba80abe22b012c1e0024e694ac03",
+    "docs/LATEST_CHANGES.md": "71bc9b8c6a7c0fb5ed3fa1f9c045476a23c6295b0f4875b85a76ec6f5a3c7b36"
   }
 }

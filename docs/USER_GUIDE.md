@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.35 and Android 1.4.32 · 2026-11-06.**
+**Screens captured for desktop 1.4.36 and Android 1.4.32 · 2026-11-06.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -32,7 +32,9 @@ The tutorial covers setup, area choices, Android requests, office review, days a
 Sign in to the app with your own Google account. This is separate from the official portal sign-in. Portal setup has only two steps:
 
 1. **Select login area.** Choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. Use **Change login area** if you need another area.
-2. **Sign in.** Enter your User ID, password and Security Code on the official VBGRAMG page. Choose **Login** yourself.
+2. **Sign in.** Enter your User ID, password and Security Code on the official VBGRAMG page. Press **Enter** in the Security Code box, or choose **Login**. Once your login details are saved, they fill in by themselves and the cursor waits in the Security Code box, so you only type the code and press Enter.
+
+Until the portal confirms your sign-in, only **Browser** and **Settings** open. The other menus are greyed out. After sign-in, every menu stays open until you close the app. Developer accounts can open every menu without signing in.
 
 The app waits for the login form to be ready. Images that are still loading do not stop it. If the portal cannot open your choices, read the message below **Save and open login page**. Your area stays saved. Use the same button to try again. If a Security Code page is already open, finish it in **Sign in**.
 
@@ -46,7 +48,7 @@ All app menus stay available before portal sign-in and after portal sign-out. Op
 
 ### Records for your selected area
 
-Choose the area you need in **Work Demand**. The app reuses saved records and reads missing records for that work. You can also use **My Areas** for places you work on often, or **Settings → Records** to download or update area records. These tools are separate from portal setup. **Reports** opens the Muster Roll tools when you need them. A Muster Roll is the official worker attendance list.
+Choose the area you need in **Work Demand**. The app reuses saved records and reads missing records for that work. You can also use **My Areas** for places you work on often, or **Settings → Records** to download or update area records. These tools are separate from portal setup. **Muster Roll** opens the Muster Roll tools when you need them. A Muster Roll is the official worker attendance list.
 
 The current Panchayat or Village gets the first download and check. Completed records stay saved. A deliberate pause is kept. In Settings, **Download Data** reuses current saved records; **Update Data** asks for new checks. Read the progress message if a report stops. Personal sign-in and report Security Codes still need your answer.
 
@@ -88,16 +90,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.35**, Android **1.4.32**.
+Published downloads: desktop **1.4.36**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.35).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.36).
 
 ### Find the next task
 
@@ -211,7 +213,7 @@ Before saving access for a new area or Financial Year, download its complete wor
 
 1. Open **Browser**, then open VBGRAMG with your chosen area.
 2. Check the website and area before entering your User ID and Password.
-3. Enter the **Security Code** yourself and choose **Login**.
+3. Type the **Security Code** yourself and press **Enter**, or choose **Login**. The code picture is shown larger. If it is hard to read, choose the New code button next to it; your saved password fills in again.
 4. On the matching official login page, **Save** or **Update** stores the login pair only when you choose it. **Login details** lets you change or delete the saved pair.
 5. Keep the Browser open for current portal checks and entry. Follow the messages when the session needs signing in again.
 
@@ -295,7 +297,7 @@ For an Android request, its Panchayat or Village and Financial Year are prepared
 
 Opening a received request gives its selected Village and Financial Year first priority for Aadhaar availability, ABPS and the other worker checks. You do not need to choose the same place in **Create demand**. This priority stays while you open **Browser** to sign in. Your separate Create demand area, days and dates are kept. For a request with several Villages, choose the Village you want to review.
 
-The Panchayat or Village selected in the tab you are using owns the turn for its queued download or update, including areas outside My Areas. A selected Village holds downloads for its siblings and all other areas. A selected Panchayat includes every Village in its current offered list, read one by one. Other areas resume afterward, one at a time. This applies across Create demand, Received requests, Job Cards, Reports and area choices. Your saved My Areas stay the same. The signed-in portal account must still offer the selected area and Financial Year. Each open app copy shows the progress of its own portal connection.
+The Panchayat or Village selected in the tab you are using owns the turn for its queued download or update, including areas outside My Areas. A selected Village holds downloads for its siblings and all other areas. A selected Panchayat includes every Village in its current offered list, read one by one. Other areas resume afterward, one at a time. This applies across Create demand, Received requests, Job Cards, Muster Roll and area choices. Your saved My Areas stay the same. The signed-in portal account must still offer the selected area and Financial Year. Each open app copy shows the progress of its own portal connection.
 
 When you change Panchayat or Village, the new choice gets the next turn, including a place you visited earlier. The previous page may finish; the previous area's remaining downloads wait with their saved progress. The next area starts after that read stops, without waiting for the regular background check. Required worker checks keep priority after the selected area's public lists finish. If the area lists briefly show **Switching to the selected area**, they continue automatically. You do not need to choose **Try again** for this handover. A deliberate pause or a removed download stays stopped.
 
@@ -393,15 +395,21 @@ After an error or stop, open the request and choose **Send to Browser again**. T
 
 ## 9. Prepare Muster Roll reports
 
-A **Muster Roll** is the official worker attendance list. Open **Reports** on desktop. **Make Village reports** has three steps:
+A **Muster Roll** is the official worker attendance list. Open **Muster Roll** on desktop. **Make Village reports** has three steps:
 
 1. **Area:** choose the State, Financial Year, District and Block from the portal's current lists.
 2. **Places:** tick the Panchayats you need. Then choose **All listed Villages**, **Multiple Villages** or **Single Village**.
 3. **Categories and pages:** tick the caste categories to include. Each page group starts a new page. Use **Change page groups** to join or rename groups.
 
-The bar at the bottom shows the Villages selected, the balance needed (2 for each Village report) and your available balance. If something is still missing, the line under **Generate** says what to do next. Each Village gets its own PDF. Several Villages are saved together in one ZIP file. Only saved Village PDFs use balance.
+The bar at the bottom shows the Villages selected, the balance needed (2 for each Village report) and your available balance. It has three buttons:
 
-**Generate** checks the portal first. If the portal asks for its **Security Code**, a box appears at the top of Reports before the save box opens and before any balance is used. You can also choose **Check portal now** earlier. Read the question, type the answer and press Enter. For a sum, the app shows a suggested answer, but you type and send it yourself. If the portal asks again during a long read, the same box appears, the taskbar button blinks and other screens show a reminder.
+- **Save PDF:** each Village gets its own PDF. Several Villages are saved together in one ZIP file.
+- **Save Excel:** each Village gets its own Excel file, with one sheet for each Muster Roll and page group. Several Villages are saved together in one ZIP file.
+- **Print:** makes one PDF of all selected Villages and opens it in your PDF app. Check the pages, then choose **Print** there. A Village with no matching worker rows gets a short notice page.
+
+Each button uses 2 from your balance for each Village that is saved or printed. Failed or stopped Villages cost nothing. If something is still missing, the line under the buttons says what to do next.
+
+**Save PDF**, **Save Excel** and **Print** check the portal first. If the portal asks for its **Security Code**, a box appears at the top of the Muster Roll screen before the save box opens and before any balance is used. You can also choose **Check portal now** earlier. Read the question, type the answer and press Enter. For a sum, the app shows a suggested answer, but you type and send it yourself. If the portal asks again during a long read, the same box appears, the taskbar button blinks and other screens show a reminder.
 
 **Saved report copies** lists single Muster Rolls already read on this computer. Search by Muster Roll number, Panchayat or Work Code, then preview, print, or save them as PDF or Excel. **Read a public report page yourself** is for special cases.
 
@@ -553,7 +561,7 @@ Never include real Aadhaar numbers, passwords, Security Codes or login codes in 
 
 ## Simple navigation and settings
 
-The desktop menu uses **Work Demand**, **Job Cards**, **Reports**, **Browser**, **My Areas**, **Android access** and **Settings**. Your saved menu order and hidden choices are kept. **Reports** opens Muster Roll Reports, the official worker attendance lists.
+The desktop menu uses **Work Demand**, **Job Cards**, **Muster Roll**, **Browser**, **My Areas**, **Android access** and **Settings**. Your saved menu order and hidden choices are kept. **Muster Roll** opens Muster Roll Reports, the official worker attendance lists.
 
 **Settings** groups choices under **Work**, **App** and **Account**. On a narrow screen, use **Settings section** to choose a page. Unsaved changes stay while you switch sections. Read any unsaved-change warning before closing the app.
 

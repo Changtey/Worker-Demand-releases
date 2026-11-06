@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.35 and Android 1.4.32 · 2026-11-06.**
+**Screens captured for desktop 1.4.36 and Android 1.4.32 · 2026-11-06.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 
@@ -35,13 +35,13 @@
 
 ## First setup and daily records
 
-- **Menus stay available:** open every app menu before portal sign-in, during setup or after portal sign-out. Setup stays in Browser. Portal checks and entry still need the right signed-in account.
+- **Portal sign-in comes first:** a regular account can use only **Browser** and **Settings** until the portal confirms sign-in. The other menus are greyed out, with a short note in the side menu. After sign-in, every menu stays open until the app is closed, even if the portal session ends later. Developer accounts can use every menu without signing in. Portal checks and entry still need the right signed-in account.
 - **Work Demand opens after sign-in:** a confirmed portal sign-in opens **Create demand** immediately.
 - **Two setup steps:** Select login area → Sign in → Start Work Demand Creation. Setup does not select work areas or start record or Muster Roll downloads. Older unfinished setup downloads cannot block access.
 - **Personal default login page:** choose your State, Financial Year, District and Block on **Login area**. **Save and open login page** applies those choices in Browser and moves to **Sign in**. Enter the official User ID, password and CAPTCHA yourself. The app waits for the form to be ready and continues while other images load. Any opening problem is explained in setup, with the saved choices kept for retry.
 - **Secure saving after sign-in:** choose to save the login pair on the Login area form. The original User ID and password are saved securely only after a confirmed sign-in. Failed logins keep the earlier saved pair. CAPTCHA is never saved. Save, Update and Login details remain available in Browser.
 - **Choose areas when working:** select the area for each demand in Work Demand. Use **My Areas** to save places you work on often.
-- **Separate record tools:** use **Settings → Records** to download or update area records. Use **Reports** for Muster Roll reports. These are separate from setup.
+- **Separate record tools:** use **Settings → Records** to download or update area records. Use **Muster Roll** for Muster Roll reports. These are separate from setup.
 - **Reuse saved records:** current saved records make later area work faster. Missing records are checked when needed.
 - **Reasons for stopped progress:** missing worker checks name their Village. Worker reads explain unreadable Yes or No answers, unmatched worker details, missing Job Cards and member lists that did not load. A disagreeing Muster Roll summary keeps its warning while checked source reports are saved and reused on retry.
 - **Daily background updates:** area records can update while the app is open and connected. Your current area comes first. Completed records are reused, portal entry takes priority, and a deliberate pause is kept. Personal sign-in and report Security Codes still need your answer.
@@ -91,7 +91,7 @@ Saved selections do not change official permissions. Source downloads do not sub
 | Process a request again | Copy a received request's workers into a new demand after Completed, Partly completed or a stop, as often as needed. Shows how many times it was processed on this PC | The sent request and its history stay unchanged |
 | Official portal Browser | Open the portal and follow checked entry | Official portal entry is handled by the desktop office workflow |
 | Request PDF and Excel | Download the saved request's reports | Follow the request in History |
-| Muster Roll Reports | Village PDFs of Filled Muster Rolls by caste category, and saved copies as PDF or Excel | Desktop feature |
+| Muster Roll Reports | Village reports of Filled Muster Rolls by caste category, saved as PDF or Excel or printed, and saved copies as PDF or Excel | Desktop feature |
 | Balance and Recharge | Work Demand automation uses 1 for every 20 selected workers, or part of 20 (21–40 workers use 2; 100 workers use 5). It sets this amount aside before entry and uses it only after saved work is confirmed. A low Balance never blocks entry: the part not available is owed and is taken automatically from the next recharge, only if the run completes. There is no limit on the number of workers; the portal lets up to 100 people wait for Work Allocation in a Panchayat, so the app plans parts before entry, stops after each part until you allocate, then the same list continues. Failed runs release their reservation. A run that stops part-way pays only for its saved and checked workers. Low-balance report choices have a Recharge shortcut. Recharge any whole-rupee amount from ₹50 to ₹1,000 (₹1 adds 1) | Secretary request preparation stays free; office charges are handled on desktop |
 | Saved choices | Areas, Financial Year, filters, list size and menus | Assigned area and worker choices |
 | Sidebar menus | One-line menu items (the description shows when you point at an item and is read by screen readers), a clear selected menu, an Arrange menus shortcut and an icon-only view. Every menu shows without scrolling; on a short window the help links become a row of icons. Below 900 pixels wide the menu opens as a drawer | Uses its own bottom bar: Home, History and My account |
