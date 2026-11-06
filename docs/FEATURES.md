@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.34 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.35 and Android 1.4.32 · 2026-11-06.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 

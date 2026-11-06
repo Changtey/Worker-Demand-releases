@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.34**, Android **1.4.32**.
+Published downloads: desktop **1.4.35**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.34](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.34/VBGRAMG-DEO-Assistant-1.4.34-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.35](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.35/VBGRAMG-DEO-Assistant-1.4.35-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.34).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.35).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.34 and Android 1.4.32 · 2026-11-05.**
+**Screens captured for desktop 1.4.35 and Android 1.4.32 · 2026-11-06.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,9 +200,9 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.34**
+**Published 1.4.35**
 
-- **Join the WhatsApp group from your phone.** **Help &amp; contact** now shows a QR code for the app&#x27;s WhatsApp group. Scan it with the phone camera or WhatsApp, then tap **Join group**. This helps when WhatsApp is only on your phone, or when WhatsApp on the computer opens to a blank screen. **Join WhatsApp group**…
-- **Correct group name.** Help &amp; contact now shows the group&#x27;s real name, **Work Demand &amp; Muster Roll App**.
+- **Update button in the sidebar.** The app still updates itself in the background: it downloads a new version and installs it when you close the app, or when the computer is not used for 10 minutes. Now, when a new version is ready, a green **Update to …** button also shows in the sidebar. Choose it to update at…
+- **Settings → App updates.** See your version, choose **Check for updates**, and see each step: checking, downloading, ready, or already the newest version.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.
