@@ -6,6 +6,9 @@ const NOTICE_KEY='iG8eZ2568bGDNaD6ZLkcXAD5A1J3VNzhKEOo7Bir7tI='
 const element=id=>document.getElementById(id)
 const bytes=value=>Uint8Array.from(atob(value),character=>character.charCodeAt(0))
 
+// The page already holds working download links, so phones whose browser cannot
+// check the download list (older Android WebView inside Facebook) still get the app.
+// A checked list only swaps in newer links; anything unchecked leaves the page as it is.
 async function readDownloads(){
   try{
     const response=await fetch(`https://raw.githubusercontent.com/${REPOSITORY}/main/updates.json`,{cache:'no-store',signal:AbortSignal.timeout(15000)})
@@ -17,23 +20,21 @@ async function readDownloads(){
     if(!await crypto.subtle.verify('Ed25519',key,bytes(envelope.signature),payload))throw Error('Download list could not be checked')
     const notice=JSON.parse(new TextDecoder().decode(payload)),desktop=notice.apps?.desktop,android=notice.apps?.android
     if(notice.repository!==REPOSITORY || desktop?.application_id!=='in.changtey.vbgramg.deo' || android?.application_id!=='in.changtey.worker_demand')throw Error('Wrong download list')
-    let count=0
+    // Check every address first, so a bad list never changes some links and not others.
+    const checked=[]
     for(const [id,app,platform,suffix] of [['windows',desktop,'windows_x64','.exe'],['linux-deb',desktop,'linux_deb_x64','.deb'],['linux-appimage',desktop,'linux_appimage_x64','.AppImage'],['android',android,'universal','.apk']]){
       const item=app.packages?.[platform]
       if(!item)continue
       const url=new URL(item.url)
       if(url.protocol!=='https:' || url.hostname!=='github.com' || url.username || url.password || url.port || url.search || url.hash || !url.pathname.startsWith(`/${REPOSITORY}/releases/download/`) || !url.pathname.endsWith(suffix))throw Error('Unknown download address')
-      element(id).href=url.href;element(id).hidden=false;count++
+      checked.push([id,url.href])
     }
-    if(!count)throw Error('No app download')
+    if(!checked.length)throw Error('No app download')
+    for(const [id,href] of checked)element(id).href=href
     element('version').textContent=`Version ${desktop.version}`
     element('android-version').textContent=`Version ${android.version}`
-    element('android-status').textContent=element('android').hidden?'The Android file is not available. Open All downloads & release notes below.':'Choose Download for Android to get the phone app.'
-    element('download-status').textContent='Choose the installer for your computer.'
   }catch{
-    for(const id of ['windows','linux-deb','linux-appimage','android'])element(id).hidden=true
-    element('android-status').textContent='The Android download could not be checked. Open All downloads & release notes below.'
-    element('download-status').textContent='The download list could not be checked. Open All downloads & release notes below to choose your installer.'
+    // Keep the download links that came with the page.
   }
 }
 
