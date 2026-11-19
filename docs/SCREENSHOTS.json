@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-06T07:03:25.839992+00:00",
+  "captured_at": "2026-11-19T07:20:51.946650+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.36",
+    "desktop": "1.4.47",
     "android": "1.4.32"
   },
   "published_versions": {
-    "desktop": "1.4.36",
+    "desktop": "1.4.47",
     "android": "1.4.32"
   },
-  "published_notes_sha256": "16800f5a29eaf94d19ca5a46d8fa8beada3ac12f9b5d61bd6e31f9cfda1fd4ba",
-  "source_fingerprint": "2804c154c59d912f2d5638dca82d0876b8fd53555ada3fb5b67235339ab412f2",
+  "published_notes_sha256": "f3fcaf8250ab9d6fcc2f23f7df3e361d89a8b97ef954457720d977931a36c0e5",
+  "source_fingerprint": "d14baa8370dd2f9a18fefb8392583c587970dee28483df458ad9f4aaa642f791",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "cf79c34f894c5309a9fc9b3707075607fb2caadf674f8119cb3f6e20609b1251",
+      "sha256": "7daa8b0ff5b2fbdbbae82e0274df1162018015cedf0dbac224aaf4b6e2b0d877",
       "width": 1236,
       "height": 2745
     },
@@ -42,7 +42,7 @@
       "app": "Desktop preview",
       "caption": "Assign a Panchayat or Village and create a Secretary login code.",
       "path": "docs/screenshots/03-secretary-access.png",
-      "sha256": "7c2f055615803d0bc2189497df45f0d6a4bb7909db2b544ed44c3c1aedcb0c9b",
+      "sha256": "be038a0c31479335fe2ad0868eb84e2e24b4db3bf535cd4bb6854984a508eac2",
       "width": 960,
       "height": 2300
     },
@@ -112,7 +112,7 @@
       "app": "Desktop preview",
       "caption": "Review selected workers, full Job Cards, dates and totals before portal entry. Save PDF or Print a draft copy. Nothing is sent by making a copy. This is a narrow desktop preview with fictional records.",
       "path": "docs/screenshots/10-work-demand-entry.png",
-      "sha256": "6e813f8fc70e870cceb0ab959eb31e1d1dea193eb8c38457be1b3d03d57a787a",
+      "sha256": "5a84bcc89aa7a008586686bf37f692846fc8d183d6c10b7999a752b61b4e6847",
       "width": 960,
       "height": 1920
     },
@@ -122,7 +122,7 @@
       "app": "Desktop preview",
       "caption": "See the worker and the required check needing attention. eKYC and ABPS remain required; optional seeding and day figures do not block a demand.",
       "path": "docs/screenshots/11-check-demand.png",
-      "sha256": "0cb4ffc52c0f6ea8334f7ff5551c579461bfd85c2da2efe19570e60798dab589",
+      "sha256": "cbe15819cda3e572c2d34f210ac57e8d8d120ccddd0ede843a3a8b8b3073690e",
       "width": 960,
       "height": 1920
     },
@@ -168,9 +168,9 @@
     }
   ],
   "documents": {
-    "README.md": "0471ee64408465b634b77987ede86130eaf1b70c9c9903289ae9bd0dd078d007",
-    "docs/USER_GUIDE.md": "39d92784cf8680e41e2a7482144a48311150aa9c162509e18f3ecbb5411534ca",
-    "docs/FEATURES.md": "f04d1ac2a3045014e3538e03e8e5f8f57021ba80abe22b012c1e0024e694ac03",
-    "docs/LATEST_CHANGES.md": "71bc9b8c6a7c0fb5ed3fa1f9c045476a23c6295b0f4875b85a76ec6f5a3c7b36"
+    "README.md": "935049ca0c9a2cc18a02be423d5843ab69f4bee8baa2cc36e42e15f39a858a33",
+    "docs/USER_GUIDE.md": "fbc81b2ae031d962c6c7c93661458ce2e16222980f442de37672a82dd534d1bb",
+    "docs/FEATURES.md": "306e1eb94bb3a9dbb0f28699e25e965e1d49ac34529887b48dfb71a0d753bd6c",
+    "docs/LATEST_CHANGES.md": "fd6aaa4cef6558d631d805ae11f0b414661fa6cfb97a475d62793d3f1aa04218"
   }
 }

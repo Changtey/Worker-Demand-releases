@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.36 and Android 1.4.32 · 2026-11-06.**
+**Screens captured for desktop 1.4.47 and Android 1.4.32 · 2026-11-19.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -38,7 +38,7 @@ Until the portal confirms your sign-in, only **Browser** and **Settings** open. 
 
 The app waits for the login form to be ready. Images that are still loading do not stop it. If the portal cannot open your choices, read the message below **Save and open login page**. Your area stays saved. Use the same button to try again. If a Security Code page is already open, finish it in **Sign in**.
 
-After a confirmed sign-in, **Work Demand → Create demand** opens straight away. Choose the area and workers for the demand there. The first time, a short **Welcome tour** opens on top: six small screens about signing in, choosing your area, automatic downloads, making and checking a Work Demand, and Received requests. Use **Next** and **Back**, or the dots, to move. **Skip tour** or **Start using the app** closes it for good; **Open the full guide** shows the detailed 7-step guide. To see the tour again, open **Settings → Help** and choose **Take the welcome tour**, or choose **Welcome tour** inside **Quick guide**. Setup does not ask for work areas, download records or start Muster Roll report downloads. Older unfinished setup downloads do not block you.
+After a confirmed sign-in, **Work Demand → Create demand** opens straight away. Choose the area and workers for the demand there. The first time, a short **Welcome tour** opens on top: seven small screens about signing in, choosing your area, automatic downloads, why the app is slower at first, making and checking a Work Demand, and Received requests. Use **Next** and **Back**, or the dots, to move. **Skip tour** or **Start using the app** closes it for good; **Open the full guide** shows the detailed 7-step guide. To see the tour again, open **Settings → Help** and choose **Take the welcome tour**, or choose **Welcome tour** inside **Quick guide**. Setup does not ask for work areas, download records or start Muster Roll report downloads. Older unfinished setup downloads do not block you.
 
 After the tour, a new installation shows a small **Getting started** card with **Step N of 7**, one sentence about what to do next, and **Show me**. On a wide window it sits at the foot of the left menu. On a narrow window it sits in a bottom corner, and in **Browser** it sits above the portal page, never on top of it. **Show me** opens the right screen, dims the rest of the page and points at the button or box with a gold ring. The pointed place still works. Choose **Got it** or press Esc to close it. Each step ticks itself when the app sees the work done: the login area saved, a confirmed portal sign-in, a Panchayat and Village chosen, the Village's records ready, workers with their days, a successful **Check demand**, and a finished entry with its result. Choosing **Show me** never ticks a step. The minus button makes the card smaller. **Hide guide** hides it on this computer; open it again in **Settings → Help & tips → Show Getting started guide**. A computer that used the app before this card was added does not show it on its own.
 
@@ -90,16 +90,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.36**, Android **1.4.32**.
+Published downloads: desktop **1.4.47**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.36).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.47).
 
 ### Find the next task
 
@@ -108,6 +108,8 @@ Open **Work Demand**. **Your work** shows unfinished Received requests from all 
 Choose **Check problems** to open the app, saved-record, selected-area, portal sign-in and request-list checks. Follow **Open Browser** if sign-in is needed. These checks send no demand. **Review last entry** opens the last saved summary when members still need attention.
 
 During a record download, the request list and open request show a bar and percentage. The percentage uses saved record checks. **Finding download totals** means the complete worker list is still being read. Paused downloads keep their saved progress. Sign-in problems and missing records remain visible. **100%** means the record checks finished; still choose **Check demand** before portal entry.
+
+**Slow at first, faster with use.** In the first days the app can feel slow. It is reading Job Cards, workers and their checks for your Panchayats and Villages from VBGRAMG. The full download of each Panchayat or Village happens only once. It takes a few seconds to a few minutes, depending on the size of the Panchayat or Village. While it runs, the download bar under **Create demand** says so. After that the app uses its saved records and only checks for changes, so it gets faster the more you use it. The **Welcome tour**, the **Getting started** card and a Work Demand tip explain this to new users.
 
 Downloads are automatic. When you choose a Panchayat or Village, only that area downloads. Other areas wait until it is complete. Job Card and worker details, eKYC, ABPS (Aadhaar Based Payment System), Aadhaar Seeding and Aadhaar Authentication download together. The four worker checks start as soon as the list of Job Cards and workers is saved, while the household pages are still downloading. Days worked and days left come next, then Work Codes, Work Orders and other reports. Aadhaar Availability on the Work Demand form is checked last, and the app shows how many workers it has checked. A worker whose four checks are all Yes counts as **Aadhaar Availability: Yes** for now, until the Work Demand form confirms the answer. If a read stops or fails, the app tries again on its own within two minutes and reuses completed records. If the Job Card page and the attendance report both open but show different work days, both are saved and the area still counts as downloaded. The download card says how many households to check. Reading again would not change them, so the app checks them again with its daily update. You do not need to click a download button. Private checks still need your own portal sign-in.
 
@@ -118,6 +120,14 @@ In the selected area's **Record updates**, each item shows its saved or checked 
 Checked households appear as they are saved. The Village remains incomplete until every required page and household is accounted for. Closing a screen or retrying a download keeps completed saves. The active area's requested reports keep priority. Other extra reports start after 15 seconds without activity and pause at the next safe point when you resume work. A report needed for your current **Check demand** keeps its priority.
 
 If a public worker list cannot be read, the app keeps the saved workers and follows its normal retry time. A failed public read is separate from waiting for private worker checks. Open **Record updates** to see what needs another read.
+
+**Change in 1.4.47 (from local correction 1.4.40):** A missing place list no longer waits for its own area download. Choosing an area with an earlier failed download shortens the remaining retry wait to at most two minutes, without clearing completed records. A message saying the portal's public area report is unavailable means that VBGRAMG returned an error page. The app retries automatically; it cannot repair that portal error or answer a Security Code.
+
+**Change in 1.4.47 (from local correction 1.4.45):** When the usual public Job Card list opens VBGRAMG's error page, workers are downloaded from the official **Register No. 1 Part-A** on the same Panchayat page. They are saved only when it matches the Registration Application Register exactly. Household pages, worker checks and days are then shown as not checked; they are never guessed.
+
+**Change in 1.4.47:** A received Android request always opens with every worker shown. Its **Filters** work only while that request is open. They are not kept for the next request, so an old choice can no longer hide workers.
+
+**Change in 1.4.47 (from local correction 1.4.46):** When workers, their four checks and days (from the signed-in Work Demand form) are saved, a Village read from Register No. 1 counts as finished, so other areas can download. The household pages that could not open are tried again once a day.
 
 The Job Cards screen reads its list and totals together. Search covers all saved households before choosing a display page, including matching inactive workers and workers whose checks have not passed. Background updates keep the open households, search and page. **Eligible**, **Not eligible**, **Not yet checked** and **Data unavailable** describe the saved worker checks. Missing answers never mean eligible. Always run **Check demand** before portal entry.
 
@@ -137,6 +147,12 @@ If the complete saved family list has a current worked value for every member, t
 The same rule applies to phone requests, Received request approval and **Send to VBGRAMG**. Missing, old, zero or small saved day totals cannot block these steps or reduce the days you entered. Checks for worker identity, required answers, valid dates and repeated or overlapping worker requests still apply. Any message from the official portal must still be resolved there.
 
 In **Create demand**, the search, list size, **Add workers** and member buttons sit below **Optional day information**, directly above the worker list. Use **Add workers** to find saved members and add them to this demand. It remains available when the list is empty.
+
+**Change in 1.4.47 (from local correction 1.4.39):** The earlier layout is restored. Area choices and Worker filters stay open. **Refresh saved records**, **Expand all**, **Collapse all** and **Reset demand** are visible above the worker list again. Reset still asks first. The floating action bar is removed.
+
+**Send to VBGRAMG** stays locked until **Check demand** passes. Changing workers, days, dates, work or worker filters locks Send again. Changed saved worker checks also require a new demand check. Sending checks the saved details again before entry starts. A checked draft is not an official submission.
+
+Worker rows keep eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication and Aadhaar Availability visible. **Yes for now** means all four worker checks passed, but the Work Demand form still needs to confirm Aadhaar Availability.
 
 Use **Sort by** to arrange the whole saved list by name, Job Card number, active first or inactive first. Names and Job Card numbers can run in either order. Job Card groups stay together, and sorting happens before the list is divided into pages. Unknown status is kept separate from confirmed active and inactive status. Your sort choice is remembered. Sorting keeps your selected workers, entered days and dates, and checked demand.
 
@@ -166,7 +182,7 @@ The panel has two sections: **My login code** and **My areas**. Choose **View my
 
 To replace an existing personal code, choose **Choose my own login code** near your current code. Enter **My new login code**, then choose **Save my login code**. Your selected areas stay the same. **Show code** lets you check what you typed. Cancel keeps your current code. The new box never creates a random code when left empty.
 
-You can use a **4 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 4 characters. English letters A and a work the same. Each person needs their own code. A code already used by another user cannot be used. If you choose one, the app says so and keeps your typed code so you can change it.
+You can use an **8 to 16 digit number**, including one that starts with zero. Letters, numbers, symbols and spaces inside a code are allowed, up to 32 characters. Use at least 8 characters. A code saved earlier with 4 to 7 characters still works until you replace it. English letters A and a work the same. Each person needs their own code. A code already used by another user cannot be used. If you choose one, the app says so and keeps your typed code so you can change it.
 
 If your places are already saved in **My Areas**:
 

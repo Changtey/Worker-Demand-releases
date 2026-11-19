@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.36**, Android **1.4.32**.
+Published downloads: desktop **1.4.47**, Android **1.4.32**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.36](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.36/VBGRAMG-DEO-Assistant-1.4.36-Linux-x64.AppImage) |
+| Windows 64-bit | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.AppImage) |
 | Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.36).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.47).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.36 and Android 1.4.32 · 2026-11-06.**
+**Screens captured for desktop 1.4.47 and Android 1.4.32 · 2026-11-19.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,12 +200,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.36**
+**Published 1.4.47**
 
-- **Muster Roll menu.** The **Reports** menu is now called **Muster Roll**. A Muster Roll is the official worker attendance list.
-- **Sign in to the portal first.** Until the portal confirms your sign-in, only **Browser** and **Settings** open. The other menus are greyed out, and the side menu tells you to sign in to VBGRAMG in Browser. After sign-in, every menu stays open until you close the app, even if the portal session ends later.
-- **Save Excel and Print for Village reports.** **Muster Roll → Make Village reports** now has **Save PDF**, **Save Excel** and **Print**. Save Excel gives each Village its own Excel file; several Villages are saved together in one ZIP file. Print makes one PDF of all selected Villages and opens it in your PDF app,…
-- **Excel copies show more.** Excel copies now show the Village name and split the SC, ST and Other amounts by each worker&#x27;s category, the same as the PDF.
-- **Faster portal login.** After your saved User ID and password fill in, the cursor waits in the Security Code box. Type the code and press **Enter** to log in. Before, Enter asked for a new code and emptied the password. The code picture and its New code button are larger. You still read and type the Security Code…
+- **Received requests show every worker.** A request from the Android app now always opens with all its workers shown. Before, a **Filters** choice made on one request came back on every later request. It could hide workers whose checks were not saved yet. Filters now work only while a request is open.
+- **Workers download while the usual Job Card list is broken.** VBGRAMG&#x27;s usual public Job Card list opens an error page. The app now reads workers from the official **Register No. 1 Part-A** on the same Panchayat page. A household is saved only when it matches the Registration Application Register exactly. Nothing…
+- **A Village read from Register No. 1 can finish.** When its workers, their four checks and days are saved, the Village counts as finished, so other areas can download. Days come from the signed-in Work Demand form. Household pages that could not open are tried again once a day.
+- **Downloads keep using the installed app&#x27;s own code.** A database check could load an older download helper and stop the area reader. This is fixed. No saved records or login details are cleared.
+- **Quicker retries for the selected area.** A missing place list no longer waits for its own area download. Choosing an area with an earlier failed download retries it within two minutes. When VBGRAMG shows an error page, the app says so and retries by itself.
+- **Slow at first, faster with use.** New users are told the app is slower in the first days while it reads their Panchayats and Villages. The Welcome tour, Getting started card, download bar and first Work Demand tip say this.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

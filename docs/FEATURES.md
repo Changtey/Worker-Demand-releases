@@ -2,11 +2,12 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.36 and Android 1.4.32 · 2026-11-06.**
+**Screens captured for desktop 1.4.47 and Android 1.4.32 · 2026-11-19.**
 
 - **Learn and practise:** [watch the nine-part tutorial](https://changtey.github.io/Worker-Demand-releases/learn/classroom.html), [try the guided practice app](https://changtey.github.io/Worker-Demand-releases/learn/practice.html) or [open full-size app pictures](https://changtey.github.io/Worker-Demand-releases/learn/screenshots.html). The practice copy uses sample records and ends at Check demand.
 
 - **Less work during form entry:** small area checks read the current choices without copying the full Job Card list. Optional household days are read once during each form action and afresh next time. Fields, choices and Proceed marked unavailable stop entry before use. Exact worker, Job Card, date, day and duplicate checks remain required. These are desktop source improvements checked with fictional records; live speed and installed builds need separate checks.
+- **Slow at first, faster with use:** new users are told that the first days are slower while the app reads their Panchayats and Villages from VBGRAMG. The full download of each Panchayat or Village happens only once and takes a few seconds to a few minutes, depending on its size. The download bar says so while it runs. After that the app uses saved records and only checks for changes.
 - **Active area first:** the Panchayat or Village in the current screen owns the next download turn, including a place visited earlier. Required worker checks keep priority after its public lists finish. Previous downloads wait with saved progress; only a page already loading may finish. Area lists continue automatically during the handover. Browser area changes also update that choice. Old replies and hidden screens cannot restore an earlier area.
 - **Named, compact download progress:** the selected area's exact name stays beside its progress bar. A small overview shows the area currently downloading, paused and queued names, and measured progress. Longer waiting lists open with more. During a switch, the previous page and the next selected area have separate labels. Paused downloads resume automatically afterward; deliberate pauses stay paused. Unknown totals stay unknown.
 - **Important worker data first:** Job Card numbers and Registration IDs → household and worker details → Aadhaar Authentication, Aadhaar Seeding, ABPS and eKYC → worked days and days left → other records → actual Aadhaar Availability confirmation. All four worker checks are saved from the same report before the separate form check.
