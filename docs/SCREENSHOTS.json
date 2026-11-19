@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-19T07:20:51.946650+00:00",
+  "captured_at": "2026-11-19T12:02:18.615292+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.47",
-    "android": "1.4.32"
+    "desktop": "1.4.48",
+    "android": "1.4.48"
   },
   "published_versions": {
-    "desktop": "1.4.47",
-    "android": "1.4.32"
+    "desktop": "1.4.48",
+    "android": "1.4.48"
   },
-  "published_notes_sha256": "f3fcaf8250ab9d6fcc2f23f7df3e361d89a8b97ef954457720d977931a36c0e5",
-  "source_fingerprint": "d14baa8370dd2f9a18fefb8392583c587970dee28483df458ad9f4aaa642f791",
+  "published_notes_sha256": "53a2c2a5640a39d6378ae7a33f61e1d35035379361eabc185ef452d36929e6c9",
+  "source_fingerprint": "4b75e34edcacb0882f2c770cbe37cb603ffaa7c1271406639c82694447aa9b19",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -62,7 +62,7 @@
       "app": "Android",
       "caption": "Review workers and their requested days, then use Send to office. This sends a phone request for DEO review; it does not create an official portal demand.",
       "path": "docs/screenshots/05-android-work-demand.png",
-      "sha256": "18bd4b28da3e7bc70c0244ac9c716059d1dc356588ebb910d54c7221f7448676",
+      "sha256": "7e7641a418a8018b7927f0c2ef44202259c72b5875b6144051f4445451402358",
       "width": 1236,
       "height": 2745
     },
@@ -92,7 +92,7 @@
       "app": "Android",
       "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
       "path": "docs/screenshots/08-worker-list.png",
-      "sha256": "51e50162390afb671dc16b47a07334f4491fb224657a68a4ddad51845e2fb934",
+      "sha256": "a01eaad2135d39d3355df05f1cd12482143d9c3cdcc6d1dadf0f8b707f5442d7",
       "width": 1236,
       "height": 2745
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "19f842e91b540d6ff0a3773e410344d8cdae7134ecff02831d4727278ec42f8d",
+      "sha256": "fe0104ecda2d5ed4bde93f36a109342e980cea308765870786a1c4d15c1d8ce4",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "935049ca0c9a2cc18a02be423d5843ab69f4bee8baa2cc36e42e15f39a858a33",
-    "docs/USER_GUIDE.md": "fbc81b2ae031d962c6c7c93661458ce2e16222980f442de37672a82dd534d1bb",
-    "docs/FEATURES.md": "306e1eb94bb3a9dbb0f28699e25e965e1d49ac34529887b48dfb71a0d753bd6c",
-    "docs/LATEST_CHANGES.md": "fd6aaa4cef6558d631d805ae11f0b414661fa6cfb97a475d62793d3f1aa04218"
+    "README.md": "f9538d04a973e03760fe26153aacb9560dbce6c654e5d2a6e0df3ea06bf9c7f8",
+    "docs/USER_GUIDE.md": "0358e86003ea63d930368930237dd5248a812a690aaa981a2bda6ff13c94a2d9",
+    "docs/FEATURES.md": "63108d6593092185fcf65246b942a643a5ed3d5ec1d8add0d1edcd06b6c206c9",
+    "docs/LATEST_CHANGES.md": "d372af9a46a80c1c31e216f286020d125be079e30bab9ea1f2c6840fcaa7eb70"
   }
 }

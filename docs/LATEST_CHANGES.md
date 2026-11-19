@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.47 and Android 1.4.32 · 2026-11-19.**
+**Screens captured for desktop 1.4.48 and Android 1.4.48 · 2026-11-19.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.47**, Android **1.4.32**.
+Published downloads: desktop **1.4.48**, Android **1.4.48**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.47](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.47/VBGRAMG-DEO-Assistant-1.4.47-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.32](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.32/Worker-Demand-1.4.32.apk) |
+| Windows 64-bit | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/Worker-Demand-1.4.48.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.47).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.48).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -49,14 +49,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.47**
+**Published 1.4.48**
 
-- **Received requests show every worker.** A request from the Android app now always opens with all its workers shown. Before, a **Filters** choice made on one request came back on every later request. It could hide workers whose checks were not saved yet. Filters now work only while a request is open.
-- **Workers download while the usual Job Card list is broken.** VBGRAMG&#x27;s usual public Job Card list opens an error page. The app now reads workers from the official **Register No. 1 Part-A** on the same Panchayat page. A household is saved only when it matches the Registration Application Register exactly. Nothing…
-- **A Village read from Register No. 1 can finish.** When its workers, their four checks and days are saved, the Village counts as finished, so other areas can download. Days come from the signed-in Work Demand form. Household pages that could not open are tried again once a day.
-- **Downloads keep using the installed app&#x27;s own code.** A database check could load an older download helper and stop the area reader. This is fixed. No saved records or login details are cleared.
-- **Quicker retries for the selected area.** A missing place list no longer waits for its own area download. Choosing an area with an earlier failed download retries it within two minutes. When VBGRAMG shows an error page, the app says so and retries by itself.
-- **Slow at first, faster with use.** New users are told the app is slower in the first days while it reads their Panchayats and Villages. The Welcome tour, Getting started card, download bar and first Work Demand tip say this.
+- **Every worker check shows again on Android.** Each worker now has small labels for **Active**, **eKYC**, **ABPS**, **Seeding** (Aadhaar Seeding), **Auth** (Aadhaar Authentication) and **Aadhaar** (Aadhaar Availability). eKYC is the portal&#x27;s identity check. ABPS is the Aadhaar Based Payment System.
+- **Old answers no longer show as &quot;Unknown&quot;.** Before, the phone hid an answer once it was old: Active after 1 day, and eKYC after 30 days. Many workers then showed **Status unknown** or **eKYC unknown**. Now an old answer stays in grey with the date it was checked, for example **Active · 6 Nov**. It is the last…
+- **Worker details explain each answer.** Tap a worker&#x27;s information button to see each answer, where it came from and when it was checked.
+- **More Worker filters.** Filter by Active member, eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication or Aadhaar Availability. Filters use only current answers. The button shows how many filters are on, for example **Worker filters (1 on)**. If no worker matches, choose **Clear filters**.
+- **English and Hindi.** The new labels and messages are in both languages.
 
 These pictures were refreshed from the source used for this publication.
 
