@@ -46,16 +46,16 @@ Progress reads family records together to avoid repeated lookups. Worker-check c
 
 ## Download
 
-Published downloads: desktop **1.4.48**, Android **1.4.48**.
+Published downloads: desktop **1.4.49**, Android **1.4.49**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/Worker-Demand-1.4.48.apk) |
+| Windows 64-bit | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/Worker-Demand-1.4.49.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.48).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.49).
 
 Check the linked release notes for tested systems and remaining limits. Windows publisher signing is still pending for the current test release.
 
@@ -104,7 +104,7 @@ The app follows the portal's offered **State → District → Block → Panchaya
 
 ## See the app
 
-**Screens captured for desktop 1.4.48 and Android 1.4.48 · 2026-11-19.**
+**Screens captured for desktop 1.4.49 and Android 1.4.49 · 2026-11-20.**
 
 All 15 pictures use fictional records. **Android** pictures show the current Android screens at phone size. **Desktop preview** pictures show the current desktop app in a narrow window; they do not mean that desktop tools are available in Android. Open any picture for the full size. The pictures do not show a real office account or an official submission.
 
@@ -200,12 +200,13 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.48**
+**Published 1.4.49**
 
-- **Every worker check shows again on Android.** Each worker now has small labels for **Active**, **eKYC**, **ABPS**, **Seeding** (Aadhaar Seeding), **Auth** (Aadhaar Authentication) and **Aadhaar** (Aadhaar Availability). eKYC is the portal&#x27;s identity check. ABPS is the Aadhaar Based Payment System.
-- **Old answers no longer show as &quot;Unknown&quot;.** Before, the phone hid an answer once it was old: Active after 1 day, and eKYC after 30 days. Many workers then showed **Status unknown** or **eKYC unknown**. Now an old answer stays in grey with the date it was checked, for example **Active · 6 Nov**. It is the last…
-- **Worker details explain each answer.** Tap a worker&#x27;s information button to see each answer, where it came from and when it was checked.
-- **More Worker filters.** Filter by Active member, eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication or Aadhaar Availability. Filters use only current answers. The button shows how many filters are on, for example **Worker filters (1 on)**. If no worker matches, choose **Clear filters**.
-- **English and Hindi.** The new labels and messages are in both languages.
+- **The Android app updates itself.** Before, opening the app often showed nothing. It downloaded only on Wi-Fi, checked only every 3 hours, and waited for a minute without a touch. Now:
+- **An Update banner on Home.** It shows while the update downloads, with how far it has gone. When the update is ready, it shows **Install update**. While it installs, it says so.
+- **Your work is kept.** Saved workers, drafts and saved requests stay on the phone. An update never installs while a request is being sent.
+- **Desktop downloads finish.** A selected area no longer stops at 99%, **Update needed** clears, and downloads no longer restart over and over.
+- **The phone reads the official site itself.** The Worker Demand app now reads your Village&#x27;s workers from the official Registration Application Register. It reads open Work Codes from the Work Expenditure report. It needs no sign-in and no desktop copy. It works in any State, District, Block, Panchayat and Village.…
+- **Deleted workers stay hidden.** A worker is left out when a star (\*) is on the Job Card number, the applicant name or the head of household name. A worker whose remark says deleted, removed or died is also left out.
 
 See [latest changes and their release status](docs/LATEST_CHANGES.md). The public repository holds downloads and guides. App building files and office records stay on the owner's computer.

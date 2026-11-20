@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.48 and Android 1.4.48 · 2026-11-19.**
+**Screens captured for desktop 1.4.49 and Android 1.4.49 · 2026-11-20.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -90,16 +90,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.48**, Android **1.4.48**.
+Published downloads: desktop **1.4.49**, Android **1.4.49**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/VBGRAMG-DEO-Assistant-1.4.48-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.48](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.48/Worker-Demand-1.4.48.apk) |
+| Windows 64-bit | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/Worker-Demand-1.4.49.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.48).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.49).
 
 ### Find the next task
 
@@ -260,13 +260,17 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 ## 6. Make a work request on Android
 
+**Change in 1.4.49:** The Android app updates itself. See **Update the app**.
+
+**Change in 1.4.49:** The Android app reads your Village's workers and open Work Codes straight from the official VBGRAMG site. It needs no sign-in and no desktop copy, and it works in any State, District, Block, Panchayat and Village. The lists are saved on the phone and refresh by themselves after 12 hours. A worker with a star (*) on the Job Card number, the applicant name or the head of household name, or with a remark of deleted, removed or died, is not shown. The **Check portal** button was removed because it needed a sign-in.
+
 **Change in 1.4.48:** The Android worker list shows labels for Active, eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication and Aadhaar Availability again. An old answer no longer shows as unknown: it stays in grey with the date it was checked. Worker filters cover all six checks and show how many are on.
 
 The first time you sign in, a short **Welcome tour** (six screens) explains the worker list, choosing workers, checking them, **Send to office** and **History**. Use **Next** and **Back**. **Skip tour** or **Start using the app** closes it. To see it again, open **My account** and choose **Welcome tour**. It is in English and Hindi.
 
 1. On **Home**, check the line at the top (it says whether records are connected and when they were checked) and your assigned Panchayat or Village. If requests are waiting for the office or drafts are saved on the phone, a short list appears; tap a line to open **History**. A DEO can choose among their assigned areas.
 2. Choose **Create work request**. Search by worker or Job Card and choose the workers. **Select all** picks every worker shown now (after your search and filters), and **Deselect all** clears the choice. Under each worker, small labels show **Active**, **eKYC**, **ABPS**, **Seeding** (Aadhaar Seeding), **Auth** (Aadhaar Authentication) and **Aadhaar** (Aadhaar Availability). A tick means Yes and a cross means No. A question mark means not checked yet. A grey label with a clock is an old answer with its check date, such as **Active · 6 Nov**; your office checks every worker again before entry. The same labels appear when entering days and reviewing the request. Open **Worker filters** to filter by any of these checks, and set **Active member** to **All** to include inactive workers.
-3. Choose **Check portal** to read the selected workers' public reports directly on the phone. Review eKYC and active status. Tap the information button beside a worker to open **Worker details** for days worked, family days left, Aadhaar availability, Aadhaar Based Payment System (ABPS), other offered checks, sources and check times. Choose **Stop portal check** if needed; your choices are kept.
+3. Tap the information button beside a worker to open **Worker details**. It shows the days worked and family days left when your office has shared them, and the sources and check times. A worker read straight from the official site shows **?** for eKYC, ABPS and Aadhaar until your office checks them. Your office checks every worker again before entry.
 4. Set each selected worker's requested days, or enter days in **Days for all selected workers** and press **Apply Days to All** beside it to use those days for every selected worker.
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
 6. Review the workers, days and dates, then choose **Send to office** to send it to the DEO.
@@ -570,6 +574,8 @@ A successfully saved Village report uses 2, including each Village in a whole Pa
 ### Update the app
 
 The Windows app updates itself. It downloads a new version in the background and installs it when you close the app, or when the computer is not used for 10 minutes. When a new version is ready, a green **Update to …** button also shows in the sidebar. Choose it to update now: the app closes, updates and opens again by itself. Your records, drafts and login details are kept. If a task is still running, the app asks you to finish it first. **Settings → App updates** shows your version and has **Check for updates**.
+
+The Android app updates itself too. It downloads a new version by itself on Wi-Fi or mobile data (about 60 MB). A banner on **Home** shows the download. The update installs when you leave the app, or after the app stays on **Home** for a minute without being touched. The first time, Android asks you to allow Worker Demand to install apps and to tap **Update** once. After that, on Android 12 and newer, later updates install with no tap. Older phones show Android's **Update** screen each time. Your saved workers and drafts are kept. The **Check app updates** button at the top of **Home** checks at once.
 
 ### Ask for help
 

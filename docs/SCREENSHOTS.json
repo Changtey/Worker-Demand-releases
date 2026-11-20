@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-19T12:02:18.615292+00:00",
+  "captured_at": "2026-11-20T07:08:58.966303+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.48",
-    "android": "1.4.48"
+    "desktop": "1.4.49",
+    "android": "1.4.49"
   },
   "published_versions": {
-    "desktop": "1.4.48",
-    "android": "1.4.48"
+    "desktop": "1.4.49",
+    "android": "1.4.49"
   },
-  "published_notes_sha256": "53a2c2a5640a39d6378ae7a33f61e1d35035379361eabc185ef452d36929e6c9",
-  "source_fingerprint": "4b75e34edcacb0882f2c770cbe37cb603ffaa7c1271406639c82694447aa9b19",
+  "published_notes_sha256": "7dc48a38d1423c50408a6d9b01febf6b1e54b8c9f9d12eaaec15e5bd37436968",
+  "source_fingerprint": "f96203296c37915692603f6e992aff7e439800d9f0c3e0db72014c0632d533f3",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "7daa8b0ff5b2fbdbbae82e0274df1162018015cedf0dbac224aaf4b6e2b0d877",
+      "sha256": "a88be69ef63944cc085ea7e662d7bf519b74bd084187f1a3f745ce0724384616",
       "width": 1236,
       "height": 2745
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "fe0104ecda2d5ed4bde93f36a109342e980cea308765870786a1c4d15c1d8ce4",
+      "sha256": "0849e6854811d444d22fd6c949fcc9d9d01a27fdc3b0cded8d8915e6cc7bacc7",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "f9538d04a973e03760fe26153aacb9560dbce6c654e5d2a6e0df3ea06bf9c7f8",
-    "docs/USER_GUIDE.md": "0358e86003ea63d930368930237dd5248a812a690aaa981a2bda6ff13c94a2d9",
-    "docs/FEATURES.md": "63108d6593092185fcf65246b942a643a5ed3d5ec1d8add0d1edcd06b6c206c9",
-    "docs/LATEST_CHANGES.md": "d372af9a46a80c1c31e216f286020d125be079e30bab9ea1f2c6840fcaa7eb70"
+    "README.md": "6b34e06f6d51eaf139ddd5a3ae2c8b2f23fcbabd11387e77698f3a21a6fa774e",
+    "docs/USER_GUIDE.md": "53816dcae0e76a3bf785d67da33b59e40b99b0a5e5943d1a450fa20d99273e3c",
+    "docs/FEATURES.md": "3b65894d96af5e42f81f103e2d25111e1b653d1d7d43368aad3acdbafd03e74a",
+    "docs/LATEST_CHANGES.md": "0b583b49d9891937f1d7320c4b612c21e52878f41b065fc067bb6e9d56cee709"
   }
 }
