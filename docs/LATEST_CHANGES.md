@@ -2,20 +2,20 @@
 
 [Home](../README.md) · [User guide](USER_GUIDE.md) · [Features](FEATURES.md)
 
-**Screens captured for desktop 1.4.49 and Android 1.4.49 · 2026-11-20.**
+**Screens captured for desktop 1.4.50 and Android 1.4.50 · 2026-11-25.**
 
 ## Published apps
 
-Published downloads: desktop **1.4.49**, Android **1.4.49**.
+Published downloads: desktop **1.4.50**, Android **1.4.50**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/Worker-Demand-1.4.49.apk) |
+| Windows 64-bit | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/Worker-Demand-1.4.50.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.49).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.50).
 
 The linked release notes describe what was built, checked and published. A current source picture does not update an installed app or replace an installation file.
 
@@ -49,14 +49,14 @@ Work Demand charging was turned on after the app publication. Browser automation
 
 This online service update applies to the existing app downloads. The recharge package stays ₹50 for 50 Balance. No installation file was replaced. The earlier release notes describe the charging setting at the time they were written.
 
-**Published 1.4.49**
+**Published 1.4.50**
 
-- **The Android app updates itself.** Before, opening the app often showed nothing. It downloaded only on Wi-Fi, checked only every 3 hours, and waited for a minute without a touch. Now:
-- **An Update banner on Home.** It shows while the update downloads, with how far it has gone. When the update is ready, it shows **Install update**. While it installs, it says so.
-- **Your work is kept.** Saved workers, drafts and saved requests stay on the phone. An update never installs while a request is being sent.
-- **Desktop downloads finish.** A selected area no longer stops at 99%, **Update needed** clears, and downloads no longer restart over and over.
-- **The phone reads the official site itself.** The Worker Demand app now reads your Village&#x27;s workers from the official Registration Application Register. It reads open Work Codes from the Work Expenditure report. It needs no sign-in and no desktop copy. It works in any State, District, Block, Panchayat and Village.…
-- **Deleted workers stay hidden.** A worker is left out when a star (\*) is on the Job Card number, the applicant name or the head of household name. A worker whose remark says deleted, removed or died is also left out.
+- **Automatic desktop sign-in.** When your login details are saved, the desktop app fills them, reads the Security Code picture, fills the code and presses Login by itself. If the read is unclear or the code is refused, it asks for a new code and tries again, up to three times. Your typing or click always takes over.
+- **Find new Android updates.** The app checks when you open it or return to it. If an update check or download fails, it tries again while the app is open. You can check by hand from **Home**, **My account** or the sign-in screen.
+- **Finish an Android update.** Tap **Install update** to open Android&#x27;s install screen. If the update does not finish, you can use the button again.
+- **Updates wait for your work.** Automatic installation waits while the app reads, saves or sends your work. A newer update takes the place of an older one that has not started installing.
+- **Check both version numbers.** A normal Android update needs a higher app version and a higher build number. If the new version has a build number that is not higher, the app tells you it could not check the update.
+- **Aadhaar Availability: Yes for now.** When eKYC, ABPS, Aadhaar Seeding and Aadhaar Authentication are all Yes, a worker shows **Aadhaar Availability: Yes for now**, and you can start the Work Demand at once. This now works the same way in worker filters, the download summary, worker lists shared with phones and…
 
 These pictures were refreshed from the source used for this publication.
 

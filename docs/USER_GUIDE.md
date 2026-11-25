@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.49 and Android 1.4.49 · 2026-11-20.**
+**Screens captured for desktop 1.4.50 and Android 1.4.50 · 2026-11-25.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -32,7 +32,7 @@ The tutorial covers setup, area choices, Android requests, office review, days a
 Sign in to the app with your own Google account. This is separate from the official portal sign-in. Portal setup has only two steps:
 
 1. **Select login area.** Choose your State, Financial Year, District and Block from the current portal lists. Choose **Save and open login page**. Use **Change login area** if you need another area.
-2. **Sign in.** Enter your User ID, password and Security Code on the official VBGRAMG page. Press **Enter** in the Security Code box, or choose **Login**. Once your login details are saved, they fill in by themselves and the cursor waits in the Security Code box, so you only type the code and press Enter.
+2. **Sign in.** Enter your User ID, password and Security Code on the official VBGRAMG page, or let the app do it. Once your login details are saved, they fill in by themselves. The app then reads the code picture and presses Login for you. If the code is unclear or refused, it asks for a new code and tries again, up to three times. After that, type the code yourself. Your typing always takes over.
 
 Until the portal confirms your sign-in, only **Browser** and **Settings** open. The other menus are greyed out. After sign-in, every menu stays open until you close the app. Developer accounts can open every menu without signing in.
 
@@ -50,7 +50,7 @@ All app menus stay available before portal sign-in and after portal sign-out. Op
 
 Choose the area you need in **Work Demand**. The app reuses saved records and reads missing records for that work. You can also use **My Areas** for places you work on often, or **Settings → Records** to download or update area records. These tools are separate from portal setup. **Muster Roll** opens the Muster Roll tools when you need them. A Muster Roll is the official worker attendance list.
 
-The current Panchayat or Village gets the first download and check. Completed records stay saved. A deliberate pause is kept. In Settings, **Download Data** reuses current saved records; **Update Data** asks for new checks. Read the progress message if a report stops. Personal sign-in and report Security Codes still need your answer.
+The current Panchayat or Village gets the first download and check. Completed records stay saved. A deliberate pause is kept. In Settings, **Download Data** reuses current saved records; **Update Data** asks for new checks. Read the progress message if a report stops. Personal sign-in is automatic when details are saved; report Security Codes still need your answer.
 
 Worker details and the four required checks come first. When Aadhaar Authentication, Aadhaar Seeding, ABPS and eKYC are all Yes, the app shows **Aadhaar Availability: Yes** so you can prepare Work Demand. It keeps the source of this answer. An actual No from the portal replaces that answer and blocks that worker. Download completion and permission to send a demand stay separate.
 
@@ -90,16 +90,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.49**, Android **1.4.49**.
+Published downloads: desktop **1.4.50**, Android **1.4.50**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/VBGRAMG-DEO-Assistant-1.4.49-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.49](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.49/Worker-Demand-1.4.49.apk) |
+| Windows 64-bit | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/Worker-Demand-1.4.50.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.49).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.50).
 
 ### Find the next task
 
@@ -152,7 +152,7 @@ In **Create demand**, the search, list size, **Add workers** and member buttons 
 
 **Send to VBGRAMG** stays locked until **Check demand** passes. Changing workers, days, dates, work or worker filters locks Send again. Changed saved worker checks also require a new demand check. Sending checks the saved details again before entry starts. A checked draft is not an official submission.
 
-Worker rows keep eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication and Aadhaar Availability visible. **Yes for now** means all four worker checks passed, but the Work Demand form still needs to confirm Aadhaar Availability.
+Worker rows keep eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication and Aadhaar Availability visible. **Yes for now** means all four worker checks passed, but the Work Demand form still needs to confirm Aadhaar Availability. The same Yes is used in worker filters, the download summary, worker lists shared with phones and the Android app. A No from the Work Demand form always replaces it. If the form says No while all four checks are Yes, the worker row says **Form says No, but all four checks are Yes. Check on the portal.** and the download summary counts these workers.
 
 Use **Sort by** to arrange the whole saved list by name, Job Card number, active first or inactive first. Names and Job Card numbers can run in either order. Job Card groups stay together, and sorting happens before the list is divided into pages. Unknown status is kept separate from confirmed active and inactive status. Your sort choice is remembered. Sorting keeps your selected workers, entered days and dates, and checked demand.
 
@@ -229,7 +229,7 @@ Before saving access for a new area or Financial Year, download its complete wor
 
 1. Open **Browser**, then open VBGRAMG with your chosen area.
 2. Check the website and area before entering your User ID and Password.
-3. Type the **Security Code** yourself and press **Enter**, or choose **Login**. The code picture is shown larger. If it is hard to read, choose the New code button next to it; your saved password fills in again.
+3. The app fills saved details and sends the **Security Code** and Login for you. The code picture is shown larger. If the code is unclear or refused, it gets a new code and tries again, up to three times. After that, type the code and press **Enter**, or choose **Login**. Your saved password fills in again if the page stays.
 4. On the matching official login page, **Save** or **Update** stores the login pair only when you choose it. **Login details** lets you change or delete the saved pair.
 5. Keep the Browser open for current portal checks and entry. Follow the messages when the session needs signing in again.
 
@@ -260,24 +260,24 @@ Job Card members share the household's days left. A missing total means **Not kn
 
 ## 6. Make a work request on Android
 
-**Change in 1.4.49:** The Android app updates itself. See **Update the app**.
+**Change in 1.4.49:** The Android app can check for and download updates in the background. Android may still ask for permission or approval to install them. See **Update the app**.
 
-**Change in 1.4.49:** The Android app reads your Village's workers and open Work Codes straight from the official VBGRAMG site. It needs no sign-in and no desktop copy, and it works in any State, District, Block, Panchayat and Village. The lists are saved on the phone and refresh by themselves after 12 hours. A worker with a star (*) on the Job Card number, the applicant name or the head of household name, or with a remark of deleted, removed or died, is not shown. The **Check portal** button was removed because it needed a sign-in.
+**Change in 1.4.49:** The Android app reads workers and approved or ongoing Work Codes for your assigned area from public VBGRAMG reports. These reads need no VBGRAMG sign-in or desktop copy, but phone access still needs an assigned login code. The app is designed for areas offered across India; it has not been checked in every State. Saved public lists are tried again after 12 hours when the app is open and connected. A failed read keeps the saved list. A worker with a star (*) on the Job Card number, applicant name or head of household name, or with a remark of deleted, removed or died, is left out of the public list. Unclear Job Cards are left out for the office to check. The **Check portal** button was removed because the selected-worker check needed a VBGRAMG sign-in.
 
 **Change in 1.4.48:** The Android worker list shows labels for Active, eKYC, ABPS, Aadhaar Seeding, Aadhaar Authentication and Aadhaar Availability again. An old answer no longer shows as unknown: it stays in grey with the date it was checked. Worker filters cover all six checks and show how many are on.
 
 The first time you sign in, a short **Welcome tour** (six screens) explains the worker list, choosing workers, checking them, **Send to office** and **History**. Use **Next** and **Back**. **Skip tour** or **Start using the app** closes it. To see it again, open **My account** and choose **Welcome tour**. It is in English and Hindi.
 
 1. On **Home**, check the line at the top (it says whether records are connected and when they were checked) and your assigned Panchayat or Village. If requests are waiting for the office or drafts are saved on the phone, a short list appears; tap a line to open **History**. A DEO can choose among their assigned areas.
-2. Choose **Create work request**. Search by worker or Job Card and choose the workers. **Select all** picks every worker shown now (after your search and filters), and **Deselect all** clears the choice. Under each worker, small labels show **Active**, **eKYC**, **ABPS**, **Seeding** (Aadhaar Seeding), **Auth** (Aadhaar Authentication) and **Aadhaar** (Aadhaar Availability). A tick means Yes and a cross means No. A question mark means not checked yet. A grey label with a clock is an old answer with its check date, such as **Active · 6 Nov**; your office checks every worker again before entry. The same labels appear when entering days and reviewing the request. Open **Worker filters** to filter by any of these checks, and set **Active member** to **All** to include inactive workers.
-3. Tap the information button beside a worker to open **Worker details**. It shows the days worked and family days left when your office has shared them, and the sources and check times. A worker read straight from the official site shows **?** for eKYC, ABPS and Aadhaar until your office checks them. Your office checks every worker again before entry.
+2. Choose **Create work request**. Search by worker or Job Card and choose the workers. **Select all** picks every worker shown now (after your search and filters), and **Deselect all** clears the choice. Under each worker, small labels show **Active**, **eKYC**, **ABPS**, **Seeding** (Aadhaar Seeding), **Auth** (Aadhaar Authentication) and **Aadhaar** (Aadhaar Availability). A tick means Yes and a cross means No. A question mark means not checked yet. A grey label with a clock is an old answer with its check date, such as **Active · 6 Nov**; your office checks every worker again before entry. The same labels appear when entering days and reviewing the request. Open **Worker filters** to filter by any of these checks, and set **Active member** to **All** to include inactive workers when they are in the list.
+3. Tap the information button beside a worker to open **Worker details**. It shows any saved answers, days worked and family days left, with their sources and check times. The public worker list does not check eKYC, ABPS or Aadhaar. These show **?** when no saved answer is available. Your office checks every worker again before entry.
 4. Set each selected worker's requested days, or enter days in **Days for all selected workers** and press **Apply Days to All** beside it to use those days for every selected worker.
 5. Continue to the work details. Enter the start date and the other requested details. Choose a saved work if needed.
 6. Review the workers, days and dates, then choose **Send to office** to send it to the DEO.
 7. Open **History** for the received status. **Being entered on VBGRAMG** means the office has started entry. **Entered – office is checking** means entry has finished and the office is confirming the saved result. **Completed on VBGRAMG** means the office has confirmed it. A draft is a saved phone copy. An offline request waits for a connection using its existing request number.
 8. To send a request like an earlier one, open **History**, open the sent request and tap **Copy to new request**. The same workers, days and work are copied into a new request with a new request number. Choose a new **Start Date**, check the days, then send it. The earlier request is not changed.
 
-**About direct phone checks:** The phone uses only public reports for the assigned area and selected Financial Year. It does not sign into an office portal or submit official records. A missing field keeps its earlier saved answer and check time. A failed, incomplete, very large or extra-page report keeps the saved office copy with a clear message. Sign-in or Security Code checks must be handled by a person; the phone reader cannot bypass them.
+**About public phone reads:** The phone reads the public worker register and Work Expenditure report for assigned areas. It follows report pages, but stops if pages repeat or are incomplete. A report can have at most 500 pages, and there is also a limit on its text size. The worker register can have at most 100,000 rows. A failed read keeps saved workers or Work Codes and gives a message. If the portal asks for sign-in or a Security Code, the phone does not bypass it. Reports that need a VBGRAMG sign-in must be checked by the office. These reads do not submit official records.
 
 **Days worked and days left:** A worker's own days worked stay separate from the shared Job Card total. Days left belong to the whole Job Card family. The office calculates a missing shared value using the 125-day total and sends the saved family figures to the phone. Missing individual work stays unknown. The office still checks the records before official entry.
 
@@ -573,9 +573,11 @@ A successfully saved Village report uses 2, including each Village in a whole Pa
 
 ### Update the app
 
-The Windows app updates itself. It downloads a new version in the background and installs it when you close the app, or when the computer is not used for 10 minutes. When a new version is ready, a green **Update to …** button also shows in the sidebar. Choose it to update now: the app closes, updates and opens again by itself. Your records, drafts and login details are kept. If a task is still running, the app asks you to finish it first. **Settings → App updates** shows your version and has **Check for updates**.
+The Windows app updates itself. It looks for a new version as soon as it opens, and downloads it in the background. It installs the update when you close the app, or when nobody has clicked, typed or scrolled in the app for one minute. This includes the official portal page inside the app. It never installs while entry, a report, an open portal form or an area download is running. If the internet drops, it tries again after 15 seconds, 1 minute and 2 minutes, then at its next check. When a new version is ready, a green **Update to …** button also shows in the sidebar. Choose it to update now: the app closes, updates and opens again by itself. Your records, drafts and login details are kept. If a task is still running, the app asks you to finish it first. **Settings → App updates** shows your version and has **Check for updates**.
 
-The Android app updates itself too. It downloads a new version by itself on Wi-Fi or mobile data (about 60 MB). A banner on **Home** shows the download. The update installs when you leave the app, or after the app stays on **Home** for a minute without being touched. The first time, Android asks you to allow Worker Demand to install apps and to tap **Update** once. After that, on Android 12 and newer, later updates install with no tap. Older phones show Android's **Update** screen each time. Your saved workers and drafts are kept. The **Check app updates** button at the top of **Home** checks at once.
+The Android app checks for a new version when it opens or comes back. It can download an update in the background on Wi-Fi or mobile data. A banner on **Home** shows the download. If a check or download fails, the app can try again after 15 seconds, 1 minute and 2 minutes while it stays open. It may start installing a ready update when you leave the app or after an idle period on the sign-in screen or **Home**. Android may ask you to allow Worker Demand to install apps or to approve the update, even on Android 12 or newer. Follow the phone's instructions. If permission is needed, allow it in Android settings, return to the app and choose **Install update**. To check at once, use the **Check app updates** icon at the top of **Home**, or **Check for app updates** on the sign-in screen or in **My account**. Your saved workers and drafts are kept during a normal update.
+
+**Older installed versions:** an app keeps its own update steps until it is updated. You may need to install a newer version by hand first. Later updates may still need your permission or approval.
 
 ### Ask for help
 

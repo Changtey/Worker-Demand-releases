@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-20T07:08:58.966303+00:00",
+  "captured_at": "2026-11-25T13:07:57.280704+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.49",
-    "android": "1.4.49"
+    "desktop": "1.4.50",
+    "android": "1.4.50"
   },
   "published_versions": {
-    "desktop": "1.4.49",
-    "android": "1.4.49"
+    "desktop": "1.4.50",
+    "android": "1.4.50"
   },
-  "published_notes_sha256": "7dc48a38d1423c50408a6d9b01febf6b1e54b8c9f9d12eaaec15e5bd37436968",
-  "source_fingerprint": "f96203296c37915692603f6e992aff7e439800d9f0c3e0db72014c0632d533f3",
+  "published_notes_sha256": "801a54a328103440341e601403238d086b009bbce036cbfa234ab2f77d771a62",
+  "source_fingerprint": "bf591c72daecf6937c2e6d7ccdeb23ad011fcbddd802469f039cce1deeae2580",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "a88be69ef63944cc085ea7e662d7bf519b74bd084187f1a3f745ce0724384616",
+      "sha256": "1a74a0c76e7c2dbbe8b70b1611475b11cd6adec9bce055a9ce6faddd20b643b8",
       "width": 1236,
       "height": 2745
     },
@@ -48,7 +48,7 @@
     },
     {
       "file": "04-integrated-browser.png",
-      "title": "First setup and your login page",
+      "title": "Choose your login area",
       "app": "Desktop preview",
       "caption": "Two setup steps: Select login area and Sign in. Work Demand Creation opens after a confirmed portal sign-in. Setup does not ask for work areas or record downloads. This narrow desktop preview uses fictional choices; the official website is not pictured.",
       "path": "docs/screenshots/04-integrated-browser.png",
@@ -72,7 +72,7 @@
       "app": "Android",
       "caption": "Find requests and follow the status returned by the office.",
       "path": "docs/screenshots/06-secretary-work-demand.png",
-      "sha256": "4d7496f4f7f6a05bbbd65d74b53b57ea1cba0c814e8f445df2fbd9e00471121c",
+      "sha256": "915d3c9e7cf5037b9c75697572ec7df8ed195f8b03e81baea227dee665613cde",
       "width": 1236,
       "height": 2745
     },
@@ -82,7 +82,7 @@
       "app": "Desktop preview",
       "caption": "Find household heads and open the members of a Job Card. Swipe the table for more columns.",
       "path": "docs/screenshots/07-job-card-holders.png",
-      "sha256": "4bf3fd2581507a9c8216eb40f3c8cb182d754cf1e8409dc1885b003580a2def1",
+      "sha256": "01a82a2346d1ca6fbfe83d2f2c41426c9a51926db25866962e4902e44b1d5eea",
       "width": 960,
       "height": 1920
     },
@@ -90,7 +90,7 @@
       "file": "08-worker-list.png",
       "title": "Choose workers and days",
       "app": "Android",
-      "caption": "Choose workers and days. Check portal reads their public reports on the phone. Open a worker's information button for answers, sources and check times.",
+      "caption": "Choose workers and days. Tap a worker's information button to see saved answers and when they were checked.",
       "path": "docs/screenshots/08-worker-list.png",
       "sha256": "a01eaad2135d39d3355df05f1cd12482143d9c3cdcc6d1dadf0f8b707f5442d7",
       "width": 1236,
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "0849e6854811d444d22fd6c949fcc9d9d01a27fdc3b0cded8d8915e6cc7bacc7",
+      "sha256": "c3ff4b72f0de0cb24e1410fb45bdcb4c975027a4cc2751f7e32845170257059c",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "6b34e06f6d51eaf139ddd5a3ae2c8b2f23fcbabd11387e77698f3a21a6fa774e",
-    "docs/USER_GUIDE.md": "53816dcae0e76a3bf785d67da33b59e40b99b0a5e5943d1a450fa20d99273e3c",
-    "docs/FEATURES.md": "3b65894d96af5e42f81f103e2d25111e1b653d1d7d43368aad3acdbafd03e74a",
-    "docs/LATEST_CHANGES.md": "0b583b49d9891937f1d7320c4b612c21e52878f41b065fc067bb6e9d56cee709"
+    "README.md": "8772f4824f7d846df2c9ae21f0bfe9a35429f0a9d4841d47c2f76b334477ed3f",
+    "docs/USER_GUIDE.md": "1d95057b77519d939cff471aba45fd411a49929277a6a41fc991c77d0c00573e",
+    "docs/FEATURES.md": "1ff1ec2f369b26be6abe0f7fbb7521052599e6b05ab22ae9efb8c8f6257d3de5",
+    "docs/LATEST_CHANGES.md": "fe5b37273c06ff8afb6a3c101e2a00d68000ad32c3bc7cd95f80441acfd7ce69"
   }
 }
