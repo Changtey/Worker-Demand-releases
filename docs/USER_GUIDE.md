@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Feature list](FEATURES.md) · [Latest changes](LATEST_CHANGES.md)
 
-**Screens captured for desktop 1.4.50 and Android 1.4.50 · 2026-11-25.**
+**Screens captured for desktop 1.4.51 and Android 1.4.51 · 2026-11-26.**
 
 Screenshots use fictional people and areas. Android and desktop are labelled separately. Your assigned areas and the portal's current lists determine what you can see.
 
@@ -90,16 +90,16 @@ The sidebar shows one line for each tool. Point at a tool to read a short explan
 
 Your selected Panchayat and Village stay in place while Received requests and background records are checked. Changing a Panchayat updates its Village choices. Use **Update lists** when you need to read an area list again. The earlier choices stay visible during that read and if it fails; choose **Try again** after a failure. Changing a parent area clears only the choices below it.
 
-Published downloads: desktop **1.4.50**, Android **1.4.50**.
+Published downloads: desktop **1.4.51**, Android **1.4.51**.
 
 | Device | Download |
 | --- | --- |
-| Windows 64-bit | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Setup.exe) |
-| Linux Debian / Ubuntu | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.deb) |
-| Linux AppImage | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/VBGRAMG-DEO-Assistant-1.4.50-Linux-x64.AppImage) |
-| Android APK | [Download 1.4.50](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.50/Worker-Demand-1.4.50.apk) |
+| Windows 64-bit | [Download 1.4.51](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.51/VBGRAMG-DEO-Assistant-1.4.51-Setup.exe) |
+| Linux Debian / Ubuntu | [Download 1.4.51](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.51/VBGRAMG-DEO-Assistant-1.4.51-Linux-x64.deb) |
+| Linux AppImage | [Download 1.4.51](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.51/VBGRAMG-DEO-Assistant-1.4.51-Linux-x64.AppImage) |
+| Android APK | [Download 1.4.51](https://github.com/Changtey/Worker-Demand-releases/releases/download/v1.4.51/Worker-Demand-1.4.51.apk) |
 
-[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.50).
+[Release notes and checksums](https://github.com/Changtey/Worker-Demand-releases/releases/tag/v1.4.51).
 
 ### Find the next task
 

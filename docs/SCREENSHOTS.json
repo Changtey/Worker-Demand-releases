@@ -1,17 +1,17 @@
 {
   "format": 1,
-  "captured_at": "2026-11-25T13:07:57.280704+00:00",
+  "captured_at": "2026-11-26T11:56:53.186528+00:00",
   "mode": "release",
   "source_versions": {
-    "desktop": "1.4.50",
-    "android": "1.4.50"
+    "desktop": "1.4.51",
+    "android": "1.4.51"
   },
   "published_versions": {
-    "desktop": "1.4.50",
-    "android": "1.4.50"
+    "desktop": "1.4.51",
+    "android": "1.4.51"
   },
-  "published_notes_sha256": "801a54a328103440341e601403238d086b009bbce036cbfa234ab2f77d771a62",
-  "source_fingerprint": "bf591c72daecf6937c2e6d7ccdeb23ad011fcbddd802469f039cce1deeae2580",
+  "published_notes_sha256": "1bf08c75255bdefb60272a838fc6be476b75a140a48af5f9a24ec6b492643a87",
+  "source_fingerprint": "83c6a39c871416f6390d0908694c473114801b592538d028475c8dda60a0ba2c",
   "data": "Fictional, memory-only records. External traffic blocked.",
   "official_actions": false,
   "physical_android_device_tested": false,
@@ -22,7 +22,7 @@
       "app": "Android",
       "caption": "See assigned areas and start a work request.",
       "path": "docs/screenshots/01-dashboard.png",
-      "sha256": "1a74a0c76e7c2dbbe8b70b1611475b11cd6adec9bce055a9ce6faddd20b643b8",
+      "sha256": "f2d7d541579b8a47dc0914094ff75883fc131b27e375c8f34f5773e61495508f",
       "width": 1236,
       "height": 2745
     },
@@ -162,15 +162,15 @@
       "app": "Android",
       "caption": "Check your role and assigned area, or sign out. Android follows the phone system colours.",
       "path": "docs/screenshots/15-my-account.png",
-      "sha256": "c3ff4b72f0de0cb24e1410fb45bdcb4c975027a4cc2751f7e32845170257059c",
+      "sha256": "059d7d25083353fc67b22e1d68c39729e6613a910de47fd2b221b23089e53bea",
       "width": 1236,
       "height": 2745
     }
   ],
   "documents": {
-    "README.md": "8772f4824f7d846df2c9ae21f0bfe9a35429f0a9d4841d47c2f76b334477ed3f",
-    "docs/USER_GUIDE.md": "1d95057b77519d939cff471aba45fd411a49929277a6a41fc991c77d0c00573e",
-    "docs/FEATURES.md": "1ff1ec2f369b26be6abe0f7fbb7521052599e6b05ab22ae9efb8c8f6257d3de5",
-    "docs/LATEST_CHANGES.md": "fe5b37273c06ff8afb6a3c101e2a00d68000ad32c3bc7cd95f80441acfd7ce69"
+    "README.md": "904d99235d894110aa88e96c0b6298d50725707f2b2b87ae8f3d12594829c2e7",
+    "docs/USER_GUIDE.md": "170353431901a37c47eaffab5be7b9b1dc12287aaaa6308fd8e18b89dd51cb5b",
+    "docs/FEATURES.md": "9d506190c34f538b5c1a14ac8bf8128e80b6f232928d44ffa45f035a58f35418",
+    "docs/LATEST_CHANGES.md": "96df659bb68d813a6f3cfccb1d03219274ee07e4ab75628ffc136cf833303d51"
   }
 }
